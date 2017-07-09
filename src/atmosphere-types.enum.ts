@@ -1,0 +1,23 @@
+export enum AtmosphereTypes {
+    none = "No atmosphere",
+    waterBasedLife = "Suitable for water-based life",
+    ammoniaO2 = "Ammonia and oxygen",
+    ammonia = "Ammonia",
+    water = "Water",
+    carbonDioxide = "Carbon dioxide",
+    sulphurDioxide = "Sulphur dioxide",
+    nitrogen = "Nitrogen",
+    waterRich = "Water-rich",
+    methaneRich = "Methane-rich",
+    ammoniaRich = "Ammonia-rich",
+    carbonDioxideRich = "Carbon dioxide-rich",
+    methan = "Methane",
+    helium = "Helium",
+    silicateVapour = "Silicate vapour",
+    metallicVapour = "Metallic vapour",
+    neonRich = "Neon-rich",
+    argonRich = "Argon-rich",
+    neon = "Neon",
+    argon = "Argon",
+    oxygen = "Oxygen"
+}

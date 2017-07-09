@@ -1,0 +1,18 @@
+{
+  "name": "cmdr-journal",
+  "version": "1.0.0",
+  "description": "Models, Enums and Types for the Elite Dangerous CMDR Journal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Bruford",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.0",
+    "merge2": "^1.1.0",
+    "typescript": "^2.4.1"
+  }
+}

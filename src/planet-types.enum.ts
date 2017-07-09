@@ -1,0 +1,21 @@
+export enum PlanetTypes {
+    metalRich = "Metal rich body",
+    highMetal = "High metal content body",
+    rocky = "Rocky body",
+    icy = "Icy body",
+    rockyIce = "Rocky ice body",
+    elw = "Earthlike body",
+    waterWorld = "Water world",
+    ammonia = "Ammonia world",
+    waterGiant = "Water giant",
+    waterGiantLife = "Water giant with life",
+    gasGiantWaterLife = "Gas giant with water based life",
+    gasGiantAmmoniaLife = "Gas giant with ammonia based life",
+    sudarskyClassI = "Sudarsky class I gas giant",
+    sudarskyClassII = "Sudarsky class II gas giant",
+    sudarskyClassIII = "Sudarsky class III gas giant",
+    sudarskyClassIV = "Sudarsky class IV gas giant",
+    sudarskyClassV = "Sudarsky class V gas giant",
+    heliumRichGas = "Helium rich gas giant",
+    heliumGas = "Helium gas giant"
+}

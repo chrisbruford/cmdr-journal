@@ -67,6 +67,7 @@ export enum JournalEvents {
     missionAbandoned = "MissionAbandoned",
     missionAccepted = "MissionAccepted",
     missionCompleted = "MissionCompleted",
+    missionFailed = "MissionFailed",
     moduleBuy = "ModuleBuy",
     moduleRetrieve = "ModuleRetrieve",
     moduleSell = "ModuleSell",

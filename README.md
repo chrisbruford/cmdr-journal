@@ -1624,6 +1624,7 @@ I've included a list of classes and enums here, although the aforementioned Docu
     fetchRemoteModule = "FetchRemoteModule",
     massModuleStore = "MassModuleStore",
     missionAbandoned = "MissionAbandoned",
+    missionFailed = "MissionFailed",
     missionAccepted = "MissionAccepted",
     missionCompleted = "MissionCompleted",
     moduleBuy = "ModuleBuy",

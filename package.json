@@ -1,6 +1,6 @@
 {
   "name": "cmdr-journal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Models, Enums and Types for the Elite Dangerous CMDR Journal",
   "main": "dist/index.js",
   "types": "dist/index.d.js",

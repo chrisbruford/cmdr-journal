@@ -4,6 +4,7 @@ import { PlanetTypes } from '../planet-types.enum';
 import { VolcanismTypes } from '../volcanism-types.enum';
 import { Crimes } from '../crimes.enum';
 import { AtmosphereTypes } from '../atmosphere-types.enum';
+import { CrewRoles } from '../crew-roles.enum';
 
 export class JournalEvent {
     event: string;
@@ -13,10 +14,43 @@ export class JournalEvent {
 //model followed by example
 
 //STARTUP
+
+export class Cargo extends JournalEvent {
+        Inventory: {Name: string, Count: number}[]
+}
+//{ "timestamp":"2017-02-10T14:25:51Z", "event":"Cargo", "Inventory":[ { "Name":"syntheticmeat", "Count":2 }, { "Name":"evacuationshelter", "Count":1 }, { "Name":"progenitorcells", "Count":3 }, { "Name":"bioreducinglichen", "Count":1 }, { "Name":"neofabricinsulation", "Count":2 } ] }
+
 export class ClearSavedGame extends JournalEvent {
     Name: string;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"ClearSavedGame", "Name":"HRC1" }
+
+export class Loadout extends JournalEvent {
+    Ship: string;
+    ShipID: number;
+    ShipName: string;
+    ShipIdent: string;
+    Modules: {
+        Slot: string;
+        Item: string;
+        On: boolean;
+        Priority: number;
+        Health: number;
+        Value: number;
+        AmmoInClip?: number;
+        AmmoInHopper?: number;
+        EngineerBlueprint?: string;
+        EngineerLevel?: number;
+    }[]
+}
+//{ "timestamp":"2017-02-22T09:44:46Z", "event":"Loadout", "Ship":"Hauler", "ShipID":69, "ShipName":"", "ShipIdent":"", "Modules":[ { "Slot":"SmallHardpoint1", "Item":"Hpt_PulseLaser_Fixed_Small", "On":true, "Priority":2, "Health":1.000000, "Value":2091 }, { "Slot":"Armour", "Item":"Hauler_Armour_Grade1", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PowerPlant", "Item":"Int_PowerPlant_Size2_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":1880 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size2_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":1880 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size2_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":1880 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size1_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":491 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size1_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":491 }, { "Slot":"Radar", "Item":"Int_Sensors_Size1_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":491 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size2_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":3564 }, { "Slot":"Slot01_Size3", "Item":"Int_CargoRack_Size2_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":3089 }, { "Slot":"Slot02_Size3", "Item":"Int_CargoRack_Size2_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":3089 }, { "Slot":"Slot03_Size2", "Item":"Int_ShieldGenerator_Size2_Class1", "On":true, "Priority":2, "Health":1.000000, "Value":1880 }, { "Slot":"Slot04_Size1", "Item":"Int_StellarBodyDiscoveryScanner_Standard", "On":true, "Priority":1, "Health":1.000000, "Value":950 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":475 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":2, "Health":1.000000, "Value":0 }, { "Slot":"ShipCockpit", "Item":"Hauler_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 } ] 
+
+export class Materials extends JournalEvent {
+    Raw: {Name: string, Count: number}[];
+    Manufactured: {Name: string, Count: number}[];
+    Encoded: {Name: string; Count: number}[];
+}
+//{ "timestamp":"2017-02-10T14:25:51Z", "event":"Materials", "Raw":[ { "Name":"chromium", "Count":28 }, { "Name":"zinc", "Count":18 }, { "Name":"iron", "Count":23 }, { "Name":"sulphur", "Count":19 } ], "Manufactured":[ { "Name":"refinedfocuscrystals", "Count":10 }, { "Name":"highdensitycomposites", "Count":3 }, { "Name":"mechanicalcomponents", "Count":3 } ], "Encoded":[ { "Name":"emissiondata", "Count":32 }, { "Name":"shielddensityreports", "Count":23 } } ] } 
 
 export class NewCommander extends JournalEvent {
     Name: string;
@@ -34,8 +68,22 @@ export class LoadGame extends JournalEvent {
     Group: string;
     Credits: number;
     Loan: number;
+    ShipName: string;
+    ShipIdent: string;
+    FuelLevel: number;
+    FuelCapacity: number;
 }
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"LoadGame", "Commander":"HRC1", "Ship":"CobraMkIII", "ShipID":1, "GameMode":"Group", "Group":"Mobius", "Credits":600120, "Loan":0  }
+//{ "timestamp":"2017-02-10T14:25:51Z", "event":"LoadGame", "Commander":"HRC-2", "Ship":"FerDeLance", "ShipID":19, "ShipName":"jewel of parhoon", "ShipIdent":"hr-17f", "FuelLevel":3.964024, "FuelCapacity":8.000000, "GameMode":"Open", "Credits":2890718739, "Loan":0 } 
+
+export class Passengers extends JournalEvent {
+    Manifest: {
+        MissionID: number;
+        Type: string;
+        VIP: boolean;
+        Wanted: boolean;
+        Count: number;
+    }[]
+}
 
 // % progress to next rank
 export class Progress extends JournalEvent {
@@ -65,17 +113,19 @@ export class Docked extends JournalEvent {
     StationType: string;
     StarSystem: string;
     CockpitBreached?: boolean;
-    Faction: string;
+    StationFaction: string;
     FactionState: string;
-    Allegiance: string;
-    Economy: string;
-    Economy_Localised: string;
-    Government: string;
-    Government_Localised: string;
+    StationAllegiance: string;
+    StationEconomy: string;
+    StationEconomy_Localised: string;
+    StationGovernment: string;
+    StationGovernment_Localised: string;
     Security: string;
     Security_Localised: string;
+    DistFromStarLS: number;
 }
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"Docked", "StationName":"Kotov Refinery", "StationType":"Outpost", "StarSystem":"Wolf 289", "Faction":"Wolf 289 Gold Federal Industry", "FactionState":"CivilWar", "Allegiance":"Federation", "Economy":"$economy_Extraction", "Government":"$government_Corporate", "Security":"$SYSTEM_SECURITY_high_anarchy;" }
+//{ "timestamp":"2017-02-23T11:13:28Z", "event":"Docked", "StationName":"MacKellar Dock", "StationType":"Coriolis", "StarSystem":"HIP 43310", "StationFaction":"Alliance of HIP 43310", "StationGovernment":"$government_Confederacy;", "StationGovernment_Localised":"Confederacy", "StationAllegiance":"Federation", "StationEconomy":"$economy_Refinery;", `"StationEconomy_Localised":"Refinery", "DistFromStarLS":1016.981384 }
+
 
 export class DockingCancelled extends JournalEvent {
     StationName: string;
@@ -107,26 +157,39 @@ export class FSDJump extends JournalEvent {
     FuelUsed: number;
     FuelLevel: number;
     BoostUsed: boolean;
-    Faction: string;
+    SystemFaction: string;
     FactionState: string;
-    Allegiance: string;
-    Economy: string;
-    Economy_Localised: string;
-    Government: string;
-    Government_Localised: string;
-    Security: string;
-    Security_Localised: string;
+    SystemAllegiance: string;
+    SystemEconomy: string;
+    SystemEconomy_Localised: string;
+    SystemGovernment: string;
+    SystemGovernment_Localised: string;
+    SystemSecurity: string;
+    SystemSecurity_Localised: string;
+    Factions: {
+        Name: string;
+        FactionState: string;
+        Government: string;
+        Influence: number;
+        PendingStates: {State: string, Trend: number}[];
+    }[];
+    RecoveringStates: {State: string, Trend: number}[]
     Powers?: string[];
     PowerplayerState?: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem"
 }
-//{ "timestamp":"2016-07-21T13:16:49Z", "event":"FSDJump", "StarSystem":"LP 98-132", "StarPos":[-26.781,37.031,-4.594], "Economy":"$economy_Extraction;", "Allegiance":"Federation", "Government":"$government_Anarchy;", "Security":"$SYSTEM_SECURITY_high_anarchy;", "JumpDist":5.230, "FuelUsed":0.355614, "FuelLevel":12.079949, "Faction":"Brotherhood of LP 98-132", "FactionState":"Outbreak" }
-//{ "timestamp":"2016-09-21T14:15:41Z", "event":"FSDJump", "StarSystem":"Tau Bootis", "StarPos":[0.094,48.781,14.625], "Allegiance":"Federation", "Economy":"$economy_Agri;", "Economy_Localised":"Agriculture", "Government":"$government_Democracy;", "Government_Localised":"Democracy", "Security":"$SYSTEM_SECURITY_high;", "Security_Localised":"High Security", "Power":"Edmund Mahon", "PowerplayState":"Controlled", "JumpDist":38.182, "FuelUsed":8.000000, "FuelLevel":11.066821, "Faction":"Values Party of Tau Bootis" }
+//{ "timestamp":"2017-02-27T15:37:47Z", "event":"FSDJump", "StarSystem":"HR 3316", "StarPos":[100.719,19.813,-51.125], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "JumpDist":20.326, "FuelUsed":1.260775, "FuelLevel":12.872868, "Factions":[ { "Name":"Independent HR 3316 Liberals", "FactionState":"Outbreak", "Government":"Democracy", "Influence":0.550000 }, { "Name":"Jet Natural Partners", "FactionState":"None", "Government":"Corporate", "Influence":0.150000 }, { "Name":"Camorra of HR 3316", "FactionState":"None", "Government":"Anarchy", "Influence":0.090000 }, { "Name":"HR 3316 Nobles", "FactionState":"None", "Government":"Feudal", "Influence":0.210000 } ], "SystemFaction":"Independent HR 3316 Liberals", "FactionState":"Outbreak" }
+
+// Examples of trending states:
+// ... "Factions":[ { "Name":"Inupiates Patrons of Law", "FactionState":"Lockdown", "Government":"Patronage", "Influence":0.550000, "Allegiance":"Empire", "PendingStates":[ { "State":"Boom", "Trend":0 }, { "State":"CivilUnrest", "Trend":0 } ] }, ...
+// ... "Factions":[ { "Name":"IV Comae Berenices Purple Creative", "FactionState":"CivilWar", "Government":"Corporate", "Influence":0.550000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"Boom", "Trend":0 } ] }, ... 
 
 export class Liftoff extends JournalEvent {
     Latitude: number;
     Longitude: number;
+    PlayerControlled: boolean;
 }
-//{ "timestamp":"2016-07-22T10:53:19Z", "event":"Liftoff", "Latitude":63.468872, "Longitude":157.599380 }
+//{ "timestamp":"2016-07-22T10:53:19Z", "event":"Liftoff", "Latitude":63.468872, "Longitude":157.599380, "PlayerControlled":true } 
+
 
 //written on startup or resurrection
 export class Location extends JournalEvent {
@@ -135,22 +198,37 @@ export class Location extends JournalEvent {
     Body: string;
     BodyType: BodyTypes;
     Docked: boolean;
+    Latitude?: number;
+    Longitude?: number;
     StationName?: string;
     StationType?: string;
-    Faction: string;
+    SystemFaction: string;
     FactionState: string;
-    Allegiance: string;
-    Economy: string;
-    Economy_Localised: string;
-    Government: string;
-    Government_Localised: string;
-    Security: string;
+    SystemAllegiance: string;
+    SystemEconomy: string;
+    SystemEconomy_Localised: string;
+    SystemGovernment: string;
+    SystemGovernment_Localised: string;
+    SystemSecurity: string;
     Security_Locaolised: string;
+    Factions: {
+        Name: string;
+        FactionState: string;
+        Government: string;
+        Influence: number;
+        PendingStates: {State: string, Trend: number}[];
+    }[];
     Powers: string[];
     PowerplayState: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem";
 }
 //{ "timestamp":"2016-07-21T13:14:25Z", "event":"Location", "Docked":true, "StationName":"Azeban City", "StationType":"Coriolis", "StarSystem":"Eranin", "StarPos":[-22.844,36.531,-1.188], "Allegiance":"Alliance", "Economy":"$economy_Agri;", "Government":"$government_Communism;", "Security":$SYSTEM_SECURITY_medium;, "Faction":"Eranin Peoples Party" }
 //{ "timestamp":"2016-09-21T14:11:22Z", "event":"Location", "Docked":false, "StarSystem":"Alpha Centauri", "StarPos":[3.031,-0.094,3.156], "Allegiance":"Independent", "Economy":"$economy_Extraction;", "Economy_Localised":"Extraction", "Government":"$government_Cooperative;", "Government_Localised":"Cooperative", "Security":"$SYSTEM_SECURITY_medium;", "Security_Localised":"Medium Security", "Body":"Alpha Centauri B 1", "Powers":["Zachary Hudson"], "PowerplayState":"Exploited", "Faction":"Hutton Orbital Truckers Co-Operative", "FactionState":"Outbreak" }
+
+export class StartJump {
+    JumpType: "Hyperspace" | "Supercruise";
+    StarSystem?: string;
+    StarClass?: string;
+}
 
 export class SupercruiseEntry extends JournalEvent {
     Starsystem: string;
@@ -167,8 +245,9 @@ export class SupercruiseExit extends JournalEvent {
 export class Touchdown extends JournalEvent {
     Latitude: number;
     Longitude: number;
+    PlayerControlled: boolean;
 }
-//{ "timestamp":"2016-07-22T10:38:46Z", "event":"Touchdown", "Latitude":63.468872, "Longitude":157.599380 }
+//{ "timestamp":"2016-07-22T10:38:46Z", "event":"Touchdown", "Latitude":63.468872, "Longitude":157.599380, "PlayerControlled":true }
 
 export class Undocked extends JournalEvent {
     StationName: string;
@@ -223,6 +302,8 @@ export class HeatWarning extends JournalEvent { }
 //emitted in 20% steps
 export class HullDamage extends JournalEvent { 
     Health: number;
+    PlayerPilot: boolean;
+    Fighter: boolean;
 }
 // { "timestamp":"2016-07-25T14:46:23Z", "event":"HullDamage", "Health":0.798496 }
 // { "timestamp":"2016-07-25T14:46:23Z", "event":"HullDamage", "Health":0.595611 }
@@ -265,8 +346,10 @@ export class ShieldState extends JournalEvent {
 export class Scan extends JournalEvent {
     Bodyname: string;
     DistanceFromArrivalLS: number;
-    RotationPeriod: number;
     SurfaceTemperature: number;
+    //if rotating
+    RotationPeriod?: number;
+    AxialTilt?: number;
     //if planet/star has rings
     Rings?: {
         Name: string;
@@ -292,13 +375,20 @@ export class Scan extends JournalEvent {
     TerraformState?: "Terraformable" | "Terraforming" | "Terraformed" | null;
     PlanetClass?: PlanetTypes;
     Atmosphere?: AtmosphereTypes;
+    AtmosphereType?: string;
+    AtmosphereComposition?: {
+        Name: string;
+        Percent: number;
+    }[]
     Volcanism?: VolcanismTypes;
     SurfaceGravity?: number;
     SurfacePressure?: number;
     Landable?: boolean;
-    Materials?: {Name:string; Percentage: number};
+    Materials?: {Name:string; Percentage: number}[];
+    ReserveLevel?: "Pristine" | "Major" | "Common" | "Low" | "Depleted" //if rings present
 }
-//{ "timestamp":"2016-09-22T10:40:44Z", "event":"Scan", "BodyName":"Bei Dou Sector JH-V b2-1 1", "DistanceFromArrivalLS":392.607605, "TidalLock":false, "TerraformState":"", "PlanetClass":"Icy body", "Atmosphere":"thin neon rich atmosphere", "Volcanism":"", "MassEM":0.190769, "Radius":4412562.000000, "SurfaceGravity":3.905130, "SurfaceTemperature":64.690628, "SurfacePressure":321.596558, "Landable":false, "SemiMajorAxis":117704065024.000000, "Eccentricity":0.000033, "Periapsis":5.692884, "OrbitalPeriod":43704092.000000, "RotationPeriod":104296.351563 }
+//{ "timestamp":"2017-02-06T14:52:52Z", "event":"Scan", "BodyName":"Col 285 Sector ME-G c11-35 4", "DistanceFromArrivalLS":1148.308350, "TidalLock":false, "TerraformState":"", "PlanetClass":"Gas giant with water based life", "Atmosphere":"", "AtmosphereComposition":[ { "Name":"Hydrogen", "Percent":73.598167 }, { "Name":"Helium", "Percent":26.328226 }, { "Name":"Oxygen", "Percent":0.073619 } ], "Volcanism":"", "MassEM":232.435898, "Radius":69313304.000000, "SurfaceGravity":19.283215, "SurfaceTemperature":162.995789, "SurfacePressure":0.000000, "Landable":false, "SemiMajorAxis":345012895744.000000, "Eccentricity":0.002221, "OrbitalInclination":-0.169053, "Periapsis":134.119934, "OrbitalPeriod":120247992.000000, "RotationPeriod":1023782.437500 } 
+
 
 export class MaterialCollected extends JournalEvent {
     Category: "Raw" | "Encoded" | "Manufactured";
@@ -452,13 +542,19 @@ export class EngineerApply extends JournalEvent {
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"EngineerApply", "Engineer":"Elvira Martuuk", "Blueprint":"ShieldGenerator_Reinforced", "Level":1 }
 
+export class EngineerContribution extends JournalEvent {
+    Engineer: string;
+    Type: "Commodity" | "materials" | "Credits" | "Bond" | "Bounty";
+}
+//{ "timestamp":"2017-05-24T10:41:51Z", "event":"EngineerContribution", "Engineer":"Elvira Martuuk", "Type":"Commodity", "Commodity":"soontillrelics", "Quantity":2, "TotalQuantity":3 } 
+
 export class EngineerCraft extends JournalEvent {
     Engineer: string;
     Blueprint: string;
     Level: number;
-    Ingredients: {[key: string]: number}; //ingredientName:quantity pairs
+    Ingredients: {Name: string; Count: number};
 }
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"EngineerCraft", "Engineer":"Elvira Martuuk", "Blueprint":"FSD_LongRange", "Level":2, "Ingredients":{"praseodymium":1, "disruptedwakeechoes":3, "chemicalprocessors":2, "arsenic":2 } }
+//{ "timestamp":"2016-06-10T14:32:03Z","event":"EngineerCraft", "Engineer":"Elvira Martuuk", "Blueprint":"FSD_LongRange", "Level":2, "Ingredients":[{"Name":"praseodymium", "Count"1}, {"Name":"disruptedwakeechoes", "Count":3 }, {"Name":"chemicalprocessors", "Count":2 }, {"Name":"arsenic", "Count":2} ] }
 
 export class EngineerProgress extends JournalEvent {
     Engineer: string;
@@ -497,11 +593,14 @@ export class MissionAccepted extends JournalEvent {
     Name: string;
     Faction: string;
     MissionID: number;
+    Influence: "None" | "Low" | "Med" | "High";
+    Reputation: "None" | "Low" | "Med" | "High";
     Commodity?: string;
     Count?: number;
     Target?: string;
     TargetType?: string;
     TargetFaction?: string;
+    KillCount: number;
     Expiry?: string; //ISO 8601
     DestinationSystem?: string;
     DestinationStation?: string;
@@ -510,7 +609,9 @@ export class MissionAccepted extends JournalEvent {
     PassengerWanted?: boolean;
     PassengerType?: string;
 }
-//{ "timestamp":"2016-07-26T11:36:44Z", "event":"MissionAccepted", "Faction":"Tsu Network", "Name":"Mission_Collect", "MissionID":65343026, "Commodity":"$Fish_Name;", "Commodity_Localised":"Fish", "Count":2, "Expiry":"2016-07-27T15:56:23Z" }
+//{ "timestamp":"2016-07-26T11:36:44Z", "event":"MissionAccepted", "Faction":"Tsu Network", "Name":"Mission_Collect", "MissionID":65343026, "Commodity":"$Fish_Name;", "Commodity_Localised":"Fish", "Count":2, "Expiry":"2016-07-27T15:56:23Z", "Influence":"Low", "Reputation":"High" }
+//{ "timestamp":"2017-02-07T12:14:14Z", "event":"MissionAccepted", "Faction":"CX Com Galactic Co", "Name":"Mission_Massacre_Conflict_War", "TargetFaction":"CX Com Silver Partnership", "KillCount":2, "DestinationSystem":"CX Com", "DestinationStation":"Carrasco Orbital", "Expiry":"2017-02-08T09:22:41Z", "Influence":"High", "Reputation":"Med", "MissionID":65358259 } 
+
 
 export class MissionCompleted extends JournalEvent {
     Faction: string;
@@ -605,7 +706,9 @@ export class PayLegacyFines extends JournalEvent {
 export class RedeemVoucher extends JournalEvent {
     Type: string;
     Amount: number;
-    BrokerPercentage?: number;    
+    Faction?: string; //not for bounties
+    BrokerPercentage?: number;
+    Factions?: {Faction:string; Amount: number} //for Bounties
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":1000 }
 
@@ -652,6 +755,14 @@ export class SellDrones extends JournalEvent {
     TotalSale: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"SellDrones", "Type":"Drones", "Count":1, "SellPrice":91, "TotalSale":91 }
+
+export class SetUserShipName extends JournalEvent {
+    Ship: string;
+    ShipID: number;
+    UserShipName: string;
+    UserShipId: string;
+}
+//{ "timestamp":"2017-01-24T10:42:38Z", "event":"SetUserShipName", "Ship":"cobramkiii", "ShipID":2, "UserShipName":"Enterprise", "UserShipId":"NCC 1701" } 
 
 export class ShipyardBuy extends JournalEvent {
     ShipType: string;
@@ -754,6 +865,10 @@ export class ApproachSettlement extends JournalEvent {
     Name: string;
 }
 
+export class ChangeCrewRole extends JournalEvent {
+    Role: CrewRoles;
+}
+
 export class CockpitBreached extends JournalEvent { }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"CockpitBreached" }
 
@@ -770,6 +885,23 @@ export class CommitCrime extends JournalEvent {
 //written when logfile exceeds 500k: log file is closed and a new one opened with this part num
 export class Continued extends JournalEvent {
     Part: number;
+}
+
+export class CrewLaunchFighter extends JournalEvent {
+    Crew: string;
+}
+
+export class CrewMemberJoins extends JournalEvent {
+    Crew: string;
+}
+
+export class CrewMemberQuits extends JournalEvent {
+    Crew: string;
+}
+
+export class CrewMemberRoleChange extends JournalEvent {
+    Crew: string;
+    Role: CrewRoles;
 }
 
 export class DatalinkScan extends JournalEvent {
@@ -790,11 +922,20 @@ export class DockFighter extends JournalEvent { }
 
 export class DockSRV extends JournalEvent { }
 
+export class EndCrewSession extends JournalEvent {
+    OnCrime: boolean;
+}
+
 export class FuelScoop extends JournalEvent {
     Scooped: number;
     Total: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"FuelScoop", "Scooped":0.498700, "Total":16.000000 }
+
+export class Friends extends JournalEvent {
+    Status: "Requested" | "Declined" | "Added" | "Lost" | "Offline" | "Online";
+    Name: string;
+}
 
 export class JetConeBoost extends JournalEvent {
     BoostValue: number;
@@ -802,6 +943,15 @@ export class JetConeBoost extends JournalEvent {
 
 export class JetConeDamage extends JournalEvent {
     Module: string;
+}
+
+export class JoinACrew extends JournalEvent {
+    Captain: string;
+}
+
+export class kickCrewMember extends JournalEvent {
+    Crew: string;
+    OnCrime: boolean;
 }
 
 export class LaunchFighter extends JournalEvent {
@@ -819,8 +969,14 @@ export class Promotion extends JournalEvent {
     Trade?: number;
     Explore?: number;
     CQC?: number;
+    Federation: number;
+    Empire: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"Promotion", "Explore":2 }
+
+export class QuitACrew extends JournalEvent {
+    Captain: string;
+}
 
 export class RebootRepair extends JournalEvent {
     Modules: string[]
@@ -839,6 +995,10 @@ export class Resurrect extends JournalEvent {
     Bankrupt: boolean;
 }
 
+export class Scanned extends JournalEvent {
+    ScanType: "Cargo" | "Crime" | "Cabin" | "Data" | "Unknown";
+}
+
 export class SelfDestruct extends JournalEvent { }
 
 export class SendText extends JournalEvent {
@@ -849,7 +1009,7 @@ export class SendText extends JournalEvent {
 
 export class Synthesis extends JournalEvent {
     Name: string;
-    Materials: {[index:string]:number}
+    Materials: {Name: string; Count:number}[]
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
 
@@ -866,6 +1026,10 @@ export class VehicleSwitch extends JournalEvent {
 // { "timestamp":"2016-06-10T14:32:03Z", "event":"VehicleSwitch", "To":"Mothership" }
 
 export class WingAdd extends JournalEvent { }
+
+export class WingInvite extends JournalEvent {
+    Name: string;
+}
 
 export class WingJoin extends JournalEvent {
     Others: string[];

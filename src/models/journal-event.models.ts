@@ -231,12 +231,12 @@ export class StartJump {
 }
 
 export class SupercruiseEntry extends JournalEvent {
-    Starsystem: string;
+    StarSystem: string;
 }
 //{"timestamp":"2016-06-10T14:32:03Z",  "event":"SupercruiseEntry", "StarSystem":"Yuetu" }
 
 export class SupercruiseExit extends JournalEvent {
-    Starsystem: string;
+    StarSystem: string;
     Body: string;
     BodyType: BodyTypes;
 }

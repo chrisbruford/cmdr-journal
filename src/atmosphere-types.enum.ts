@@ -11,7 +11,7 @@ export enum AtmosphereTypes {
     methaneRich = "Methane-rich",
     ammoniaRich = "Ammonia-rich",
     carbonDioxideRich = "Carbon dioxide-rich",
-    methan = "Methane",
+    methane = "Methane",
     helium = "Helium",
     silicateVapour = "Silicate vapour",
     metallicVapour = "Metallic vapour",

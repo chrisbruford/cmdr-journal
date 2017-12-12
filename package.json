@@ -7,14 +7,12 @@
   "types": "dist/index.d.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "typedoc src"
+    "docs": "typedoc src",
+    "build": "rimraf dist && tsc && typedoc src"
   },
   "author": "Chris Bruford",
   "license": "GPL-3.0",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^3.2.0",
-    "merge2": "^1.1.0",
     "typedoc-plugin-markdown": "^1.0.11",
     "typescript": "^2.4.1"
   }

@@ -1,0 +1,78 @@
+[cmdr-journal](../README.md) > [ShieldState](../classes/shieldstate.md)
+
+
+
+# Class: ShieldState
+
+## Hierarchy
+
+
+ [JournalEvent](journalevent.md)
+
+**↳ ShieldState**
+
+
+
+
+
+
+
+## Index
+
+### Properties
+
+* [ShieldsUp](shieldstate.md#shieldsup)
+* [event](shieldstate.md#event)
+* [timestamp](shieldstate.md#timestamp)
+
+
+
+---
+## Properties
+<a id="shieldsup"></a>
+
+###  ShieldsUp
+
+**●  ShieldsUp**:  *`boolean`* 
+
+*Defined in models/journal-event.models.ts:338*
+
+
+
+
+
+___
+
+<a id="event"></a>
+
+###  event
+
+**●  event**:  *`string`* 
+
+*Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
+
+*Defined in models/journal-event.models.ts:10*
+
+
+
+
+
+___
+
+<a id="timestamp"></a>
+
+###  timestamp
+
+**●  timestamp**:  *`string`* 
+
+*Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
+
+*Defined in models/journal-event.models.ts:11*
+
+
+
+
+
+___
+
+

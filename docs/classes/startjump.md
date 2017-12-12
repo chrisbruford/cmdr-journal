@@ -22,7 +22,7 @@
 
 **●  JumpType**:  *"Hyperspace"⎮"Supercruise"* 
 
-*Defined in models/journal-event.models.ts:228*
+*Defined in models/journal-event.models.ts:230*
 
 
 
@@ -36,7 +36,7 @@ ___
 
 **●  StarClass**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:230*
+*Defined in models/journal-event.models.ts:232*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:229*
+*Defined in models/journal-event.models.ts:231*
 
 
 

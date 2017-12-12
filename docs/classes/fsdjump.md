@@ -54,7 +54,7 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:155*
+*Defined in models/journal-event.models.ts:157*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  BoostUsed**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:159*
+*Defined in models/journal-event.models.ts:161*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:161*
+*Defined in models/journal-event.models.ts:163*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  Factions**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:169*
+*Defined in models/journal-event.models.ts:171*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  FuelLevel**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:158*
+*Defined in models/journal-event.models.ts:160*
 
 
 
@@ -124,7 +124,7 @@ ___
 
 **●  FuelUsed**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:157*
+*Defined in models/journal-event.models.ts:159*
 
 
 
@@ -138,7 +138,7 @@ ___
 
 **●  JumpDist**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:156*
+*Defined in models/journal-event.models.ts:158*
 
 
 
@@ -152,7 +152,7 @@ ___
 
 **●  PowerplayerState**:  *"InPrepareRadius"⎮"Prepared"⎮"Exploited"⎮"Contested"⎮"Controlled"⎮"Turmoil"⎮"HomeSystem"* 
 
-*Defined in models/journal-event.models.ts:178*
+*Defined in models/journal-event.models.ts:180*
 
 
 
@@ -166,7 +166,7 @@ ___
 
 **●  Powers**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:177*
+*Defined in models/journal-event.models.ts:179*
 
 
 
@@ -180,7 +180,7 @@ ___
 
 **●  RecoveringStates**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:176*
+*Defined in models/journal-event.models.ts:178*
 
 
 
@@ -194,7 +194,7 @@ ___
 
 **●  StarPos**:  *[`number`,`number`,`number`]* 
 
-*Defined in models/journal-event.models.ts:154*
+*Defined in models/journal-event.models.ts:156*
 
 
 
@@ -208,7 +208,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:153*
+*Defined in models/journal-event.models.ts:155*
 
 
 
@@ -222,7 +222,7 @@ ___
 
 **●  SystemAllegiance**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:162*
+*Defined in models/journal-event.models.ts:164*
 
 
 
@@ -236,7 +236,7 @@ ___
 
 **●  SystemEconomy**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:163*
+*Defined in models/journal-event.models.ts:165*
 
 
 
@@ -250,7 +250,7 @@ ___
 
 **●  SystemEconomy_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:164*
+*Defined in models/journal-event.models.ts:166*
 
 
 
@@ -264,7 +264,7 @@ ___
 
 **●  SystemFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:160*
+*Defined in models/journal-event.models.ts:162*
 
 
 
@@ -278,7 +278,7 @@ ___
 
 **●  SystemGovernment**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:165*
+*Defined in models/journal-event.models.ts:167*
 
 
 
@@ -292,7 +292,7 @@ ___
 
 **●  SystemGovernment_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:166*
+*Defined in models/journal-event.models.ts:168*
 
 
 
@@ -306,7 +306,7 @@ ___
 
 **●  SystemSecurity**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:167*
+*Defined in models/journal-event.models.ts:169*
 
 
 
@@ -320,7 +320,7 @@ ___
 
 **●  SystemSecurity_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:168*
+*Defined in models/journal-event.models.ts:170*
 
 
 
@@ -336,7 +336,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -352,7 +352,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

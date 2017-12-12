@@ -42,7 +42,7 @@
 
 **●  AvgPricePaid**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:474*
+*Defined in models/journal-event.models.ts:479*
 
 
 
@@ -56,7 +56,7 @@ ___
 
 **●  BlackMarket**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:477*
+*Defined in models/journal-event.models.ts:482*
 
 
 
@@ -70,7 +70,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:471*
+*Defined in models/journal-event.models.ts:476*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 **●  IllegalGoods**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:475*
+*Defined in models/journal-event.models.ts:480*
 
 
 
@@ -98,7 +98,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:472*
+*Defined in models/journal-event.models.ts:477*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 **●  StolenGoods**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:476*
+*Defined in models/journal-event.models.ts:481*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 **●  TotalSale**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:473*
+*Defined in models/journal-event.models.ts:478*
 
 
 
@@ -140,7 +140,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:470*
+*Defined in models/journal-event.models.ts:475*
 
 
 
@@ -156,7 +156,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -172,7 +172,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

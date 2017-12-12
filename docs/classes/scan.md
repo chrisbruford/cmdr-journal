@@ -31,6 +31,7 @@
 * [DistanceFromArrivalLS](scan.md#distancefromarrivalls)
 * [Eccentricity](scan.md#eccentricity)
 * [Landable](scan.md#landable)
+* [Luminosity](scan.md#luminosity)
 * [Materials](scan.md#materials)
 * [OrbitalInclination](scan.md#orbitalinclination)
 * [OrbitalPeriod](scan.md#orbitalperiod)
@@ -62,7 +63,7 @@
 
 **●  AbsoluteMagnitude**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:371*
+*Defined in models/journal-event.models.ts:373*
 
 
 
@@ -76,7 +77,7 @@ ___
 
 **●  Age_MY**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:372*
+*Defined in models/journal-event.models.ts:374*
 
 
 
@@ -90,7 +91,7 @@ ___
 
 **●  Atmosphere**:  *[AtmosphereTypes](../enums/atmospheretypes.md)* 
 
-*Defined in models/journal-event.models.ts:377*
+*Defined in models/journal-event.models.ts:380*
 
 
 
@@ -104,7 +105,7 @@ ___
 
 **●  AtmosphereComposition**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:379*
+*Defined in models/journal-event.models.ts:382*
 
 
 
@@ -118,7 +119,7 @@ ___
 
 **●  AtmosphereType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:378*
+*Defined in models/journal-event.models.ts:381*
 
 
 
@@ -132,7 +133,7 @@ ___
 
 **●  AxialTilt**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:352*
+*Defined in models/journal-event.models.ts:354*
 
 
 
@@ -146,7 +147,7 @@ ___
 
 **●  Bodyname**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:347*
+*Defined in models/journal-event.models.ts:349*
 
 
 
@@ -160,7 +161,7 @@ ___
 
 **●  DistanceFromArrivalLS**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:348*
+*Defined in models/journal-event.models.ts:350*
 
 
 
@@ -174,7 +175,7 @@ ___
 
 **●  Eccentricity**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:363*
+*Defined in models/journal-event.models.ts:365*
 
 
 
@@ -188,7 +189,21 @@ ___
 
 **●  Landable**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:386*
+*Defined in models/journal-event.models.ts:389*
+
+
+
+
+
+___
+
+<a id="luminosity"></a>
+
+###  Luminosity
+
+**●  Luminosity**:  *[StarLuminosityClasses](../enums/starluminosityclasses.md)* 
+
+*Defined in models/journal-event.models.ts:375*
 
 
 
@@ -202,7 +217,7 @@ ___
 
 **●  Materials**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:387*
+*Defined in models/journal-event.models.ts:390*
 
 
 
@@ -216,7 +231,7 @@ ___
 
 **●  OrbitalInclination**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:364*
+*Defined in models/journal-event.models.ts:366*
 
 
 
@@ -230,7 +245,7 @@ ___
 
 **●  OrbitalPeriod**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:366*
+*Defined in models/journal-event.models.ts:368*
 
 
 
@@ -244,7 +259,7 @@ ___
 
 **●  Periapsis**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:365*
+*Defined in models/journal-event.models.ts:367*
 
 
 
@@ -258,7 +273,7 @@ ___
 
 **●  PlanetClass**:  *[PlanetTypes](../enums/planettypes.md)* 
 
-*Defined in models/journal-event.models.ts:376*
+*Defined in models/journal-event.models.ts:379*
 
 
 
@@ -272,7 +287,7 @@ ___
 
 **●  Radius**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:370*
+*Defined in models/journal-event.models.ts:372*
 
 
 
@@ -286,7 +301,7 @@ ___
 
 **●  ReserveLevel**:  *"Pristine"⎮"Major"⎮"Common"⎮"Low"⎮"Depleted"* 
 
-*Defined in models/journal-event.models.ts:388*
+*Defined in models/journal-event.models.ts:391*
 
 
 
@@ -300,7 +315,7 @@ ___
 
 **●  Rings**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:354*
+*Defined in models/journal-event.models.ts:356*
 
 
 
@@ -314,7 +329,7 @@ ___
 
 **●  RotationPeriod**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:351*
+*Defined in models/journal-event.models.ts:353*
 
 
 
@@ -328,7 +343,7 @@ ___
 
 **●  SemiMajorAxis**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:362*
+*Defined in models/journal-event.models.ts:364*
 
 
 
@@ -342,7 +357,7 @@ ___
 
 **●  StarType**:  *[StarTypes](../enums/startypes.md)* 
 
-*Defined in models/journal-event.models.ts:368*
+*Defined in models/journal-event.models.ts:370*
 
 
 
@@ -356,7 +371,7 @@ ___
 
 **●  StellarMass**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:369*
+*Defined in models/journal-event.models.ts:371*
 
 
 
@@ -370,7 +385,7 @@ ___
 
 **●  SurfaceGravity**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:384*
+*Defined in models/journal-event.models.ts:387*
 
 
 
@@ -384,7 +399,7 @@ ___
 
 **●  SurfacePressure**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:385*
+*Defined in models/journal-event.models.ts:388*
 
 
 
@@ -398,7 +413,7 @@ ___
 
 **●  SurfaceTemperature**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:349*
+*Defined in models/journal-event.models.ts:351*
 
 
 
@@ -412,7 +427,7 @@ ___
 
 **●  TerraformState**:  *"Terraformable"⎮"Terraforming"⎮"Terraformed"⎮`null`* 
 
-*Defined in models/journal-event.models.ts:375*
+*Defined in models/journal-event.models.ts:378*
 
 
 
@@ -426,7 +441,7 @@ ___
 
 **●  TidalLock**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:374*
+*Defined in models/journal-event.models.ts:377*
 
 
 
@@ -440,7 +455,7 @@ ___
 
 **●  Volcanism**:  *[VolcanismTypes](../enums/volcanismtypes.md)* 
 
-*Defined in models/journal-event.models.ts:383*
+*Defined in models/journal-event.models.ts:386*
 
 
 
@@ -456,7 +471,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -472,7 +487,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

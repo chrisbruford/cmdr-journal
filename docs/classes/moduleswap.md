@@ -40,7 +40,7 @@
 
 **●  FromItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:688*
+*Defined in models/journal-event.models.ts:704*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  FromSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:686*
+*Defined in models/journal-event.models.ts:702*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:690*
+*Defined in models/journal-event.models.ts:706*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:691*
+*Defined in models/journal-event.models.ts:707*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  ToItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:689*
+*Defined in models/journal-event.models.ts:705*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  ToSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:687*
+*Defined in models/journal-event.models.ts:703*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

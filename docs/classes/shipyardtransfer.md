@@ -39,7 +39,7 @@
 
 **●  Distance**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:795*
+*Defined in models/journal-event.models.ts:825*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:793*
+*Defined in models/journal-event.models.ts:823*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:792*
+*Defined in models/journal-event.models.ts:822*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:794*
+*Defined in models/journal-event.models.ts:824*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  TransferPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:796*
+*Defined in models/journal-event.models.ts:826*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

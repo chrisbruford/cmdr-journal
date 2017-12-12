@@ -38,7 +38,7 @@
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:753*
+*Defined in models/journal-event.models.ts:775*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:754*
+*Defined in models/journal-event.models.ts:776*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  TotalSale**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:755*
+*Defined in models/journal-event.models.ts:777*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:752*
+*Defined in models/journal-event.models.ts:774*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

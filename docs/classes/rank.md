@@ -40,7 +40,7 @@
 
 **●  CQC**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:106*
+*Defined in models/journal-event.models.ts:108*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  Combat**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:101*
+*Defined in models/journal-event.models.ts:103*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Empire**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:104*
+*Defined in models/journal-event.models.ts:106*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  Explore**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:103*
+*Defined in models/journal-event.models.ts:105*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  Federation**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:105*
+*Defined in models/journal-event.models.ts:107*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  Trade**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:102*
+*Defined in models/journal-event.models.ts:104*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

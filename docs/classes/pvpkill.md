@@ -36,7 +36,7 @@
 
 **●  CombatRank**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:334*
+*Defined in models/journal-event.models.ts:336*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Victim**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:333*
+*Defined in models/journal-event.models.ts:335*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

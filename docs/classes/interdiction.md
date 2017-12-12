@@ -40,7 +40,7 @@
 
 **●  CombatRank**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:326*
+*Defined in models/journal-event.models.ts:328*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:327*
+*Defined in models/journal-event.models.ts:329*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Interdicted**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:324*
+*Defined in models/journal-event.models.ts:326*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  IsPlayer**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:325*
+*Defined in models/journal-event.models.ts:327*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  Power**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:328*
+*Defined in models/journal-event.models.ts:330*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  Success**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:323*
+*Defined in models/journal-event.models.ts:325*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

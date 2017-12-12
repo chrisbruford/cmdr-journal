@@ -36,7 +36,7 @@
 
 **●  MissionID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:632*
+*Defined in models/journal-event.models.ts:638*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:631*
+*Defined in models/journal-event.models.ts:637*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

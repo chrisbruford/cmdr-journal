@@ -39,7 +39,7 @@
 
 **●  Rewards**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:260*
+*Defined in models/journal-event.models.ts:262*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  SharedWithOthers**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:263*
+*Defined in models/journal-event.models.ts:265*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  Target**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:264*
+*Defined in models/journal-event.models.ts:266*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  TotalReward**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:262*
+*Defined in models/journal-event.models.ts:264*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  VictimFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:261*
+*Defined in models/journal-event.models.ts:263*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

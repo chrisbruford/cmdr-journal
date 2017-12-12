@@ -1,15 +1,15 @@
-[cmdr-journal](../README.md) > [ShipyardSell](../classes/shipyardsell.md)
+[cmdr-journal](../README.md) > [SellShipOnRebuy](../classes/sellshiponrebuy.md)
 
 
 
-# Class: ShipyardSell
+# Class: SellShipOnRebuy
 
 ## Hierarchy
 
 
  [JournalEvent](journalevent.md)
 
-**↳ ShipyardSell**
+**↳ SellShipOnRebuy**
 
 
 
@@ -21,12 +21,12 @@
 
 ### Properties
 
-* [SellShipID](shipyardsell.md#sellshipid)
-* [ShipPrice](shipyardsell.md#shipprice)
-* [ShipType](shipyardsell.md#shiptype)
-* [System](shipyardsell.md#system)
-* [event](shipyardsell.md#event)
-* [timestamp](shipyardsell.md#timestamp)
+* [SellShipId](sellshiponrebuy.md#sellshipid)
+* [ShipPrice](sellshiponrebuy.md#shipprice)
+* [ShipType](sellshiponrebuy.md#shiptype)
+* [System](sellshiponrebuy.md#system)
+* [event](sellshiponrebuy.md#event)
+* [timestamp](sellshiponrebuy.md#timestamp)
 
 
 
@@ -34,11 +34,11 @@
 ## Properties
 <a id="sellshipid"></a>
 
-###  SellShipID
+###  SellShipId
 
-**●  SellShipID**:  *`number`* 
+**●  SellShipId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:815*
+*Defined in models/journal-event.models.ts:784*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  ShipPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:816*
+*Defined in models/journal-event.models.ts:785*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:814*
+*Defined in models/journal-event.models.ts:782*
 
 
 
@@ -76,11 +76,11 @@ ___
 
 <a id="system"></a>
 
-### «Optional» System
+###  System
 
 **●  System**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:817*
+*Defined in models/journal-event.models.ts:783*
 
 
 

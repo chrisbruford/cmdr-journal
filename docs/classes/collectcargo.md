@@ -36,7 +36,7 @@
 
 **●  Stolen**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:447*
+*Defined in models/journal-event.models.ts:452*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:446*
+*Defined in models/journal-event.models.ts:451*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

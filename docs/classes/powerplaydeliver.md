@@ -37,7 +37,7 @@
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:826*
+*Defined in models/journal-event.models.ts:856*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Power**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:824*
+*Defined in models/journal-event.models.ts:854*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:825*
+*Defined in models/journal-event.models.ts:855*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

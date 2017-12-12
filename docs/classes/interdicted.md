@@ -38,7 +38,7 @@
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:318*
+*Defined in models/journal-event.models.ts:320*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Interdictor**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:316*
+*Defined in models/journal-event.models.ts:318*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  IsPlayer**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:317*
+*Defined in models/journal-event.models.ts:319*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Submitted**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:315*
+*Defined in models/journal-event.models.ts:317*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

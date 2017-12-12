@@ -37,7 +37,7 @@
 
 **●  Encoded**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:51*
+*Defined in models/journal-event.models.ts:53*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Manufactured**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:50*
+*Defined in models/journal-event.models.ts:52*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Raw**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:49*
+*Defined in models/journal-event.models.ts:51*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

@@ -36,7 +36,7 @@
 
 **●  Scooped**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:930*
+*Defined in models/journal-event.models.ts:960*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Total**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:931*
+*Defined in models/journal-event.models.ts:961*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

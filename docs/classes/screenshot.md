@@ -24,6 +24,8 @@
 * [Body](screenshot.md#body)
 * [Filename](screenshot.md#filename)
 * [Height](screenshot.md#height)
+* [Latitude](screenshot.md#latitude)
+* [Longitude](screenshot.md#longitude)
 * [System](screenshot.md#system)
 * [Width](screenshot.md#width)
 * [event](screenshot.md#event)
@@ -39,7 +41,7 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:434*
+*Defined in models/journal-event.models.ts:437*
 
 
 
@@ -53,7 +55,7 @@ ___
 
 **●  Filename**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:430*
+*Defined in models/journal-event.models.ts:433*
 
 
 
@@ -67,7 +69,35 @@ ___
 
 **●  Height**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:432*
+*Defined in models/journal-event.models.ts:435*
+
+
+
+
+
+___
+
+<a id="latitude"></a>
+
+### «Optional» Latitude
+
+**●  Latitude**:  *`number`* 
+
+*Defined in models/journal-event.models.ts:438*
+
+
+
+
+
+___
+
+<a id="longitude"></a>
+
+### «Optional» Longitude
+
+**●  Longitude**:  *`number`* 
+
+*Defined in models/journal-event.models.ts:439*
 
 
 
@@ -81,7 +111,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:433*
+*Defined in models/journal-event.models.ts:436*
 
 
 
@@ -95,7 +125,7 @@ ___
 
 **●  Width**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:431*
+*Defined in models/journal-event.models.ts:434*
 
 
 
@@ -111,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -127,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

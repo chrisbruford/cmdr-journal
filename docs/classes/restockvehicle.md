@@ -38,7 +38,7 @@
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:740*
+*Defined in models/journal-event.models.ts:756*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:741*
+*Defined in models/journal-event.models.ts:757*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Loadout**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:739*
+*Defined in models/journal-event.models.ts:755*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:738*
+*Defined in models/journal-event.models.ts:754*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

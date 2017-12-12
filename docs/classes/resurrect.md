@@ -37,7 +37,7 @@
 
 **●  Bankrupt**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:995*
+*Defined in models/journal-event.models.ts:1025*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:994*
+*Defined in models/journal-event.models.ts:1024*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Option**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:993*
+*Defined in models/journal-event.models.ts:1023*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

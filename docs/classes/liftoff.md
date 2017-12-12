@@ -37,7 +37,7 @@
 
 **●  Latitude**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:187*
+*Defined in models/journal-event.models.ts:189*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Longitude**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:188*
+*Defined in models/journal-event.models.ts:190*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  PlayerControlled**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:189*
+*Defined in models/journal-event.models.ts:191*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

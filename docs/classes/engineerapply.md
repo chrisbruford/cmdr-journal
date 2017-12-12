@@ -38,7 +38,7 @@
 
 **●  Blueprint**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:539*
+*Defined in models/journal-event.models.ts:544*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Engineer**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:538*
+*Defined in models/journal-event.models.ts:543*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Level**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:540*
+*Defined in models/journal-event.models.ts:545*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Override**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:541*
+*Defined in models/journal-event.models.ts:546*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

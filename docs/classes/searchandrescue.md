@@ -1,15 +1,15 @@
-[cmdr-journal](../README.md) > [CommunityGoalJoin](../classes/communitygoaljoin.md)
+[cmdr-journal](../README.md) > [SearchAndRescue](../classes/searchandrescue.md)
 
 
 
-# Class: CommunityGoalJoin
+# Class: SearchAndRescue
 
 ## Hierarchy
 
 
  [JournalEvent](journalevent.md)
 
-**↳ CommunityGoalJoin**
+**↳ SearchAndRescue**
 
 
 
@@ -21,22 +21,23 @@
 
 ### Properties
 
-* [Name](communitygoaljoin.md#name)
-* [System](communitygoaljoin.md#system)
-* [event](communitygoaljoin.md#event)
-* [timestamp](communitygoaljoin.md#timestamp)
+* [Count](searchandrescue.md#count)
+* [Name](searchandrescue.md#name)
+* [Reward](searchandrescue.md#reward)
+* [event](searchandrescue.md#event)
+* [timestamp](searchandrescue.md#timestamp)
 
 
 
 ---
 ## Properties
-<a id="name"></a>
+<a id="count"></a>
 
-###  Name
+###  Count
 
-**●  Name**:  *`string`* 
+**●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:513*
+*Defined in models/journal-event.models.ts:769*
 
 
 
@@ -44,13 +45,27 @@
 
 ___
 
-<a id="system"></a>
+<a id="name"></a>
 
-###  System
+###  Name
 
-**●  System**:  *`string`* 
+**●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:514*
+*Defined in models/journal-event.models.ts:768*
+
+
+
+
+
+___
+
+<a id="reward"></a>
+
+###  Reward
+
+**●  Reward**:  *`number`* 
+
+*Defined in models/journal-event.models.ts:770*
 
 
 

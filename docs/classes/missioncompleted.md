@@ -44,7 +44,7 @@
 
 **●  Commodity**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:620*
+*Defined in models/journal-event.models.ts:626*
 
 
 
@@ -58,7 +58,7 @@ ___
 
 **●  CommodityReward**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:626*
+*Defined in models/journal-event.models.ts:632*
 
 
 
@@ -72,7 +72,7 @@ ___
 
 **●  Commodity_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:621*
+*Defined in models/journal-event.models.ts:627*
 
 
 
@@ -86,7 +86,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:622*
+*Defined in models/journal-event.models.ts:628*
 
 
 
@@ -100,7 +100,7 @@ ___
 
 **●  DestinationStation**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:624*
+*Defined in models/journal-event.models.ts:630*
 
 
 
@@ -114,7 +114,7 @@ ___
 
 **●  DestinationSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:623*
+*Defined in models/journal-event.models.ts:629*
 
 
 
@@ -128,7 +128,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:617*
+*Defined in models/journal-event.models.ts:623*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 **●  MissionID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:619*
+*Defined in models/journal-event.models.ts:625*
 
 
 
@@ -156,7 +156,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:618*
+*Defined in models/journal-event.models.ts:624*
 
 
 
@@ -170,7 +170,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:625*
+*Defined in models/journal-event.models.ts:631*
 
 
 
@@ -186,7 +186,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -202,7 +202,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

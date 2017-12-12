@@ -38,7 +38,7 @@
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:760*
+*Defined in models/journal-event.models.ts:790*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:761*
+*Defined in models/journal-event.models.ts:791*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  UserShipId**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:763*
+*Defined in models/journal-event.models.ts:793*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  UserShipName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:762*
+*Defined in models/journal-event.models.ts:792*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

@@ -39,7 +39,7 @@
 
 **●  Amount**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:708*
+*Defined in models/journal-event.models.ts:724*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  BrokerPercentage**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:710*
+*Defined in models/journal-event.models.ts:726*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:709*
+*Defined in models/journal-event.models.ts:725*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  Factions**:  *`object`* 
 
-*Defined in models/journal-event.models.ts:711*
+*Defined in models/journal-event.models.ts:727*
 
 
 #### Type declaration
@@ -112,7 +112,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:707*
+*Defined in models/journal-event.models.ts:723*
 
 
 
@@ -128,7 +128,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -144,7 +144,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

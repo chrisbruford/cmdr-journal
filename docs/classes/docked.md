@@ -48,7 +48,7 @@
 
 **●  CockpitBreached**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:115*
+*Defined in models/journal-event.models.ts:117*
 
 
 
@@ -62,7 +62,7 @@ ___
 
 **●  DistFromStarLS**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:125*
+*Defined in models/journal-event.models.ts:127*
 
 
 
@@ -76,7 +76,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:117*
+*Defined in models/journal-event.models.ts:119*
 
 
 
@@ -90,7 +90,7 @@ ___
 
 **●  Security**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:123*
+*Defined in models/journal-event.models.ts:125*
 
 
 
@@ -104,7 +104,7 @@ ___
 
 **●  Security_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:124*
+*Defined in models/journal-event.models.ts:126*
 
 
 
@@ -118,7 +118,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:114*
+*Defined in models/journal-event.models.ts:116*
 
 
 
@@ -132,7 +132,7 @@ ___
 
 **●  StationAllegiance**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:118*
+*Defined in models/journal-event.models.ts:120*
 
 
 
@@ -146,7 +146,7 @@ ___
 
 **●  StationEconomy**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:119*
+*Defined in models/journal-event.models.ts:121*
 
 
 
@@ -160,7 +160,7 @@ ___
 
 **●  StationEconomy_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:120*
+*Defined in models/journal-event.models.ts:122*
 
 
 
@@ -174,7 +174,7 @@ ___
 
 **●  StationFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:116*
+*Defined in models/journal-event.models.ts:118*
 
 
 
@@ -188,7 +188,7 @@ ___
 
 **●  StationGovernment**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:121*
+*Defined in models/journal-event.models.ts:123*
 
 
 
@@ -202,7 +202,7 @@ ___
 
 **●  StationGovernment_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:122*
+*Defined in models/journal-event.models.ts:124*
 
 
 
@@ -216,7 +216,7 @@ ___
 
 **●  StationName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:112*
+*Defined in models/journal-event.models.ts:114*
 
 
 
@@ -230,7 +230,7 @@ ___
 
 **●  StationType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:113*
+*Defined in models/journal-event.models.ts:115*
 
 
 
@@ -246,7 +246,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

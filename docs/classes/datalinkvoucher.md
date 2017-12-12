@@ -37,7 +37,7 @@
 
 **●  PayeeFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:914*
+*Defined in models/journal-event.models.ts:944*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:912*
+*Defined in models/journal-event.models.ts:942*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  VictimFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:913*
+*Defined in models/journal-event.models.ts:943*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

@@ -52,7 +52,7 @@
 
 **●  Commodity**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:598*
+*Defined in models/journal-event.models.ts:604*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:599*
+*Defined in models/journal-event.models.ts:605*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  DestinationStation**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:606*
+*Defined in models/journal-event.models.ts:612*
 
 
 
@@ -94,7 +94,7 @@ ___
 
 **●  DestinationSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:605*
+*Defined in models/journal-event.models.ts:611*
 
 
 
@@ -108,7 +108,7 @@ ___
 
 **●  Expiry**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:604*
+*Defined in models/journal-event.models.ts:610*
 
 
 
@@ -122,7 +122,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:594*
+*Defined in models/journal-event.models.ts:600*
 
 
 
@@ -136,7 +136,7 @@ ___
 
 **●  Influence**:  *"None"⎮"Low"⎮"Med"⎮"High"* 
 
-*Defined in models/journal-event.models.ts:596*
+*Defined in models/journal-event.models.ts:602*
 
 
 
@@ -150,7 +150,7 @@ ___
 
 **●  KillCount**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:603*
+*Defined in models/journal-event.models.ts:609*
 
 
 
@@ -164,7 +164,7 @@ ___
 
 **●  MissionID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:595*
+*Defined in models/journal-event.models.ts:601*
 
 
 
@@ -178,7 +178,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:593*
+*Defined in models/journal-event.models.ts:599*
 
 
 
@@ -192,7 +192,7 @@ ___
 
 **●  PassengerCount**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:607*
+*Defined in models/journal-event.models.ts:613*
 
 
 
@@ -206,7 +206,7 @@ ___
 
 **●  PassengerType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:610*
+*Defined in models/journal-event.models.ts:616*
 
 
 
@@ -220,7 +220,7 @@ ___
 
 **●  PassengerVIPs**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:608*
+*Defined in models/journal-event.models.ts:614*
 
 
 
@@ -234,7 +234,7 @@ ___
 
 **●  PassengerWanted**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:609*
+*Defined in models/journal-event.models.ts:615*
 
 
 
@@ -248,7 +248,7 @@ ___
 
 **●  Reputation**:  *"None"⎮"Low"⎮"Med"⎮"High"* 
 
-*Defined in models/journal-event.models.ts:597*
+*Defined in models/journal-event.models.ts:603*
 
 
 
@@ -262,7 +262,7 @@ ___
 
 **●  Target**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:600*
+*Defined in models/journal-event.models.ts:606*
 
 
 
@@ -276,7 +276,7 @@ ___
 
 **●  TargetFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:602*
+*Defined in models/journal-event.models.ts:608*
 
 
 
@@ -290,7 +290,7 @@ ___
 
 **●  TargetType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:601*
+*Defined in models/journal-event.models.ts:607*
 
 
 
@@ -306,7 +306,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -322,7 +322,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

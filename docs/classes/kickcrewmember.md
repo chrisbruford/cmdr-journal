@@ -36,7 +36,7 @@
 
 **●  Crew**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:953*
+*Defined in models/journal-event.models.ts:983*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  OnCrime**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:954*
+*Defined in models/journal-event.models.ts:984*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

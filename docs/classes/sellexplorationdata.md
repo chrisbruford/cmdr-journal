@@ -38,7 +38,7 @@
 
 **●  BaseValue**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:424*
+*Defined in models/journal-event.models.ts:427*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Bonus**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:425*
+*Defined in models/journal-event.models.ts:428*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Discovered**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:423*
+*Defined in models/journal-event.models.ts:426*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Systems**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:422*
+*Defined in models/journal-event.models.ts:425*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

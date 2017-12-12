@@ -1,15 +1,15 @@
-[cmdr-journal](../README.md) > [CommunityGoalJoin](../classes/communitygoaljoin.md)
+[cmdr-journal](../README.md) > [Music](../classes/music.md)
 
 
 
-# Class: CommunityGoalJoin
+# Class: Music
 
 ## Hierarchy
 
 
  [JournalEvent](journalevent.md)
 
-**↳ CommunityGoalJoin**
+**↳ Music**
 
 
 
@@ -21,36 +21,21 @@
 
 ### Properties
 
-* [Name](communitygoaljoin.md#name)
-* [System](communitygoaljoin.md#system)
-* [event](communitygoaljoin.md#event)
-* [timestamp](communitygoaljoin.md#timestamp)
+* [MusicTrack](music.md#musictrack)
+* [event](music.md#event)
+* [timestamp](music.md#timestamp)
 
 
 
 ---
 ## Properties
-<a id="name"></a>
+<a id="musictrack"></a>
 
-###  Name
+###  MusicTrack
 
-**●  Name**:  *`string`* 
+**●  MusicTrack**:  *[MusicTrackNames](../enums/musictracknames.md)* 
 
-*Defined in models/journal-event.models.ts:513*
-
-
-
-
-
-___
-
-<a id="system"></a>
-
-###  System
-
-**●  System**:  *`string`* 
-
-*Defined in models/journal-event.models.ts:514*
+*Defined in models/journal-event.models.ts:1071*
 
 
 

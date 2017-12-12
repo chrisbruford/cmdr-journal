@@ -47,7 +47,7 @@
 
 **●  Commander**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:62*
+*Defined in models/journal-event.models.ts:64*
 
 
 
@@ -61,7 +61,7 @@ ___
 
 **●  Credits**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:69*
+*Defined in models/journal-event.models.ts:71*
 
 
 
@@ -75,7 +75,7 @@ ___
 
 **●  FuelCapacity**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:74*
+*Defined in models/journal-event.models.ts:76*
 
 
 
@@ -89,7 +89,7 @@ ___
 
 **●  FuelLevel**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:73*
+*Defined in models/journal-event.models.ts:75*
 
 
 
@@ -103,7 +103,7 @@ ___
 
 **●  GameMode**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:67*
+*Defined in models/journal-event.models.ts:69*
 
 
 
@@ -117,7 +117,7 @@ ___
 
 **●  Group**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:68*
+*Defined in models/journal-event.models.ts:70*
 
 
 
@@ -131,7 +131,7 @@ ___
 
 **●  Loan**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:70*
+*Defined in models/journal-event.models.ts:72*
 
 
 
@@ -145,7 +145,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:63*
+*Defined in models/journal-event.models.ts:65*
 
 
 
@@ -159,7 +159,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:64*
+*Defined in models/journal-event.models.ts:66*
 
 
 
@@ -173,7 +173,7 @@ ___
 
 **●  ShipIdent**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:72*
+*Defined in models/journal-event.models.ts:74*
 
 
 
@@ -187,7 +187,7 @@ ___
 
 **●  ShipName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:71*
+*Defined in models/journal-event.models.ts:73*
 
 
 
@@ -201,7 +201,7 @@ ___
 
 **●  StartDead**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:66*
+*Defined in models/journal-event.models.ts:68*
 
 
 
@@ -215,7 +215,7 @@ ___
 
 **●  StartLanded**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:65*
+*Defined in models/journal-event.models.ts:67*
 
 
 
@@ -231,7 +231,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

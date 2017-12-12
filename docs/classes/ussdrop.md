@@ -36,7 +36,7 @@
 
 **●  USSThreat**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:1018*
+*Defined in models/journal-event.models.ts:1048*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  USSType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:1017*
+*Defined in models/journal-event.models.ts:1047*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

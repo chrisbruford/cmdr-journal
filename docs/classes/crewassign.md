@@ -36,7 +36,7 @@
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:519*
+*Defined in models/journal-event.models.ts:524*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Role**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:520*
+*Defined in models/journal-event.models.ts:525*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

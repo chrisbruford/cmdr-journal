@@ -38,7 +38,7 @@
 
 **●  CombatRank**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:533*
+*Defined in models/journal-event.models.ts:538*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:532*
+*Defined in models/journal-event.models.ts:537*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:531*
+*Defined in models/journal-event.models.ts:536*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:530*
+*Defined in models/journal-event.models.ts:535*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

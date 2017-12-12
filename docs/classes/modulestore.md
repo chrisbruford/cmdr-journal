@@ -41,7 +41,7 @@
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:682*
+*Defined in models/journal-event.models.ts:698*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 **●  EngineerModifications**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:680*
+*Defined in models/journal-event.models.ts:696*
 
 
 
@@ -69,7 +69,7 @@ ___
 
 **●  ReplacementItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:681*
+*Defined in models/journal-event.models.ts:697*
 
 
 
@@ -83,7 +83,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:677*
+*Defined in models/journal-event.models.ts:693*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:678*
+*Defined in models/journal-event.models.ts:694*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 **●  Slot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:676*
+*Defined in models/journal-event.models.ts:692*
 
 
 
@@ -125,7 +125,7 @@ ___
 
 **●  StoredItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:679*
+*Defined in models/journal-event.models.ts:695*
 
 
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

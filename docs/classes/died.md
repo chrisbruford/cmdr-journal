@@ -39,7 +39,7 @@
 
 **●  KillerName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:275*
+*Defined in models/journal-event.models.ts:277*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  KillerName_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:276*
+*Defined in models/journal-event.models.ts:278*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  KillerRank**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:278*
+*Defined in models/journal-event.models.ts:280*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  KillerShip**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:277*
+*Defined in models/journal-event.models.ts:279*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  Killers**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:280*
+*Defined in models/journal-event.models.ts:282*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

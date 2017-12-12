@@ -36,7 +36,7 @@
 
 **●  Amount**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:697*
+*Defined in models/journal-event.models.ts:713*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  BrokerPercentage**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:698*
+*Defined in models/journal-event.models.ts:714*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

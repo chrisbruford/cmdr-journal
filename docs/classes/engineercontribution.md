@@ -36,7 +36,7 @@
 
 **●  Engineer**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:546*
+*Defined in models/journal-event.models.ts:551*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Type**:  *"Commodity"⎮"materials"⎮"Credits"⎮"Bond"⎮"Bounty"* 
 
-*Defined in models/journal-event.models.ts:547*
+*Defined in models/journal-event.models.ts:552*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

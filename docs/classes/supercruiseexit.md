@@ -37,7 +37,7 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:240*
+*Defined in models/journal-event.models.ts:242*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  BodyType**:  *[BodyTypes](../enums/bodytypes.md)* 
 
-*Defined in models/journal-event.models.ts:241*
+*Defined in models/journal-event.models.ts:243*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:239*
+*Defined in models/journal-event.models.ts:241*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

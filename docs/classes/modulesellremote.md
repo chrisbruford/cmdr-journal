@@ -40,7 +40,7 @@
 
 **●  SellItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:668*
+*Defined in models/journal-event.models.ts:684*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:670*
+*Defined in models/journal-event.models.ts:686*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  ServerId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:669*
+*Defined in models/journal-event.models.ts:685*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:671*
+*Defined in models/journal-event.models.ts:687*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:672*
+*Defined in models/journal-event.models.ts:688*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  StorageSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:667*
+*Defined in models/journal-event.models.ts:683*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

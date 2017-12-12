@@ -27,6 +27,7 @@
 * [StorageSlot](fetchremotemodule.md#storageslot)
 * [StoredItem](fetchremotemodule.md#storeditem)
 * [TransferCost](fetchremotemodule.md#transfercost)
+* [TransferTime](fetchremotemodule.md#transfertime)
 * [event](fetchremotemodule.md#event)
 * [timestamp](fetchremotemodule.md#timestamp)
 
@@ -40,7 +41,7 @@
 
 **●  ServerId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:570*
+*Defined in models/journal-event.models.ts:575*
 
 
 
@@ -54,7 +55,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:572*
+*Defined in models/journal-event.models.ts:577*
 
 
 
@@ -68,7 +69,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:573*
+*Defined in models/journal-event.models.ts:578*
 
 
 
@@ -82,7 +83,7 @@ ___
 
 **●  StorageSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:568*
+*Defined in models/journal-event.models.ts:573*
 
 
 
@@ -96,7 +97,7 @@ ___
 
 **●  StoredItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:569*
+*Defined in models/journal-event.models.ts:574*
 
 
 
@@ -110,7 +111,21 @@ ___
 
 **●  TransferCost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:571*
+*Defined in models/journal-event.models.ts:576*
+
+
+
+
+
+___
+
+<a id="transfertime"></a>
+
+###  TransferTime
+
+**●  TransferTime**:  *`number`* 
+
+*Defined in models/journal-event.models.ts:579*
 
 
 
@@ -126,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -142,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

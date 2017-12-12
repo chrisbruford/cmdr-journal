@@ -38,7 +38,7 @@
 
 **●  Blueprint**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:553*
+*Defined in models/journal-event.models.ts:558*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Engineer**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:552*
+*Defined in models/journal-event.models.ts:557*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Ingredients**:  *`object`* 
 
-*Defined in models/journal-event.models.ts:555*
+*Defined in models/journal-event.models.ts:560*
 
 
 #### Type declaration
@@ -97,7 +97,7 @@ ___
 
 **●  Level**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:554*
+*Defined in models/journal-event.models.ts:559*
 
 
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

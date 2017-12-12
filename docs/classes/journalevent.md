@@ -333,6 +333,11 @@
 
 
 
+↳  [MissionRedirected](missionredirected.md)
+
+
+
+
 ↳  [ModuleBuy](modulebuy.md)
 
 
@@ -408,7 +413,17 @@
 
 
 
+↳  [SearchAndRescue](searchandrescue.md)
+
+
+
+
 ↳  [SellDrones](selldrones.md)
+
+
+
+
+↳  [SellShipOnRebuy](sellshiponrebuy.md)
 
 
 
@@ -678,6 +693,16 @@
 
 
 
+↳  [Music](music.md)
+
+
+
+
+↳  [RepairDrone](repairdrone.md)
+
+
+
+
 
 
 
@@ -699,7 +724,7 @@
 
 **●  event**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -713,7 +738,7 @@ ___
 
 **●  timestamp**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

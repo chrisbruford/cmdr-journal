@@ -38,7 +38,7 @@
 
 **●  Abandoned**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:454*
+*Defined in models/journal-event.models.ts:459*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:453*
+*Defined in models/journal-event.models.ts:458*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  PowerplayOrigin**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:455*
+*Defined in models/journal-event.models.ts:460*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:452*
+*Defined in models/journal-event.models.ts:457*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:10*
+*Defined in models/journal-event.models.ts:12*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:11*
+*Defined in models/journal-event.models.ts:13*
 
 
 

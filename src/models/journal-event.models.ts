@@ -5,6 +5,8 @@ import { VolcanismTypes } from '../volcanism-types.enum';
 import { Crimes } from '../crimes.enum';
 import { AtmosphereTypes } from '../atmosphere-types.enum';
 import { CrewRoles } from '../crew-roles.enum';
+import { MusicTrackNames } from '../music-track-names.enum';
+import { StarLuminosityClasses } from '../star-luminosity-classes.enum';
 
 export class JournalEvent {
     event: string;
@@ -370,6 +372,7 @@ export class Scan extends JournalEvent {
     Radius?: number;
     AbsoluteMagnitude?: number;
     Age_MY?: number;
+    Luminosity: StarLuminosityClasses;
     //planets/moons
     TidalLock?: boolean;
     TerraformState?: "Terraformable" | "Terraforming" | "Terraformed" | null;
@@ -432,6 +435,8 @@ export class Screenshot extends JournalEvent {
     Height: number;
     System: string;
     Body: string;
+    Latitude?: number;
+    Longitude?: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"Screenshot", "Filename":"_Screenshots/Screenshot_0151.bmp", "Width":1600, "Height":900, "System":"Shinrarta Dezhra", "Body":"Founders World" }
 
@@ -571,6 +576,7 @@ export class FetchRemoteModule extends JournalEvent {
     TransferCost: number;
     Ship: string;
     ShipId: number;
+    TransferTime: number; //in seconds
 }
 
 export class MassModuleStore extends JournalEvent {
@@ -631,6 +637,16 @@ export class MissionFailed extends JournalEvent {
     Name: string;
     MissionID: number;
 }
+
+export class MissionRedirected extends JournalEvent {
+    MissionID: number;
+    MissionName: string;
+    NewDestinationStation: string;
+    OldDestinationStation: string;
+    NewDestinationSystem: string;
+    OldDestinationSystem: string;
+}
+//{ "timestamp": "2017-08-01T09:04:07Z", "event": "MissionRedirected", "MissionID": 65367315, "NewDestinationStation": "Metcalf Orbital", "OldDestinationStation": "Cuffey Orbital", "NewDestinationSystem": "Cemiess", "OldDestinationSystem": "Vequess" }
 
 export class ModuleBuy extends JournalEvent {
     Slot: string;
@@ -748,6 +764,12 @@ export class ScientificResearch extends JournalEvent {
     Count: number;
 }
 
+export class SearchAndRescue extends JournalEvent {
+    Name: string;
+    Count: number;
+    Reward: number;
+}
+
 export class SellDrones extends JournalEvent {
     Type: string;
     Count: number;
@@ -755,6 +777,14 @@ export class SellDrones extends JournalEvent {
     TotalSale: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"SellDrones", "Type":"Drones", "Count":1, "SellPrice":91, "TotalSale":91 }
+
+export class SellShipOnRebuy extends JournalEvent {
+    ShipType: string;
+    System: string;
+    SellShipId: number;
+    ShipPrice: number;
+}
+//{ "timestamp":"2017-07-20T08:56:39Z", "event":"SellShipOnRebuy", "ShipType":"Dolphin", "System":"Shinrarta Dezhra", "SellShipId":4, "ShipPrice":4110183 }
 
 export class SetUserShipName extends JournalEvent {
     Ship: string;
@@ -1036,3 +1066,16 @@ export class WingJoin extends JournalEvent {
 }
 
 export class WingLeave extends JournalEvent { }
+
+export class Music extends JournalEvent {
+    MusicTrack: MusicTrackNames;
+}
+
+/**
+ * each number represents amount of damage repaired
+ */
+export class RepairDrone extends JournalEvent {
+    HullRepaired: number; 
+    CockpitRepaired: number;
+    CorrosionRepaired: number;
+}

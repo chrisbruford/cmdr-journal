@@ -38,7 +38,7 @@
 
 **●  Blueprint**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:544*
+*Defined in [models/journal-event.models.ts:573](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L573)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Engineer**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:543*
+*Defined in [models/journal-event.models.ts:572](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L572)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Level**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:545*
+*Defined in [models/journal-event.models.ts:574](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L574)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Override**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:546*
+*Defined in [models/journal-event.models.ts:575](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L575)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

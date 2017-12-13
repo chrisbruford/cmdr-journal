@@ -43,7 +43,7 @@
 
 ** I**:    = "I"
 
-*Defined in star-luminosity-classes.enum.ts:3*
+*Defined in [star-luminosity-classes.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L3)*
 
 
 
@@ -57,7 +57,7 @@ ___
 
 ** II**:    = "II"
 
-*Defined in star-luminosity-classes.enum.ts:8*
+*Defined in [star-luminosity-classes.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L8)*
 
 
 
@@ -71,7 +71,7 @@ ___
 
 ** III**:    = "III"
 
-*Defined in star-luminosity-classes.enum.ts:12*
+*Defined in [star-luminosity-classes.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L12)*
 
 
 
@@ -85,7 +85,7 @@ ___
 
 ** IIIa**:    = "IIIa"
 
-*Defined in star-luminosity-classes.enum.ts:13*
+*Defined in [star-luminosity-classes.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L13)*
 
 
 
@@ -99,7 +99,7 @@ ___
 
 ** IIIab**:    = "IIIab"
 
-*Defined in star-luminosity-classes.enum.ts:14*
+*Defined in [star-luminosity-classes.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L14)*
 
 
 
@@ -113,7 +113,7 @@ ___
 
 ** IIIb**:    = "IIIb"
 
-*Defined in star-luminosity-classes.enum.ts:15*
+*Defined in [star-luminosity-classes.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L15)*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 ** IIa**:    = "IIa"
 
-*Defined in star-luminosity-classes.enum.ts:9*
+*Defined in [star-luminosity-classes.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L9)*
 
 
 
@@ -141,7 +141,7 @@ ___
 
 ** IIab**:    = "IIab"
 
-*Defined in star-luminosity-classes.enum.ts:10*
+*Defined in [star-luminosity-classes.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L10)*
 
 
 
@@ -155,7 +155,7 @@ ___
 
 ** IIb**:    = "IIb"
 
-*Defined in star-luminosity-classes.enum.ts:11*
+*Defined in [star-luminosity-classes.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L11)*
 
 
 
@@ -169,7 +169,7 @@ ___
 
 ** IV**:    = "IV"
 
-*Defined in star-luminosity-classes.enum.ts:16*
+*Defined in [star-luminosity-classes.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L16)*
 
 
 
@@ -183,7 +183,7 @@ ___
 
 ** IVa**:    = "IVa"
 
-*Defined in star-luminosity-classes.enum.ts:17*
+*Defined in [star-luminosity-classes.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L17)*
 
 
 
@@ -197,7 +197,7 @@ ___
 
 ** IVab**:    = "IVab"
 
-*Defined in star-luminosity-classes.enum.ts:18*
+*Defined in [star-luminosity-classes.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L18)*
 
 
 
@@ -211,7 +211,7 @@ ___
 
 ** IVb**:    = "IVb"
 
-*Defined in star-luminosity-classes.enum.ts:19*
+*Defined in [star-luminosity-classes.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L19)*
 
 
 
@@ -225,7 +225,7 @@ ___
 
 ** Ia**:    = "Ia"
 
-*Defined in star-luminosity-classes.enum.ts:5*
+*Defined in [star-luminosity-classes.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L5)*
 
 
 
@@ -239,7 +239,7 @@ ___
 
 ** Ia0**:    = "Ia0"
 
-*Defined in star-luminosity-classes.enum.ts:4*
+*Defined in [star-luminosity-classes.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L4)*
 
 
 
@@ -253,7 +253,7 @@ ___
 
 ** Iab**:    = "Iab"
 
-*Defined in star-luminosity-classes.enum.ts:7*
+*Defined in [star-luminosity-classes.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L7)*
 
 
 
@@ -267,7 +267,7 @@ ___
 
 ** Ib**:    = "Ib"
 
-*Defined in star-luminosity-classes.enum.ts:6*
+*Defined in [star-luminosity-classes.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L6)*
 
 
 
@@ -281,7 +281,7 @@ ___
 
 ** V**:    = "V"
 
-*Defined in star-luminosity-classes.enum.ts:20*
+*Defined in [star-luminosity-classes.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L20)*
 
 
 
@@ -295,7 +295,7 @@ ___
 
 ** VI**:    = "VI"
 
-*Defined in star-luminosity-classes.enum.ts:25*
+*Defined in [star-luminosity-classes.enum.ts:25](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L25)*
 
 
 
@@ -309,7 +309,7 @@ ___
 
 ** VII**:    = "VII"
 
-*Defined in star-luminosity-classes.enum.ts:26*
+*Defined in [star-luminosity-classes.enum.ts:26](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L26)*
 
 
 
@@ -323,7 +323,7 @@ ___
 
 ** Va**:    = "Va"
 
-*Defined in star-luminosity-classes.enum.ts:21*
+*Defined in [star-luminosity-classes.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L21)*
 
 
 
@@ -337,7 +337,7 @@ ___
 
 ** Vab**:    = "Vab"
 
-*Defined in star-luminosity-classes.enum.ts:22*
+*Defined in [star-luminosity-classes.enum.ts:22](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L22)*
 
 
 
@@ -351,7 +351,7 @@ ___
 
 ** Vb**:    = "Vb"
 
-*Defined in star-luminosity-classes.enum.ts:23*
+*Defined in [star-luminosity-classes.enum.ts:23](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L23)*
 
 
 
@@ -365,7 +365,7 @@ ___
 
 ** Vz**:    = "Vz"
 
-*Defined in star-luminosity-classes.enum.ts:24*
+*Defined in [star-luminosity-classes.enum.ts:24](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-luminosity-classes.enum.ts#L24)*
 
 
 

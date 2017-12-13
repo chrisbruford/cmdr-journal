@@ -40,7 +40,7 @@
 
 ** cQC**:    = "CQC"
 
-*Defined in music-track-names.enum.ts:8*
+*Defined in [music-track-names.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L8)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 ** cQCMenu**:    = "CQCMenu"
 
-*Defined in music-track-names.enum.ts:4*
+*Defined in [music-track-names.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L4)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 ** capitalShip**:    = "CapitalShip"
 
-*Defined in music-track-names.enum.ts:14*
+*Defined in [music-track-names.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L14)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 ** combatLargeDogFight**:    = "CombatLargeDogFight"
 
-*Defined in music-track-names.enum.ts:15*
+*Defined in [music-track-names.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L15)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 ** combat_Dogfight**:    = "Combat_Dogfight"
 
-*Defined in music-track-names.enum.ts:16*
+*Defined in [music-track-names.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L16)*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 ** combat_SRV**:    = "Combat_SRV"
 
-*Defined in music-track-names.enum.ts:17*
+*Defined in [music-track-names.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L17)*
 
 
 
@@ -124,7 +124,7 @@ ___
 
 ** combat_Unknown**:    = "Combat_Unknown"
 
-*Defined in music-track-names.enum.ts:12*
+*Defined in [music-track-names.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L12)*
 
 
 
@@ -138,7 +138,7 @@ ___
 
 ** destinationFromHyperspace**:    = "DestinationFromHyperspace"
 
-*Defined in music-track-names.enum.ts:9*
+*Defined in [music-track-names.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L9)*
 
 
 
@@ -152,7 +152,7 @@ ___
 
 ** destinationFromSupercruise**:    = "DestinationFromSupercruise"
 
-*Defined in music-track-names.enum.ts:10*
+*Defined in [music-track-names.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L10)*
 
 
 
@@ -166,7 +166,7 @@ ___
 
 ** dockingComputer**:    = "DockingComputer"
 
-*Defined in music-track-names.enum.ts:19*
+*Defined in [music-track-names.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L19)*
 
 
 
@@ -180,7 +180,7 @@ ___
 
 ** exploration**:    = "Exploration"
 
-*Defined in music-track-names.enum.ts:22*
+*Defined in [music-track-names.enum.ts:22](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L22)*
 
 
 
@@ -194,7 +194,7 @@ ___
 
 ** galacticPowers**:    = "GalacticPowers"
 
-*Defined in music-track-names.enum.ts:7*
+*Defined in [music-track-names.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L7)*
 
 
 
@@ -208,7 +208,7 @@ ___
 
 ** galaxyMap**:    = "GalaxyMap"
 
-*Defined in music-track-names.enum.ts:6*
+*Defined in [music-track-names.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L6)*
 
 
 
@@ -222,7 +222,7 @@ ___
 
 ** mainMenu**:    = "MainMenu"
 
-*Defined in music-track-names.enum.ts:3*
+*Defined in [music-track-names.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L3)*
 
 
 
@@ -236,7 +236,7 @@ ___
 
 ** noTrack**:    = "NoTrack"
 
-*Defined in music-track-names.enum.ts:2*
+*Defined in [music-track-names.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L2)*
 
 
 
@@ -250,7 +250,7 @@ ___
 
 ** starport**:    = "Starport"
 
-*Defined in music-track-names.enum.ts:20*
+*Defined in [music-track-names.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L20)*
 
 
 
@@ -264,7 +264,7 @@ ___
 
 ** supercruise**:    = "Supercruise"
 
-*Defined in music-track-names.enum.ts:11*
+*Defined in [music-track-names.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L11)*
 
 
 
@@ -278,7 +278,7 @@ ___
 
 ** systemMap**:    = "SystemMap"
 
-*Defined in music-track-names.enum.ts:5*
+*Defined in [music-track-names.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L5)*
 
 
 
@@ -292,7 +292,7 @@ ___
 
 ** unknown_Encounter**:    = "Unknown_Encounter"
 
-*Defined in music-track-names.enum.ts:13*
+*Defined in [music-track-names.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L13)*
 
 
 
@@ -306,7 +306,7 @@ ___
 
 ** unknown_Exploration**:    = "Unknown_Exploration"
 
-*Defined in music-track-names.enum.ts:21*
+*Defined in [music-track-names.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L21)*
 
 
 
@@ -320,7 +320,7 @@ ___
 
 ** unknown_Settlement**:    = "Unknown_Settlement"
 
-*Defined in music-track-names.enum.ts:18*
+*Defined in [music-track-names.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/music-track-names.enum.ts#L18)*
 
 
 

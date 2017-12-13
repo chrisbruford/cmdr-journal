@@ -28,7 +28,7 @@
 
 ** Competent**:   
 
-*Defined in combat-ranks.enum.ts:5*
+*Defined in [combat-ranks.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L5)*
 
 
 
@@ -42,7 +42,7 @@ ___
 
 ** Dangerous**:   
 
-*Defined in combat-ranks.enum.ts:8*
+*Defined in [combat-ranks.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L8)*
 
 
 
@@ -56,7 +56,7 @@ ___
 
 ** Deadly**:   
 
-*Defined in combat-ranks.enum.ts:9*
+*Defined in [combat-ranks.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L9)*
 
 
 
@@ -70,7 +70,7 @@ ___
 
 ** Elite**:   
 
-*Defined in combat-ranks.enum.ts:10*
+*Defined in [combat-ranks.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L10)*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 ** Expert**:   
 
-*Defined in combat-ranks.enum.ts:6*
+*Defined in [combat-ranks.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L6)*
 
 
 
@@ -98,7 +98,7 @@ ___
 
 ** Harmless**:   
 
-*Defined in combat-ranks.enum.ts:2*
+*Defined in [combat-ranks.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L2)*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 ** Master**:   
 
-*Defined in combat-ranks.enum.ts:7*
+*Defined in [combat-ranks.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L7)*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 ** Mostly Harmless**:   
 
-*Defined in combat-ranks.enum.ts:3*
+*Defined in [combat-ranks.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L3)*
 
 
 
@@ -140,7 +140,7 @@ ___
 
 ** Novice**:   
 
-*Defined in combat-ranks.enum.ts:4*
+*Defined in [combat-ranks.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/combat-ranks.enum.ts#L4)*
 
 
 

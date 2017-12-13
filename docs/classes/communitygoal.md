@@ -1,15 +1,15 @@
-[cmdr-journal](../README.md) > [MissionFailed](../classes/missionfailed.md)
+[cmdr-journal](../README.md) > [CommunityGoal](../classes/communitygoal.md)
 
 
 
-# Class: MissionFailed
+# Class: CommunityGoal
 
 ## Hierarchy
 
 
  [JournalEvent](journalevent.md)
 
-**↳ MissionFailed**
+**↳ CommunityGoal**
 
 
 
@@ -21,36 +21,21 @@
 
 ### Properties
 
-* [MissionID](missionfailed.md#missionid)
-* [Name](missionfailed.md#name)
-* [event](missionfailed.md#event)
-* [timestamp](missionfailed.md#timestamp)
+* [CurrentGoals](communitygoal.md#currentgoals)
+* [event](communitygoal.md#event)
+* [timestamp](communitygoal.md#timestamp)
 
 
 
 ---
 ## Properties
-<a id="missionid"></a>
+<a id="currentgoals"></a>
 
-###  MissionID
+###  CurrentGoals
 
-**●  MissionID**:  *`number`* 
+**●  CurrentGoals**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:667](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L667)*
-
-
-
-
-
-___
-
-<a id="name"></a>
-
-###  Name
-
-**●  Name**:  *`string`* 
-
-*Defined in [models/journal-event.models.ts:666](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L666)*
+*Defined in [models/journal-event.models.ts:515](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L515)*
 
 
 

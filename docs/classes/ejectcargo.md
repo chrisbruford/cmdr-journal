@@ -38,7 +38,7 @@
 
 **●  Abandoned**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:459*
+*Defined in [models/journal-event.models.ts:466](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L466)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:458*
+*Defined in [models/journal-event.models.ts:465](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L465)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  PowerplayOrigin**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:460*
+*Defined in [models/journal-event.models.ts:467](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L467)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:457*
+*Defined in [models/journal-event.models.ts:464](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L464)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

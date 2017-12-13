@@ -71,7 +71,7 @@
 
 ** A**:    = "A"
 
-*Defined in star-types.enum.ts:5*
+*Defined in [star-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L5)*
 
 
 
@@ -85,7 +85,7 @@ ___
 
 ** A_BlueWhiteSuperGiant**:    = "A_BlueWhiteSuperGiant"
 
-*Defined in star-types.enum.ts:52*
+*Defined in [star-types.enum.ts:52](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L52)*
 
 
 
@@ -99,7 +99,7 @@ ___
 
 ** AeBe**:    = "AeBe"
 
-*Defined in star-types.enum.ts:15*
+*Defined in [star-types.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L15)*
 
 
 
@@ -113,7 +113,7 @@ ___
 
 ** B**:    = "B"
 
-*Defined in star-types.enum.ts:4*
+*Defined in [star-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L4)*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 ** C**:    = "C"
 
-*Defined in star-types.enum.ts:24*
+*Defined in [star-types.enum.ts:24](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L24)*
 
 
 
@@ -141,7 +141,7 @@ ___
 
 ** CH**:    = "CH"
 
-*Defined in star-types.enum.ts:27*
+*Defined in [star-types.enum.ts:27](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L27)*
 
 
 
@@ -155,7 +155,7 @@ ___
 
 ** CHd**:    = "CHd"
 
-*Defined in star-types.enum.ts:28*
+*Defined in [star-types.enum.ts:28](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L28)*
 
 
 
@@ -169,7 +169,7 @@ ___
 
 ** CJ**:    = "CJ"
 
-*Defined in star-types.enum.ts:26*
+*Defined in [star-types.enum.ts:26](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L26)*
 
 
 
@@ -183,7 +183,7 @@ ___
 
 ** CN**:    = "CN"
 
-*Defined in star-types.enum.ts:25*
+*Defined in [star-types.enum.ts:25](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L25)*
 
 
 
@@ -197,7 +197,7 @@ ___
 
 ** CS**:    = "CS"
 
-*Defined in star-types.enum.ts:23*
+*Defined in [star-types.enum.ts:23](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L23)*
 
 
 
@@ -211,7 +211,7 @@ ___
 
 ** D**:    = "D"
 
-*Defined in star-types.enum.ts:32*
+*Defined in [star-types.enum.ts:32](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L32)*
 
 
 
@@ -225,7 +225,7 @@ ___
 
 ** DA**:    = "DA"
 
-*Defined in star-types.enum.ts:33*
+*Defined in [star-types.enum.ts:33](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L33)*
 
 
 
@@ -239,7 +239,7 @@ ___
 
 ** DAB**:    = "DAB"
 
-*Defined in star-types.enum.ts:34*
+*Defined in [star-types.enum.ts:34](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L34)*
 
 
 
@@ -253,7 +253,7 @@ ___
 
 ** DAO**:    = "DAO"
 
-*Defined in star-types.enum.ts:35*
+*Defined in [star-types.enum.ts:35](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L35)*
 
 
 
@@ -267,7 +267,7 @@ ___
 
 ** DAV**:    = "DAV"
 
-*Defined in star-types.enum.ts:37*
+*Defined in [star-types.enum.ts:37](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L37)*
 
 
 
@@ -281,7 +281,7 @@ ___
 
 ** DAZ**:    = "DAZ"
 
-*Defined in star-types.enum.ts:36*
+*Defined in [star-types.enum.ts:36](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L36)*
 
 
 
@@ -295,7 +295,7 @@ ___
 
 ** DB**:    = "DB"
 
-*Defined in star-types.enum.ts:38*
+*Defined in [star-types.enum.ts:38](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L38)*
 
 
 
@@ -309,7 +309,7 @@ ___
 
 ** DBV**:    = "DBV"
 
-*Defined in star-types.enum.ts:40*
+*Defined in [star-types.enum.ts:40](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L40)*
 
 
 
@@ -323,7 +323,7 @@ ___
 
 ** DBZ**:    = "DBZ"
 
-*Defined in star-types.enum.ts:39*
+*Defined in [star-types.enum.ts:39](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L39)*
 
 
 
@@ -337,7 +337,7 @@ ___
 
 ** DC**:    = "DC"
 
-*Defined in star-types.enum.ts:44*
+*Defined in [star-types.enum.ts:44](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L44)*
 
 
 
@@ -351,7 +351,7 @@ ___
 
 ** DCV**:    = "DCV"
 
-*Defined in star-types.enum.ts:45*
+*Defined in [star-types.enum.ts:45](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L45)*
 
 
 
@@ -365,7 +365,7 @@ ___
 
 ** DO**:    = "DO"
 
-*Defined in star-types.enum.ts:41*
+*Defined in [star-types.enum.ts:41](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L41)*
 
 
 
@@ -379,7 +379,7 @@ ___
 
 ** DOV**:    = "DOV"
 
-*Defined in star-types.enum.ts:42*
+*Defined in [star-types.enum.ts:42](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L42)*
 
 
 
@@ -393,7 +393,7 @@ ___
 
 ** DQ**:    = "DQ"
 
-*Defined in star-types.enum.ts:43*
+*Defined in [star-types.enum.ts:43](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L43)*
 
 
 
@@ -407,7 +407,7 @@ ___
 
 ** DX**:    = "DX"
 
-*Defined in star-types.enum.ts:46*
+*Defined in [star-types.enum.ts:46](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L46)*
 
 
 
@@ -421,7 +421,7 @@ ___
 
 ** F**:    = "F"
 
-*Defined in star-types.enum.ts:6*
+*Defined in [star-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L6)*
 
 
 
@@ -435,7 +435,7 @@ ___
 
 ** F_WhiteSuperGiant**:    = "F_WhiteSuperGiant"
 
-*Defined in star-types.enum.ts:53*
+*Defined in [star-types.enum.ts:53](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L53)*
 
 
 
@@ -449,7 +449,7 @@ ___
 
 ** G**:    = "G"
 
-*Defined in star-types.enum.ts:7*
+*Defined in [star-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L7)*
 
 
 
@@ -463,7 +463,7 @@ ___
 
 ** H**:    = "H"
 
-*Defined in star-types.enum.ts:49*
+*Defined in [star-types.enum.ts:49](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L49)*
 
 
 
@@ -477,7 +477,7 @@ ___
 
 ** K**:    = "K"
 
-*Defined in star-types.enum.ts:8*
+*Defined in [star-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L8)*
 
 
 
@@ -491,7 +491,7 @@ ___
 
 ** K_OrangeGiant**:    = "K_OrangeGiant"
 
-*Defined in star-types.enum.ts:56*
+*Defined in [star-types.enum.ts:56](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L56)*
 
 
 
@@ -505,7 +505,7 @@ ___
 
 ** L**:    = "L"
 
-*Defined in star-types.enum.ts:10*
+*Defined in [star-types.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L10)*
 
 
 
@@ -519,7 +519,7 @@ ___
 
 ** M**:    = "M"
 
-*Defined in star-types.enum.ts:9*
+*Defined in [star-types.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L9)*
 
 
 
@@ -533,7 +533,7 @@ ___
 
 ** MS**:    = "MS"
 
-*Defined in star-types.enum.ts:29*
+*Defined in [star-types.enum.ts:29](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L29)*
 
 
 
@@ -547,7 +547,7 @@ ___
 
 ** M_RedGiant**:    = "M_RedGiant"
 
-*Defined in star-types.enum.ts:55*
+*Defined in [star-types.enum.ts:55](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L55)*
 
 
 
@@ -561,7 +561,7 @@ ___
 
 ** M_RedSuperGiant**:    = "M_RedSuperGiant"
 
-*Defined in star-types.enum.ts:54*
+*Defined in [star-types.enum.ts:54](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L54)*
 
 
 
@@ -575,7 +575,7 @@ ___
 
 ** N**:    = "N"
 
-*Defined in star-types.enum.ts:48*
+*Defined in [star-types.enum.ts:48](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L48)*
 
 
 
@@ -589,7 +589,7 @@ ___
 
 ** Nebula**:    = "Nebula"
 
-*Defined in star-types.enum.ts:58*
+*Defined in [star-types.enum.ts:58](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L58)*
 
 
 
@@ -603,7 +603,7 @@ ___
 
 ** O**:    = "O"
 
-*Defined in star-types.enum.ts:3*
+*Defined in [star-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L3)*
 
 
 
@@ -617,7 +617,7 @@ ___
 
 ** RoguePlanet**:    = "RoguePlanet"
 
-*Defined in star-types.enum.ts:57*
+*Defined in [star-types.enum.ts:57](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L57)*
 
 
 
@@ -631,7 +631,7 @@ ___
 
 ** S**:    = "S"
 
-*Defined in star-types.enum.ts:30*
+*Defined in [star-types.enum.ts:30](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L30)*
 
 
 
@@ -645,7 +645,7 @@ ___
 
 ** StellarRemnantNebula**:    = "StellarRemnantNebula"
 
-*Defined in star-types.enum.ts:59*
+*Defined in [star-types.enum.ts:59](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L59)*
 
 
 
@@ -659,7 +659,7 @@ ___
 
 ** SupermassiveBlackHole**:    = "SupermassiveBlackHole"
 
-*Defined in star-types.enum.ts:51*
+*Defined in [star-types.enum.ts:51](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L51)*
 
 
 
@@ -673,7 +673,7 @@ ___
 
 ** T**:    = "T"
 
-*Defined in star-types.enum.ts:11*
+*Defined in [star-types.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L11)*
 
 
 
@@ -687,7 +687,7 @@ ___
 
 ** TTS**:    = "TTS"
 
-*Defined in star-types.enum.ts:14*
+*Defined in [star-types.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L14)*
 
 
 
@@ -701,7 +701,7 @@ ___
 
 ** W**:    = "W"
 
-*Defined in star-types.enum.ts:17*
+*Defined in [star-types.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L17)*
 
 
 
@@ -715,7 +715,7 @@ ___
 
 ** WC**:    = "WC"
 
-*Defined in star-types.enum.ts:20*
+*Defined in [star-types.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L20)*
 
 
 
@@ -729,7 +729,7 @@ ___
 
 ** WN**:    = "WN"
 
-*Defined in star-types.enum.ts:18*
+*Defined in [star-types.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L18)*
 
 
 
@@ -743,7 +743,7 @@ ___
 
 ** WNC**:    = "WNC"
 
-*Defined in star-types.enum.ts:19*
+*Defined in [star-types.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L19)*
 
 
 
@@ -757,7 +757,7 @@ ___
 
 ** WO**:    = "WO"
 
-*Defined in star-types.enum.ts:21*
+*Defined in [star-types.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L21)*
 
 
 
@@ -771,7 +771,7 @@ ___
 
 ** X**:    = "X"
 
-*Defined in star-types.enum.ts:50*
+*Defined in [star-types.enum.ts:50](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L50)*
 
 
 
@@ -785,7 +785,7 @@ ___
 
 ** Y**:    = "Y"
 
-*Defined in star-types.enum.ts:12*
+*Defined in [star-types.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/star-types.enum.ts#L12)*
 
 
 

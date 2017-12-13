@@ -198,6 +198,11 @@
 
 
 
+↳  [NavBeaconScan](navbeaconscan.md)
+
+
+
+
 ↳  [BuyExplorationData](buyexplorationdata.md)
 
 
@@ -249,6 +254,11 @@
 
 
 ↳  [BuyDrones](buydrones.md)
+
+
+
+
+↳  [CommunityGoal](communitygoal.md)
 
 
 
@@ -503,6 +513,11 @@
 
 
 
+↳  [AfmuRepairs](afmurepairs.md)
+
+
+
+
 ↳  [ApproachSettlement](approachsettlement.md)
 
 
@@ -724,7 +739,7 @@
 
 **●  event**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -738,7 +753,7 @@ ___
 
 **●  timestamp**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

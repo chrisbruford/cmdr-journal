@@ -1,15 +1,15 @@
-[cmdr-journal](../README.md) > [MissionFailed](../classes/missionfailed.md)
+[cmdr-journal](../README.md) > [NavBeaconScan](../classes/navbeaconscan.md)
 
 
 
-# Class: MissionFailed
+# Class: NavBeaconScan
 
 ## Hierarchy
 
 
  [JournalEvent](journalevent.md)
 
-**↳ MissionFailed**
+**↳ NavBeaconScan**
 
 
 
@@ -21,36 +21,21 @@
 
 ### Properties
 
-* [MissionID](missionfailed.md#missionid)
-* [Name](missionfailed.md#name)
-* [event](missionfailed.md#event)
-* [timestamp](missionfailed.md#timestamp)
+* [NumBodies](navbeaconscan.md#numbodies)
+* [event](navbeaconscan.md#event)
+* [timestamp](navbeaconscan.md#timestamp)
 
 
 
 ---
 ## Properties
-<a id="missionid"></a>
+<a id="numbodies"></a>
 
-###  MissionID
+###  NumBodies
 
-**●  MissionID**:  *`number`* 
+**●  NumBodies**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:667](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L667)*
-
-
-
-
-
-___
-
-<a id="name"></a>
-
-###  Name
-
-**●  Name**:  *`string`* 
-
-*Defined in [models/journal-event.models.ts:666](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L666)*
+*Defined in [models/journal-event.models.ts:422](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L422)*
 
 
 

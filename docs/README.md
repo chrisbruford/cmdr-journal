@@ -50,11 +50,13 @@ Enums have been implemented with sensible names (where possible) and string valu
 * [PlanetTypes](enums/planettypes.md)
 * [StarLuminosityClasses](enums/starluminosityclasses.md)
 * [StarTypes](enums/startypes.md)
+* [StationServices](enums/stationservices.md)
 * [VolcanismTypes](enums/volcanismtypes.md)
 
 
 ### Classes
 
+* [AfmuRepairs](classes/afmurepairs.md)
 * [ApproachSettlement](classes/approachsettlement.md)
 * [Bounty](classes/bounty.md)
 * [BuyAmmo](classes/buyammo.md)
@@ -68,6 +70,7 @@ Enums have been implemented with sensible names (where possible) and string valu
 * [CockpitBreached](classes/cockpitbreached.md)
 * [CollectCargo](classes/collectcargo.md)
 * [CommitCrime](classes/commitcrime.md)
+* [CommunityGoal](classes/communitygoal.md)
 * [CommunityGoalDiscard](classes/communitygoaldiscard.md)
 * [CommunityGoalJoin](classes/communitygoaljoin.md)
 * [CommunityGoalReward](classes/communitygoalreward.md)
@@ -138,6 +141,7 @@ Enums have been implemented with sensible names (where possible) and string valu
 * [ModuleStore](classes/modulestore.md)
 * [ModuleSwap](classes/moduleswap.md)
 * [Music](classes/music.md)
+* [NavBeaconScan](classes/navbeaconscan.md)
 * [NewCommander](classes/newcommander.md)
 * [PVPKill](classes/pvpkill.md)
 * [Passengers](classes/passengers.md)

@@ -39,7 +39,7 @@
 
 **●  KillerName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:277*
+*Defined in [models/journal-event.models.ts:280](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L280)*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  KillerName_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:278*
+*Defined in [models/journal-event.models.ts:281](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L281)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  KillerRank**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:280*
+*Defined in [models/journal-event.models.ts:283](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L283)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  KillerShip**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:279*
+*Defined in [models/journal-event.models.ts:282](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L282)*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  Killers**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:282*
+*Defined in [models/journal-event.models.ts:285](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L285)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

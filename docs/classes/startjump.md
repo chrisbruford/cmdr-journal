@@ -22,7 +22,7 @@
 
 **●  JumpType**:  *"Hyperspace"⎮"Supercruise"* 
 
-*Defined in models/journal-event.models.ts:230*
+*Defined in [models/journal-event.models.ts:233](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L233)*
 
 
 
@@ -36,7 +36,7 @@ ___
 
 **●  StarClass**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:232*
+*Defined in [models/journal-event.models.ts:235](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L235)*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:231*
+*Defined in [models/journal-event.models.ts:234](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L234)*
 
 
 

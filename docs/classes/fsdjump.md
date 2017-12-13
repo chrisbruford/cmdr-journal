@@ -28,6 +28,7 @@
 * [FuelLevel](fsdjump.md#fuellevel)
 * [FuelUsed](fsdjump.md#fuelused)
 * [JumpDist](fsdjump.md#jumpdist)
+* [Population](fsdjump.md#population)
 * [PowerplayerState](fsdjump.md#powerplayerstate)
 * [Powers](fsdjump.md#powers)
 * [RecoveringStates](fsdjump.md#recoveringstates)
@@ -54,7 +55,7 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:157*
+*Defined in [models/journal-event.models.ts:159](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L159)*
 
 
 
@@ -68,7 +69,7 @@ ___
 
 **●  BoostUsed**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:161*
+*Defined in [models/journal-event.models.ts:163](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L163)*
 
 
 
@@ -82,7 +83,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:163*
+*Defined in [models/journal-event.models.ts:165](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L165)*
 
 
 
@@ -96,7 +97,7 @@ ___
 
 **●  Factions**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:171*
+*Defined in [models/journal-event.models.ts:174](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L174)*
 
 
 
@@ -110,7 +111,7 @@ ___
 
 **●  FuelLevel**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:160*
+*Defined in [models/journal-event.models.ts:162](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L162)*
 
 
 
@@ -124,7 +125,7 @@ ___
 
 **●  FuelUsed**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:159*
+*Defined in [models/journal-event.models.ts:161](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L161)*
 
 
 
@@ -138,7 +139,21 @@ ___
 
 **●  JumpDist**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:158*
+*Defined in [models/journal-event.models.ts:160](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L160)*
+
+
+
+
+
+___
+
+<a id="population"></a>
+
+###  Population
+
+**●  Population**:  *`number`* 
+
+*Defined in [models/journal-event.models.ts:173](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L173)*
 
 
 
@@ -152,7 +167,7 @@ ___
 
 **●  PowerplayerState**:  *"InPrepareRadius"⎮"Prepared"⎮"Exploited"⎮"Contested"⎮"Controlled"⎮"Turmoil"⎮"HomeSystem"* 
 
-*Defined in models/journal-event.models.ts:180*
+*Defined in [models/journal-event.models.ts:183](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L183)*
 
 
 
@@ -166,7 +181,7 @@ ___
 
 **●  Powers**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:179*
+*Defined in [models/journal-event.models.ts:182](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L182)*
 
 
 
@@ -180,7 +195,7 @@ ___
 
 **●  RecoveringStates**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:178*
+*Defined in [models/journal-event.models.ts:181](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L181)*
 
 
 
@@ -194,7 +209,7 @@ ___
 
 **●  StarPos**:  *[`number`,`number`,`number`]* 
 
-*Defined in models/journal-event.models.ts:156*
+*Defined in [models/journal-event.models.ts:158](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L158)*
 
 
 
@@ -208,7 +223,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:155*
+*Defined in [models/journal-event.models.ts:157](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L157)*
 
 
 
@@ -222,7 +237,7 @@ ___
 
 **●  SystemAllegiance**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:164*
+*Defined in [models/journal-event.models.ts:166](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L166)*
 
 
 
@@ -236,7 +251,7 @@ ___
 
 **●  SystemEconomy**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:165*
+*Defined in [models/journal-event.models.ts:167](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L167)*
 
 
 
@@ -250,7 +265,7 @@ ___
 
 **●  SystemEconomy_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:166*
+*Defined in [models/journal-event.models.ts:168](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L168)*
 
 
 
@@ -264,7 +279,7 @@ ___
 
 **●  SystemFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:162*
+*Defined in [models/journal-event.models.ts:164](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L164)*
 
 
 
@@ -278,7 +293,7 @@ ___
 
 **●  SystemGovernment**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:167*
+*Defined in [models/journal-event.models.ts:169](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L169)*
 
 
 
@@ -292,7 +307,7 @@ ___
 
 **●  SystemGovernment_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:168*
+*Defined in [models/journal-event.models.ts:170](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L170)*
 
 
 
@@ -306,7 +321,7 @@ ___
 
 **●  SystemSecurity**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:169*
+*Defined in [models/journal-event.models.ts:171](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L171)*
 
 
 
@@ -320,7 +335,7 @@ ___
 
 **●  SystemSecurity_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:170*
+*Defined in [models/journal-event.models.ts:172](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L172)*
 
 
 
@@ -336,7 +351,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -352,7 +367,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

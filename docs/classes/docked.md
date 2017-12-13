@@ -34,6 +34,7 @@
 * [StationGovernment](docked.md#stationgovernment)
 * [StationGovernment_Localised](docked.md#stationgovernment_localised)
 * [StationName](docked.md#stationname)
+* [StationServices](docked.md#stationservices)
 * [StationType](docked.md#stationtype)
 * [event](docked.md#event)
 * [timestamp](docked.md#timestamp)
@@ -48,7 +49,7 @@
 
 **●  CockpitBreached**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:117*
+*Defined in [models/journal-event.models.ts:118](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L118)*
 
 
 
@@ -62,7 +63,7 @@ ___
 
 **●  DistFromStarLS**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:127*
+*Defined in [models/journal-event.models.ts:128](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L128)*
 
 
 
@@ -76,7 +77,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:119*
+*Defined in [models/journal-event.models.ts:120](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L120)*
 
 
 
@@ -90,7 +91,7 @@ ___
 
 **●  Security**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:125*
+*Defined in [models/journal-event.models.ts:126](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L126)*
 
 
 
@@ -104,7 +105,7 @@ ___
 
 **●  Security_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:126*
+*Defined in [models/journal-event.models.ts:127](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L127)*
 
 
 
@@ -118,7 +119,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:116*
+*Defined in [models/journal-event.models.ts:117](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L117)*
 
 
 
@@ -132,7 +133,7 @@ ___
 
 **●  StationAllegiance**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:120*
+*Defined in [models/journal-event.models.ts:121](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L121)*
 
 
 
@@ -146,7 +147,7 @@ ___
 
 **●  StationEconomy**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:121*
+*Defined in [models/journal-event.models.ts:122](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L122)*
 
 
 
@@ -160,7 +161,7 @@ ___
 
 **●  StationEconomy_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:122*
+*Defined in [models/journal-event.models.ts:123](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L123)*
 
 
 
@@ -174,7 +175,7 @@ ___
 
 **●  StationFaction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:118*
+*Defined in [models/journal-event.models.ts:119](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L119)*
 
 
 
@@ -188,7 +189,7 @@ ___
 
 **●  StationGovernment**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:123*
+*Defined in [models/journal-event.models.ts:124](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L124)*
 
 
 
@@ -202,7 +203,7 @@ ___
 
 **●  StationGovernment_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:124*
+*Defined in [models/journal-event.models.ts:125](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L125)*
 
 
 
@@ -216,7 +217,21 @@ ___
 
 **●  StationName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:114*
+*Defined in [models/journal-event.models.ts:115](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L115)*
+
+
+
+
+
+___
+
+<a id="stationservices"></a>
+
+###  StationServices
+
+**●  StationServices**:  *[StationServices](../enums/stationservices.md)[]* 
+
+*Defined in [models/journal-event.models.ts:129](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L129)*
 
 
 
@@ -230,7 +245,7 @@ ___
 
 **●  StationType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:115*
+*Defined in [models/journal-event.models.ts:116](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L116)*
 
 
 
@@ -246,7 +261,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:12*
+*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
 
 
 
@@ -262,7 +277,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
 
 
 

@@ -34,7 +34,7 @@
 
 ** AmmoniaGeysers**:    = "Ammonia Geysers"
 
-*Defined in volcanism-types.enum.ts:12*
+*Defined in [volcanism-types.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L12)*
 
 
 
@@ -48,7 +48,7 @@ ___
 
 ** AmmoniaMagma**:    = "Ammonia Magma"
 
-*Defined in volcanism-types.enum.ts:5*
+*Defined in [volcanism-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L5)*
 
 
 
@@ -62,7 +62,7 @@ ___
 
 ** CarbonDioxideGeysers**:    = "Carbon Dioxide Geysers"
 
-*Defined in volcanism-types.enum.ts:11*
+*Defined in [volcanism-types.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L11)*
 
 
 
@@ -76,7 +76,7 @@ ___
 
 ** HeliumGeysers**:    = "Helium Geysers"
 
-*Defined in volcanism-types.enum.ts:15*
+*Defined in [volcanism-types.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L15)*
 
 
 
@@ -90,7 +90,7 @@ ___
 
 ** MetallicMagma**:    = "Metallic Magma"
 
-*Defined in volcanism-types.enum.ts:9*
+*Defined in [volcanism-types.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L9)*
 
 
 
@@ -104,7 +104,7 @@ ___
 
 ** MethaneGeysers**:    = "Methane Geysers"
 
-*Defined in volcanism-types.enum.ts:13*
+*Defined in [volcanism-types.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L13)*
 
 
 
@@ -118,7 +118,7 @@ ___
 
 ** MethaneMagma**:    = "Methane Magma"
 
-*Defined in volcanism-types.enum.ts:6*
+*Defined in [volcanism-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L6)*
 
 
 
@@ -132,7 +132,7 @@ ___
 
 ** NitrogenGeysers**:    = "Nitrogen Geysers"
 
-*Defined in volcanism-types.enum.ts:14*
+*Defined in [volcanism-types.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L14)*
 
 
 
@@ -146,7 +146,7 @@ ___
 
 ** NitrogenMagma**:    = "Nitrogen Magma"
 
-*Defined in volcanism-types.enum.ts:7*
+*Defined in [volcanism-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L7)*
 
 
 
@@ -160,7 +160,7 @@ ___
 
 ** None**:    = "None"
 
-*Defined in volcanism-types.enum.ts:2*
+*Defined in [volcanism-types.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L2)*
 
 
 
@@ -174,7 +174,7 @@ ___
 
 ** SilicateMagma**:    = "Silicate Magma"
 
-*Defined in volcanism-types.enum.ts:8*
+*Defined in [volcanism-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L8)*
 
 
 
@@ -188,7 +188,7 @@ ___
 
 ** SilicateVapourGeysers**:    = "Silicate Vapour Geysers"
 
-*Defined in volcanism-types.enum.ts:16*
+*Defined in [volcanism-types.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L16)*
 
 
 
@@ -202,7 +202,7 @@ ___
 
 ** SulphurDioxideMagma**:    = "Sulphur Dioxide Magma"
 
-*Defined in volcanism-types.enum.ts:4*
+*Defined in [volcanism-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L4)*
 
 
 
@@ -216,7 +216,7 @@ ___
 
 ** WaterGeysers**:    = "Water Geysers"
 
-*Defined in volcanism-types.enum.ts:10*
+*Defined in [volcanism-types.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L10)*
 
 
 
@@ -230,7 +230,7 @@ ___
 
 ** WaterMagma**:    = "Water Magma"
 
-*Defined in volcanism-types.enum.ts:3*
+*Defined in [volcanism-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/volcanism-types.enum.ts#L3)*
 
 
 

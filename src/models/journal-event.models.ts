@@ -7,6 +7,7 @@ import { AtmosphereTypes } from '../atmosphere-types.enum';
 import { CrewRoles } from '../crew-roles.enum';
 import { MusicTrackNames } from '../music-track-names.enum';
 import { StarLuminosityClasses } from '../star-luminosity-classes.enum';
+import { StationServices } from '../station-services.enum';
 
 export class JournalEvent {
     event: string;
@@ -125,6 +126,7 @@ export class Docked extends JournalEvent {
     Security: string;
     Security_Localised: string;
     DistFromStarLS: number;
+    StationServices: StationServices[];
 }
 //{ "timestamp":"2017-02-23T11:13:28Z", "event":"Docked", "StationName":"MacKellar Dock", "StationType":"Coriolis", "StarSystem":"HIP 43310", "StationFaction":"Alliance of HIP 43310", "StationGovernment":"$government_Confederacy;", "StationGovernment_Localised":"Confederacy", "StationAllegiance":"Federation", "StationEconomy":"$economy_Refinery;", `"StationEconomy_Localised":"Refinery", "DistFromStarLS":1016.981384 }
 
@@ -168,6 +170,7 @@ export class FSDJump extends JournalEvent {
     SystemGovernment_Localised: string;
     SystemSecurity: string;
     SystemSecurity_Localised: string;
+    Population: number;
     Factions: {
         Name: string;
         FactionState: string;
@@ -415,6 +418,10 @@ export class MaterialDiscovered extends JournalEvent {
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"MaterialDiscovered", "Category":"Manufactured", "Name":"focuscrystals", "DiscoveryNumber":3 }
 
+export class NavBeaconScan extends JournalEvent {
+    NumBodies: number;
+}
+
 export class BuyExplorationData extends JournalEvent {
     System: string;
     Cost: number;
@@ -503,6 +510,28 @@ export class BuyDrones extends JournalEvent {
     TotalCost: number;
 }
 // { "timestamp":"2016-06-10T14:32:03Z", "event":"BuyDrones", "Type":"Drones", "Count":2, "SellPrice":101, "TotalCost":202 }
+
+export class CommunityGoal extends JournalEvent {
+    CurrentGoals: {
+        CGID: number;
+        Title: string;
+        SystemName: string;
+        MarketName: string;
+        Expiry: string;
+        IsComplete: boolean;
+        CurrentTotal: number;
+        PlayerContribution: number;
+        NumContributors: number;
+        PlayerPercentileBand: number;
+        //if it has a fixed top band (e.g. top 10 CMDRS)
+        TopRankSize?: number;
+        PlayerInTopRank?: boolean;
+        //If CG has reached first tier
+        TierReached: string;
+        Bonus: number;
+    }[]
+}
+//{ "timestamp":"2017-08-14T13:20:28Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":726, "Title":"Alliance Research Initiative – Trade", "SystemName":"Kaushpoos", "MarketName":"Neville Horizons", "Expiry":"2017-08-17T14:58:14Z", "IsComplete":false, "CurrentTotal":10062, "PlayerContribution":562, "NumContributors":101, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 1", "PlayerPercentileBand":50, "Bonus":200000 } ] }
 
 export class CommunityGoalDiscard extends JournalEvent {
     Name: string;
@@ -824,6 +853,7 @@ export class ShipyardTransfer extends JournalEvent {
     System: string;
     Distance: number;
     TransferPrice: number;
+    TransferTime: number;
 }
 //{ "timestamp":"2016-07-21T15:19:49Z", "event":"ShipyardTransfer", "ShipType":"SideWinder", "ShipID":7, "System":"Eranin", "Distance":85.639145, "TransferPrice":580 }
 
@@ -890,6 +920,14 @@ export class PowerplayVoucher extends JournalEvent {
 }
 
 //OTHER EVENTS
+
+export class AfmuRepairs extends JournalEvent {
+    Module: string;
+    Module_Localised: string;
+    FullyRepaired: boolean;
+    Health: number; //0.0-1.0
+}
+//{ "timestamp":"2017-08-14T15:41:50Z", "event":"AfmuRepairs", "Module":"$modularcargobaydoor_name;", "Module_Localised":"Cargo Hatch", "FullyRepaired":true, "Health":1.000000 }
 
 export class ApproachSettlement extends JournalEvent {
     Name: string;

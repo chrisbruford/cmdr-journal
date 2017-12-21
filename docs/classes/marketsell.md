@@ -42,7 +42,7 @@
 
 **●  AvgPricePaid**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:486](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L486)*
+*Defined in models/journal-event.models.ts:486*
 
 
 
@@ -56,7 +56,7 @@ ___
 
 **●  BlackMarket**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:489](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L489)*
+*Defined in models/journal-event.models.ts:489*
 
 
 
@@ -70,7 +70,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:483](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L483)*
+*Defined in models/journal-event.models.ts:483*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 **●  IllegalGoods**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:487](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L487)*
+*Defined in models/journal-event.models.ts:487*
 
 
 
@@ -98,7 +98,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:484](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L484)*
+*Defined in models/journal-event.models.ts:484*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 **●  StolenGoods**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:488](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L488)*
+*Defined in models/journal-event.models.ts:488*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 **●  TotalSale**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:485](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L485)*
+*Defined in models/journal-event.models.ts:485*
 
 
 
@@ -140,7 +140,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:482](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L482)*
+*Defined in models/journal-event.models.ts:482*
 
 
 
@@ -156,7 +156,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -172,7 +172,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

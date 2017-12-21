@@ -36,7 +36,7 @@
 
 **●  Engineer**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:580](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L580)*
+*Defined in models/journal-event.models.ts:580*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Type**:  *"Commodity"⎮"materials"⎮"Credits"⎮"Bond"⎮"Bounty"* 
 
-*Defined in [models/journal-event.models.ts:581](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L581)*
+*Defined in models/journal-event.models.ts:581*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

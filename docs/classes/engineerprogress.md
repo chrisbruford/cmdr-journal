@@ -37,7 +37,7 @@
 
 **●  Engineer**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:594](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L594)*
+*Defined in models/journal-event.models.ts:594*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Progress**:  *"Invited"⎮"Acquainted"⎮"Unlocked"⎮"Barred"* 
 
-*Defined in [models/journal-event.models.ts:596](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L596)*
+*Defined in models/journal-event.models.ts:596*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Rank**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:595](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L595)*
+*Defined in models/journal-event.models.ts:595*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

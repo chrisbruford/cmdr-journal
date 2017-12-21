@@ -37,7 +37,7 @@
 
 **●  PayeeFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:982](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L982)*
+*Defined in models/journal-event.models.ts:983*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:980](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L980)*
+*Defined in models/journal-event.models.ts:981*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  VictimFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:981](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L981)*
+*Defined in models/journal-event.models.ts:982*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

@@ -40,7 +40,7 @@
 
 ** ammonia**:    = "Ammonia"
 
-*Defined in [atmosphere-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L5)*
+*Defined in atmosphere-types.enum.ts:5*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 ** ammoniaO2**:    = "Ammonia and oxygen"
 
-*Defined in [atmosphere-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L4)*
+*Defined in atmosphere-types.enum.ts:4*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 ** ammoniaRich**:    = "Ammonia-rich"
 
-*Defined in [atmosphere-types.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L12)*
+*Defined in atmosphere-types.enum.ts:12*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 ** argon**:    = "Argon"
 
-*Defined in [atmosphere-types.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L21)*
+*Defined in atmosphere-types.enum.ts:21*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 ** argonRich**:    = "Argon-rich"
 
-*Defined in [atmosphere-types.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L19)*
+*Defined in atmosphere-types.enum.ts:19*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 ** carbonDioxide**:    = "Carbon dioxide"
 
-*Defined in [atmosphere-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L7)*
+*Defined in atmosphere-types.enum.ts:7*
 
 
 
@@ -124,7 +124,7 @@ ___
 
 ** carbonDioxideRich**:    = "Carbon dioxide-rich"
 
-*Defined in [atmosphere-types.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L13)*
+*Defined in atmosphere-types.enum.ts:13*
 
 
 
@@ -138,7 +138,7 @@ ___
 
 ** helium**:    = "Helium"
 
-*Defined in [atmosphere-types.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L15)*
+*Defined in atmosphere-types.enum.ts:15*
 
 
 
@@ -152,7 +152,7 @@ ___
 
 ** metallicVapour**:    = "Metallic vapour"
 
-*Defined in [atmosphere-types.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L17)*
+*Defined in atmosphere-types.enum.ts:17*
 
 
 
@@ -166,7 +166,7 @@ ___
 
 ** methane**:    = "Methane"
 
-*Defined in [atmosphere-types.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L14)*
+*Defined in atmosphere-types.enum.ts:14*
 
 
 
@@ -180,7 +180,7 @@ ___
 
 ** methaneRich**:    = "Methane-rich"
 
-*Defined in [atmosphere-types.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L11)*
+*Defined in atmosphere-types.enum.ts:11*
 
 
 
@@ -194,7 +194,7 @@ ___
 
 ** neon**:    = "Neon"
 
-*Defined in [atmosphere-types.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L20)*
+*Defined in atmosphere-types.enum.ts:20*
 
 
 
@@ -208,7 +208,7 @@ ___
 
 ** neonRich**:    = "Neon-rich"
 
-*Defined in [atmosphere-types.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L18)*
+*Defined in atmosphere-types.enum.ts:18*
 
 
 
@@ -222,7 +222,7 @@ ___
 
 ** nitrogen**:    = "Nitrogen"
 
-*Defined in [atmosphere-types.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L9)*
+*Defined in atmosphere-types.enum.ts:9*
 
 
 
@@ -236,7 +236,7 @@ ___
 
 ** none**:    = "No atmosphere"
 
-*Defined in [atmosphere-types.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L2)*
+*Defined in atmosphere-types.enum.ts:2*
 
 
 
@@ -250,7 +250,7 @@ ___
 
 ** oxygen**:    = "Oxygen"
 
-*Defined in [atmosphere-types.enum.ts:22](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L22)*
+*Defined in atmosphere-types.enum.ts:22*
 
 
 
@@ -264,7 +264,7 @@ ___
 
 ** silicateVapour**:    = "Silicate vapour"
 
-*Defined in [atmosphere-types.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L16)*
+*Defined in atmosphere-types.enum.ts:16*
 
 
 
@@ -278,7 +278,7 @@ ___
 
 ** sulphurDioxide**:    = "Sulphur dioxide"
 
-*Defined in [atmosphere-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L8)*
+*Defined in atmosphere-types.enum.ts:8*
 
 
 
@@ -292,7 +292,7 @@ ___
 
 ** water**:    = "Water"
 
-*Defined in [atmosphere-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L6)*
+*Defined in atmosphere-types.enum.ts:6*
 
 
 
@@ -306,7 +306,7 @@ ___
 
 ** waterBasedLife**:    = "Suitable for water-based life"
 
-*Defined in [atmosphere-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L3)*
+*Defined in atmosphere-types.enum.ts:3*
 
 
 
@@ -320,7 +320,7 @@ ___
 
 ** waterRich**:    = "Water-rich"
 
-*Defined in [atmosphere-types.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/atmosphere-types.enum.ts#L10)*
+*Defined in atmosphere-types.enum.ts:10*
 
 
 

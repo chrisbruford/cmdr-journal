@@ -40,7 +40,7 @@
 
 **●  CQC**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1039](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1039)*
+*Defined in models/journal-event.models.ts:1040*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  Combat**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1036](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1036)*
+*Defined in models/journal-event.models.ts:1037*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Empire**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1041](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1041)*
+*Defined in models/journal-event.models.ts:1042*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  Explore**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1038](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1038)*
+*Defined in models/journal-event.models.ts:1039*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  Federation**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1040](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1040)*
+*Defined in models/journal-event.models.ts:1041*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  Trade**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1037](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L1037)*
+*Defined in models/journal-event.models.ts:1038*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

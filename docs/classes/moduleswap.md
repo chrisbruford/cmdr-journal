@@ -40,7 +40,7 @@
 
 **●  FromItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:733](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L733)*
+*Defined in models/journal-event.models.ts:734*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  FromSlot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:731](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L731)*
+*Defined in models/journal-event.models.ts:732*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:735](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L735)*
+*Defined in models/journal-event.models.ts:736*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:736](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L736)*
+*Defined in models/journal-event.models.ts:737*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  ToItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:734](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L734)*
+*Defined in models/journal-event.models.ts:735*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  ToSlot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:732](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L732)*
+*Defined in models/journal-event.models.ts:733*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

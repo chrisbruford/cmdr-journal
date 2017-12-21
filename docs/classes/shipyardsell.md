@@ -38,7 +38,7 @@
 
 **●  SellShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:844](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L844)*
+*Defined in models/journal-event.models.ts:845*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  ShipPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:845](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L845)*
+*Defined in models/journal-event.models.ts:846*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:843](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L843)*
+*Defined in models/journal-event.models.ts:844*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:846](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L846)*
+*Defined in models/journal-event.models.ts:847*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L13)*
+*Defined in models/journal-event.models.ts:13*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/1e4d048/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.models.ts:14*
 
 
 

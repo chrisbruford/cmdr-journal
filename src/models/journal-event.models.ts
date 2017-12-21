@@ -626,6 +626,7 @@ export class MissionAbandoned extends JournalEvent {
 
 export class MissionAccepted extends JournalEvent {
     Name: string;
+    LocalisedName: string;
     Faction: string;
     MissionID: number;
     Influence: "None" | "Low" | "Med" | "High";

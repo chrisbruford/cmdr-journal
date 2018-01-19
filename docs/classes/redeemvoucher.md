@@ -39,7 +39,7 @@
 
 **●  Amount**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:754*
+*Defined in [models/journal-event.models.ts:743](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L743)*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  BrokerPercentage**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:756*
+*Defined in [models/journal-event.models.ts:745](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L745)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:755*
+*Defined in [models/journal-event.models.ts:744](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L744)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  Factions**:  *`object`* 
 
-*Defined in models/journal-event.models.ts:757*
+*Defined in [models/journal-event.models.ts:746](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L746)*
 
 
 #### Type declaration
@@ -112,7 +112,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:753*
+*Defined in [models/journal-event.models.ts:742](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L742)*
 
 
 
@@ -128,7 +128,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -144,7 +144,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

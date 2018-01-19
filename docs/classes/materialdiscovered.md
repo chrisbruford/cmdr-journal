@@ -37,7 +37,7 @@
 
 **●  Category**:  *"Raw"⎮"Encoded"⎮"Manufactured"* 
 
-*Defined in models/journal-event.models.ts:415*
+*Defined in [models/journal-event.models.ts:404](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L404)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  DiscoveryNumber**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:417*
+*Defined in [models/journal-event.models.ts:406](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L406)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:416*
+*Defined in [models/journal-event.models.ts:405](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L405)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

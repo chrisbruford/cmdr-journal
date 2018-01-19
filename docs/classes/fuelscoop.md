@@ -36,7 +36,7 @@
 
 **●  Scooped**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:999*
+*Defined in [models/journal-event.models.ts:988](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L988)*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 **●  Total**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:1000*
+*Defined in [models/journal-event.models.ts:989](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L989)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

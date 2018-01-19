@@ -44,7 +44,7 @@
 
 **●  Commodity**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:656*
+*Defined in [models/journal-event.models.ts:645](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L645)*
 
 
 
@@ -58,7 +58,7 @@ ___
 
 **●  CommodityReward**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:662*
+*Defined in [models/journal-event.models.ts:651](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L651)*
 
 
 
@@ -72,7 +72,7 @@ ___
 
 **●  Commodity_Localised**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:657*
+*Defined in [models/journal-event.models.ts:646](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L646)*
 
 
 
@@ -86,7 +86,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:658*
+*Defined in [models/journal-event.models.ts:647](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L647)*
 
 
 
@@ -100,7 +100,7 @@ ___
 
 **●  DestinationStation**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:660*
+*Defined in [models/journal-event.models.ts:649](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L649)*
 
 
 
@@ -114,7 +114,7 @@ ___
 
 **●  DestinationSystem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:659*
+*Defined in [models/journal-event.models.ts:648](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L648)*
 
 
 
@@ -128,7 +128,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:653*
+*Defined in [models/journal-event.models.ts:642](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L642)*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 **●  MissionID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:655*
+*Defined in [models/journal-event.models.ts:644](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L644)*
 
 
 
@@ -156,7 +156,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:654*
+*Defined in [models/journal-event.models.ts:643](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L643)*
 
 
 
@@ -170,7 +170,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:661*
+*Defined in [models/journal-event.models.ts:650](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L650)*
 
 
 
@@ -186,7 +186,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -202,7 +202,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

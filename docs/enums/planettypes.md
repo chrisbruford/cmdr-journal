@@ -38,7 +38,7 @@
 
 ** ammonia**:    = "Ammonia world"
 
-*Defined in planet-types.enum.ts:9*
+*Defined in [planet-types.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L9)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 ** elw**:    = "Earthlike body"
 
-*Defined in planet-types.enum.ts:7*
+*Defined in [planet-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L7)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 ** gasGiantAmmoniaLife**:    = "Gas giant with ammonia based life"
 
-*Defined in planet-types.enum.ts:13*
+*Defined in [planet-types.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L13)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 ** gasGiantWaterLife**:    = "Gas giant with water based life"
 
-*Defined in planet-types.enum.ts:12*
+*Defined in [planet-types.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L12)*
 
 
 
@@ -94,7 +94,7 @@ ___
 
 ** heliumGas**:    = "Helium gas giant"
 
-*Defined in planet-types.enum.ts:20*
+*Defined in [planet-types.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L20)*
 
 
 
@@ -108,7 +108,7 @@ ___
 
 ** heliumRichGas**:    = "Helium rich gas giant"
 
-*Defined in planet-types.enum.ts:19*
+*Defined in [planet-types.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L19)*
 
 
 
@@ -122,7 +122,7 @@ ___
 
 ** highMetal**:    = "High metal content body"
 
-*Defined in planet-types.enum.ts:3*
+*Defined in [planet-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L3)*
 
 
 
@@ -136,7 +136,7 @@ ___
 
 ** icy**:    = "Icy body"
 
-*Defined in planet-types.enum.ts:5*
+*Defined in [planet-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L5)*
 
 
 
@@ -150,7 +150,7 @@ ___
 
 ** metalRich**:    = "Metal rich body"
 
-*Defined in planet-types.enum.ts:2*
+*Defined in [planet-types.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L2)*
 
 
 
@@ -164,7 +164,7 @@ ___
 
 ** rocky**:    = "Rocky body"
 
-*Defined in planet-types.enum.ts:4*
+*Defined in [planet-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L4)*
 
 
 
@@ -178,7 +178,7 @@ ___
 
 ** rockyIce**:    = "Rocky ice body"
 
-*Defined in planet-types.enum.ts:6*
+*Defined in [planet-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L6)*
 
 
 
@@ -192,7 +192,7 @@ ___
 
 ** sudarskyClassI**:    = "Sudarsky class I gas giant"
 
-*Defined in planet-types.enum.ts:14*
+*Defined in [planet-types.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L14)*
 
 
 
@@ -206,7 +206,7 @@ ___
 
 ** sudarskyClassII**:    = "Sudarsky class II gas giant"
 
-*Defined in planet-types.enum.ts:15*
+*Defined in [planet-types.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L15)*
 
 
 
@@ -220,7 +220,7 @@ ___
 
 ** sudarskyClassIII**:    = "Sudarsky class III gas giant"
 
-*Defined in planet-types.enum.ts:16*
+*Defined in [planet-types.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L16)*
 
 
 
@@ -234,7 +234,7 @@ ___
 
 ** sudarskyClassIV**:    = "Sudarsky class IV gas giant"
 
-*Defined in planet-types.enum.ts:17*
+*Defined in [planet-types.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L17)*
 
 
 
@@ -248,7 +248,7 @@ ___
 
 ** sudarskyClassV**:    = "Sudarsky class V gas giant"
 
-*Defined in planet-types.enum.ts:18*
+*Defined in [planet-types.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L18)*
 
 
 
@@ -262,7 +262,7 @@ ___
 
 ** waterGiant**:    = "Water giant"
 
-*Defined in planet-types.enum.ts:10*
+*Defined in [planet-types.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L10)*
 
 
 
@@ -276,7 +276,7 @@ ___
 
 ** waterGiantLife**:    = "Water giant with life"
 
-*Defined in planet-types.enum.ts:11*
+*Defined in [planet-types.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L11)*
 
 
 
@@ -290,7 +290,7 @@ ___
 
 ** waterWorld**:    = "Water world"
 
-*Defined in planet-types.enum.ts:8*
+*Defined in [planet-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/planet-types.enum.ts#L8)*
 
 
 

@@ -102,6 +102,7 @@ Enums have been implemented with sensible names (where possible) and string valu
 * [EngineerProgress](classes/engineerprogress.md)
 * [EscapeInterdiction](classes/escapeinterdiction.md)
 * [FSDJump](classes/fsdjump.md)
+* [Faction](classes/faction.md)
 * [FactionKillBond](classes/factionkillbond.md)
 * [FetchRemoteModule](classes/fetchremotemodule.md)
 * [Friends](classes/friends.md)

@@ -38,7 +38,7 @@
 
 **●  CombatRank**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:567*
+*Defined in [models/journal-event.models.ts:556](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L556)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:566*
+*Defined in [models/journal-event.models.ts:555](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L555)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:565*
+*Defined in [models/journal-event.models.ts:554](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L554)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:564*
+*Defined in [models/journal-event.models.ts:553](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L553)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

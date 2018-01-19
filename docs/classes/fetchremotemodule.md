@@ -41,7 +41,7 @@
 
 **●  ServerId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:604*
+*Defined in [models/journal-event.models.ts:593](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L593)*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:606*
+*Defined in [models/journal-event.models.ts:595](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L595)*
 
 
 
@@ -69,7 +69,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:607*
+*Defined in [models/journal-event.models.ts:596](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L596)*
 
 
 
@@ -83,7 +83,7 @@ ___
 
 **●  StorageSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:602*
+*Defined in [models/journal-event.models.ts:591](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L591)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 **●  StoredItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:603*
+*Defined in [models/journal-event.models.ts:592](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L592)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 **●  TransferCost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:605*
+*Defined in [models/journal-event.models.ts:594](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L594)*
 
 
 
@@ -125,7 +125,7 @@ ___
 
 **●  TransferTime**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:608*
+*Defined in [models/journal-event.models.ts:597](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L597)*
 
 
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

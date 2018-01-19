@@ -39,7 +39,7 @@
 
 **●  Modules**:  *`object`[]* 
 
-*Defined in models/journal-event.models.ts:36*
+*Defined in [models/journal-event.models.ts:37](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L37)*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:32*
+*Defined in [models/journal-event.models.ts:33](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L33)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:33*
+*Defined in [models/journal-event.models.ts:34](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L34)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  ShipIdent**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:35*
+*Defined in [models/journal-event.models.ts:36](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L36)*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  ShipName**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:34*
+*Defined in [models/journal-event.models.ts:35](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L35)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

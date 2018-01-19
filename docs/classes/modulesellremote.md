@@ -40,7 +40,7 @@
 
 **●  SellItem**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:714*
+*Defined in [models/journal-event.models.ts:703](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L703)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:716*
+*Defined in [models/journal-event.models.ts:705](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L705)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  ServerId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:715*
+*Defined in [models/journal-event.models.ts:704](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L704)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:717*
+*Defined in [models/journal-event.models.ts:706](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L706)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:718*
+*Defined in [models/journal-event.models.ts:707](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L707)*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  StorageSlot**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:713*
+*Defined in [models/journal-event.models.ts:702](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L702)*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

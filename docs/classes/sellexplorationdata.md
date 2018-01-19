@@ -38,7 +38,7 @@
 
 **●  BaseValue**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:434*
+*Defined in [models/journal-event.models.ts:423](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L423)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Bonus**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:435*
+*Defined in [models/journal-event.models.ts:424](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L424)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Discovered**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:433*
+*Defined in [models/journal-event.models.ts:422](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L422)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Systems**:  *`string`[]* 
 
-*Defined in models/journal-event.models.ts:432*
+*Defined in [models/journal-event.models.ts:421](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L421)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

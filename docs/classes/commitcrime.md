@@ -39,7 +39,7 @@
 
 **●  Bounty**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:949*
+*Defined in [models/journal-event.models.ts:938](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L938)*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  CrimeType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:945*
+*Defined in [models/journal-event.models.ts:934](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L934)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:946*
+*Defined in [models/journal-event.models.ts:935](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L935)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  Fine**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:948*
+*Defined in [models/journal-event.models.ts:937](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L937)*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  Victim**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:947*
+*Defined in [models/journal-event.models.ts:936](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L936)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

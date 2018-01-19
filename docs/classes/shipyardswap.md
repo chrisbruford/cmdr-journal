@@ -40,7 +40,7 @@
 
 **●  SellOldShip**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:866*
+*Defined in [models/journal-event.models.ts:855](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L855)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  SellShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:867*
+*Defined in [models/journal-event.models.ts:856](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L856)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:863*
+*Defined in [models/journal-event.models.ts:852](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L852)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:862*
+*Defined in [models/journal-event.models.ts:851](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L851)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  StoreOldShip**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:864*
+*Defined in [models/journal-event.models.ts:853](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L853)*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  StoreShipID**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:865*
+*Defined in [models/journal-event.models.ts:854](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L854)*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

@@ -37,7 +37,7 @@
 
 **●  Bankrupt**:  *`boolean`* 
 
-*Defined in models/journal-event.models.ts:1064*
+*Defined in [models/journal-event.models.ts:1053](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1053)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Cost**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:1063*
+*Defined in [models/journal-event.models.ts:1052](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1052)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Option**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:1062*
+*Defined in [models/journal-event.models.ts:1051](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1051)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

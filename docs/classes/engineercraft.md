@@ -38,7 +38,7 @@
 
 **●  Blueprint**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:587*
+*Defined in [models/journal-event.models.ts:576](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L576)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Engineer**:  *`string`* 
 
-*Defined in models/journal-event.models.ts:586*
+*Defined in [models/journal-event.models.ts:575](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L575)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Ingredients**:  *`object`* 
 
-*Defined in models/journal-event.models.ts:589*
+*Defined in [models/journal-event.models.ts:578](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L578)*
 
 
 #### Type declaration
@@ -97,7 +97,7 @@ ___
 
 **●  Level**:  *`number`* 
 
-*Defined in models/journal-event.models.ts:588*
+*Defined in [models/journal-event.models.ts:577](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L577)*
 
 
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in models/journal-event.models.ts:13*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in models/journal-event.models.ts:14*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
 
 
 

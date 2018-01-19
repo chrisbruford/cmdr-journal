@@ -8,6 +8,7 @@ import { CrewRoles } from '../crew-roles.enum';
 import { MusicTrackNames } from '../music-track-names.enum';
 import { StarLuminosityClasses } from '../star-luminosity-classes.enum';
 import { StationServices } from '../station-services.enum';
+import { Faction } from './faction.model';
 
 export class JournalEvent {
     event: string;
@@ -171,13 +172,7 @@ export class FSDJump extends JournalEvent {
     SystemSecurity: string;
     SystemSecurity_Localised: string;
     Population: number;
-    Factions: {
-        Name: string;
-        FactionState: string;
-        Government: string;
-        Influence: number;
-        PendingStates: {State: string, Trend: number}[];
-    }[];
+    Factions: Faction[];
     RecoveringStates: {State: string, Trend: number}[]
     Powers?: string[];
     PowerplayerState?: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem"
@@ -216,13 +211,7 @@ export class Location extends JournalEvent {
     SystemGovernment_Localised: string;
     SystemSecurity: string;
     Security_Locaolised: string;
-    Factions: {
-        Name: string;
-        FactionState: string;
-        Government: string;
-        Influence: number;
-        PendingStates: {State: string, Trend: number}[];
-    }[];
+    Factions: Faction[];
     Powers: string[];
     PowerplayState: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem";
 }

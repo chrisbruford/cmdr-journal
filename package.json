@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "rimraf docs && typedoc src",
-    "build": "rimraf dist && tsc && typedoc src"
+    "build": "rimraf dist && rimraf docs && tsc && typedoc src"
   },
   "author": "Chris Bruford",
   "license": "GPL-3.0",

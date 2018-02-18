@@ -35,7 +35,7 @@
 
 **●  Crew**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:953](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L953)*
+*Defined in [models/journal-event.models.ts:970](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L970)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

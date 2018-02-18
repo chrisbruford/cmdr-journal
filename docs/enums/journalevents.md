@@ -51,6 +51,7 @@
 * [escapeInterdiction](journalevents.md#escapeinterdiction)
 * [factionKillBond](journalevents.md#factionkillbond)
 * [fetchRemoteModule](journalevents.md#fetchremotemodule)
+* [fileHeader](journalevents.md#fileheader)
 * [friends](journalevents.md#friends)
 * [fsdJump](journalevents.md#fsdjump)
 * [fuelScoop](journalevents.md#fuelscoop)
@@ -150,7 +151,7 @@
 
 ** approachSettlement**:    = "ApproachSettlement"
 
-*Defined in [journal-events.enum.ts:113](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L113)*
+*Defined in [journal-events.enum.ts:117](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L117)*
 
 
 
@@ -164,7 +165,7 @@ ___
 
 ** bounty**:    = "Bounty"
 
-*Defined in [journal-events.enum.ts:30](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L30)*
+*Defined in [journal-events.enum.ts:34](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L34)*
 
 
 
@@ -178,7 +179,7 @@ ___
 
 ** buyAmmo**:    = "BuyAmmo"
 
-*Defined in [journal-events.enum.ts:60](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L60)*
+*Defined in [journal-events.enum.ts:64](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L64)*
 
 
 
@@ -192,7 +193,7 @@ ___
 
 ** buyDones**:    = "BuyDrones"
 
-*Defined in [journal-events.enum.ts:61](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L61)*
+*Defined in [journal-events.enum.ts:65](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L65)*
 
 
 
@@ -206,7 +207,7 @@ ___
 
 ** buyExplorationData**:    = "BuyExplorationData"
 
-*Defined in [journal-events.enum.ts:48](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L48)*
+*Defined in [journal-events.enum.ts:52](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L52)*
 
 
 
@@ -220,7 +221,7 @@ ___
 
 ** buyTradeData**:    = "BuyTradeData"
 
-*Defined in [journal-events.enum.ts:53](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L53)*
+*Defined in [journal-events.enum.ts:57](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L57)*
 
 
 
@@ -234,7 +235,7 @@ ___
 
 ** capShipBond**:    = "CapShipBond"
 
-*Defined in [journal-events.enum.ts:31](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L31)*
+*Defined in [journal-events.enum.ts:35](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L35)*
 
 
 
@@ -248,7 +249,7 @@ ___
 
 ** cargo**:    = "Cargo"
 
-*Defined in [journal-events.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L3)*
+*Defined in [journal-events.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L7)*
 
 
 
@@ -262,7 +263,7 @@ ___
 
 ** clearSavedGame**:    = "ClearSavedGame"
 
-*Defined in [journal-events.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L4)*
+*Defined in [journal-events.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L8)*
 
 
 
@@ -276,7 +277,7 @@ ___
 
 ** cockpitBreached**:    = "CockpitBreached"
 
-*Defined in [journal-events.enum.ts:114](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L114)*
+*Defined in [journal-events.enum.ts:118](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L118)*
 
 
 
@@ -290,7 +291,7 @@ ___
 
 ** collectCargo**:    = "CollectCargo"
 
-*Defined in [journal-events.enum.ts:54](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L54)*
+*Defined in [journal-events.enum.ts:58](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L58)*
 
 
 
@@ -304,7 +305,7 @@ ___
 
 ** commitCrime**:    = "CommitCrime"
 
-*Defined in [journal-events.enum.ts:115](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L115)*
+*Defined in [journal-events.enum.ts:119](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L119)*
 
 
 
@@ -318,7 +319,7 @@ ___
 
 ** communityGoalDiscard**:    = "CommunityGoalDiscard"
 
-*Defined in [journal-events.enum.ts:62](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L62)*
+*Defined in [journal-events.enum.ts:66](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L66)*
 
 
 
@@ -332,7 +333,7 @@ ___
 
 ** communityGoalJoin**:    = "CommunityGoalJoin"
 
-*Defined in [journal-events.enum.ts:63](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L63)*
+*Defined in [journal-events.enum.ts:67](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L67)*
 
 
 
@@ -346,7 +347,7 @@ ___
 
 ** communityGoalReward**:    = "CommunityGoalReward"
 
-*Defined in [journal-events.enum.ts:64](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L64)*
+*Defined in [journal-events.enum.ts:68](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L68)*
 
 
 
@@ -360,7 +361,7 @@ ___
 
 ** continued**:    = "Continued"
 
-*Defined in [journal-events.enum.ts:116](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L116)*
+*Defined in [journal-events.enum.ts:120](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L120)*
 
 
 
@@ -374,7 +375,7 @@ ___
 
 ** crewAssign**:    = "CrewAssign"
 
-*Defined in [journal-events.enum.ts:65](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L65)*
+*Defined in [journal-events.enum.ts:69](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L69)*
 
 
 
@@ -388,7 +389,7 @@ ___
 
 ** crewFire**:    = "CrewFire"
 
-*Defined in [journal-events.enum.ts:66](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L66)*
+*Defined in [journal-events.enum.ts:70](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L70)*
 
 
 
@@ -402,7 +403,7 @@ ___
 
 ** crewHire**:    = "CrewHire"
 
-*Defined in [journal-events.enum.ts:67](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L67)*
+*Defined in [journal-events.enum.ts:71](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L71)*
 
 
 
@@ -416,7 +417,7 @@ ___
 
 ** crewLaunchFighter**:    = "CrewLaunchFighter"
 
-*Defined in [journal-events.enum.ts:117](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L117)*
+*Defined in [journal-events.enum.ts:121](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L121)*
 
 
 
@@ -430,7 +431,7 @@ ___
 
 ** crewMemberJoins**:    = "CrewMemberJoins"
 
-*Defined in [journal-events.enum.ts:118](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L118)*
+*Defined in [journal-events.enum.ts:122](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L122)*
 
 
 
@@ -444,7 +445,7 @@ ___
 
 ** crewMemberQuits**:    = "CrewMemberQuits"
 
-*Defined in [journal-events.enum.ts:119](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L119)*
+*Defined in [journal-events.enum.ts:123](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L123)*
 
 
 
@@ -458,7 +459,7 @@ ___
 
 ** crewMemberRoleChange**:    = "CrewMemberRoleChange"
 
-*Defined in [journal-events.enum.ts:120](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L120)*
+*Defined in [journal-events.enum.ts:124](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L124)*
 
 
 
@@ -472,7 +473,7 @@ ___
 
 ** dataScanned**:    = "DataScanned"
 
-*Defined in [journal-events.enum.ts:122](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L122)*
+*Defined in [journal-events.enum.ts:126](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L126)*
 
 
 
@@ -486,7 +487,7 @@ ___
 
 ** datalinkScan**:    = "DatalinkScan"
 
-*Defined in [journal-events.enum.ts:121](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L121)*
+*Defined in [journal-events.enum.ts:125](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L125)*
 
 
 
@@ -500,7 +501,7 @@ ___
 
 ** died**:    = "Died"
 
-*Defined in [journal-events.enum.ts:32](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L32)*
+*Defined in [journal-events.enum.ts:36](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L36)*
 
 
 
@@ -514,7 +515,7 @@ ___
 
 ** dockFighter**:    = "DockFighter"
 
-*Defined in [journal-events.enum.ts:123](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L123)*
+*Defined in [journal-events.enum.ts:127](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L127)*
 
 
 
@@ -528,7 +529,7 @@ ___
 
 ** dockSRV**:    = "DockSRV"
 
-*Defined in [journal-events.enum.ts:124](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L124)*
+*Defined in [journal-events.enum.ts:128](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L128)*
 
 
 
@@ -542,7 +543,7 @@ ___
 
 ** docked**:    = "Docked"
 
-*Defined in [journal-events.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L14)*
+*Defined in [journal-events.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L18)*
 
 
 
@@ -556,7 +557,7 @@ ___
 
 ** dockingCancelled**:    = "DockingCancelled"
 
-*Defined in [journal-events.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L15)*
+*Defined in [journal-events.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L19)*
 
 
 
@@ -570,7 +571,7 @@ ___
 
 ** dockingDenied**:    = "DockingDenied"
 
-*Defined in [journal-events.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L16)*
+*Defined in [journal-events.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L20)*
 
 
 
@@ -584,7 +585,7 @@ ___
 
 ** dockingGranted**:    = "DockingGranted"
 
-*Defined in [journal-events.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L17)*
+*Defined in [journal-events.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L21)*
 
 
 
@@ -598,7 +599,7 @@ ___
 
 ** dockingRequested**:    = "DockingRequested"
 
-*Defined in [journal-events.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L18)*
+*Defined in [journal-events.enum.ts:22](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L22)*
 
 
 
@@ -612,7 +613,7 @@ ___
 
 ** dockingTimeout**:    = "DockingTimeout"
 
-*Defined in [journal-events.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L19)*
+*Defined in [journal-events.enum.ts:23](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L23)*
 
 
 
@@ -626,7 +627,7 @@ ___
 
 ** ejectCargo**:    = "EjectCargo"
 
-*Defined in [journal-events.enum.ts:55](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L55)*
+*Defined in [journal-events.enum.ts:59](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L59)*
 
 
 
@@ -640,7 +641,7 @@ ___
 
 ** endCrewSession**:    = "EndCrewSession"
 
-*Defined in [journal-events.enum.ts:125](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L125)*
+*Defined in [journal-events.enum.ts:129](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L129)*
 
 
 
@@ -654,7 +655,7 @@ ___
 
 ** engineerApply**:    = "EngineerApply"
 
-*Defined in [journal-events.enum.ts:69](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L69)*
+*Defined in [journal-events.enum.ts:73](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L73)*
 
 
 
@@ -668,7 +669,7 @@ ___
 
 ** engineerContribution**:    = "EngineerContribution"
 
-*Defined in [journal-events.enum.ts:68](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L68)*
+*Defined in [journal-events.enum.ts:72](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L72)*
 
 
 
@@ -682,7 +683,7 @@ ___
 
 ** engineerCraft**:    = "EngineerCraft"
 
-*Defined in [journal-events.enum.ts:70](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L70)*
+*Defined in [journal-events.enum.ts:74](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L74)*
 
 
 
@@ -696,7 +697,7 @@ ___
 
 ** engineerProgress**:    = "EngineerProgress"
 
-*Defined in [journal-events.enum.ts:71](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L71)*
+*Defined in [journal-events.enum.ts:75](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L75)*
 
 
 
@@ -710,7 +711,7 @@ ___
 
 ** escapeInterdiction**:    = "EscapeInterdiction"
 
-*Defined in [journal-events.enum.ts:33](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L33)*
+*Defined in [journal-events.enum.ts:37](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L37)*
 
 
 
@@ -724,7 +725,7 @@ ___
 
 ** factionKillBond**:    = "FactionKillBond"
 
-*Defined in [journal-events.enum.ts:34](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L34)*
+*Defined in [journal-events.enum.ts:38](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L38)*
 
 
 
@@ -738,7 +739,21 @@ ___
 
 ** fetchRemoteModule**:    = "FetchRemoteModule"
 
-*Defined in [journal-events.enum.ts:72](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L72)*
+*Defined in [journal-events.enum.ts:76](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L76)*
+
+
+
+
+
+___
+
+<a id="fileheader"></a>
+
+###  fileHeader
+
+** fileHeader**:    = "Fileheader"
+
+*Defined in [journal-events.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L4)*
 
 
 
@@ -752,7 +767,7 @@ ___
 
 ** friends**:    = "Friends"
 
-*Defined in [journal-events.enum.ts:127](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L127)*
+*Defined in [journal-events.enum.ts:131](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L131)*
 
 
 
@@ -766,7 +781,7 @@ ___
 
 ** fsdJump**:    = "FSDJump"
 
-*Defined in [journal-events.enum.ts:20](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L20)*
+*Defined in [journal-events.enum.ts:24](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L24)*
 
 
 
@@ -780,7 +795,7 @@ ___
 
 ** fuelScoop**:    = "FuelScoop"
 
-*Defined in [journal-events.enum.ts:126](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L126)*
+*Defined in [journal-events.enum.ts:130](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L130)*
 
 
 
@@ -794,7 +809,7 @@ ___
 
 ** heatDamage**:    = "HeatDamage"
 
-*Defined in [journal-events.enum.ts:35](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L35)*
+*Defined in [journal-events.enum.ts:39](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L39)*
 
 
 
@@ -808,7 +823,7 @@ ___
 
 ** heatWarning**:    = "HeatWarning"
 
-*Defined in [journal-events.enum.ts:36](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L36)*
+*Defined in [journal-events.enum.ts:40](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L40)*
 
 
 
@@ -822,7 +837,7 @@ ___
 
 ** hullDamage**:    = "HullDamage"
 
-*Defined in [journal-events.enum.ts:37](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L37)*
+*Defined in [journal-events.enum.ts:41](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L41)*
 
 
 
@@ -836,7 +851,7 @@ ___
 
 ** interdicted**:    = "Interdicted"
 
-*Defined in [journal-events.enum.ts:38](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L38)*
+*Defined in [journal-events.enum.ts:42](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L42)*
 
 
 
@@ -850,7 +865,7 @@ ___
 
 ** interdiction**:    = "Interdiction"
 
-*Defined in [journal-events.enum.ts:39](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L39)*
+*Defined in [journal-events.enum.ts:43](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L43)*
 
 
 
@@ -864,7 +879,7 @@ ___
 
 ** jetConeBoost**:    = "JetConeBoost"
 
-*Defined in [journal-events.enum.ts:128](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L128)*
+*Defined in [journal-events.enum.ts:132](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L132)*
 
 
 
@@ -878,7 +893,7 @@ ___
 
 ** jetConeDamage**:    = "JetConeDamage"
 
-*Defined in [journal-events.enum.ts:129](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L129)*
+*Defined in [journal-events.enum.ts:133](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L133)*
 
 
 
@@ -892,7 +907,7 @@ ___
 
 ** joinACrew**:    = "JoinACrew"
 
-*Defined in [journal-events.enum.ts:130](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L130)*
+*Defined in [journal-events.enum.ts:134](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L134)*
 
 
 
@@ -906,7 +921,7 @@ ___
 
 ** kickCrewMember**:    = "KickCrewMember"
 
-*Defined in [journal-events.enum.ts:131](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L131)*
+*Defined in [journal-events.enum.ts:135](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L135)*
 
 
 
@@ -920,7 +935,7 @@ ___
 
 ** launchFighter**:    = "LaunchFighter"
 
-*Defined in [journal-events.enum.ts:132](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L132)*
+*Defined in [journal-events.enum.ts:136](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L136)*
 
 
 
@@ -934,7 +949,7 @@ ___
 
 ** launchSRV**:    = "LaunchSRV"
 
-*Defined in [journal-events.enum.ts:133](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L133)*
+*Defined in [journal-events.enum.ts:137](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L137)*
 
 
 
@@ -948,7 +963,7 @@ ___
 
 ** liftoff**:    = "Liftoff"
 
-*Defined in [journal-events.enum.ts:21](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L21)*
+*Defined in [journal-events.enum.ts:25](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L25)*
 
 
 
@@ -962,7 +977,7 @@ ___
 
 ** loadGame**:    = "LoadGame"
 
-*Defined in [journal-events.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L8)*
+*Defined in [journal-events.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L12)*
 
 
 
@@ -976,7 +991,7 @@ ___
 
 ** loadout**:    = "Loadout"
 
-*Defined in [journal-events.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L5)*
+*Defined in [journal-events.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L9)*
 
 
 
@@ -990,7 +1005,7 @@ ___
 
 ** location**:    = "Location"
 
-*Defined in [journal-events.enum.ts:22](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L22)*
+*Defined in [journal-events.enum.ts:26](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L26)*
 
 
 
@@ -1004,7 +1019,7 @@ ___
 
 ** marketBuy**:    = "MarketBuy"
 
-*Defined in [journal-events.enum.ts:56](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L56)*
+*Defined in [journal-events.enum.ts:60](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L60)*
 
 
 
@@ -1018,7 +1033,7 @@ ___
 
 ** massModuleStore**:    = "MassModuleStore"
 
-*Defined in [journal-events.enum.ts:73](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L73)*
+*Defined in [journal-events.enum.ts:77](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L77)*
 
 
 
@@ -1032,7 +1047,7 @@ ___
 
 ** materialCollected**:    = "MaterialCollected"
 
-*Defined in [journal-events.enum.ts:45](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L45)*
+*Defined in [journal-events.enum.ts:49](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L49)*
 
 
 
@@ -1046,7 +1061,7 @@ ___
 
 ** materialDiscarded**:    = "MaterialDiscarded"
 
-*Defined in [journal-events.enum.ts:46](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L46)*
+*Defined in [journal-events.enum.ts:50](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L50)*
 
 
 
@@ -1060,7 +1075,7 @@ ___
 
 ** materialDiscovered**:    = "MaterialDiscovered"
 
-*Defined in [journal-events.enum.ts:47](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L47)*
+*Defined in [journal-events.enum.ts:51](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L51)*
 
 
 
@@ -1074,7 +1089,7 @@ ___
 
 ** materials**:    = "Materials"
 
-*Defined in [journal-events.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L6)*
+*Defined in [journal-events.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L10)*
 
 
 
@@ -1088,7 +1103,7 @@ ___
 
 ** miningRefined**:    = "MiningRefined"
 
-*Defined in [journal-events.enum.ts:57](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L57)*
+*Defined in [journal-events.enum.ts:61](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L61)*
 
 
 
@@ -1102,7 +1117,7 @@ ___
 
 ** missionAbandoned**:    = "MissionAbandoned"
 
-*Defined in [journal-events.enum.ts:74](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L74)*
+*Defined in [journal-events.enum.ts:78](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L78)*
 
 
 
@@ -1116,7 +1131,7 @@ ___
 
 ** missionAccepted**:    = "MissionAccepted"
 
-*Defined in [journal-events.enum.ts:75](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L75)*
+*Defined in [journal-events.enum.ts:79](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L79)*
 
 
 
@@ -1130,7 +1145,7 @@ ___
 
 ** missionCompleted**:    = "MissionCompleted"
 
-*Defined in [journal-events.enum.ts:76](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L76)*
+*Defined in [journal-events.enum.ts:80](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L80)*
 
 
 
@@ -1144,7 +1159,7 @@ ___
 
 ** missionFailed**:    = "MissionFailed"
 
-*Defined in [journal-events.enum.ts:77](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L77)*
+*Defined in [journal-events.enum.ts:81](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L81)*
 
 
 
@@ -1158,7 +1173,7 @@ ___
 
 ** moduleBuy**:    = "ModuleBuy"
 
-*Defined in [journal-events.enum.ts:78](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L78)*
+*Defined in [journal-events.enum.ts:82](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L82)*
 
 
 
@@ -1172,7 +1187,7 @@ ___
 
 ** moduleRetrieve**:    = "ModuleRetrieve"
 
-*Defined in [journal-events.enum.ts:79](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L79)*
+*Defined in [journal-events.enum.ts:83](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L83)*
 
 
 
@@ -1186,7 +1201,7 @@ ___
 
 ** moduleSell**:    = "ModuleSell"
 
-*Defined in [journal-events.enum.ts:80](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L80)*
+*Defined in [journal-events.enum.ts:84](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L84)*
 
 
 
@@ -1200,7 +1215,7 @@ ___
 
 ** moduleSellRemote**:    = "ModuleSellRemote"
 
-*Defined in [journal-events.enum.ts:81](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L81)*
+*Defined in [journal-events.enum.ts:85](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L85)*
 
 
 
@@ -1214,7 +1229,7 @@ ___
 
 ** moduleStore**:    = "ModuleStore"
 
-*Defined in [journal-events.enum.ts:82](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L82)*
+*Defined in [journal-events.enum.ts:86](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L86)*
 
 
 
@@ -1228,7 +1243,7 @@ ___
 
 ** moduleSwap**:    = "ModuleSwap"
 
-*Defined in [journal-events.enum.ts:83](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L83)*
+*Defined in [journal-events.enum.ts:87](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L87)*
 
 
 
@@ -1242,7 +1257,7 @@ ___
 
 ** newCommander**:    = "NewCommander"
 
-*Defined in [journal-events.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L7)*
+*Defined in [journal-events.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L11)*
 
 
 
@@ -1256,7 +1271,7 @@ ___
 
 ** passengers**:    = "Passengers"
 
-*Defined in [journal-events.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L9)*
+*Defined in [journal-events.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L13)*
 
 
 
@@ -1270,7 +1285,7 @@ ___
 
 ** payFines**:    = "PayFines"
 
-*Defined in [journal-events.enum.ts:84](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L84)*
+*Defined in [journal-events.enum.ts:88](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L88)*
 
 
 
@@ -1284,7 +1299,7 @@ ___
 
 ** payLegacyFines**:    = "PayLegacyFines"
 
-*Defined in [journal-events.enum.ts:85](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L85)*
+*Defined in [journal-events.enum.ts:89](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L89)*
 
 
 
@@ -1298,7 +1313,7 @@ ___
 
 ** powerplayCollect**:    = "PowerplayCollect"
 
-*Defined in [journal-events.enum.ts:102](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L102)*
+*Defined in [journal-events.enum.ts:106](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L106)*
 
 
 
@@ -1312,7 +1327,7 @@ ___
 
 ** powerplayDefect**:    = "PowerplayDefect"
 
-*Defined in [journal-events.enum.ts:103](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L103)*
+*Defined in [journal-events.enum.ts:107](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L107)*
 
 
 
@@ -1326,7 +1341,7 @@ ___
 
 ** powerplayDeliver**:    = "PowerplayDeliver"
 
-*Defined in [journal-events.enum.ts:104](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L104)*
+*Defined in [journal-events.enum.ts:108](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L108)*
 
 
 
@@ -1340,7 +1355,7 @@ ___
 
 ** powerplayFastTrack**:    = "PowerplayFastTrack"
 
-*Defined in [journal-events.enum.ts:105](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L105)*
+*Defined in [journal-events.enum.ts:109](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L109)*
 
 
 
@@ -1354,7 +1369,7 @@ ___
 
 ** powerplayJoin**:    = "PowerplayJoin"
 
-*Defined in [journal-events.enum.ts:106](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L106)*
+*Defined in [journal-events.enum.ts:110](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L110)*
 
 
 
@@ -1368,7 +1383,7 @@ ___
 
 ** powerplayLeave**:    = "PowerplayLeave"
 
-*Defined in [journal-events.enum.ts:107](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L107)*
+*Defined in [journal-events.enum.ts:111](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L111)*
 
 
 
@@ -1382,7 +1397,7 @@ ___
 
 ** powerplaySalary**:    = "PowerplaySalary"
 
-*Defined in [journal-events.enum.ts:108](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L108)*
+*Defined in [journal-events.enum.ts:112](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L112)*
 
 
 
@@ -1396,7 +1411,7 @@ ___
 
 ** powerplayVote**:    = "PowerplayVote"
 
-*Defined in [journal-events.enum.ts:109](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L109)*
+*Defined in [journal-events.enum.ts:113](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L113)*
 
 
 
@@ -1410,7 +1425,7 @@ ___
 
 ** powerplayVoucher**:    = "PowerplayVoucher"
 
-*Defined in [journal-events.enum.ts:110](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L110)*
+*Defined in [journal-events.enum.ts:114](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L114)*
 
 
 
@@ -1424,7 +1439,7 @@ ___
 
 ** progress**:    = "Progress"
 
-*Defined in [journal-events.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L10)*
+*Defined in [journal-events.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L14)*
 
 
 
@@ -1438,7 +1453,7 @@ ___
 
 ** promotion**:    = "Promotion"
 
-*Defined in [journal-events.enum.ts:134](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L134)*
+*Defined in [journal-events.enum.ts:138](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L138)*
 
 
 
@@ -1452,7 +1467,7 @@ ___
 
 ** pvpKill**:    = "PVPKill"
 
-*Defined in [journal-events.enum.ts:40](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L40)*
+*Defined in [journal-events.enum.ts:44](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L44)*
 
 
 
@@ -1466,7 +1481,7 @@ ___
 
 ** quitACrew**:    = "QuitACrew"
 
-*Defined in [journal-events.enum.ts:135](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L135)*
+*Defined in [journal-events.enum.ts:139](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L139)*
 
 
 
@@ -1480,7 +1495,7 @@ ___
 
 ** rank**:    = "Rank"
 
-*Defined in [journal-events.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L11)*
+*Defined in [journal-events.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L15)*
 
 
 
@@ -1494,7 +1509,7 @@ ___
 
 ** rebootRepair**:    = "RebootRepair"
 
-*Defined in [journal-events.enum.ts:136](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L136)*
+*Defined in [journal-events.enum.ts:140](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L140)*
 
 
 
@@ -1508,7 +1523,7 @@ ___
 
 ** receiveText**:    = "ReceiveText"
 
-*Defined in [journal-events.enum.ts:137](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L137)*
+*Defined in [journal-events.enum.ts:141](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L141)*
 
 
 
@@ -1522,7 +1537,7 @@ ___
 
 ** redeemVoucher**:    = "RedeemVoucher"
 
-*Defined in [journal-events.enum.ts:86](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L86)*
+*Defined in [journal-events.enum.ts:90](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L90)*
 
 
 
@@ -1536,7 +1551,7 @@ ___
 
 ** refuelAll**:    = "refuelAll"
 
-*Defined in [journal-events.enum.ts:87](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L87)*
+*Defined in [journal-events.enum.ts:91](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L91)*
 
 
 
@@ -1550,7 +1565,7 @@ ___
 
 ** refuelPartial**:    = "refuelPartial"
 
-*Defined in [journal-events.enum.ts:88](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L88)*
+*Defined in [journal-events.enum.ts:92](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L92)*
 
 
 
@@ -1564,7 +1579,7 @@ ___
 
 ** repair**:    = "Repair"
 
-*Defined in [journal-events.enum.ts:89](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L89)*
+*Defined in [journal-events.enum.ts:93](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L93)*
 
 
 
@@ -1578,7 +1593,7 @@ ___
 
 ** repairAll**:    = "RepairAll"
 
-*Defined in [journal-events.enum.ts:90](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L90)*
+*Defined in [journal-events.enum.ts:94](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L94)*
 
 
 
@@ -1592,7 +1607,7 @@ ___
 
 ** restockVehicle**:    = "RestockVehicle"
 
-*Defined in [journal-events.enum.ts:91](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L91)*
+*Defined in [journal-events.enum.ts:95](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L95)*
 
 
 
@@ -1606,7 +1621,7 @@ ___
 
 ** resurrect**:    = "Resurrect"
 
-*Defined in [journal-events.enum.ts:138](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L138)*
+*Defined in [journal-events.enum.ts:142](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L142)*
 
 
 
@@ -1620,7 +1635,7 @@ ___
 
 ** scan**:    = "Scan"
 
-*Defined in [journal-events.enum.ts:44](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L44)*
+*Defined in [journal-events.enum.ts:48](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L48)*
 
 
 
@@ -1634,7 +1649,7 @@ ___
 
 ** scanned**:    = "Scanned"
 
-*Defined in [journal-events.enum.ts:139](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L139)*
+*Defined in [journal-events.enum.ts:143](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L143)*
 
 
 
@@ -1648,7 +1663,7 @@ ___
 
 ** scientificResearch**:    = "ScientificResearch"
 
-*Defined in [journal-events.enum.ts:92](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L92)*
+*Defined in [journal-events.enum.ts:96](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L96)*
 
 
 
@@ -1662,7 +1677,7 @@ ___
 
 ** screenshot**:    = "Screenshot"
 
-*Defined in [journal-events.enum.ts:50](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L50)*
+*Defined in [journal-events.enum.ts:54](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L54)*
 
 
 
@@ -1676,7 +1691,7 @@ ___
 
 ** selfDestruct**:    = "SelfDestruct"
 
-*Defined in [journal-events.enum.ts:140](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L140)*
+*Defined in [journal-events.enum.ts:144](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L144)*
 
 
 
@@ -1690,7 +1705,7 @@ ___
 
 ** sellDrones**:    = "SellDrones"
 
-*Defined in [journal-events.enum.ts:93](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L93)*
+*Defined in [journal-events.enum.ts:97](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L97)*
 
 
 
@@ -1704,7 +1719,7 @@ ___
 
 ** sellExplorationData**:    = "SellExplorationData"
 
-*Defined in [journal-events.enum.ts:49](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L49)*
+*Defined in [journal-events.enum.ts:53](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L53)*
 
 
 
@@ -1718,7 +1733,7 @@ ___
 
 ** sendText**:    = "SendText"
 
-*Defined in [journal-events.enum.ts:141](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L141)*
+*Defined in [journal-events.enum.ts:145](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L145)*
 
 
 
@@ -1732,7 +1747,7 @@ ___
 
 ** setUserShipName**:    = "SetUserShipName"
 
-*Defined in [journal-events.enum.ts:94](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L94)*
+*Defined in [journal-events.enum.ts:98](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L98)*
 
 
 
@@ -1746,7 +1761,7 @@ ___
 
 ** shieldState**:    = "ShieldState"
 
-*Defined in [journal-events.enum.ts:41](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L41)*
+*Defined in [journal-events.enum.ts:45](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L45)*
 
 
 
@@ -1760,7 +1775,7 @@ ___
 
 ** shipyardBuy**:    = "ShipyardBuy"
 
-*Defined in [journal-events.enum.ts:95](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L95)*
+*Defined in [journal-events.enum.ts:99](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L99)*
 
 
 
@@ -1774,7 +1789,7 @@ ___
 
 ** shipyardNew**:    = "ShipyardNew"
 
-*Defined in [journal-events.enum.ts:96](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L96)*
+*Defined in [journal-events.enum.ts:100](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L100)*
 
 
 
@@ -1788,7 +1803,7 @@ ___
 
 ** shipyardSell**:    = "ShipyardSell"
 
-*Defined in [journal-events.enum.ts:97](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L97)*
+*Defined in [journal-events.enum.ts:101](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L101)*
 
 
 
@@ -1802,7 +1817,7 @@ ___
 
 ** shipyardSwap**:    = "ShipyardSwap"
 
-*Defined in [journal-events.enum.ts:99](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L99)*
+*Defined in [journal-events.enum.ts:103](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L103)*
 
 
 
@@ -1816,7 +1831,7 @@ ___
 
 ** shipyardTransfer**:    = "ShipyardTransfer"
 
-*Defined in [journal-events.enum.ts:98](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L98)*
+*Defined in [journal-events.enum.ts:102](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L102)*
 
 
 
@@ -1830,7 +1845,7 @@ ___
 
 ** startJump**:    = "StartJump"
 
-*Defined in [journal-events.enum.ts:23](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L23)*
+*Defined in [journal-events.enum.ts:27](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L27)*
 
 
 
@@ -1844,7 +1859,7 @@ ___
 
 ** supercruiseEntry**:    = "SupercruiseEntry"
 
-*Defined in [journal-events.enum.ts:24](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L24)*
+*Defined in [journal-events.enum.ts:28](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L28)*
 
 
 
@@ -1858,7 +1873,7 @@ ___
 
 ** supercruiseExit**:    = "SupercruiseExit"
 
-*Defined in [journal-events.enum.ts:25](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L25)*
+*Defined in [journal-events.enum.ts:29](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L29)*
 
 
 
@@ -1872,7 +1887,7 @@ ___
 
 ** synthesis**:    = "Synthesis"
 
-*Defined in [journal-events.enum.ts:142](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L142)*
+*Defined in [journal-events.enum.ts:146](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L146)*
 
 
 
@@ -1886,7 +1901,7 @@ ___
 
 ** touchdown**:    = "Touchdown"
 
-*Defined in [journal-events.enum.ts:26](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L26)*
+*Defined in [journal-events.enum.ts:30](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L30)*
 
 
 
@@ -1900,7 +1915,7 @@ ___
 
 ** undocked**:    = "Undocked"
 
-*Defined in [journal-events.enum.ts:27](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L27)*
+*Defined in [journal-events.enum.ts:31](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L31)*
 
 
 
@@ -1914,7 +1929,7 @@ ___
 
 ** vehicleSwitch**:    = "VehicleSwitch"
 
-*Defined in [journal-events.enum.ts:143](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L143)*
+*Defined in [journal-events.enum.ts:147](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L147)*
 
 
 
@@ -1928,7 +1943,7 @@ ___
 
 ** wingAdd**:    = "WingAdd"
 
-*Defined in [journal-events.enum.ts:144](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L144)*
+*Defined in [journal-events.enum.ts:148](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L148)*
 
 
 
@@ -1942,7 +1957,7 @@ ___
 
 ** wingInvite**:    = "WingInvite"
 
-*Defined in [journal-events.enum.ts:145](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L145)*
+*Defined in [journal-events.enum.ts:149](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L149)*
 
 
 
@@ -1956,7 +1971,7 @@ ___
 
 ** wingJoin**:    = "WingJoin"
 
-*Defined in [journal-events.enum.ts:146](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L146)*
+*Defined in [journal-events.enum.ts:150](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L150)*
 
 
 
@@ -1970,7 +1985,7 @@ ___
 
 ** wingLeave**:    = "WingLeave"
 
-*Defined in [journal-events.enum.ts:147](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/journal-events.enum.ts#L147)*
+*Defined in [journal-events.enum.ts:151](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/journal-events.enum.ts#L151)*
 
 
 

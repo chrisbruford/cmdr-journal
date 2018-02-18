@@ -37,7 +37,7 @@
 
 **●  Channel**:  *"wing"⎮"local"⎮"voicechat"⎮"friend"⎮"player"⎮"npc"* 
 
-*Defined in [models/journal-event.models.ts:1047](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1047)*
+*Defined in [models/journal-event.models.ts:1064](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1064)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  From**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:1045](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1045)*
+*Defined in [models/journal-event.models.ts:1062](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1062)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  Message**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:1046](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1046)*
+*Defined in [models/journal-event.models.ts:1063](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1063)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

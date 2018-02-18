@@ -38,7 +38,7 @@
 
 **●  Blueprint**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:576](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L576)*
+*Defined in [models/journal-event.models.ts:593](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L593)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Engineer**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:575](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L575)*
+*Defined in [models/journal-event.models.ts:592](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L592)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Ingredients**:  *`object`* 
 
-*Defined in [models/journal-event.models.ts:578](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L578)*
+*Defined in [models/journal-event.models.ts:595](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L595)*
 
 
 #### Type declaration
@@ -97,7 +97,7 @@ ___
 
 **●  Level**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:577](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L577)*
+*Defined in [models/journal-event.models.ts:594](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L594)*
 
 
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

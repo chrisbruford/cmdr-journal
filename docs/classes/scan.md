@@ -63,7 +63,7 @@
 
 **●  AbsoluteMagnitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:365](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L365)*
+*Defined in [models/journal-event.models.ts:382](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L382)*
 
 
 
@@ -77,7 +77,7 @@ ___
 
 **●  Age_MY**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:366](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L366)*
+*Defined in [models/journal-event.models.ts:383](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L383)*
 
 
 
@@ -91,7 +91,7 @@ ___
 
 **●  Atmosphere**:  *[AtmosphereTypes](../enums/atmospheretypes.md)* 
 
-*Defined in [models/journal-event.models.ts:372](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L372)*
+*Defined in [models/journal-event.models.ts:389](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L389)*
 
 
 
@@ -105,7 +105,7 @@ ___
 
 **●  AtmosphereComposition**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:374](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L374)*
+*Defined in [models/journal-event.models.ts:391](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L391)*
 
 
 
@@ -119,7 +119,7 @@ ___
 
 **●  AtmosphereType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:373](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L373)*
+*Defined in [models/journal-event.models.ts:390](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L390)*
 
 
 
@@ -133,7 +133,7 @@ ___
 
 **●  AxialTilt**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:346](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L346)*
+*Defined in [models/journal-event.models.ts:363](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L363)*
 
 
 
@@ -147,7 +147,7 @@ ___
 
 **●  Bodyname**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:341](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L341)*
+*Defined in [models/journal-event.models.ts:358](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L358)*
 
 
 
@@ -161,7 +161,7 @@ ___
 
 **●  DistanceFromArrivalLS**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:342](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L342)*
+*Defined in [models/journal-event.models.ts:359](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L359)*
 
 
 
@@ -175,7 +175,7 @@ ___
 
 **●  Eccentricity**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:357](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L357)*
+*Defined in [models/journal-event.models.ts:374](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L374)*
 
 
 
@@ -189,7 +189,7 @@ ___
 
 **●  Landable**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:381](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L381)*
+*Defined in [models/journal-event.models.ts:398](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L398)*
 
 
 
@@ -203,7 +203,7 @@ ___
 
 **●  Luminosity**:  *[StarLuminosityClasses](../enums/starluminosityclasses.md)* 
 
-*Defined in [models/journal-event.models.ts:367](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L367)*
+*Defined in [models/journal-event.models.ts:384](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L384)*
 
 
 
@@ -217,7 +217,7 @@ ___
 
 **●  Materials**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:382](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L382)*
+*Defined in [models/journal-event.models.ts:399](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L399)*
 
 
 
@@ -231,7 +231,7 @@ ___
 
 **●  OrbitalInclination**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:358](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L358)*
+*Defined in [models/journal-event.models.ts:375](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L375)*
 
 
 
@@ -245,7 +245,7 @@ ___
 
 **●  OrbitalPeriod**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:360](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L360)*
+*Defined in [models/journal-event.models.ts:377](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L377)*
 
 
 
@@ -259,7 +259,7 @@ ___
 
 **●  Periapsis**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:359](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L359)*
+*Defined in [models/journal-event.models.ts:376](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L376)*
 
 
 
@@ -273,7 +273,7 @@ ___
 
 **●  PlanetClass**:  *[PlanetTypes](../enums/planettypes.md)* 
 
-*Defined in [models/journal-event.models.ts:371](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L371)*
+*Defined in [models/journal-event.models.ts:388](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L388)*
 
 
 
@@ -287,7 +287,7 @@ ___
 
 **●  Radius**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:364](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L364)*
+*Defined in [models/journal-event.models.ts:381](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L381)*
 
 
 
@@ -301,7 +301,7 @@ ___
 
 **●  ReserveLevel**:  *"Pristine"⎮"Major"⎮"Common"⎮"Low"⎮"Depleted"* 
 
-*Defined in [models/journal-event.models.ts:383](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L383)*
+*Defined in [models/journal-event.models.ts:400](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L400)*
 
 
 
@@ -315,7 +315,7 @@ ___
 
 **●  Rings**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:348](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L348)*
+*Defined in [models/journal-event.models.ts:365](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L365)*
 
 
 
@@ -329,7 +329,7 @@ ___
 
 **●  RotationPeriod**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:345](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L345)*
+*Defined in [models/journal-event.models.ts:362](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L362)*
 
 
 
@@ -343,7 +343,7 @@ ___
 
 **●  SemiMajorAxis**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:356](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L356)*
+*Defined in [models/journal-event.models.ts:373](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L373)*
 
 
 
@@ -357,7 +357,7 @@ ___
 
 **●  StarType**:  *[StarTypes](../enums/startypes.md)* 
 
-*Defined in [models/journal-event.models.ts:362](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L362)*
+*Defined in [models/journal-event.models.ts:379](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L379)*
 
 
 
@@ -371,7 +371,7 @@ ___
 
 **●  StellarMass**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:363](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L363)*
+*Defined in [models/journal-event.models.ts:380](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L380)*
 
 
 
@@ -385,7 +385,7 @@ ___
 
 **●  SurfaceGravity**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:379](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L379)*
+*Defined in [models/journal-event.models.ts:396](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L396)*
 
 
 
@@ -399,7 +399,7 @@ ___
 
 **●  SurfacePressure**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:380](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L380)*
+*Defined in [models/journal-event.models.ts:397](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L397)*
 
 
 
@@ -413,7 +413,7 @@ ___
 
 **●  SurfaceTemperature**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:343](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L343)*
+*Defined in [models/journal-event.models.ts:360](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L360)*
 
 
 
@@ -427,7 +427,7 @@ ___
 
 **●  TerraformState**:  *"Terraformable"⎮"Terraforming"⎮"Terraformed"⎮`null`* 
 
-*Defined in [models/journal-event.models.ts:370](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L370)*
+*Defined in [models/journal-event.models.ts:387](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L387)*
 
 
 
@@ -441,7 +441,7 @@ ___
 
 **●  TidalLock**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:369](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L369)*
+*Defined in [models/journal-event.models.ts:386](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L386)*
 
 
 
@@ -455,7 +455,7 @@ ___
 
 **●  Volcanism**:  *[VolcanismTypes](../enums/volcanismtypes.md)* 
 
-*Defined in [models/journal-event.models.ts:378](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L378)*
+*Defined in [models/journal-event.models.ts:395](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L395)*
 
 
 
@@ -471,7 +471,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -487,7 +487,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

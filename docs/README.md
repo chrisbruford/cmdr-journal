@@ -105,6 +105,7 @@ Enums have been implemented with sensible names (where possible) and string valu
 * [Faction](classes/faction.md)
 * [FactionKillBond](classes/factionkillbond.md)
 * [FetchRemoteModule](classes/fetchremotemodule.md)
+* [FileHeader](classes/fileheader.md)
 * [Friends](classes/friends.md)
 * [FuelScoop](classes/fuelscoop.md)
 * [HeatDamage](classes/heatdamage.md)

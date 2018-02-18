@@ -26,7 +26,7 @@
 
 ** asteroidCluster**:    = "AsteroidCluster"
 
-*Defined in [body-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L8)*
+*Defined in [body-types.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L8)*
 
 
 
@@ -40,7 +40,7 @@ ___
 
 ** null**:    = "Null"
 
-*Defined in [body-types.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L2)*
+*Defined in [body-types.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L2)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 ** planet**:    = "Planet"
 
-*Defined in [body-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L4)*
+*Defined in [body-types.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L4)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 ** planetaryRing**:    = "PlanetaryRing"
 
-*Defined in [body-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L5)*
+*Defined in [body-types.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L5)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 ** star**:    = "Star"
 
-*Defined in [body-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L3)*
+*Defined in [body-types.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L3)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 ** station**:    = "Station"
 
-*Defined in [body-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L7)*
+*Defined in [body-types.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L7)*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 ** stellarRing**:    = "StellarRing"
 
-*Defined in [body-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/body-types.enum.ts#L6)*
+*Defined in [body-types.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/body-types.enum.ts#L6)*
 
 
 

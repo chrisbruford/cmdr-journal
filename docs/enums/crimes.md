@@ -37,7 +37,7 @@
 
 ** assault**:    = "Assault"
 
-*Defined in [crimes.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L2)*
+*Defined in [crimes.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L2)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 ** collidedAtSpeedInNoFireZone**:    = "CollidedAtSpeedInNoFireZone"
 
-*Defined in [crimes.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L18)*
+*Defined in [crimes.enum.ts:18](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L18)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 ** collidedAtSpeedInNoFireZoneHullDamage**:    = "CollidedAtSpeedInNoFireZone_HullDamage"
 
-*Defined in [crimes.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L19)*
+*Defined in [crimes.enum.ts:19](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L19)*
 
 
 
@@ -79,7 +79,7 @@ ___
 
 ** disobeyPolice**:    = "DisobeyPolice"
 
-*Defined in [crimes.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L7)*
+*Defined in [crimes.enum.ts:7](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L7)*
 
 
 
@@ -93,7 +93,7 @@ ___
 
 ** dockingMajorBlockingAirlock**:    = "DockingMajor_BlockingAirlock"
 
-*Defined in [crimes.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L13)*
+*Defined in [crimes.enum.ts:13](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L13)*
 
 
 
@@ -107,7 +107,7 @@ ___
 
 ** dockingMajorBlockingLandindPad**:    = "DockingMajor_BlockingLandingPad"
 
-*Defined in [crimes.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L15)*
+*Defined in [crimes.enum.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L15)*
 
 
 
@@ -121,7 +121,7 @@ ___
 
 ** dockingMajorTrespass**:    = "DockingMajor_Trespass"
 
-*Defined in [crimes.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L17)*
+*Defined in [crimes.enum.ts:17](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L17)*
 
 
 
@@ -135,7 +135,7 @@ ___
 
 ** dockingMinorBlockingAirlock**:    = "DockingMinor_BlockingAirlock"
 
-*Defined in [crimes.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L12)*
+*Defined in [crimes.enum.ts:12](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L12)*
 
 
 
@@ -149,7 +149,7 @@ ___
 
 ** dockingMinorBlockingLandingPad**:    = "DockingMinor_BlockingLandingPad"
 
-*Defined in [crimes.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L14)*
+*Defined in [crimes.enum.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L14)*
 
 
 
@@ -163,7 +163,7 @@ ___
 
 ** dockingMinorTrespass**:    = "DockingMinor_Trespass"
 
-*Defined in [crimes.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L16)*
+*Defined in [crimes.enum.ts:16](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L16)*
 
 
 
@@ -177,7 +177,7 @@ ___
 
 ** dumpingDangerous**:    = "DumpingDangerous"
 
-*Defined in [crimes.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L10)*
+*Defined in [crimes.enum.ts:10](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L10)*
 
 
 
@@ -191,7 +191,7 @@ ___
 
 ** dumpingNearStation**:    = "DumpingNearStation"
 
-*Defined in [crimes.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L11)*
+*Defined in [crimes.enum.ts:11](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L11)*
 
 
 
@@ -205,7 +205,7 @@ ___
 
 ** fireInNoFireZone**:    = "FireInNoFireZone"
 
-*Defined in [crimes.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L8)*
+*Defined in [crimes.enum.ts:8](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L8)*
 
 
 
@@ -219,7 +219,7 @@ ___
 
 ** fireInStation**:    = "FireInStation"
 
-*Defined in [crimes.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L9)*
+*Defined in [crimes.enum.ts:9](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L9)*
 
 
 
@@ -233,7 +233,7 @@ ___
 
 ** illegalCargo**:    = "IllegalCargo"
 
-*Defined in [crimes.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L6)*
+*Defined in [crimes.enum.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L6)*
 
 
 
@@ -247,7 +247,7 @@ ___
 
 ** interdiction**:    = "Interdiction"
 
-*Defined in [crimes.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L5)*
+*Defined in [crimes.enum.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L5)*
 
 
 
@@ -261,7 +261,7 @@ ___
 
 ** murder**:    = "Murder"
 
-*Defined in [crimes.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L3)*
+*Defined in [crimes.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L3)*
 
 
 
@@ -275,7 +275,7 @@ ___
 
 ** piracy**:    = "Piracy"
 
-*Defined in [crimes.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/crimes.enum.ts#L4)*
+*Defined in [crimes.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crimes.enum.ts#L4)*
 
 
 

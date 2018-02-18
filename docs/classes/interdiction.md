@@ -40,7 +40,7 @@
 
 **●  CombatRank**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:320](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L320)*
+*Defined in [models/journal-event.models.ts:337](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L337)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:321](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L321)*
+*Defined in [models/journal-event.models.ts:338](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L338)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  Interdicted**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:318](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L318)*
+*Defined in [models/journal-event.models.ts:335](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L335)*
 
 
 
@@ -82,7 +82,7 @@ ___
 
 **●  IsPlayer**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:319](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L319)*
+*Defined in [models/journal-event.models.ts:336](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L336)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 **●  Power**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:322](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L322)*
+*Defined in [models/journal-event.models.ts:339](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L339)*
 
 
 
@@ -110,7 +110,7 @@ ___
 
 **●  Success**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:317](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L317)*
+*Defined in [models/journal-event.models.ts:334](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L334)*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

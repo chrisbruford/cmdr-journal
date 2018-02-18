@@ -24,7 +24,7 @@
 
 **●  FactionState**:  *`string`* 
 
-*Defined in [models/faction.model.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/faction.model.ts#L3)*
+*Defined in [models/faction.model.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/faction.model.ts#L3)*
 
 
 
@@ -38,7 +38,7 @@ ___
 
 **●  Government**:  *`string`* 
 
-*Defined in [models/faction.model.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/faction.model.ts#L4)*
+*Defined in [models/faction.model.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/faction.model.ts#L4)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Influence**:  *`number`* 
 
-*Defined in [models/faction.model.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/faction.model.ts#L5)*
+*Defined in [models/faction.model.ts:5](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/faction.model.ts#L5)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/faction.model.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/faction.model.ts#L2)*
+*Defined in [models/faction.model.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/faction.model.ts#L2)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  PendingStates**:  *`object`[]* 
 
-*Defined in [models/faction.model.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/faction.model.ts#L6)*
+*Defined in [models/faction.model.ts:6](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/faction.model.ts#L6)*
 
 
 

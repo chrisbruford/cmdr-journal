@@ -1,4 +1,8 @@
 export enum JournalEvents {
+
+    //fileheader
+    fileHeader = "Fileheader",
+
     //startup
     cargo = "Cargo",
     clearSavedGame = "ClearSavedGame",

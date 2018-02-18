@@ -17,6 +17,20 @@ export class JournalEvent {
 
 //model followed by example
 
+//FILE HEADER
+
+/** 
+* If the play session goes on a long time, and the journal gets very large, the file will be closed and a
+* new file started with an increased part number: the heading entry is added at the beginning of every
+* file. See also the "Continued" event
+*/
+export class FileHeader extends JournalEvent {
+    part: number;
+    language: string;
+    gameversion: string;
+    build: string;
+}
+
 //STARTUP
 
 export class Cargo extends JournalEvent {
@@ -282,6 +296,9 @@ export class EscapeInterdiction extends JournalEvent {
 }
 //{"timestamp":"2016-06-10T14:32:03Z",  "event":"EscapeInterdiction", "Interdictor":"Hrc1", "IsPlayer":true }
 
+/** 
+ * When written: Player rewarded for taking part in a combat zone 
+*/
 export class FactionKillBond extends JournalEvent {
     Reward: number;
     AwardingFaction: string;

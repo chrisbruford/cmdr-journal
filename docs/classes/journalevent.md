@@ -8,6 +8,11 @@
 
 **JournalEvent**
 
+↳  [FileHeader](fileheader.md)
+
+
+
+
 ↳  [Cargo](cargo.md)
 
 
@@ -739,7 +744,7 @@
 
 **●  event**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -753,7 +758,7 @@ ___
 
 **●  timestamp**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

@@ -40,7 +40,7 @@ each number represents amount of damage repaired
 
 **●  CockpitRepaired**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1107](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1107)*
+*Defined in [models/journal-event.models.ts:1124](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1124)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  CorrosionRepaired**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1108](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1108)*
+*Defined in [models/journal-event.models.ts:1125](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1125)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  HullRepaired**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:1106](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L1106)*
+*Defined in [models/journal-event.models.ts:1123](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L1123)*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L14)*
+*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
 
 
 
@@ -100,7 +100,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/0588b1f/src/models/journal-event.models.ts#L15)*
+*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
 
 
 

@@ -4,6 +4,20 @@
 
 # Class: ShipyardSell
 
+
+When Written: when selling a ship stored in the shipyard
+
+## Example
+
+    {
+        "timestamp":"2016-07-21T15:12:19Z",
+        "event":"ShipyardSell",
+        "ShipType":"Adder",
+        "SellShipID":6,
+        "ShipPrice":79027,
+        "System":"Eranin"
+    }
+
 ## Hierarchy
 
 
@@ -21,6 +35,7 @@
 
 ### Properties
 
+* [MarketID](shipyardsell.md#marketid)
 * [SellShipID](shipyardsell.md#sellshipid)
 * [ShipPrice](shipyardsell.md#shipprice)
 * [ShipType](shipyardsell.md#shiptype)
@@ -32,13 +47,27 @@
 
 ---
 ## Properties
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/shipyard-sell.ts:20*
+
+
+
+
+
+___
+
 <a id="sellshipid"></a>
 
 ###  SellShipID
 
 **●  SellShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:851](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L851)*
+*Defined in models/shipyard-sell.ts:22*
 
 
 
@@ -52,7 +81,7 @@ ___
 
 **●  ShipPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:852](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L852)*
+*Defined in models/shipyard-sell.ts:23*
 
 
 
@@ -66,7 +95,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:850](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L850)*
+*Defined in models/shipyard-sell.ts:21*
 
 
 
@@ -80,7 +109,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:853](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L853)*
+*Defined in models/shipyard-sell.ts:24*
 
 
 
@@ -96,7 +125,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -112,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

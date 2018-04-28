@@ -4,6 +4,9 @@
 
 # Class: CommunityGoalJoin
 
+
+When Written: when signing up to a community goal
+
 ## Hierarchy
 
 
@@ -21,6 +24,7 @@
 
 ### Properties
 
+* [CGID](communitygoaljoin.md#cgid)
 * [Name](communitygoaljoin.md#name)
 * [System](communitygoaljoin.md#system)
 * [event](communitygoaljoin.md#event)
@@ -30,13 +34,27 @@
 
 ---
 ## Properties
+<a id="cgid"></a>
+
+###  CGID
+
+**●  CGID**:  *`number`* 
+
+*Defined in models/community-goal-join.ts:8*
+
+
+
+
+
+___
+
 <a id="name"></a>
 
 ###  Name
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:548](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L548)*
+*Defined in models/community-goal-join.ts:9*
 
 
 
@@ -50,7 +68,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:549](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L549)*
+*Defined in models/community-goal-join.ts:10*
 
 
 
@@ -66,7 +84,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -82,7 +100,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

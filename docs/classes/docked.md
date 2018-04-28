@@ -4,6 +4,60 @@
 
 # Class: Docked
 
+
+When written: when landing at landing pad in a space station, outpost, or surface settlement
+
+## Example
+
+    {
+        "timestamp":"2018-03-07T12:22:25Z",
+        "event":"Docked",
+        "StationName":"Jenner Orbital",
+        "StationType":"Outpost",
+        "StarSystem":"Luhman 16",
+        "SystemAddress":22960358574928,
+        "MarketID":3228883456,
+        "StationFaction":"Union of Luhman 16 Values Party",
+        "FactionState":"CivilWar",
+        "StationGovernment":"$government_Democracy;",
+        "StationGovernment_Localised":"Democracy",
+        "StationAllegiance":"Federation",
+        "StationServices":[
+            "Dock",
+            "Autodock",
+            "BlackMarket",
+            "Commodities",
+            "Contacts",
+            "Exploration",
+            "Missions",
+            "Outfitting",
+            "CrewLounge",
+            "Rearm",
+            "Refuel",
+            "Workshop",
+            "MissionsGenerated",
+            "FlightController",
+            "StationOperations",
+            "Powerplay",
+            "SearchAndRescue"
+        ],
+        "StationEconomy":"$economy_Refinery;",
+        "StationEconomy_Localised":"Refinery",
+        "StationEconomies":[
+            {
+                "Name":"$economy_Refinery;",
+                "Name_Localised":"Refinery",
+                "Proportion":0.760000
+            },
+            {
+                "Name":"$economy_Extraction;",
+                "Name_Localised":"Extraction",
+                "Proportion":0.240000
+            }
+        ],
+        "DistFromStarLS":10.061876
+    }
+
 ## Hierarchy
 
 
@@ -24,10 +78,10 @@
 * [CockpitBreached](docked.md#cockpitbreached)
 * [DistFromStarLS](docked.md#distfromstarls)
 * [FactionState](docked.md#factionstate)
-* [Security](docked.md#security)
-* [Security_Localised](docked.md#security_localised)
+* [MarketID](docked.md#marketid)
 * [StarSystem](docked.md#starsystem)
 * [StationAllegiance](docked.md#stationallegiance)
+* [StationEconomies](docked.md#stationeconomies)
 * [StationEconomy](docked.md#stationeconomy)
 * [StationEconomy_Localised](docked.md#stationeconomy_localised)
 * [StationFaction](docked.md#stationfaction)
@@ -36,6 +90,8 @@
 * [StationName](docked.md#stationname)
 * [StationServices](docked.md#stationservices)
 * [StationType](docked.md#stationtype)
+* [SystemAddress](docked.md#systemaddress)
+* [Wanted](docked.md#wanted)
 * [event](docked.md#event)
 * [timestamp](docked.md#timestamp)
 
@@ -49,7 +105,7 @@
 
 **●  CockpitBreached**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:133](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L133)*
+*Defined in models/docked.ts:66*
 
 
 
@@ -63,7 +119,7 @@ ___
 
 **●  DistFromStarLS**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:143](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L143)*
+*Defined in models/docked.ts:79*
 
 
 
@@ -77,7 +133,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:135](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L135)*
+*Defined in models/docked.ts:68*
 
 
 
@@ -85,27 +141,13 @@ ___
 
 ___
 
-<a id="security"></a>
+<a id="marketid"></a>
 
-###  Security
+###  MarketID
 
-**●  Security**:  *`string`* 
+**●  MarketID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:141](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L141)*
-
-
-
-
-
-___
-
-<a id="security_localised"></a>
-
-###  Security_Localised
-
-**●  Security_Localised**:  *`string`* 
-
-*Defined in [models/journal-event.models.ts:142](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L142)*
+*Defined in models/docked.ts:62*
 
 
 
@@ -119,7 +161,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:132](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L132)*
+*Defined in models/docked.ts:65*
 
 
 
@@ -133,7 +175,21 @@ ___
 
 **●  StationAllegiance**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:136](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L136)*
+*Defined in models/docked.ts:69*
+
+
+
+
+
+___
+
+<a id="stationeconomies"></a>
+
+###  StationEconomies
+
+**●  StationEconomies**:  *`object`[]* 
+
+*Defined in models/docked.ts:72*
 
 
 
@@ -147,7 +203,7 @@ ___
 
 **●  StationEconomy**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:137](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L137)*
+*Defined in models/docked.ts:70*
 
 
 
@@ -161,7 +217,7 @@ ___
 
 **●  StationEconomy_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:138](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L138)*
+*Defined in models/docked.ts:71*
 
 
 
@@ -175,7 +231,7 @@ ___
 
 **●  StationFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:134](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L134)*
+*Defined in models/docked.ts:67*
 
 
 
@@ -189,7 +245,7 @@ ___
 
 **●  StationGovernment**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:139](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L139)*
+*Defined in models/docked.ts:77*
 
 
 
@@ -203,7 +259,7 @@ ___
 
 **●  StationGovernment_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:140](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L140)*
+*Defined in models/docked.ts:78*
 
 
 
@@ -217,7 +273,7 @@ ___
 
 **●  StationName**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:130](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L130)*
+*Defined in models/docked.ts:61*
 
 
 
@@ -231,7 +287,7 @@ ___
 
 **●  StationServices**:  *[StationServices](../enums/stationservices.md)[]* 
 
-*Defined in [models/journal-event.models.ts:144](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L144)*
+*Defined in models/docked.ts:80*
 
 
 
@@ -245,7 +301,35 @@ ___
 
 **●  StationType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:131](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L131)*
+*Defined in models/docked.ts:64*
+
+
+
+
+
+___
+
+<a id="systemaddress"></a>
+
+###  SystemAddress
+
+**●  SystemAddress**:  *`number`* 
+
+*Defined in models/docked.ts:63*
+
+
+
+
+
+___
+
+<a id="wanted"></a>
+
+### «Optional» Wanted
+
+**●  Wanted**:  *`boolean`* 
+
+*Defined in models/docked.ts:81*
 
 
 
@@ -261,7 +345,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -277,7 +361,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

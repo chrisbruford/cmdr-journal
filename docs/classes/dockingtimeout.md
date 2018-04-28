@@ -4,6 +4,9 @@
 
 # Class: DockingTimeout
 
+
+When written: When an active docking request times out
+
 ## Hierarchy
 
 
@@ -21,7 +24,9 @@
 
 ### Properties
 
+* [MarketID](dockingtimeout.md#marketid)
 * [StationName](dockingtimeout.md#stationname)
+* [StationType](dockingtimeout.md#stationtype)
 * [event](dockingtimeout.md#event)
 * [timestamp](dockingtimeout.md#timestamp)
 
@@ -29,13 +34,41 @@
 
 ---
 ## Properties
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/docking-timeout.ts:10*
+
+
+
+
+
+___
+
 <a id="stationname"></a>
 
 ###  StationName
 
 **●  StationName**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:168](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L168)*
+*Defined in models/docking-timeout.ts:8*
+
+
+
+
+
+___
+
+<a id="stationtype"></a>
+
+###  StationType
+
+**●  StationType**:  *`string`* 
+
+*Defined in models/docking-timeout.ts:9*
 
 
 
@@ -51,7 +84,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -67,7 +100,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

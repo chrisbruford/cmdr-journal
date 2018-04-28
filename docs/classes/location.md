@@ -4,6 +4,46 @@
 
 # Class: Location
 
+
+When written: on startup or resurrection
+
+## Example
+
+    {
+        "timestamp":"2016-07-21T13:14:25Z",
+        "event":"Location",
+        "Docked":true,
+        "StationName":"Azeban City",
+        "StationType":"Coriolis",
+        "StarSystem":"Eranin",
+        "StarPos":[-22.844,36.531,-1.188],
+        "Allegiance":"Alliance",
+        "Economy":"$economy_Agri;",
+        "Government":"$government_Communism;",
+        "Security":$SYSTEM_SECURITY_medium;,
+        "Faction":"Eranin Peoples Party"
+    }
+
+    {
+        "timestamp":"2016-09-21T14:11:22Z",
+        "event":"Location",
+        "Docked":false,
+        "StarSystem":"Alpha Centauri",
+        "StarPos":[3.031,-0.094,3.156],
+        "Allegiance":"Independent",
+        "Economy":"$economy_Extraction;",
+        "Economy_Localised":"Extraction",
+        "Government":"$government_Cooperative;",
+        "Government_Localised":"Cooperative",
+        "Security":"$SYSTEM_SECURITY_medium;",
+        "Security_Localised":"Medium Security",
+        "Body":"Alpha Centauri B 1",
+        "Powers":["Zachary Hudson"],
+        "PowerplayState":"Exploited",
+        "Faction":"Hutton Orbital Truckers Co-Operative",
+        "FactionState":"Outbreak"
+    }
+
 ## Hierarchy
 
 
@@ -22,26 +62,32 @@
 ### Properties
 
 * [Body](location.md#body)
+* [BodyID](location.md#bodyid)
 * [BodyType](location.md#bodytype)
 * [Docked](location.md#docked)
 * [FactionState](location.md#factionstate)
 * [Factions](location.md#factions)
 * [Latitude](location.md#latitude)
 * [Longitude](location.md#longitude)
+* [MarketID](location.md#marketid)
 * [PowerplayState](location.md#powerplaystate)
 * [Powers](location.md#powers)
-* [Security_Locaolised](location.md#security_locaolised)
+* [Security_Localised](location.md#security_localised)
 * [StarPos](location.md#starpos)
 * [StarSystem](location.md#starsystem)
 * [StationName](location.md#stationname)
 * [StationType](location.md#stationtype)
+* [SystemAddress](location.md#systemaddress)
 * [SystemAllegiance](location.md#systemallegiance)
 * [SystemEconomy](location.md#systemeconomy)
 * [SystemEconomy_Localised](location.md#systemeconomy_localised)
 * [SystemFaction](location.md#systemfaction)
 * [SystemGovernment](location.md#systemgovernment)
 * [SystemGovernment_Localised](location.md#systemgovernment_localised)
+* [SystemSecondEconomy](location.md#systemsecondeconomy)
+* [SystemSecondEconomy_Localised](location.md#systemsecondeconomy_localised)
 * [SystemSecurity](location.md#systemsecurity)
+* [Wanted](location.md#wanted)
 * [event](location.md#event)
 * [timestamp](location.md#timestamp)
 
@@ -55,7 +101,21 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:212](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L212)*
+*Defined in models/location.ts:51*
+
+
+
+
+
+___
+
+<a id="bodyid"></a>
+
+###  BodyID
+
+**●  BodyID**:  *`number`* 
+
+*Defined in models/location.ts:52*
 
 
 
@@ -69,7 +129,7 @@ ___
 
 **●  BodyType**:  *[BodyTypes](../enums/bodytypes.md)* 
 
-*Defined in [models/journal-event.models.ts:213](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L213)*
+*Defined in models/location.ts:53*
 
 
 
@@ -83,7 +143,7 @@ ___
 
 **●  Docked**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:214](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L214)*
+*Defined in models/location.ts:54*
 
 
 
@@ -97,7 +157,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:220](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L220)*
+*Defined in models/location.ts:61*
 
 
 
@@ -111,7 +171,7 @@ ___
 
 **●  Factions**:  *[Faction](faction.md)[]* 
 
-*Defined in [models/journal-event.models.ts:228](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L228)*
+*Defined in models/location.ts:72*
 
 
 
@@ -125,7 +185,7 @@ ___
 
 **●  Latitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:215](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L215)*
+*Defined in models/location.ts:55*
 
 
 
@@ -139,7 +199,21 @@ ___
 
 **●  Longitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:216](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L216)*
+*Defined in models/location.ts:56*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+### «Optional» MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/location.ts:59*
 
 
 
@@ -153,7 +227,7 @@ ___
 
 **●  PowerplayState**:  *"InPrepareRadius"⎮"Prepared"⎮"Exploited"⎮"Contested"⎮"Controlled"⎮"Turmoil"⎮"HomeSystem"* 
 
-*Defined in [models/journal-event.models.ts:230](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L230)*
+*Defined in models/location.ts:74*
 
 
 
@@ -167,7 +241,7 @@ ___
 
 **●  Powers**:  *`string`[]* 
 
-*Defined in [models/journal-event.models.ts:229](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L229)*
+*Defined in models/location.ts:73*
 
 
 
@@ -175,13 +249,13 @@ ___
 
 ___
 
-<a id="security_locaolised"></a>
+<a id="security_localised"></a>
 
-###  Security_Locaolised
+###  Security_Localised
 
-**●  Security_Locaolised**:  *`string`* 
+**●  Security_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:227](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L227)*
+*Defined in models/location.ts:70*
 
 
 
@@ -195,7 +269,7 @@ ___
 
 **●  StarPos**:  *[`number`,`number`,`number`]* 
 
-*Defined in [models/journal-event.models.ts:211](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L211)*
+*Defined in models/location.ts:50*
 
 
 
@@ -209,7 +283,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:210](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L210)*
+*Defined in models/location.ts:48*
 
 
 
@@ -223,7 +297,7 @@ ___
 
 **●  StationName**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:217](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L217)*
+*Defined in models/location.ts:57*
 
 
 
@@ -237,7 +311,21 @@ ___
 
 **●  StationType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:218](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L218)*
+*Defined in models/location.ts:58*
+
+
+
+
+
+___
+
+<a id="systemaddress"></a>
+
+###  SystemAddress
+
+**●  SystemAddress**:  *`number`* 
+
+*Defined in models/location.ts:49*
 
 
 
@@ -251,7 +339,7 @@ ___
 
 **●  SystemAllegiance**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:221](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L221)*
+*Defined in models/location.ts:62*
 
 
 
@@ -265,7 +353,7 @@ ___
 
 **●  SystemEconomy**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:222](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L222)*
+*Defined in models/location.ts:63*
 
 
 
@@ -279,7 +367,7 @@ ___
 
 **●  SystemEconomy_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:223](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L223)*
+*Defined in models/location.ts:64*
 
 
 
@@ -293,7 +381,7 @@ ___
 
 **●  SystemFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:219](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L219)*
+*Defined in models/location.ts:60*
 
 
 
@@ -307,7 +395,7 @@ ___
 
 **●  SystemGovernment**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:224](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L224)*
+*Defined in models/location.ts:67*
 
 
 
@@ -321,7 +409,35 @@ ___
 
 **●  SystemGovernment_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:225](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L225)*
+*Defined in models/location.ts:68*
+
+
+
+
+
+___
+
+<a id="systemsecondeconomy"></a>
+
+###  SystemSecondEconomy
+
+**●  SystemSecondEconomy**:  *`string`* 
+
+*Defined in models/location.ts:65*
+
+
+
+
+
+___
+
+<a id="systemsecondeconomy_localised"></a>
+
+###  SystemSecondEconomy_Localised
+
+**●  SystemSecondEconomy_Localised**:  *`string`* 
+
+*Defined in models/location.ts:66*
 
 
 
@@ -335,7 +451,21 @@ ___
 
 **●  SystemSecurity**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:226](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L226)*
+*Defined in models/location.ts:69*
+
+
+
+
+
+___
+
+<a id="wanted"></a>
+
+###  Wanted
+
+**●  Wanted**:  *`boolean`* 
+
+*Defined in models/location.ts:71*
 
 
 
@@ -351,7 +481,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -367,7 +497,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

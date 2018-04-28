@@ -4,6 +4,9 @@
 
 # Class: SearchAndRescue
 
+
+When written: when delivering items to a Search and Rescue contact
+
 ## Hierarchy
 
 
@@ -22,6 +25,7 @@
 ### Properties
 
 * [Count](searchandrescue.md#count)
+* [MarketID](searchandrescue.md#marketid)
 * [Name](searchandrescue.md#name)
 * [Reward](searchandrescue.md#reward)
 * [event](searchandrescue.md#event)
@@ -37,7 +41,21 @@
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:805](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L805)*
+*Defined in models/search-and-rescue.ts:10*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/search-and-rescue.ts:8*
 
 
 
@@ -51,7 +69,7 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:804](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L804)*
+*Defined in models/search-and-rescue.ts:9*
 
 
 
@@ -65,7 +83,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:806](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L806)*
+*Defined in models/search-and-rescue.ts:11*
 
 
 
@@ -81,7 +99,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +115,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

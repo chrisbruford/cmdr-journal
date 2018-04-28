@@ -4,6 +4,21 @@
 
 # Class: ModuleSell
 
+
+When Written: when selling a module in outfitting
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"ModuleSell",
+        "Slot":"Slot06_Size2",
+        "SellItem":"int_cargorack_size1_class1",
+        "SellPrice":877,
+        "Ship":"asp",
+        "ShipID":1
+    }
+
 ## Hierarchy
 
 
@@ -21,6 +36,7 @@
 
 ### Properties
 
+* [MarketID](modulesell.md#marketid)
 * [SellItem](modulesell.md#sellitem)
 * [SellPrice](modulesell.md#sellprice)
 * [Ship](modulesell.md#ship)
@@ -33,13 +49,27 @@
 
 ---
 ## Properties
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/module-sell.ts:21*
+
+
+
+
+
+___
+
 <a id="sellitem"></a>
 
 ###  SellItem
 
 **●  SellItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:711](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L711)*
+*Defined in models/module-sell.ts:23*
 
 
 
@@ -53,7 +83,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:712](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L712)*
+*Defined in models/module-sell.ts:24*
 
 
 
@@ -67,7 +97,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:713](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L713)*
+*Defined in models/module-sell.ts:25*
 
 
 
@@ -81,7 +111,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:714](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L714)*
+*Defined in models/module-sell.ts:26*
 
 
 
@@ -95,7 +125,7 @@ ___
 
 **●  Slot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:710](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L710)*
+*Defined in models/module-sell.ts:22*
 
 
 
@@ -111,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -127,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

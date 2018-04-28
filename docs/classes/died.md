@@ -39,7 +39,7 @@
 
 **●  KillerName**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:283](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L283)*
+*Defined in [models/journal-event.models.ts:129](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L129)*
 
 
 
@@ -53,7 +53,7 @@ ___
 
 **●  KillerName_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:284](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L284)*
+*Defined in [models/journal-event.models.ts:130](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L130)*
 
 
 
@@ -67,7 +67,7 @@ ___
 
 **●  KillerRank**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:286](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L286)*
+*Defined in [models/journal-event.models.ts:132](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L132)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 **●  KillerShip**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:285](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L285)*
+*Defined in [models/journal-event.models.ts:131](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L131)*
 
 
 
@@ -95,7 +95,7 @@ ___
 
 **●  Killers**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:288](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L288)*
+*Defined in [models/journal-event.models.ts:134](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L134)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -4,6 +4,9 @@
 
 # Class: CommunityGoalReward
 
+
+When Written: when receiving a reward for a community goal
+
 ## Hierarchy
 
 
@@ -21,6 +24,7 @@
 
 ### Properties
 
+* [CGID](communitygoalreward.md#cgid)
 * [Name](communitygoalreward.md#name)
 * [Reward](communitygoalreward.md#reward)
 * [System](communitygoalreward.md#system)
@@ -31,13 +35,27 @@
 
 ---
 ## Properties
+<a id="cgid"></a>
+
+###  CGID
+
+**●  CGID**:  *`number`* 
+
+*Defined in models/community-goal-reward.ts:8*
+
+
+
+
+
+___
+
 <a id="name"></a>
 
 ###  Name
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:553](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L553)*
+*Defined in models/community-goal-reward.ts:9*
 
 
 
@@ -51,7 +69,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:555](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L555)*
+*Defined in models/community-goal-reward.ts:11*
 
 
 
@@ -65,7 +83,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:554](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L554)*
+*Defined in models/community-goal-reward.ts:10*
 
 
 
@@ -81,7 +99,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +115,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -4,6 +4,18 @@
 
 # Class: SupercruiseExit
 
+
+When written: leaving supercruise for normal space
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"SupercruiseExit",
+        "StarSystem":"Yuetu",
+        "Body":"Yuetu B"
+    }
+
 ## Hierarchy
 
 
@@ -22,6 +34,7 @@
 ### Properties
 
 * [Body](supercruiseexit.md#body)
+* [BodyID](supercruiseexit.md#bodyid)
 * [BodyType](supercruiseexit.md#bodytype)
 * [StarSystem](supercruiseexit.md#starsystem)
 * [event](supercruiseexit.md#event)
@@ -37,7 +50,21 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:248](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L248)*
+*Defined in models/supercruise-exit.ts:20*
+
+
+
+
+
+___
+
+<a id="bodyid"></a>
+
+###  BodyID
+
+**●  BodyID**:  *`number`* 
+
+*Defined in models/supercruise-exit.ts:21*
 
 
 
@@ -51,7 +78,7 @@ ___
 
 **●  BodyType**:  *[BodyTypes](../enums/bodytypes.md)* 
 
-*Defined in [models/journal-event.models.ts:249](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L249)*
+*Defined in models/supercruise-exit.ts:22*
 
 
 
@@ -65,7 +92,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:247](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L247)*
+*Defined in models/supercruise-exit.ts:19*
 
 
 
@@ -81,7 +108,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +124,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -4,6 +4,68 @@
 
 # Class: Scan
 
+
+When Written: basic or detailed discovery scan of a star, planet or moon
+
+This is also generated when scanning a navigation beacon in a populated system, to record info about all the bodies in the system
+
+lots of these properties are optional depending on object scanned
+
+Note that a basic scan (ie without having a Detailed Surface Scanner installed) will now save a reduced amount of information.
+
+A basic scan on a planet will include body name, planet class, orbital data, rotation period, mass, radius, surface gravity; but will exclude tidal lock, terraform state, atmosphere, volcanism, surface pressure and temperature, available materials, and details of rings. The info for a star will be largely the same whether a basic scanner or detailed scanner is used.
+
+The "Parents" property provides the body's hierarchical position within the system: in the example below, "Procyon B 3 a" is a moon of a planet (body 11), which is orbiting a star (body 2), which is has a parent body that's a Barycentre
+
+## Example
+
+    {
+        "timestamp":"2018-02-02T10:43:05Z",
+        "event":"Scan",
+        "ScanType":"NavBeaconDetail",
+        "BodyName":"Procyon B 3 a",
+        "BodyID":12,
+        "Parents":[ {"Planet":11}, {"Star":2}, {"Null":0} ],
+        "DistanceFromArrivalLS":10048.152344,
+        "TidalLock":true,
+        "TerraformState":"",
+        "PlanetClass":"Rocky body",
+        "Atmosphere":"",
+        "AtmosphereType":"None",
+        "Volcanism":"",
+        "MassEM":0.025342,
+        "Radius":2011975.250000,
+        "SurfaceGravity":2.495225,
+        "SurfaceTemperature":318.448792,
+        "SurfacePressure":0.000000,
+        "Landable":true,
+        "Materials":[
+            { "Name":"iron", "Percent":19.315084 },
+            { "Name":"sulphur", "Percent":17.321133 },
+            { "Name":"nickel", "Percent":14.609120 },
+            { "Name":"carbon", "Percent":14.565277 },
+            { "Name":"phosphorus", "Percent":9.324941 },
+            { "Name":"chromium", "Percent":8.686635 },
+            { "Name":"manganese", "Percent":7.976933 },
+            { "Name":"zinc", "Percent":5.249117 },
+            { "Name":"tin", "Percent":1.200338 },
+            { "Name":"tungsten", "Percent":1.060592 },
+            { "Name":"technetium", "Percent":0.690823 }
+        ],
+        "Composition":{
+            "Ice":0.000000,
+            "Rock":0.861282,
+            "Metal":0.138718
+        },
+        "SemiMajorAxis":89655728.000000,
+        "Eccentricity":0.000000,
+        "OrbitalInclination":4.566576,
+        "Periapsis":309.656799,
+        "OrbitalPeriod":344902.937500,
+        "RotationPeriod":352425.468750,
+        "AxialTilt":0.479157
+    }
+
 ## Hierarchy
 
 
@@ -27,7 +89,9 @@
 * [AtmosphereComposition](scan.md#atmospherecomposition)
 * [AtmosphereType](scan.md#atmospheretype)
 * [AxialTilt](scan.md#axialtilt)
+* [BodyID](scan.md#bodyid)
 * [Bodyname](scan.md#bodyname)
+* [Composition](scan.md#composition)
 * [DistanceFromArrivalLS](scan.md#distancefromarrivalls)
 * [Eccentricity](scan.md#eccentricity)
 * [Landable](scan.md#landable)
@@ -35,12 +99,14 @@
 * [Materials](scan.md#materials)
 * [OrbitalInclination](scan.md#orbitalinclination)
 * [OrbitalPeriod](scan.md#orbitalperiod)
+* [Parents](scan.md#parents)
 * [Periapsis](scan.md#periapsis)
 * [PlanetClass](scan.md#planetclass)
 * [Radius](scan.md#radius)
 * [ReserveLevel](scan.md#reservelevel)
 * [Rings](scan.md#rings)
 * [RotationPeriod](scan.md#rotationperiod)
+* [ScanType](scan.md#scantype)
 * [SemiMajorAxis](scan.md#semimajoraxis)
 * [StarType](scan.md#startype)
 * [StellarMass](scan.md#stellarmass)
@@ -63,7 +129,7 @@
 
 **●  AbsoluteMagnitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:382](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L382)*
+*Defined in models/scan.ts:99*
 
 
 
@@ -77,7 +143,7 @@ ___
 
 **●  Age_MY**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:383](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L383)*
+*Defined in models/scan.ts:100*
 
 
 
@@ -91,7 +157,7 @@ ___
 
 **●  Atmosphere**:  *[AtmosphereTypes](../enums/atmospheretypes.md)* 
 
-*Defined in [models/journal-event.models.ts:389](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L389)*
+*Defined in models/scan.ts:107*
 
 
 
@@ -105,7 +171,7 @@ ___
 
 **●  AtmosphereComposition**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:391](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L391)*
+*Defined in models/scan.ts:109*
 
 
 
@@ -119,7 +185,7 @@ ___
 
 **●  AtmosphereType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:390](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L390)*
+*Defined in models/scan.ts:108*
 
 
 
@@ -133,7 +199,21 @@ ___
 
 **●  AxialTilt**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:363](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L363)*
+*Defined in models/scan.ts:80*
+
+
+
+
+
+___
+
+<a id="bodyid"></a>
+
+###  BodyID
+
+**●  BodyID**:  *`number`* 
+
+*Defined in models/scan.ts:74*
 
 
 
@@ -147,7 +227,45 @@ ___
 
 **●  Bodyname**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:358](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L358)*
+*Defined in models/scan.ts:73*
+
+
+
+
+
+___
+
+<a id="composition"></a>
+
+###  Composition
+
+**●  Composition**:  *`object`* 
+
+*Defined in models/scan.ts:119*
+
+
+#### Type declaration
+
+
+
+
+ Ice: `number`
+
+
+
+
+
+
+ Metal: `number`
+
+
+
+
+
+
+ Rock: `number`
+
+
 
 
 
@@ -161,7 +279,7 @@ ___
 
 **●  DistanceFromArrivalLS**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:359](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L359)*
+*Defined in models/scan.ts:75*
 
 
 
@@ -175,7 +293,7 @@ ___
 
 **●  Eccentricity**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:374](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L374)*
+*Defined in models/scan.ts:91*
 
 
 
@@ -189,7 +307,7 @@ ___
 
 **●  Landable**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:398](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L398)*
+*Defined in models/scan.ts:116*
 
 
 
@@ -203,7 +321,7 @@ ___
 
 **●  Luminosity**:  *[StarLuminosityClasses](../enums/starluminosityclasses.md)* 
 
-*Defined in [models/journal-event.models.ts:384](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L384)*
+*Defined in models/scan.ts:101*
 
 
 
@@ -217,7 +335,7 @@ ___
 
 **●  Materials**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:399](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L399)*
+*Defined in models/scan.ts:117*
 
 
 
@@ -231,7 +349,7 @@ ___
 
 **●  OrbitalInclination**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:375](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L375)*
+*Defined in models/scan.ts:92*
 
 
 
@@ -245,7 +363,21 @@ ___
 
 **●  OrbitalPeriod**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:377](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L377)*
+*Defined in models/scan.ts:94*
+
+
+
+
+
+___
+
+<a id="parents"></a>
+
+### «Optional» Parents
+
+**●  Parents**:  *`object`[]* 
+
+*Defined in models/scan.ts:103*
 
 
 
@@ -259,7 +391,7 @@ ___
 
 **●  Periapsis**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:376](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L376)*
+*Defined in models/scan.ts:93*
 
 
 
@@ -273,7 +405,7 @@ ___
 
 **●  PlanetClass**:  *[PlanetTypes](../enums/planettypes.md)* 
 
-*Defined in [models/journal-event.models.ts:388](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L388)*
+*Defined in models/scan.ts:106*
 
 
 
@@ -287,7 +419,7 @@ ___
 
 **●  Radius**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:381](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L381)*
+*Defined in models/scan.ts:98*
 
 
 
@@ -301,7 +433,7 @@ ___
 
 **●  ReserveLevel**:  *"Pristine"⎮"Major"⎮"Common"⎮"Low"⎮"Depleted"* 
 
-*Defined in [models/journal-event.models.ts:400](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L400)*
+*Defined in models/scan.ts:118*
 
 
 
@@ -315,7 +447,7 @@ ___
 
 **●  Rings**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:365](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L365)*
+*Defined in models/scan.ts:82*
 
 
 
@@ -329,7 +461,21 @@ ___
 
 **●  RotationPeriod**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:362](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L362)*
+*Defined in models/scan.ts:79*
+
+
+
+
+
+___
+
+<a id="scantype"></a>
+
+###  ScanType
+
+**●  ScanType**:  *"Basic"⎮"Detailed"⎮"NavBeacon"⎮"NavBeaconDetail"* 
+
+*Defined in models/scan.ts:77*
 
 
 
@@ -343,7 +489,7 @@ ___
 
 **●  SemiMajorAxis**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:373](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L373)*
+*Defined in models/scan.ts:90*
 
 
 
@@ -357,7 +503,7 @@ ___
 
 **●  StarType**:  *[StarTypes](../enums/startypes.md)* 
 
-*Defined in [models/journal-event.models.ts:379](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L379)*
+*Defined in models/scan.ts:96*
 
 
 
@@ -371,7 +517,7 @@ ___
 
 **●  StellarMass**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:380](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L380)*
+*Defined in models/scan.ts:97*
 
 
 
@@ -385,7 +531,7 @@ ___
 
 **●  SurfaceGravity**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:396](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L396)*
+*Defined in models/scan.ts:114*
 
 
 
@@ -399,7 +545,7 @@ ___
 
 **●  SurfacePressure**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:397](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L397)*
+*Defined in models/scan.ts:115*
 
 
 
@@ -413,7 +559,7 @@ ___
 
 **●  SurfaceTemperature**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:360](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L360)*
+*Defined in models/scan.ts:76*
 
 
 
@@ -427,7 +573,7 @@ ___
 
 **●  TerraformState**:  *"Terraformable"⎮"Terraforming"⎮"Terraformed"⎮`null`* 
 
-*Defined in [models/journal-event.models.ts:387](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L387)*
+*Defined in models/scan.ts:105*
 
 
 
@@ -441,7 +587,7 @@ ___
 
 **●  TidalLock**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:386](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L386)*
+*Defined in models/scan.ts:104*
 
 
 
@@ -455,7 +601,7 @@ ___
 
 **●  Volcanism**:  *[VolcanismTypes](../enums/volcanismtypes.md)* 
 
-*Defined in [models/journal-event.models.ts:395](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L395)*
+*Defined in models/scan.ts:113*
 
 
 
@@ -471,7 +617,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -487,7 +633,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -6,9 +6,9 @@
         "noImplicitAny": true,
         "outDir": "./dist"
     },
-    "include": [
-        "./src/**/*"
-    ],
+    // "include": [
+    //     "./src/**/*"
+    // ],
     "typedocOptions": {
         "mode": "file",
         "entry": "./src/index.ts",

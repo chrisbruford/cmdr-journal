@@ -4,6 +4,33 @@
 
 # Class: ModuleSwap
 
+
+When Written: when moving a module to a different slot on the ship
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"ModuleSwap",
+        "FromSlot":"MediumHardpoint1",
+        "ToSlot":"MediumHardpoint2",
+        "FromItem":"hpt_pulselaser_fixed_medium",
+        "ToItem":"hpt_multicannon_gimbal_medium",
+        "Ship":"cobramkiii",
+        "ShipID":1
+    }
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"ModuleSwap",
+        "FromSlot":"SmallHardpoint2",
+        "ToSlot":"SmallHardpoint1",
+        "FromItem":"hpt_pulselaserburst_fixed_small_scatter",
+        "ToItem":"Null",
+        "Ship":"cobramkiii",
+        "ShipID":1
+    }
+
 ## Hierarchy
 
 
@@ -23,6 +50,7 @@
 
 * [FromItem](moduleswap.md#fromitem)
 * [FromSlot](moduleswap.md#fromslot)
+* [MarketID](moduleswap.md#marketid)
 * [Ship](moduleswap.md#ship)
 * [ShipID](moduleswap.md#shipid)
 * [ToItem](moduleswap.md#toitem)
@@ -40,7 +68,7 @@
 
 **●  FromItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:740](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L740)*
+*Defined in models/module-swap.ts:37*
 
 
 
@@ -54,7 +82,21 @@ ___
 
 **●  FromSlot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:738](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L738)*
+*Defined in models/module-swap.ts:35*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/module-swap.ts:34*
 
 
 
@@ -68,7 +110,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:742](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L742)*
+*Defined in models/module-swap.ts:39*
 
 
 
@@ -82,7 +124,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:743](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L743)*
+*Defined in models/module-swap.ts:40*
 
 
 
@@ -96,7 +138,7 @@ ___
 
 **●  ToItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:741](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L741)*
+*Defined in models/module-swap.ts:38*
 
 
 
@@ -110,7 +152,7 @@ ___
 
 **●  ToSlot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:739](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L739)*
+*Defined in models/module-swap.ts:36*
 
 
 
@@ -126,7 +168,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -142,7 +184,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

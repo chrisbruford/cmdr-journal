@@ -41,7 +41,7 @@ If the play session goes on a long time, and the journal gets very large, the fi
 
 **●  build**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:31](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L31)*
+*Defined in models/file-header.ts:12*
 
 
 
@@ -57,7 +57,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -71,7 +71,7 @@ ___
 
 **●  gameversion**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:30](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L30)*
+*Defined in models/file-header.ts:11*
 
 
 
@@ -85,7 +85,7 @@ ___
 
 **●  language**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:29](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L29)*
+*Defined in models/file-header.ts:10*
 
 
 
@@ -99,7 +99,7 @@ ___
 
 **●  part**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:28](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L28)*
+*Defined in models/file-header.ts:9*
 
 
 
@@ -115,7 +115,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

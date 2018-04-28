@@ -4,6 +4,48 @@
 
 # Class: MassModuleStore
 
+
+When written: when putting multiple modules into storage
+
+## Example
+
+    {
+        "timestamp":"2018-03-27T18:31:00Z",
+        "event":"MassModuleStore",
+        "MarketID":3230399232,
+        "Ship":"cobramkiii",
+        "ShipID":92,
+        "Items":[
+            {
+                "Slot":"MediumHardpoint1",
+                "Name":"$hpt_railgun_fixed_medium_name;",
+                "Name_Localised":"Rail Gun",
+                "Hot":false,
+                "EngineerModifications":"Weapon_Sturdy",
+                "Level":4,
+                "Quality":0.000000
+            },
+            {
+                "Slot":"MediumHardpoint2",
+                "Name":"$hpt_railgun_fixed_medium_name;",
+                "Name_Localised":"Rail Gun",
+                "Hot":false,
+                "EngineerModifications":"Weapon_LongRange",
+                "Level":5,
+                "Quality":0.000000
+            },
+            {
+                "Slot":"Slot01_Size4",
+                "Name":"$int_shieldgenerator_size4_class5_strong_name;",
+                "Name_Localised":"Prismatic Shield",
+                "Hot":false,
+                "EngineerModifications":"ShieldGenerator_Thermic",
+                "Level":5,
+                "Quality":0.000000
+            }
+        ]
+    }
+
 ## Hierarchy
 
 
@@ -22,6 +64,7 @@
 ### Properties
 
 * [Items](massmodulestore.md#items)
+* [MarketID](massmodulestore.md#marketid)
 * [Ship](massmodulestore.md#ship)
 * [ShipId](massmodulestore.md#shipid)
 * [event](massmodulestore.md#event)
@@ -37,7 +80,21 @@
 
 **●  Items**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:620](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L620)*
+*Defined in models/mass-module-store.ts:51*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/mass-module-store.ts:48*
 
 
 
@@ -51,7 +108,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:618](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L618)*
+*Defined in models/mass-module-store.ts:49*
 
 
 
@@ -65,7 +122,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:619](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L619)*
+*Defined in models/mass-module-store.ts:50*
 
 
 
@@ -81,7 +138,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +154,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

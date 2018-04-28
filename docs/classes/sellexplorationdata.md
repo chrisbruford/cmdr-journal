@@ -4,6 +4,28 @@
 
 # Class: SellExplorationData
 
+
+When Written: when selling exploration data in Cartographics
+
+## Example:
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"SellExplorationData",
+        "Systems":[
+            "HIP 78085",
+            "Praea Euq NW-W b1-3"
+        ],
+        "Discovered":[
+            "HIP 78085 A",
+            "Praea Euq NW-W b1-3",
+            "Praea Euq NW-W b1-3 3 a",
+            "Praea Euq NW-W b1-3 3"
+        ],
+        "BaseValue":10822,
+        "Bonus":3959
+    }
+
 ## Hierarchy
 
 
@@ -25,6 +47,7 @@
 * [Bonus](sellexplorationdata.md#bonus)
 * [Discovered](sellexplorationdata.md#discovered)
 * [Systems](sellexplorationdata.md#systems)
+* [TotalEarnings](sellexplorationdata.md#totalearnings)
 * [event](sellexplorationdata.md#event)
 * [timestamp](sellexplorationdata.md#timestamp)
 
@@ -38,7 +61,7 @@
 
 **●  BaseValue**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:440](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L440)*
+*Defined in [models/journal-event.models.ts:261](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L261)*
 
 
 
@@ -52,7 +75,7 @@ ___
 
 **●  Bonus**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:441](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L441)*
+*Defined in [models/journal-event.models.ts:262](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L262)*
 
 
 
@@ -66,7 +89,7 @@ ___
 
 **●  Discovered**:  *`string`[]* 
 
-*Defined in [models/journal-event.models.ts:439](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L439)*
+*Defined in [models/journal-event.models.ts:260](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L260)*
 
 
 
@@ -80,7 +103,21 @@ ___
 
 **●  Systems**:  *`string`[]* 
 
-*Defined in [models/journal-event.models.ts:438](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L438)*
+*Defined in [models/journal-event.models.ts:259](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L259)*
+
+
+
+
+
+___
+
+<a id="totalearnings"></a>
+
+###  TotalEarnings
+
+**●  TotalEarnings**:  *`number`* 
+
+*Defined in [models/journal-event.models.ts:263](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L263)*
 
 
 
@@ -96,7 +133,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -112,7 +149,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

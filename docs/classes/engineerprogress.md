@@ -4,6 +4,27 @@
 
 # Class: EngineerProgress
 
+
+When Written: when a player increases their access to an engineer
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"EngineerProgress",
+        "Progress":"Unlocked",
+        "Engineer":"Elvira Martuuk",
+        "EngineerID":300160
+    }
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"EngineerProgress",
+        "Engineer":"Elvira Martuuk",
+        "EngineerID":300160,
+        "Rank":2
+    }
+
 ## Hierarchy
 
 
@@ -22,6 +43,7 @@
 ### Properties
 
 * [Engineer](engineerprogress.md#engineer)
+* [EngineerID](engineerprogress.md#engineerid)
 * [Progress](engineerprogress.md#progress)
 * [Rank](engineerprogress.md#rank)
 * [event](engineerprogress.md#event)
@@ -37,7 +59,21 @@
 
 **●  Engineer**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:600](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L600)*
+*Defined in models/engineer-progress.ts:28*
+
+
+
+
+
+___
+
+<a id="engineerid"></a>
+
+###  EngineerID
+
+**●  EngineerID**:  *`number`* 
+
+*Defined in models/engineer-progress.ts:29*
 
 
 
@@ -51,7 +87,7 @@ ___
 
 **●  Progress**:  *"Invited"⎮"Acquainted"⎮"Unlocked"⎮"Barred"* 
 
-*Defined in [models/journal-event.models.ts:602](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L602)*
+*Defined in models/engineer-progress.ts:31*
 
 
 
@@ -65,7 +101,7 @@ ___
 
 **●  Rank**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:601](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L601)*
+*Defined in models/engineer-progress.ts:30*
 
 
 
@@ -81,7 +117,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +133,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

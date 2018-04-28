@@ -4,6 +4,9 @@
 
 # Class: NavBeaconScan
 
+
+When written: when scanning a navigation beacon, before the scan data for all the bodies in the system is written into the journal
+
 ## Hierarchy
 
 
@@ -22,6 +25,7 @@
 ### Properties
 
 * [NumBodies](navbeaconscan.md#numbodies)
+* [SystemAddress](navbeaconscan.md#systemaddress)
 * [event](navbeaconscan.md#event)
 * [timestamp](navbeaconscan.md#timestamp)
 
@@ -35,7 +39,21 @@
 
 **●  NumBodies**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:428](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L428)*
+*Defined in models/nav-beacon-scan.ts:8*
+
+
+
+
+
+___
+
+<a id="systemaddress"></a>
+
+###  SystemAddress
+
+**●  SystemAddress**:  *`number`* 
+
+*Defined in models/nav-beacon-scan.ts:9*
 
 
 
@@ -51,7 +69,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -67,7 +85,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -4,6 +4,22 @@
 
 # Class: StartJump
 
+
+When written: at the start of a Hyperspace or Supercruise jump (start of countdown)
+
+## Hierarchy
+
+
+ [JournalEvent](journalevent.md)
+
+**↳ StartJump**
+
+
+
+
+
+
+
 ## Index
 
 ### Properties
@@ -11,6 +27,9 @@
 * [JumpType](startjump.md#jumptype)
 * [StarClass](startjump.md#starclass)
 * [StarSystem](startjump.md#starsystem)
+* [SystemAddress](startjump.md#systemaddress)
+* [event](startjump.md#event)
+* [timestamp](startjump.md#timestamp)
 
 
 
@@ -22,7 +41,7 @@
 
 **●  JumpType**:  *"Hyperspace"⎮"Supercruise"* 
 
-*Defined in [models/journal-event.models.ts:236](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L236)*
+*Defined in models/start-jump.ts:8*
 
 
 
@@ -36,7 +55,7 @@ ___
 
 **●  StarClass**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:238](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L238)*
+*Defined in models/start-jump.ts:11*
 
 
 
@@ -50,7 +69,53 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:237](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L237)*
+*Defined in models/start-jump.ts:9*
+
+
+
+
+
+___
+
+<a id="systemaddress"></a>
+
+###  SystemAddress
+
+**●  SystemAddress**:  *`number`* 
+
+*Defined in models/start-jump.ts:10*
+
+
+
+
+
+___
+
+<a id="event"></a>
+
+###  event
+
+**●  event**:  *`string`* 
+
+*Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
+
+*Defined in models/journal-event.model.ts:2*
+
+
+
+
+
+___
+
+<a id="timestamp"></a>
+
+###  timestamp
+
+**●  timestamp**:  *`string`* 
+
+*Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
+
+*Defined in models/journal-event.model.ts:3*
 
 
 

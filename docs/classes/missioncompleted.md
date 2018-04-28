@@ -4,6 +4,44 @@
 
 # Class: MissionCompleted
 
+
+When Written: when a mission is completed
+
+## Example
+
+    {
+        "timestamp":"2018-04-19T18:23:52Z",
+        "event":"MissionCompleted",
+        "Faction":"Knights of Karma",
+        "Name":"MISSION_Scan_name",
+        "MissionID":366822930,
+        "Reward":2858960,
+        "FactionEffects":[
+            {
+                "Faction":"Knights of Karma",
+                "Effects":[
+                    {
+                        "Effect":"$MISSIONUTIL_Interaction_Summary_lockdown_down;",
+                        "Effect_Localised":"$#MinorFaction; have less signs of imposing a security lockdown.",
+                        "Trend":"DownGood"
+                    }
+                ],
+                "Influence":[ { "SystemAddress":4786481006963, "Trend":"UpGood" } ],
+                "Reputation":"UpGood"
+            }
+        ]
+    }
+
+### Example of MaterialsReward
+
+    {
+        "Name":"DisruptedWakeEchoes",
+        "Name_Localised":"Atypical Disrupted Wake Echoes",
+        "Category":"$MICRORESOURCE_CATEGORY_Encoded;",
+        "Category_Localised":"Encoded",
+        "Count":4
+    }
+
 ## Hierarchy
 
 
@@ -27,10 +65,17 @@
 * [Count](missioncompleted.md#count)
 * [DestinationStation](missioncompleted.md#destinationstation)
 * [DestinationSystem](missioncompleted.md#destinationsystem)
+* [Donation](missioncompleted.md#donation)
 * [Faction](missioncompleted.md#faction)
+* [FactionEffects](missioncompleted.md#factioneffects)
+* [MaterialsReward](missioncompleted.md#materialsreward)
 * [MissionID](missioncompleted.md#missionid)
 * [Name](missioncompleted.md#name)
+* [PermitsAwarded](missioncompleted.md#permitsawarded)
 * [Reward](missioncompleted.md#reward)
+* [Target](missioncompleted.md#target)
+* [TargetFaction](missioncompleted.md#targetfaction)
+* [TargetType](missioncompleted.md#targettype)
 * [event](missioncompleted.md#event)
 * [timestamp](missioncompleted.md#timestamp)
 
@@ -40,11 +85,11 @@
 ## Properties
 <a id="commodity"></a>
 
-###  Commodity
+### «Optional» Commodity
 
 **●  Commodity**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:662](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L662)*
+*Defined in models/mission-completed.ts:48*
 
 
 
@@ -54,11 +99,11 @@ ___
 
 <a id="commodityreward"></a>
 
-###  CommodityReward
+### «Optional» CommodityReward
 
 **●  CommodityReward**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:668](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L668)*
+*Defined in models/mission-completed.ts:57*
 
 
 
@@ -68,11 +113,11 @@ ___
 
 <a id="commodity_localised"></a>
 
-###  Commodity_Localised
+### «Optional» Commodity_Localised
 
 **●  Commodity_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:663](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L663)*
+*Defined in models/mission-completed.ts:49*
 
 
 
@@ -82,11 +127,11 @@ ___
 
 <a id="count"></a>
 
-###  Count
+### «Optional» Count
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:664](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L664)*
+*Defined in models/mission-completed.ts:50*
 
 
 
@@ -100,7 +145,7 @@ ___
 
 **●  DestinationStation**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:666](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L666)*
+*Defined in models/mission-completed.ts:79*
 
 
 
@@ -114,7 +159,21 @@ ___
 
 **●  DestinationSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:665](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L665)*
+*Defined in models/mission-completed.ts:78*
+
+
+
+
+
+___
+
+<a id="donation"></a>
+
+### «Optional» Donation
+
+**●  Donation**:  *`number`* 
+
+*Defined in models/mission-completed.ts:55*
 
 
 
@@ -128,7 +187,35 @@ ___
 
 **●  Faction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:659](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L659)*
+*Defined in models/mission-completed.ts:46*
+
+
+
+
+
+___
+
+<a id="factioneffects"></a>
+
+### «Optional» FactionEffects
+
+**●  FactionEffects**:  *`object`[]* 
+
+*Defined in models/mission-completed.ts:65*
+
+
+
+
+
+___
+
+<a id="materialsreward"></a>
+
+### «Optional» MaterialsReward
+
+**●  MaterialsReward**:  *`object`[]* 
+
+*Defined in models/mission-completed.ts:58*
 
 
 
@@ -142,7 +229,7 @@ ___
 
 **●  MissionID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:661](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L661)*
+*Defined in models/mission-completed.ts:47*
 
 
 
@@ -156,7 +243,21 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:660](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L660)*
+*Defined in models/mission-completed.ts:45*
+
+
+
+
+
+___
+
+<a id="permitsawarded"></a>
+
+### «Optional» PermitsAwarded
+
+**●  PermitsAwarded**:  *`string`[]* 
+
+*Defined in models/mission-completed.ts:56*
 
 
 
@@ -166,11 +267,53 @@ ___
 
 <a id="reward"></a>
 
-###  Reward
+### «Optional» Reward
 
 **●  Reward**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:667](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L667)*
+*Defined in models/mission-completed.ts:54*
+
+
+
+
+
+___
+
+<a id="target"></a>
+
+### «Optional» Target
+
+**●  Target**:  *`string`* 
+
+*Defined in models/mission-completed.ts:51*
+
+
+
+
+
+___
+
+<a id="targetfaction"></a>
+
+### «Optional» TargetFaction
+
+**●  TargetFaction**:  *`string`* 
+
+*Defined in models/mission-completed.ts:53*
+
+
+
+
+
+___
+
+<a id="targettype"></a>
+
+### «Optional» TargetType
+
+**●  TargetType**:  *`string`* 
+
+*Defined in models/mission-completed.ts:52*
 
 
 
@@ -186,7 +329,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -202,7 +345,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -8,22 +8,307 @@
 
 **JournalEvent**
 
+↳  [DockingCancelled](dockingcancelled.md)
+
+
+
+
+↳  [TechnologyBroker](technologybroker.md)
+
+
+
+
 ↳  [FileHeader](fileheader.md)
 
 
 
 
-↳  [Cargo](cargo.md)
+↳  [Loadout](loadout.md)
+
+
+
+
+↳  [EngineerContribution](engineercontribution.md)
+
+
+
+
+↳  [EngineerCraft](engineercraft.md)
+
+
+
+
+↳  [EngineerProgress](engineerprogress.md)
+
+
+
+
+↳  [EngineerLegacyConvert](engineerlegacyconvert.md)
+
+
+
+
+↳  [Docked](docked.md)
+
+
+
+
+↳  [DockingDenied](dockingdenied.md)
+
+
+
+
+↳  [DockingGranted](dockinggranted.md)
+
+
+
+
+↳  [DockingRequested](dockingrequested.md)
+
+
+
+
+↳  [DockingTimeout](dockingtimeout.md)
+
+
+
+
+↳  [Location](location.md)
+
+
+
+
+↳  [Undocked](undocked.md)
+
+
+
+
+↳  [MarketBuy](marketbuy.md)
+
+
+
+
+↳  [MarketSell](marketsell.md)
+
+
+
+
+↳  [CargoDepot](cargodepot.md)
+
+
+
+
+↳  [Market](market.md)
+
+
+
+
+↳  [MassModuleStore](massmodulestore.md)
+
+
+
+
+↳  [MaterialTrade](materialtrade.md)
+
+
+
+
+↳  [ModuleBuy](modulebuy.md)
+
+
+
+
+↳  [ModuleRetrieve](moduleretrieve.md)
+
+
+
+
+↳  [ModuleSell](modulesell.md)
+
+
+
+
+↳  [ModuleStore](modulestore.md)
+
+
+
+
+↳  [ModuleSwap](moduleswap.md)
+
+
+
+
+↳  [Outfitting](outfitting.md)
+
+
+
+
+↳  [ScientificResearch](scientificresearch.md)
+
+
+
+
+↳  [SearchAndRescue](searchandrescue.md)
+
+
+
+
+↳  [Shipyard](shipyard.md)
+
+
+
+
+↳  [ShipyardBuy](shipyardbuy.md)
+
+
+
+
+↳  [ShipyardNew](shipyardnew.md)
+
+
+
+
+↳  [ShipyardSell](shipyardsell.md)
+
+
+
+
+↳  [ShipyardTransfer](shipyardtransfer.md)
+
+
+
+
+↳  [ShipyardSwap](shipyardswap.md)
+
+
+
+
+↳  [StoredModules](storedmodules.md)
+
+
+
+
+↳  [StoredShips](storedships.md)
+
+
+
+
+↳  [ApproachSettlement](approachsettlement.md)
+
+
+
+
+↳  [ApproachBody](approachbody.md)
+
+
+
+
+↳  [LeaveBody](leavebody.md)
+
+
+
+
+↳  [SupercruiseExit](supercruiseexit.md)
+
+
+
+
+↳  [Scan](scan.md)
+
+
+
+
+↳  [LaunchDrone](launchdrone.md)
+
+
+
+
+↳  [FighterDestroyed](fighterdestroyed.md)
+
+
+
+
+↳  [Missions](missions.md)
+
+
+
+
+↳  [FSDJump](fsdjump.md)
+
+
+
+
+↳  [NavBeaconScan](navbeaconscan.md)
+
+
+
+
+↳  [MissionCompleted](missioncompleted.md)
+
+
+
+
+↳  [UnderAttack](underattack.md)
+
+
+
+
+↳  [Statistics](statistics.md)
+
+
+
+
+↳  [MissionFailed](missionfailed.md)
+
+
+
+
+↳  [MissionAbandoned](missionabandoned.md)
+
+
+
+
+↳  [Reputation](reputation.md)
+
+
+
+
+↳  [CommunityGoal](communitygoal.md)
+
+
+
+
+↳  [CommunityGoalDiscard](communitygoaldiscard.md)
+
+
+
+
+↳  [CommunityGoalJoin](communitygoaljoin.md)
+
+
+
+
+↳  [CommunityGoalReward](communitygoalreward.md)
+
+
+
+
+↳  [Shutdown](shutdown.md)
+
+
+
+
+↳  [ShipTargetted](shiptargetted.md)
+
+
+
+
+↳  [Commander](commander.md)
 
 
 
 
 ↳  [ClearSavedGame](clearsavedgame.md)
-
-
-
-
-↳  [Loadout](loadout.md)
 
 
 
@@ -58,47 +343,7 @@
 
 
 
-↳  [Docked](docked.md)
-
-
-
-
-↳  [DockingCancelled](dockingcancelled.md)
-
-
-
-
-↳  [DockingDenied](dockingdenied.md)
-
-
-
-
-↳  [DockingGranted](dockinggranted.md)
-
-
-
-
-↳  [DockingRequested](dockingrequested.md)
-
-
-
-
-↳  [DockingTimeout](dockingtimeout.md)
-
-
-
-
-↳  [FSDJump](fsdjump.md)
-
-
-
-
 ↳  [Liftoff](liftoff.md)
-
-
-
-
-↳  [Location](location.md)
 
 
 
@@ -108,17 +353,7 @@
 
 
 
-↳  [SupercruiseExit](supercruiseexit.md)
-
-
-
-
 ↳  [Touchdown](touchdown.md)
-
-
-
-
-↳  [Undocked](undocked.md)
 
 
 
@@ -183,7 +418,7 @@
 
 
 
-↳  [Scan](scan.md)
+↳  [SRVDestroyed](srvdestroyed.md)
 
 
 
@@ -199,11 +434,6 @@
 
 
 ↳  [MaterialDiscovered](materialdiscovered.md)
-
-
-
-
-↳  [NavBeaconScan](navbeaconscan.md)
 
 
 
@@ -238,16 +468,6 @@
 
 
 
-↳  [MarketBuy](marketbuy.md)
-
-
-
-
-↳  [MarketSell](marketsell.md)
-
-
-
-
 ↳  [MiningRefined](miningrefined.md)
 
 
@@ -259,26 +479,6 @@
 
 
 ↳  [BuyDrones](buydrones.md)
-
-
-
-
-↳  [CommunityGoal](communitygoal.md)
-
-
-
-
-↳  [CommunityGoalDiscard](communitygoaldiscard.md)
-
-
-
-
-↳  [CommunityGoalJoin](communitygoaljoin.md)
-
-
-
-
-↳  [CommunityGoalReward](communitygoalreward.md)
 
 
 
@@ -298,37 +498,7 @@
 
 
 
-↳  [EngineerApply](engineerapply.md)
-
-
-
-
-↳  [EngineerContribution](engineercontribution.md)
-
-
-
-
-↳  [EngineerCraft](engineercraft.md)
-
-
-
-
-↳  [EngineerProgress](engineerprogress.md)
-
-
-
-
 ↳  [FetchRemoteModule](fetchremotemodule.md)
-
-
-
-
-↳  [MassModuleStore](massmodulestore.md)
-
-
-
-
-↳  [MissionAbandoned](missionabandoned.md)
 
 
 
@@ -338,47 +508,12 @@
 
 
 
-↳  [MissionCompleted](missioncompleted.md)
-
-
-
-
-↳  [MissionFailed](missionfailed.md)
-
-
-
-
 ↳  [MissionRedirected](missionredirected.md)
 
 
 
 
-↳  [ModuleBuy](modulebuy.md)
-
-
-
-
-↳  [ModuleRetrieve](moduleretrieve.md)
-
-
-
-
-↳  [ModuleSell](modulesell.md)
-
-
-
-
 ↳  [ModuleSellRemote](modulesellremote.md)
-
-
-
-
-↳  [ModuleStore](modulestore.md)
-
-
-
-
-↳  [ModuleSwap](moduleswap.md)
 
 
 
@@ -423,16 +558,6 @@
 
 
 
-↳  [ScientificResearch](scientificresearch.md)
-
-
-
-
-↳  [SearchAndRescue](searchandrescue.md)
-
-
-
-
 ↳  [SellDrones](selldrones.md)
 
 
@@ -444,31 +569,6 @@
 
 
 ↳  [SetUserShipName](setusershipname.md)
-
-
-
-
-↳  [ShipyardBuy](shipyardbuy.md)
-
-
-
-
-↳  [ShipyardNew](shipyardnew.md)
-
-
-
-
-↳  [ShipyardSell](shipyardsell.md)
-
-
-
-
-↳  [ShipyardTransfer](shipyardtransfer.md)
-
-
-
-
-↳  [ShipyardSwap](shipyardswap.md)
 
 
 
@@ -519,11 +619,6 @@
 
 
 ↳  [AfmuRepairs](afmurepairs.md)
-
-
-
-
-↳  [ApproachSettlement](approachsettlement.md)
 
 
 
@@ -638,6 +733,11 @@
 
 
 
+↳  [ModuleInfo](moduleinfo.md)
+
+
+
+
 ↳  [Promotion](promotion.md)
 
 
@@ -683,6 +783,11 @@
 
 
 
+↳  [SystemsShutdown](systemsshutdown.md)
+
+
+
+
 ↳  [USSDrop](ussdrop.md)
 
 
@@ -723,6 +828,31 @@
 
 
 
+↳  [Cargo](cargo.md)
+
+
+
+
+↳  [DiscoveryScan](discoveryscan.md)
+
+
+
+
+↳  [FighterRebuilt](fighterrebuilt.md)
+
+
+
+
+↳  [NpcCrewRank](npccrewrank.md)
+
+
+
+
+↳  [StartJump](startjump.md)
+
+
+
+
 
 
 
@@ -744,7 +874,7 @@
 
 **●  event**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -758,7 +888,7 @@ ___
 
 **●  timestamp**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

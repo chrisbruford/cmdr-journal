@@ -4,6 +4,20 @@
 
 # Class: ShipyardSwap
 
+
+When Written: when switching to another ship already stored at this station
+
+## Example:
+
+    {
+        "timestamp":"2016-07-21T14:36:06Z",
+        "event":"ShipyardSwap",
+        "ShipType":"sidewinder",
+        "ShipID":10,
+        "StoreOldShip":"Asp",
+        "StoreShipID":2
+    }
+
 ## Hierarchy
 
 
@@ -21,6 +35,7 @@
 
 ### Properties
 
+* [MarketID](shipyardswap.md#marketid)
 * [SellOldShip](shipyardswap.md#selloldship)
 * [SellShipID](shipyardswap.md#sellshipid)
 * [ShipID](shipyardswap.md#shipid)
@@ -34,13 +49,27 @@
 
 ---
 ## Properties
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/shipyard-swap.ts:19*
+
+
+
+
+
+___
+
 <a id="selloldship"></a>
 
 ### «Optional» SellOldShip
 
 **●  SellOldShip**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:872](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L872)*
+*Defined in models/shipyard-swap.ts:24*
 
 
 
@@ -54,7 +83,7 @@ ___
 
 **●  SellShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:873](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L873)*
+*Defined in models/shipyard-swap.ts:25*
 
 
 
@@ -68,7 +97,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:869](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L869)*
+*Defined in models/shipyard-swap.ts:21*
 
 
 
@@ -82,7 +111,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:868](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L868)*
+*Defined in models/shipyard-swap.ts:20*
 
 
 
@@ -96,7 +125,7 @@ ___
 
 **●  StoreOldShip**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:870](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L870)*
+*Defined in models/shipyard-swap.ts:22*
 
 
 
@@ -110,7 +139,7 @@ ___
 
 **●  StoreShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:871](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L871)*
+*Defined in models/shipyard-swap.ts:23*
 
 
 
@@ -126,7 +155,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -142,7 +171,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

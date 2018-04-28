@@ -4,6 +4,20 @@
 
 # Class: MarketBuy
 
+
+When Written: when purchasing goods in the market
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"MarketBuy",
+        "Type":"foodcartridges",
+        "Count":10,
+        "BuyPrice":39,
+        "TotalCost":390
+    }
+
 ## Hierarchy
 
 
@@ -23,6 +37,7 @@
 
 * [BuyPrice](marketbuy.md#buyprice)
 * [Count](marketbuy.md#count)
+* [MarketID](marketbuy.md#marketid)
 * [TotalCost](marketbuy.md#totalcost)
 * [Type](marketbuy.md#type)
 * [event](marketbuy.md#event)
@@ -38,7 +53,7 @@
 
 **●  BuyPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:482](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L482)*
+*Defined in models/market-buy.ts:24*
 
 
 
@@ -52,7 +67,21 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:481](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L481)*
+*Defined in models/market-buy.ts:23*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/market-buy.ts:21*
 
 
 
@@ -66,7 +95,7 @@ ___
 
 **●  TotalCost**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:483](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L483)*
+*Defined in models/market-buy.ts:25*
 
 
 
@@ -80,7 +109,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:480](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L480)*
+*Defined in models/market-buy.ts:22*
 
 
 
@@ -96,7 +125,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -112,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

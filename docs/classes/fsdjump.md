@@ -4,6 +4,55 @@
 
 # Class: FSDJump
 
+
+When written: when jumping from one star system to another
+
+## Example
+
+    {
+        "timestamp":"2017-02-27T15:37:47Z",
+        "event":"FSDJump",
+        "StarSystem":"HR 3316",
+        "StarPos":[100.719,19.813,-51.125],
+        "SystemAllegiance":"Independent",
+        "SystemEconomy":"$economy_Colony;",
+        "SystemEconomy_Localised":"Colony",
+        "SystemGovernment":"$government_Democracy;",
+        "SystemGovernment_Localised":"Democracy",
+        "SystemSecurity":"$SYSTEM_SECURITY_medium;",
+        "SystemSecurity_Localised":"Medium Security",
+        "JumpDist":20.326,
+        "FuelUsed":1.260775,
+        "FuelLevel":12.872868,
+        "Factions":[
+            {
+                "Name":"Independent HR 3316 Liberals",
+                "FactionState":"Outbreak",
+                "Government":"Democracy",
+                "Influence":0.550000
+            },
+            {
+                "Name":"Jet Natural Partners",
+                "FactionState":"None",
+                "Government":"Corporate",
+                "Influence":0.150000
+            },
+            {
+                "Name":"Camorra of HR 3316",
+                "FactionState":"None",
+                "Government":"Anarchy",
+                "Influence":0.090000
+            },
+            {
+                "Name":"HR 3316 Nobles",
+                "FactionState":"None",
+                "Government":"Feudal",
+                "Influence":0.210000
+            }
+        ],
+        "SystemFaction":"Independent HR 3316 Liberals",
+        "FactionState":"Outbreak" }
+
 ## Hierarchy
 
 
@@ -42,6 +91,7 @@
 * [SystemGovernment_Localised](fsdjump.md#systemgovernment_localised)
 * [SystemSecurity](fsdjump.md#systemsecurity)
 * [SystemSecurity_Localised](fsdjump.md#systemsecurity_localised)
+* [Wanted](fsdjump.md#wanted)
 * [event](fsdjump.md#event)
 * [timestamp](fsdjump.md#timestamp)
 
@@ -55,7 +105,7 @@
 
 **●  Body**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:174](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L174)*
+*Defined in models/fsd-jump.ts:58*
 
 
 
@@ -69,7 +119,7 @@ ___
 
 **●  BoostUsed**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:178](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L178)*
+*Defined in models/fsd-jump.ts:62*
 
 
 
@@ -83,7 +133,7 @@ ___
 
 **●  FactionState**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:180](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L180)*
+*Defined in models/fsd-jump.ts:64*
 
 
 
@@ -97,7 +147,7 @@ ___
 
 **●  Factions**:  *[Faction](faction.md)[]* 
 
-*Defined in [models/journal-event.models.ts:189](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L189)*
+*Defined in models/fsd-jump.ts:73*
 
 
 
@@ -111,7 +161,7 @@ ___
 
 **●  FuelLevel**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:177](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L177)*
+*Defined in models/fsd-jump.ts:61*
 
 
 
@@ -125,7 +175,7 @@ ___
 
 **●  FuelUsed**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:176](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L176)*
+*Defined in models/fsd-jump.ts:60*
 
 
 
@@ -139,7 +189,7 @@ ___
 
 **●  JumpDist**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:175](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L175)*
+*Defined in models/fsd-jump.ts:59*
 
 
 
@@ -153,7 +203,7 @@ ___
 
 **●  Population**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:188](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L188)*
+*Defined in models/fsd-jump.ts:72*
 
 
 
@@ -167,7 +217,7 @@ ___
 
 **●  PowerplayerState**:  *"InPrepareRadius"⎮"Prepared"⎮"Exploited"⎮"Contested"⎮"Controlled"⎮"Turmoil"⎮"HomeSystem"* 
 
-*Defined in [models/journal-event.models.ts:192](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L192)*
+*Defined in models/fsd-jump.ts:76*
 
 
 
@@ -181,7 +231,7 @@ ___
 
 **●  Powers**:  *`string`[]* 
 
-*Defined in [models/journal-event.models.ts:191](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L191)*
+*Defined in models/fsd-jump.ts:75*
 
 
 
@@ -195,7 +245,7 @@ ___
 
 **●  RecoveringStates**:  *`object`[]* 
 
-*Defined in [models/journal-event.models.ts:190](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L190)*
+*Defined in models/fsd-jump.ts:74*
 
 
 
@@ -209,7 +259,7 @@ ___
 
 **●  StarPos**:  *[`number`,`number`,`number`]* 
 
-*Defined in [models/journal-event.models.ts:173](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L173)*
+*Defined in models/fsd-jump.ts:57*
 
 
 
@@ -223,7 +273,7 @@ ___
 
 **●  StarSystem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:172](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L172)*
+*Defined in models/fsd-jump.ts:56*
 
 
 
@@ -237,7 +287,7 @@ ___
 
 **●  SystemAllegiance**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:181](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L181)*
+*Defined in models/fsd-jump.ts:65*
 
 
 
@@ -251,7 +301,7 @@ ___
 
 **●  SystemEconomy**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:182](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L182)*
+*Defined in models/fsd-jump.ts:66*
 
 
 
@@ -265,7 +315,7 @@ ___
 
 **●  SystemEconomy_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:183](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L183)*
+*Defined in models/fsd-jump.ts:67*
 
 
 
@@ -279,7 +329,7 @@ ___
 
 **●  SystemFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:179](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L179)*
+*Defined in models/fsd-jump.ts:63*
 
 
 
@@ -293,7 +343,7 @@ ___
 
 **●  SystemGovernment**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:184](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L184)*
+*Defined in models/fsd-jump.ts:68*
 
 
 
@@ -307,7 +357,7 @@ ___
 
 **●  SystemGovernment_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:185](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L185)*
+*Defined in models/fsd-jump.ts:69*
 
 
 
@@ -321,7 +371,7 @@ ___
 
 **●  SystemSecurity**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:186](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L186)*
+*Defined in models/fsd-jump.ts:70*
 
 
 
@@ -335,7 +385,21 @@ ___
 
 **●  SystemSecurity_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:187](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L187)*
+*Defined in models/fsd-jump.ts:71*
+
+
+
+
+
+___
+
+<a id="wanted"></a>
+
+###  Wanted
+
+**●  Wanted**:  *`boolean`* 
+
+*Defined in models/fsd-jump.ts:77*
 
 
 
@@ -351,7 +415,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -367,7 +431,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

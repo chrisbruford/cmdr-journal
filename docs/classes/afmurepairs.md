@@ -38,7 +38,7 @@
 
 **●  FullyRepaired**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:934](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L934)*
+*Defined in [models/journal-event.models.ts:544](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L544)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Health**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:935](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L935)*
+*Defined in [models/journal-event.models.ts:545](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L545)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  Module**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:932](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L932)*
+*Defined in [models/journal-event.models.ts:542](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L542)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Module_Localised**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:933](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L933)*
+*Defined in [models/journal-event.models.ts:543](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L543)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

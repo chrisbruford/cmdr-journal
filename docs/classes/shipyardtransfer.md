@@ -4,6 +4,21 @@
 
 # Class: ShipyardTransfer
 
+
+When Written: when requesting a ship at another station be transported to this station
+
+## Example
+
+    {
+        "timestamp":"2016-07-21T15:19:49Z",
+        "event":"ShipyardTransfer",
+        "ShipType":"SideWinder",
+        "ShipID":7,
+        "System":"Eranin",
+        "Distance":85.639145,
+        "TransferPrice":580
+    }
+
 ## Hierarchy
 
 
@@ -22,6 +37,7 @@
 ### Properties
 
 * [Distance](shipyardtransfer.md#distance)
+* [MarketID](shipyardtransfer.md#marketid)
 * [ShipID](shipyardtransfer.md#shipid)
 * [ShipType](shipyardtransfer.md#shiptype)
 * [System](shipyardtransfer.md#system)
@@ -40,7 +56,21 @@
 
 **●  Distance**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:861](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L861)*
+*Defined in models/shipyard-transfer.ts:25*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/shipyard-transfer.ts:21*
 
 
 
@@ -54,7 +84,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:859](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L859)*
+*Defined in models/shipyard-transfer.ts:23*
 
 
 
@@ -68,7 +98,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:858](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L858)*
+*Defined in models/shipyard-transfer.ts:22*
 
 
 
@@ -82,7 +112,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:860](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L860)*
+*Defined in models/shipyard-transfer.ts:24*
 
 
 
@@ -96,7 +126,7 @@ ___
 
 **●  TransferPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:862](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L862)*
+*Defined in models/shipyard-transfer.ts:26*
 
 
 
@@ -110,7 +140,7 @@ ___
 
 **●  TransferTime**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:863](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L863)*
+*Defined in models/shipyard-transfer.ts:27*
 
 
 
@@ -126,7 +156,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -142,7 +172,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

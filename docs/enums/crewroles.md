@@ -22,7 +22,7 @@
 
 ** fighterCon**:    = "FighterCon"
 
-*Defined in [crew-roles.enum.ts:4](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crew-roles.enum.ts#L4)*
+*Defined in enums/crew-roles.enum.ts:4*
 
 
 
@@ -36,7 +36,7 @@ ___
 
 ** fireCon**:    = "FireCon"
 
-*Defined in [crew-roles.enum.ts:3](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crew-roles.enum.ts#L3)*
+*Defined in enums/crew-roles.enum.ts:3*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 ** idle**:    = "Idle"
 
-*Defined in [crew-roles.enum.ts:2](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/crew-roles.enum.ts#L2)*
+*Defined in enums/crew-roles.enum.ts:2*
 
 
 

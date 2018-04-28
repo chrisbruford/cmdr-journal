@@ -4,6 +4,9 @@
 
 # Class: ModuleRetrieve
 
+
+When written: when fetching a previously stored module
+
 ## Hierarchy
 
 
@@ -23,6 +26,10 @@
 
 * [Cost](moduleretrieve.md#cost)
 * [EngineerModifications](moduleretrieve.md#engineermodifications)
+* [Hot](moduleretrieve.md#hot)
+* [Level](moduleretrieve.md#level)
+* [MarketID](moduleretrieve.md#marketid)
+* [Quality](moduleretrieve.md#quality)
 * [RetrievedItem](moduleretrieve.md#retrieveditem)
 * [Ship](moduleretrieve.md#ship)
 * [ShipID](moduleretrieve.md#shipid)
@@ -41,7 +48,7 @@
 
 **●  Cost**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:706](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L706)*
+*Defined in models/module-retrieve.ts:18*
 
 
 
@@ -55,7 +62,63 @@ ___
 
 **●  EngineerModifications**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:704](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L704)*
+*Defined in models/module-retrieve.ts:14*
+
+
+
+
+
+___
+
+<a id="hot"></a>
+
+###  Hot
+
+**●  Hot**:  *`boolean`* 
+
+*Defined in models/module-retrieve.ts:13*
+
+
+
+
+
+___
+
+<a id="level"></a>
+
+###  Level
+
+**●  Level**:  *`number`* 
+
+*Defined in models/module-retrieve.ts:15*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/module-retrieve.ts:8*
+
+
+
+
+
+___
+
+<a id="quality"></a>
+
+###  Quality
+
+**●  Quality**:  *`number`* 
+
+*Defined in models/module-retrieve.ts:16*
 
 
 
@@ -69,7 +132,7 @@ ___
 
 **●  RetrievedItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:703](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L703)*
+*Defined in models/module-retrieve.ts:12*
 
 
 
@@ -83,7 +146,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:701](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L701)*
+*Defined in models/module-retrieve.ts:10*
 
 
 
@@ -97,7 +160,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:702](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L702)*
+*Defined in models/module-retrieve.ts:11*
 
 
 
@@ -111,7 +174,7 @@ ___
 
 **●  Slot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:700](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L700)*
+*Defined in models/module-retrieve.ts:9*
 
 
 
@@ -125,7 +188,7 @@ ___
 
 **●  SwapOutItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:705](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L705)*
+*Defined in models/module-retrieve.ts:17*
 
 
 
@@ -141,7 +204,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -157,7 +220,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -37,7 +37,7 @@
 
 **●  Latitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:201](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L201)*
+*Defined in [models/journal-event.models.ts:93](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L93)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Longitude**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:202](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L202)*
+*Defined in [models/journal-event.models.ts:94](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L94)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  PlayerControlled**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:203](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L203)*
+*Defined in [models/journal-event.models.ts:95](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L95)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

@@ -4,6 +4,9 @@
 
 # Class: ScientificResearch
 
+
+When written: when contributing materials to a "research" community goal
+
 ## Hierarchy
 
 
@@ -22,8 +25,11 @@
 ### Properties
 
 * [Category](scientificresearch.md#category)
+* [Category_Localised](scientificresearch.md#category_localised)
 * [Count](scientificresearch.md#count)
+* [MarketID](scientificresearch.md#marketid)
 * [Name](scientificresearch.md#name)
+* [Name_Localised](scientificresearch.md#name_localised)
 * [event](scientificresearch.md#event)
 * [timestamp](scientificresearch.md#timestamp)
 
@@ -37,7 +43,21 @@
 
 **●  Category**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:799](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L799)*
+*Defined in models/scientific-research.ts:11*
+
+
+
+
+
+___
+
+<a id="category_localised"></a>
+
+###  Category_Localised
+
+**●  Category_Localised**:  *`string`* 
+
+*Defined in models/scientific-research.ts:12*
 
 
 
@@ -51,7 +71,21 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:800](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L800)*
+*Defined in models/scientific-research.ts:13*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/scientific-research.ts:8*
 
 
 
@@ -65,7 +99,21 @@ ___
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:798](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L798)*
+*Defined in models/scientific-research.ts:9*
+
+
+
+
+
+___
+
+<a id="name_localised"></a>
+
+###  Name_Localised
+
+**●  Name_Localised**:  *`string`* 
+
+*Defined in models/scientific-research.ts:10*
 
 
 
@@ -81,7 +129,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +145,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

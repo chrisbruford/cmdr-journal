@@ -4,6 +4,9 @@
 
 # Class: DockingGranted
 
+
+When written: When docking is granted by the station
+
 ## Hierarchy
 
 
@@ -22,7 +25,9 @@
 ### Properties
 
 * [LandingPad](dockinggranted.md#landingpad)
+* [MarketID](dockinggranted.md#marketid)
 * [StationName](dockinggranted.md#stationname)
+* [StationType](dockinggranted.md#stationtype)
 * [event](dockinggranted.md#event)
 * [timestamp](dockinggranted.md#timestamp)
 
@@ -36,7 +41,21 @@
 
 **●  LandingPad**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:160](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L160)*
+*Defined in models/docking-granted.ts:11*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/docking-granted.ts:10*
 
 
 
@@ -50,7 +69,21 @@ ___
 
 **●  StationName**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:159](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L159)*
+*Defined in models/docking-granted.ts:8*
+
+
+
+
+
+___
+
+<a id="stationtype"></a>
+
+###  StationType
+
+**●  StationType**:  *`string`* 
+
+*Defined in models/docking-granted.ts:9*
 
 
 
@@ -66,7 +99,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -82,7 +115,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

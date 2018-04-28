@@ -13,6 +13,10 @@ export enum JournalEvents {
     passengers = "Passengers",
     progress = "Progress",
     rank = "Rank",
+    missions = "Missions",
+    statistics = "Statistics",
+    reputation = "Reputation",
+    commander = "Commander",
 
     //TRAVEL
     docked = "Docked",
@@ -43,6 +47,10 @@ export enum JournalEvents {
     interdiction = "Interdiction",
     pvpKill = "PVPKill",
     shieldState = "ShieldState",
+    fighterDestroyed = "FighterDestroyed",
+    fighterRebuilt = "FighterRebuilt",
+    underAttack = "UnderAttack",
+    shipTargetted = "ShipTargetted",
 
     //EXPLORATION
     scan = "Scan",
@@ -52,13 +60,18 @@ export enum JournalEvents {
     buyExplorationData = "BuyExplorationData",
     sellExplorationData = "SellExplorationData",
     screenshot = "Screenshot",
+    discoveryScan = "DiscoveryScan",
+    navBeaconScan = "NavBeaconScan",
 
     //TRADE
     buyTradeData = "BuyTradeData",
     collectCargo = "CollectCargo",
     ejectCargo = "EjectCargo",
     marketBuy = "MarketBuy",
+    marketSell = "MarketSell",
+    market = "Market",
     miningRefined = "MiningRefined",
+    materialTrade = "MaterialTrade",
 
     //STATION SERVICES
     buyAmmo = "BuyAmmo",
@@ -66,11 +79,12 @@ export enum JournalEvents {
     communityGoalDiscard = "CommunityGoalDiscard",
     communityGoalJoin = "CommunityGoalJoin",
     communityGoalReward = "CommunityGoalReward",
+    communityGoal = "CommunityGoal",
     crewAssign = "CrewAssign",
     crewFire = "CrewFire",
     crewHire = "CrewHire",
     engineerContribution = "EngineerContribution",
-    engineerApply = "EngineerApply",
+    engineerLegacyConvert = "EngineerLegacyConvert",
     engineerCraft = "EngineerCraft",
     engineerProgress = "EngineerProgress",
     fetchRemoteModule = "FetchRemoteModule",
@@ -88,19 +102,25 @@ export enum JournalEvents {
     payFines = "PayFines",
     payLegacyFines = "PayLegacyFines",
     redeemVoucher = "RedeemVoucher",
-    refuelAll = "refuelAll",
-    refuelPartial = "refuelPartial",
+    refuelAll = "RefuelAll",
+    refuelPartial = "RefuelPartial",
     repair = "Repair",
     repairAll = "RepairAll",
     restockVehicle = "RestockVehicle",
     scientificResearch = "ScientificResearch",
     sellDrones = "SellDrones",
     setUserShipName = "SetUserShipName",
+    shipyard = "Shipyard",
     shipyardBuy = "ShipyardBuy",
     shipyardNew = "ShipyardNew",
     shipyardSell = "ShipyardSell",
     shipyardTransfer = "ShipyardTransfer",
     shipyardSwap = "ShipyardSwap",
+    cargoDepot = "CargoDepot",
+    outfitting = "Outfitting",
+    technologyBroker = "TechnologyBroker",
+    storedModules = "StoredModules",
+    storedShips = "StoredShips",
 
     //POWERPLAY
     powerplayCollect = "PowerplayCollect",
@@ -115,6 +135,8 @@ export enum JournalEvents {
 
     //OTHER EVENTS
     approachSettlement = "ApproachSettlement",
+    approachBody = "ApproachBody",
+    leaveBody = "LeaveBody",
     cockpitBreached = "CockpitBreached",
     commitCrime = "CommitCrime",
     continued = "Continued",
@@ -148,5 +170,7 @@ export enum JournalEvents {
     wingAdd = "WingAdd",
     wingInvite = "WingInvite",
     wingJoin = "WingJoin",
-    wingLeave = "WingLeave"
+    wingLeave = "WingLeave",
+    launchDrone = "LaunchDrone",
+    searchAndRescue = "SearchAndRescue"
 }

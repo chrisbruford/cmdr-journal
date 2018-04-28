@@ -4,6 +4,18 @@
 
 # Class: ShipyardNew
 
+
+When written: after a new ship has been purchased
+
+## Example
+
+    {
+        "timestamp":"2016-07-21T14:36:38Z",
+        "event":"ShipyardNew",
+        "ShipType":"hauler",
+        "ShipID":4
+    }
+
 ## Hierarchy
 
 
@@ -21,7 +33,7 @@
 
 ### Properties
 
-* [ShipID](shipyardnew.md#shipid)
+* [NewShipID](shipyardnew.md#newshipid)
 * [ShipType](shipyardnew.md#shiptype)
 * [event](shipyardnew.md#event)
 * [timestamp](shipyardnew.md#timestamp)
@@ -30,13 +42,13 @@
 
 ---
 ## Properties
-<a id="shipid"></a>
+<a id="newshipid"></a>
 
-###  ShipID
+###  NewShipID
 
-**●  ShipID**:  *`number`* 
+**●  NewShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:845](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L845)*
+*Defined in models/shipyard-new.ts:19*
 
 
 
@@ -50,7 +62,7 @@ ___
 
 **●  ShipType**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:844](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L844)*
+*Defined in models/shipyard-new.ts:18*
 
 
 
@@ -66,7 +78,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -82,7 +94,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

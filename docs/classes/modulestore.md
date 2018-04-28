@@ -4,6 +4,26 @@
 
 # Class: ModuleStore
 
+
+When written: when storing a module in Outfitting
+
+## Example
+
+    {
+        "timestamp":"2018-01-31T10:55:15Z",
+        "event":"ModuleStore",
+        "MarketID":128676487,
+        "Slot":"TinyHardpoint1",
+        "StoredItem":"$hpt_shieldbooster_size0_class3_name;",
+        "StoredItem_Localised":"Shield Booster",
+        "Ship":"empire_courier",
+        "ShipID":11,
+        "Hot":false,
+        "EngineerModifications":"ShieldBooster_Explosive",
+        "Level":1,
+        "Quality":0.527100
+    }
+
 ## Hierarchy
 
 
@@ -23,6 +43,10 @@
 
 * [Cost](modulestore.md#cost)
 * [EngineerModifications](modulestore.md#engineermodifications)
+* [Hot](modulestore.md#hot)
+* [Level](modulestore.md#level)
+* [MarketID](modulestore.md#marketid)
+* [Quality](modulestore.md#quality)
 * [ReplacementItem](modulestore.md#replacementitem)
 * [Ship](modulestore.md#ship)
 * [ShipID](modulestore.md#shipid)
@@ -41,7 +65,7 @@
 
 **●  Cost**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:734](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L734)*
+*Defined in models/module-store.ts:36*
 
 
 
@@ -55,7 +79,63 @@ ___
 
 **●  EngineerModifications**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:732](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L732)*
+*Defined in models/module-store.ts:32*
+
+
+
+
+
+___
+
+<a id="hot"></a>
+
+###  Hot
+
+**●  Hot**:  *`boolean`* 
+
+*Defined in models/module-store.ts:31*
+
+
+
+
+
+___
+
+<a id="level"></a>
+
+###  Level
+
+**●  Level**:  *`number`* 
+
+*Defined in models/module-store.ts:33*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/module-store.ts:26*
+
+
+
+
+
+___
+
+<a id="quality"></a>
+
+###  Quality
+
+**●  Quality**:  *`number`* 
+
+*Defined in models/module-store.ts:34*
 
 
 
@@ -69,7 +149,7 @@ ___
 
 **●  ReplacementItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:733](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L733)*
+*Defined in models/module-store.ts:35*
 
 
 
@@ -83,7 +163,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:729](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L729)*
+*Defined in models/module-store.ts:28*
 
 
 
@@ -97,7 +177,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:730](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L730)*
+*Defined in models/module-store.ts:29*
 
 
 
@@ -111,7 +191,7 @@ ___
 
 **●  Slot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:728](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L728)*
+*Defined in models/module-store.ts:27*
 
 
 
@@ -125,7 +205,7 @@ ___
 
 **●  StoredItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:731](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L731)*
+*Defined in models/module-store.ts:30*
 
 
 
@@ -141,7 +221,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -157,7 +237,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

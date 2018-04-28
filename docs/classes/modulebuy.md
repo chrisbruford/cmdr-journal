@@ -4,6 +4,22 @@
 
 # Class: ModuleBuy
 
+
+When Written: when buying a module in outfitting
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"ModuleBuy",
+        "Slot":"MediumHardpoint2",
+        "SellItem":"hpt_pulselaser_fixed_medium",
+        "SellPrice":0,
+        "BuyItem":"hpt_multicannon_gimbal_medium",
+        "BuyPrice":50018,
+        "Ship":"cobramkiii","ShipID":1
+    }
+
 ## Hierarchy
 
 
@@ -23,11 +39,13 @@
 
 * [BuyItem](modulebuy.md#buyitem)
 * [BuyPrice](modulebuy.md#buyprice)
+* [MarketID](modulebuy.md#marketid)
 * [SellItem](modulebuy.md#sellitem)
 * [SellPrice](modulebuy.md#sellprice)
 * [Ship](modulebuy.md#ship)
 * [ShipID](modulebuy.md#shipid)
 * [Slot](modulebuy.md#slot)
+* [StoredItem](modulebuy.md#storeditem)
 * [event](modulebuy.md#event)
 * [timestamp](modulebuy.md#timestamp)
 
@@ -41,7 +59,7 @@
 
 **●  BuyItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:689](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L689)*
+*Defined in models/module-buy.ts:24*
 
 
 
@@ -55,7 +73,21 @@ ___
 
 **●  BuyPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:690](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L690)*
+*Defined in models/module-buy.ts:25*
+
+
+
+
+
+___
+
+<a id="marketid"></a>
+
+###  MarketID
+
+**●  MarketID**:  *`number`* 
+
+*Defined in models/module-buy.ts:22*
 
 
 
@@ -69,8 +101,11 @@ ___
 
 **●  SellItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:694](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L694)*
+*Defined in models/module-buy.ts:35*
 
+
+
+if replacing existing module
 
 
 
@@ -83,7 +118,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:695](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L695)*
+*Defined in models/module-buy.ts:36*
 
 
 
@@ -97,7 +132,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:691](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L691)*
+*Defined in models/module-buy.ts:26*
 
 
 
@@ -111,7 +146,7 @@ ___
 
 **●  ShipID**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:692](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L692)*
+*Defined in models/module-buy.ts:27*
 
 
 
@@ -125,8 +160,25 @@ ___
 
 **●  Slot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:688](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L688)*
+*Defined in models/module-buy.ts:23*
 
+
+
+
+
+___
+
+<a id="storeditem"></a>
+
+###  StoredItem
+
+**●  StoredItem**:  *`string`* 
+
+*Defined in models/module-buy.ts:31*
+
+
+
+If existing module is stored
 
 
 
@@ -141,7 +193,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -157,7 +209,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

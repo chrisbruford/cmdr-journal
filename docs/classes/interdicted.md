@@ -38,7 +38,7 @@
 
 **●  Faction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:329](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L329)*
+*Defined in [models/journal-event.models.ts:175](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L175)*
 
 
 
@@ -52,7 +52,7 @@ ___
 
 **●  Interdictor**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:327](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L327)*
+*Defined in [models/journal-event.models.ts:173](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L173)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 **●  IsPlayer**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:328](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L328)*
+*Defined in [models/journal-event.models.ts:174](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L174)*
 
 
 
@@ -80,7 +80,7 @@ ___
 
 **●  Submitted**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:326](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L326)*
+*Defined in [models/journal-event.models.ts:172](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L172)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

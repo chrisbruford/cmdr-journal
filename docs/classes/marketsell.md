@@ -4,6 +4,32 @@
 
 # Class: MarketSell
 
+
+When Written: when selling goods in the market
+
+## Example
+
+    {
+        "timestamp":"2016-06-10T14:32:03Z",
+        "event":"MarketSell",
+        "Type":"agriculturalmedicines",
+        "Count":3,
+        "SellPrice":1360,
+        "TotalSale":4080,
+        "AvgPricePaid":304
+    }
+
+    {
+        "event":"MarketSell",
+        "Type":"mineraloil",
+        "Count":9,
+        "SellPrice":72,
+        "TotalSale":648,
+        "AvgPricePaid":0,
+        "StolenGoods":true,
+        "BlackMarket":true
+    }
+
 ## Hierarchy
 
 
@@ -42,7 +68,7 @@
 
 **●  AvgPricePaid**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:492](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L492)*
+*Defined in models/market-sell.ts:38*
 
 
 
@@ -56,7 +82,7 @@ ___
 
 **●  BlackMarket**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:495](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L495)*
+*Defined in models/market-sell.ts:41*
 
 
 
@@ -70,7 +96,7 @@ ___
 
 **●  Count**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:489](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L489)*
+*Defined in models/market-sell.ts:35*
 
 
 
@@ -84,7 +110,7 @@ ___
 
 **●  IllegalGoods**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:493](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L493)*
+*Defined in models/market-sell.ts:39*
 
 
 
@@ -98,7 +124,7 @@ ___
 
 **●  SellPrice**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:490](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L490)*
+*Defined in models/market-sell.ts:36*
 
 
 
@@ -112,7 +138,7 @@ ___
 
 **●  StolenGoods**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:494](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L494)*
+*Defined in models/market-sell.ts:40*
 
 
 
@@ -126,7 +152,7 @@ ___
 
 **●  TotalSale**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:491](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L491)*
+*Defined in models/market-sell.ts:37*
 
 
 
@@ -140,7 +166,7 @@ ___
 
 **●  Type**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:488](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L488)*
+*Defined in models/market-sell.ts:34*
 
 
 
@@ -156,7 +182,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -172,7 +198,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

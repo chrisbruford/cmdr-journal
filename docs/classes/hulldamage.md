@@ -37,7 +37,7 @@
 
 **●  Fighter**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:317](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L317)*
+*Defined in [models/journal-event.models.ts:163](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L163)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 **●  Health**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:315](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L315)*
+*Defined in [models/journal-event.models.ts:161](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L161)*
 
 
 
@@ -65,7 +65,7 @@ ___
 
 **●  PlayerPilot**:  *`boolean`* 
 
-*Defined in [models/journal-event.models.ts:316](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L316)*
+*Defined in [models/journal-event.models.ts:162](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L162)*
 
 
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

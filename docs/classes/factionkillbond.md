@@ -40,7 +40,7 @@ When written: Player rewarded for taking part in a combat zone
 
 **●  AwardingFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:304](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L304)*
+*Defined in [models/journal-event.models.ts:150](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L150)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  Reward**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:303](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L303)*
+*Defined in [models/journal-event.models.ts:149](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L149)*
 
 
 
@@ -68,7 +68,7 @@ ___
 
 **●  VictimFaction**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:305](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L305)*
+*Defined in [models/journal-event.models.ts:151](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L151)*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -100,7 +100,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

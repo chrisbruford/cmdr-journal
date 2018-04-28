@@ -4,6 +4,9 @@
 
 # Class: CommunityGoalDiscard
 
+
+When written: when opting out of a community goal
+
 ## Hierarchy
 
 
@@ -21,6 +24,7 @@
 
 ### Properties
 
+* [CGID](communitygoaldiscard.md#cgid)
 * [Name](communitygoaldiscard.md#name)
 * [System](communitygoaldiscard.md#system)
 * [event](communitygoaldiscard.md#event)
@@ -30,13 +34,27 @@
 
 ---
 ## Properties
+<a id="cgid"></a>
+
+###  CGID
+
+**●  CGID**:  *`number`* 
+
+*Defined in models/community-goal-discard.ts:8*
+
+
+
+
+
+___
+
 <a id="name"></a>
 
 ###  Name
 
 **●  Name**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:543](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L543)*
+*Defined in models/community-goal-discard.ts:9*
 
 
 
@@ -50,7 +68,7 @@ ___
 
 **●  System**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:544](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L544)*
+*Defined in models/community-goal-discard.ts:10*
 
 
 
@@ -66,7 +84,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -82,7 +100,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

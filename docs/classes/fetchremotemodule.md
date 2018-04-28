@@ -41,7 +41,7 @@
 
 **●  ServerId**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:610](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L610)*
+*Defined in [models/journal-event.models.ts:364](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L364)*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 **●  Ship**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:612](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L612)*
+*Defined in [models/journal-event.models.ts:366](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L366)*
 
 
 
@@ -69,7 +69,7 @@ ___
 
 **●  ShipId**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:613](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L613)*
+*Defined in [models/journal-event.models.ts:367](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L367)*
 
 
 
@@ -83,7 +83,7 @@ ___
 
 **●  StorageSlot**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:608](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L608)*
+*Defined in [models/journal-event.models.ts:362](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L362)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 **●  StoredItem**:  *`string`* 
 
-*Defined in [models/journal-event.models.ts:609](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L609)*
+*Defined in [models/journal-event.models.ts:363](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L363)*
 
 
 
@@ -111,7 +111,7 @@ ___
 
 **●  TransferCost**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:611](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L611)*
+*Defined in [models/journal-event.models.ts:365](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L365)*
 
 
 
@@ -125,7 +125,7 @@ ___
 
 **●  TransferTime**:  *`number`* 
 
-*Defined in [models/journal-event.models.ts:614](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L614)*
+*Defined in [models/journal-event.models.ts:368](https://github.com/chrisbruford/cmdr-journal/blob/52f6f4c/src/models/journal-event.models.ts#L368)*
 
 
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[event](journalevent.md#event)*
 
-*Defined in [models/journal-event.models.ts:14](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L14)*
+*Defined in models/journal-event.model.ts:2*
 
 
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [JournalEvent](journalevent.md).[timestamp](journalevent.md#timestamp)*
 
-*Defined in [models/journal-event.models.ts:15](https://github.com/chrisbruford/cmdr-journal/blob/5b08b7d/src/models/journal-event.models.ts#L15)*
+*Defined in models/journal-event.model.ts:3*
 
 
 

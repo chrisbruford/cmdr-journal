@@ -13,18 +13,23 @@ $ npm install cmdr-journal
 Import the package into your project
 
 ```javascript
-//ECMAScript
-let cmdrJournal = require('cmdr-journal');
-```
-```javascript
-//TypeScript
-import * as cmdrJournal from 'cmdr-journal';
+//Import the whole library
+//CommonJS
+const cj = require('cmdr-journal');
+//ES2015
+import cj from 'cmdr-journal';
+
+//Or import just what you need
+//CommonJS
+const fsdJump = require('cmdr-journal').FSDJump;
+//ES2015
+import { FSDJump } from 'cmdr-journal';
 ```
 
 Use the models and enums as you wish
 
 ```javascript
-let interdiction = new cmdrJournal.Interdicton()
+let interdiction = new cj.Interdicton()
 ```
 ## A note
 
@@ -36,4 +41,4 @@ Enums have been implemented with sensible names (where possible) and string valu
 
 ## Documentation
 
-A full list of Classes and Enums available in this library can be found in [the docs folder](/docs/README.md)
+A full list of Classes and Enums available in this library can be found in [the docs folder](/docs/index.html)

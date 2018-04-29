@@ -70,21 +70,27 @@
 				<pre><code><span class="hljs-meta">$</span><span class="bash"> npm install cmdr-journal</span>
 </code></pre><h2 id="usage">Usage</h2>
 				<p>Import the package into your project</p>
-				<pre><code class="lang-javascript"><span class="hljs-comment">//ECMAScript</span>
-<span class="hljs-keyword">let</span> cmdrJournal = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cmdr-journal'</span>);
-</code></pre>
-				<pre><code class="lang-javascript"><span class="hljs-comment">//TypeScript</span>
-<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> cmdrJournal <span class="hljs-keyword">from</span> <span class="hljs-string">'cmdr-journal'</span>;
+				<pre><code class="lang-javascript"><span class="hljs-comment">//Import the whole library</span>
+<span class="hljs-comment">//CommonJS</span>
+<span class="hljs-keyword">const</span> cj = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cmdr-journal'</span>);
+<span class="hljs-comment">//ES2015</span>
+<span class="hljs-keyword">import</span> cj <span class="hljs-keyword">from</span> <span class="hljs-string">'cmdr-journal'</span>;
+
+<span class="hljs-comment">//Or import just what you need</span>
+<span class="hljs-comment">//CommonJS</span>
+<span class="hljs-keyword">const</span> fsdJump = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cmdr-journal'</span>).FSDJump;
+<span class="hljs-comment">//ES2015</span>
+<span class="hljs-keyword">import</span> { FSDJump } <span class="hljs-keyword">from</span> <span class="hljs-string">'cmdr-journal'</span>;
 </code></pre>
 				<p>Use the models and enums as you wish</p>
-				<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> interdiction = <span class="hljs-keyword">new</span> cmdrJournal.Interdicton()
+				<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> interdiction = <span class="hljs-keyword">new</span> cj.Interdicton()
 </code></pre>
 				<h2 id="a-note">A note</h2>
 				<p>The classes available in this library reflect <a href="https://forums.frontier.co.uk/showthread.php/275151-Commanders-log-manual-and-data-sample">the documentation as provided by Frontier</a> where you can also find examples and some additional descriptions.</p>
 				<p>Classes have been implemented according to their event value.</p>
 				<p>Enums have been implemented with sensible names (where possible) and string values that reflect the value as provided by Frontier.</p>
 				<h2 id="documentation">Documentation</h2>
-				<p>A full list of Classes and Enums available in this library can be found in <a href="/docs/README.md">the docs folder</a></p>
+				<p>A full list of Classes and Enums available in this library can be found in <a href="/docs/index.html">the docs folder</a></p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">

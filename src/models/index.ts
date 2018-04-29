@@ -60,6 +60,7 @@ export { CommunityGoalReward } from './community-goal-reward';
 export { Shutdown } from './shutdown';
 export { ShipTargetted } from './ship-targetted';
 export { Commander } from './commander';
+export { Faction } from './faction.model';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

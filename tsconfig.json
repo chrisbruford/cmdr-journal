@@ -13,8 +13,8 @@
         "mode": "file",
         "entry": "./src/index.ts",
         "out": "./docs",
-        "theme": "markdown",
+        // "theme": "markdown",
         "target": "es5",
-        "readme": "about.txt"
+        "readme": "readme.md"
     }
 }

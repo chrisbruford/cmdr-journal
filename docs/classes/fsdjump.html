@@ -1,0 +1,578 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FSDJump | cmdr-journal</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">cmdr-journal</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="fsdjump.html">FSDJump</a>
+				</li>
+			</ul>
+			<h1>Class FSDJump</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When written: when jumping from one star system to another</p>
+					</div>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2017-02-27T15:37:47Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"FSDJump"</span>,
+    <span class="hljs-string">"StarSystem"</span>:<span class="hljs-string">"HR 3316"</span>,
+    <span class="hljs-string">"StarPos"</span>:[<span class="hljs-number">100.719</span>,<span class="hljs-number">19.813</span>,<span class="hljs-number">-51.125</span>],
+    <span class="hljs-string">"SystemAllegiance"</span>:<span class="hljs-string">"Independent"</span>,
+    <span class="hljs-string">"SystemEconomy"</span>:<span class="hljs-string">"$economy_Colony;"</span>,
+    <span class="hljs-string">"SystemEconomy_Localised"</span>:<span class="hljs-string">"Colony"</span>,
+    <span class="hljs-string">"SystemGovernment"</span>:<span class="hljs-string">"$government_Democracy;"</span>,
+    <span class="hljs-string">"SystemGovernment_Localised"</span>:<span class="hljs-string">"Democracy"</span>,
+    <span class="hljs-string">"SystemSecurity"</span>:<span class="hljs-string">"$SYSTEM_SECURITY_medium;"</span>,
+    <span class="hljs-string">"SystemSecurity_Localised"</span>:<span class="hljs-string">"Medium Security"</span>,
+    <span class="hljs-string">"JumpDist"</span>:<span class="hljs-number">20.326</span>,
+    <span class="hljs-string">"FuelUsed"</span>:<span class="hljs-number">1.260775</span>,
+    <span class="hljs-string">"FuelLevel"</span>:<span class="hljs-number">12.872868</span>,
+    <span class="hljs-string">"Factions"</span>:[
+        {
+            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Independent HR 3316 Liberals"</span>,
+            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Outbreak"</span>,
+            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>,
+            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.550000</span>
+        },
+        {
+            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Jet Natural Partners"</span>,
+            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>,
+            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>,
+            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.150000</span>
+        },
+        {
+            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Camorra of HR 3316"</span>,
+            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>,
+            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Anarchy"</span>,
+            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.090000</span>
+        },
+        {
+            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"HR 3316 Nobles"</span>,
+            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>,
+            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Feudal"</span>,
+            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.210000</span>
+        }
+    ],
+    <span class="hljs-string">"SystemFaction"</span>:<span class="hljs-string">"Independent HR 3316 Liberals"</span>,
+    <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Outbreak"</span> }
+</code></pre>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">FSDJump</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#body" class="tsd-kind-icon">Body</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#boostused" class="tsd-kind-icon">Boost<wbr>Used</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#factionstate" class="tsd-kind-icon">Faction<wbr>State</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#factions" class="tsd-kind-icon">Factions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#fuellevel" class="tsd-kind-icon">Fuel<wbr>Level</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#fuelused" class="tsd-kind-icon">Fuel<wbr>Used</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#jumpdist" class="tsd-kind-icon">Jump<wbr>Dist</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#population" class="tsd-kind-icon">Population</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#powerplayerstate" class="tsd-kind-icon">Powerplayer<wbr>State</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#powers" class="tsd-kind-icon">Powers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#recoveringstates" class="tsd-kind-icon">Recovering<wbr>States</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#starpos" class="tsd-kind-icon">Star<wbr>Pos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemallegiance" class="tsd-kind-icon">System<wbr>Allegiance</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemeconomy" class="tsd-kind-icon">System<wbr>Economy</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemeconomy_localised" class="tsd-kind-icon">System<wbr>Economy_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemfaction" class="tsd-kind-icon">System<wbr>Faction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemgovernment" class="tsd-kind-icon">System<wbr>Government</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemgovernment_localised" class="tsd-kind-icon">System<wbr>Government_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemsecurity" class="tsd-kind-icon">System<wbr>Security</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#systemsecurity_localised" class="tsd-kind-icon">System<wbr>Security_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdjump.html#wanted" class="tsd-kind-icon">Wanted</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="fsdjump.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="fsdjump.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="body" class="tsd-anchor"></a>
+					<h3>Body</h3>
+					<div class="tsd-signature tsd-kind-icon">Body<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L58">models/fsd-jump.ts:58</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="boostused" class="tsd-anchor"></a>
+					<h3>Boost<wbr>Used</h3>
+					<div class="tsd-signature tsd-kind-icon">Boost<wbr>Used<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L62">models/fsd-jump.ts:62</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="factionstate" class="tsd-anchor"></a>
+					<h3>Faction<wbr>State</h3>
+					<div class="tsd-signature tsd-kind-icon">Faction<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L64">models/fsd-jump.ts:64</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="factions" class="tsd-anchor"></a>
+					<h3>Factions</h3>
+					<div class="tsd-signature tsd-kind-icon">Factions<span class="tsd-signature-symbol">:</span> <a href="faction.html" class="tsd-signature-type">Faction</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L73">models/fsd-jump.ts:73</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="fuellevel" class="tsd-anchor"></a>
+					<h3>Fuel<wbr>Level</h3>
+					<div class="tsd-signature tsd-kind-icon">Fuel<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L61">models/fsd-jump.ts:61</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="fuelused" class="tsd-anchor"></a>
+					<h3>Fuel<wbr>Used</h3>
+					<div class="tsd-signature tsd-kind-icon">Fuel<wbr>Used<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L60">models/fsd-jump.ts:60</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="jumpdist" class="tsd-anchor"></a>
+					<h3>Jump<wbr>Dist</h3>
+					<div class="tsd-signature tsd-kind-icon">Jump<wbr>Dist<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L59">models/fsd-jump.ts:59</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="population" class="tsd-anchor"></a>
+					<h3>Population</h3>
+					<div class="tsd-signature tsd-kind-icon">Population<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L72">models/fsd-jump.ts:72</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="powerplayerstate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Powerplayer<wbr>State</h3>
+					<div class="tsd-signature tsd-kind-icon">Powerplayer<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"InPrepareRadius"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Prepared"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Exploited"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Contested"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Controlled"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Turmoil"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"HomeSystem"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L76">models/fsd-jump.ts:76</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="powers" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Powers</h3>
+					<div class="tsd-signature tsd-kind-icon">Powers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L75">models/fsd-jump.ts:75</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="recoveringstates" class="tsd-anchor"></a>
+					<h3>Recovering<wbr>States</h3>
+					<div class="tsd-signature tsd-kind-icon">Recovering<wbr>States<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L74">models/fsd-jump.ts:74</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="starpos" class="tsd-anchor"></a>
+					<h3>Star<wbr>Pos</h3>
+					<div class="tsd-signature tsd-kind-icon">Star<wbr>Pos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L57">models/fsd-jump.ts:57</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="starsystem" class="tsd-anchor"></a>
+					<h3>Star<wbr>System</h3>
+					<div class="tsd-signature tsd-kind-icon">Star<wbr>System<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L56">models/fsd-jump.ts:56</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemallegiance" class="tsd-anchor"></a>
+					<h3>System<wbr>Allegiance</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Allegiance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L65">models/fsd-jump.ts:65</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemeconomy" class="tsd-anchor"></a>
+					<h3>System<wbr>Economy</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Economy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L66">models/fsd-jump.ts:66</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemeconomy_localised" class="tsd-anchor"></a>
+					<h3>System<wbr>Economy_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Economy_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L67">models/fsd-jump.ts:67</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemfaction" class="tsd-anchor"></a>
+					<h3>System<wbr>Faction</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L63">models/fsd-jump.ts:63</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemgovernment" class="tsd-anchor"></a>
+					<h3>System<wbr>Government</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Government<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L68">models/fsd-jump.ts:68</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemgovernment_localised" class="tsd-anchor"></a>
+					<h3>System<wbr>Government_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Government_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L69">models/fsd-jump.ts:69</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemsecurity" class="tsd-anchor"></a>
+					<h3>System<wbr>Security</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Security<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L70">models/fsd-jump.ts:70</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemsecurity_localised" class="tsd-anchor"></a>
+					<h3>System<wbr>Security_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Security_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L71">models/fsd-jump.ts:71</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="wanted" class="tsd-anchor"></a>
+					<h3>Wanted</h3>
+					<div class="tsd-signature tsd-kind-icon">Wanted<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/fsd-jump.ts#L77">models/fsd-jump.ts:77</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="event" class="tsd-anchor"></a>
+					<h3>event</h3>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="fsdjump.html" class="tsd-kind-icon">FSDJump</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#body" class="tsd-kind-icon">Body</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#boostused" class="tsd-kind-icon">Boost<wbr>Used</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#factionstate" class="tsd-kind-icon">Faction<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#factions" class="tsd-kind-icon">Factions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#fuellevel" class="tsd-kind-icon">Fuel<wbr>Level</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#fuelused" class="tsd-kind-icon">Fuel<wbr>Used</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#jumpdist" class="tsd-kind-icon">Jump<wbr>Dist</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#population" class="tsd-kind-icon">Population</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#powerplayerstate" class="tsd-kind-icon">Powerplayer<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#powers" class="tsd-kind-icon">Powers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#recoveringstates" class="tsd-kind-icon">Recovering<wbr>States</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#starpos" class="tsd-kind-icon">Star<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemallegiance" class="tsd-kind-icon">System<wbr>Allegiance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemeconomy" class="tsd-kind-icon">System<wbr>Economy</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemeconomy_localised" class="tsd-kind-icon">System<wbr>Economy_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemfaction" class="tsd-kind-icon">System<wbr>Faction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemgovernment" class="tsd-kind-icon">System<wbr>Government</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemgovernment_localised" class="tsd-kind-icon">System<wbr>Government_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemsecurity" class="tsd-kind-icon">System<wbr>Security</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#systemsecurity_localised" class="tsd-kind-icon">System<wbr>Security_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdjump.html#wanted" class="tsd-kind-icon">Wanted</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="fsdjump.html#event" class="tsd-kind-icon">event</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="fsdjump.html#timestamp" class="tsd-kind-icon">timestamp</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

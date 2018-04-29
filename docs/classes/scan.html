@@ -1,0 +1,754 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Scan | cmdr-journal</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">cmdr-journal</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="scan.html">Scan</a>
+				</li>
+			</ul>
+			<h1>Class Scan</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When Written: basic or detailed discovery scan of a star, planet or moon</p>
+					</div>
+					<p>This is also generated when scanning a navigation beacon in a populated system, to record info about all the bodies in the system</p>
+					<p>lots of these properties are optional depending on object scanned</p>
+					<p>Note that a basic scan (ie without having a Detailed Surface Scanner installed) will now save a reduced amount of information.</p>
+					<p>A basic scan on a planet will include body name, planet class, orbital data, rotation period, mass, radius, surface gravity; but will exclude tidal lock, terraform state, atmosphere, volcanism, surface pressure and temperature, available materials, and details of rings. The info for a star will be largely the same whether a basic scanner or detailed scanner is used.</p>
+					<p>The &quot;Parents&quot; property provides the body&#39;s hierarchical position within the system: in the example below, &quot;Procyon B 3 a&quot; is a moon of a planet (body 11), which is orbiting a star (body 2), which is has a parent body that&#39;s a Barycentre</p>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-02-02T10:43:05Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"Scan"</span>,
+    <span class="hljs-string">"ScanType"</span>:<span class="hljs-string">"NavBeaconDetail"</span>,
+    <span class="hljs-string">"BodyName"</span>:<span class="hljs-string">"Procyon B 3 a"</span>,
+    <span class="hljs-string">"BodyID"</span>:<span class="hljs-number">12</span>,
+    <span class="hljs-string">"Parents"</span>:[ {<span class="hljs-string">"Planet"</span>:<span class="hljs-number">11</span>}, {<span class="hljs-string">"Star"</span>:<span class="hljs-number">2</span>}, {<span class="hljs-string">"Null"</span>:<span class="hljs-number">0</span>} ],
+    <span class="hljs-string">"DistanceFromArrivalLS"</span>:<span class="hljs-number">10048.152344</span>,
+    <span class="hljs-string">"TidalLock"</span>:<span class="hljs-literal">true</span>,
+    <span class="hljs-string">"TerraformState"</span>:<span class="hljs-string">""</span>,
+    <span class="hljs-string">"PlanetClass"</span>:<span class="hljs-string">"Rocky body"</span>,
+    <span class="hljs-string">"Atmosphere"</span>:<span class="hljs-string">""</span>,
+    <span class="hljs-string">"AtmosphereType"</span>:<span class="hljs-string">"None"</span>,
+    <span class="hljs-string">"Volcanism"</span>:<span class="hljs-string">""</span>,
+    <span class="hljs-string">"MassEM"</span>:<span class="hljs-number">0.025342</span>,
+    <span class="hljs-string">"Radius"</span>:<span class="hljs-number">2011975.250000</span>,
+    <span class="hljs-string">"SurfaceGravity"</span>:<span class="hljs-number">2.495225</span>,
+    <span class="hljs-string">"SurfaceTemperature"</span>:<span class="hljs-number">318.448792</span>,
+    <span class="hljs-string">"SurfacePressure"</span>:<span class="hljs-number">0.000000</span>,
+    <span class="hljs-string">"Landable"</span>:<span class="hljs-literal">true</span>,
+    <span class="hljs-string">"Materials"</span>:[
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"iron"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">19.315084</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"sulphur"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">17.321133</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"nickel"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">14.609120</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"carbon"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">14.565277</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"phosphorus"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">9.324941</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"chromium"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">8.686635</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"manganese"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">7.976933</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"zinc"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">5.249117</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"tin"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">1.200338</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"tungsten"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">1.060592</span> },
+        { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"technetium"</span>, <span class="hljs-string">"Percent"</span>:<span class="hljs-number">0.690823</span> }
+    ],
+    <span class="hljs-string">"Composition"</span>:{
+        <span class="hljs-string">"Ice"</span>:<span class="hljs-number">0.000000</span>,
+        <span class="hljs-string">"Rock"</span>:<span class="hljs-number">0.861282</span>,
+        <span class="hljs-string">"Metal"</span>:<span class="hljs-number">0.138718</span>
+    },
+    <span class="hljs-string">"SemiMajorAxis"</span>:<span class="hljs-number">89655728.000000</span>,
+    <span class="hljs-string">"Eccentricity"</span>:<span class="hljs-number">0.000000</span>,
+    <span class="hljs-string">"OrbitalInclination"</span>:<span class="hljs-number">4.566576</span>,
+    <span class="hljs-string">"Periapsis"</span>:<span class="hljs-number">309.656799</span>,
+    <span class="hljs-string">"OrbitalPeriod"</span>:<span class="hljs-number">344902.937500</span>,
+    <span class="hljs-string">"RotationPeriod"</span>:<span class="hljs-number">352425.468750</span>,
+    <span class="hljs-string">"AxialTilt"</span>:<span class="hljs-number">0.479157</span>
+}
+</code></pre>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">Scan</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#absolutemagnitude" class="tsd-kind-icon">Absolute<wbr>Magnitude</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#age_my" class="tsd-kind-icon">Age_<wbr>MY</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#atmosphere" class="tsd-kind-icon">Atmosphere</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#atmospherecomposition" class="tsd-kind-icon">Atmosphere<wbr>Composition</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#atmospheretype" class="tsd-kind-icon">Atmosphere<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#axialtilt" class="tsd-kind-icon">Axial<wbr>Tilt</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#bodyid" class="tsd-kind-icon">BodyID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#bodyname" class="tsd-kind-icon">Bodyname</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#composition" class="tsd-kind-icon">Composition</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#distancefromarrivalls" class="tsd-kind-icon">Distance<wbr>From<wbr>ArrivalLS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#eccentricity" class="tsd-kind-icon">Eccentricity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#landable" class="tsd-kind-icon">Landable</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#luminosity" class="tsd-kind-icon">Luminosity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#materials" class="tsd-kind-icon">Materials</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#orbitalinclination" class="tsd-kind-icon">Orbital<wbr>Inclination</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#orbitalperiod" class="tsd-kind-icon">Orbital<wbr>Period</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#parents" class="tsd-kind-icon">Parents</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#periapsis" class="tsd-kind-icon">Periapsis</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#planetclass" class="tsd-kind-icon">Planet<wbr>Class</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#radius" class="tsd-kind-icon">Radius</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#reservelevel" class="tsd-kind-icon">Reserve<wbr>Level</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#rings" class="tsd-kind-icon">Rings</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#rotationperiod" class="tsd-kind-icon">Rotation<wbr>Period</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#scantype" class="tsd-kind-icon">Scan<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#semimajoraxis" class="tsd-kind-icon">Semi<wbr>Major<wbr>Axis</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#startype" class="tsd-kind-icon">Star<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#stellarmass" class="tsd-kind-icon">Stellar<wbr>Mass</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacegravity" class="tsd-kind-icon">Surface<wbr>Gravity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacepressure" class="tsd-kind-icon">Surface<wbr>Pressure</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacetemperature" class="tsd-kind-icon">Surface<wbr>Temperature</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#terraformstate" class="tsd-kind-icon">Terraform<wbr>State</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#tidallock" class="tsd-kind-icon">Tidal<wbr>Lock</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#volcanism" class="tsd-kind-icon">Volcanism</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="scan.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="scan.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="absolutemagnitude" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Absolute<wbr>Magnitude</h3>
+					<div class="tsd-signature tsd-kind-icon">Absolute<wbr>Magnitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L99">models/scan.ts:99</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="age_my" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Age_<wbr>MY</h3>
+					<div class="tsd-signature tsd-kind-icon">Age_<wbr>MY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L100">models/scan.ts:100</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="atmosphere" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Atmosphere</h3>
+					<div class="tsd-signature tsd-kind-icon">Atmosphere<span class="tsd-signature-symbol">:</span> <a href="../enums/atmospheretypes.html" class="tsd-signature-type">AtmosphereTypes</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L107">models/scan.ts:107</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="atmospherecomposition" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Atmosphere<wbr>Composition</h3>
+					<div class="tsd-signature tsd-kind-icon">Atmosphere<wbr>Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L109">models/scan.ts:109</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="atmospheretype" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Atmosphere<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">Atmosphere<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L108">models/scan.ts:108</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="axialtilt" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Axial<wbr>Tilt</h3>
+					<div class="tsd-signature tsd-kind-icon">Axial<wbr>Tilt<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L80">models/scan.ts:80</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="bodyid" class="tsd-anchor"></a>
+					<h3>BodyID</h3>
+					<div class="tsd-signature tsd-kind-icon">BodyID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L74">models/scan.ts:74</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="bodyname" class="tsd-anchor"></a>
+					<h3>Bodyname</h3>
+					<div class="tsd-signature tsd-kind-icon">Bodyname<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L73">models/scan.ts:73</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="composition" class="tsd-anchor"></a>
+					<h3>Composition</h3>
+					<div class="tsd-signature tsd-kind-icon">Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L119">models/scan.ts:119</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Ice<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Metal<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Rock<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="distancefromarrivalls" class="tsd-anchor"></a>
+					<h3>Distance<wbr>From<wbr>ArrivalLS</h3>
+					<div class="tsd-signature tsd-kind-icon">Distance<wbr>From<wbr>ArrivalLS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L75">models/scan.ts:75</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="eccentricity" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Eccentricity</h3>
+					<div class="tsd-signature tsd-kind-icon">Eccentricity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L91">models/scan.ts:91</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="landable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Landable</h3>
+					<div class="tsd-signature tsd-kind-icon">Landable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L116">models/scan.ts:116</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="luminosity" class="tsd-anchor"></a>
+					<h3>Luminosity</h3>
+					<div class="tsd-signature tsd-kind-icon">Luminosity<span class="tsd-signature-symbol">:</span> <a href="../enums/starluminosityclasses.html" class="tsd-signature-type">StarLuminosityClasses</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L101">models/scan.ts:101</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="materials" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Materials</h3>
+					<div class="tsd-signature tsd-kind-icon">Materials<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L117">models/scan.ts:117</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="orbitalinclination" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Orbital<wbr>Inclination</h3>
+					<div class="tsd-signature tsd-kind-icon">Orbital<wbr>Inclination<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L92">models/scan.ts:92</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="orbitalperiod" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Orbital<wbr>Period</h3>
+					<div class="tsd-signature tsd-kind-icon">Orbital<wbr>Period<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L94">models/scan.ts:94</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="parents" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Parents</h3>
+					<div class="tsd-signature tsd-kind-icon">Parents<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L103">models/scan.ts:103</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="periapsis" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Periapsis</h3>
+					<div class="tsd-signature tsd-kind-icon">Periapsis<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L93">models/scan.ts:93</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="planetclass" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Planet<wbr>Class</h3>
+					<div class="tsd-signature tsd-kind-icon">Planet<wbr>Class<span class="tsd-signature-symbol">:</span> <a href="../enums/planettypes.html" class="tsd-signature-type">PlanetTypes</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L106">models/scan.ts:106</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="radius" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Radius</h3>
+					<div class="tsd-signature tsd-kind-icon">Radius<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L98">models/scan.ts:98</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="reservelevel" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Reserve<wbr>Level</h3>
+					<div class="tsd-signature tsd-kind-icon">Reserve<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Pristine"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Major"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Common"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Low"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Depleted"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L118">models/scan.ts:118</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="rings" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Rings</h3>
+					<div class="tsd-signature tsd-kind-icon">Rings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L82">models/scan.ts:82</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="rotationperiod" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Rotation<wbr>Period</h3>
+					<div class="tsd-signature tsd-kind-icon">Rotation<wbr>Period<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L79">models/scan.ts:79</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="scantype" class="tsd-anchor"></a>
+					<h3>Scan<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">Scan<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Basic"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Detailed"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeacon"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeaconDetail"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L77">models/scan.ts:77</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="semimajoraxis" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Semi<wbr>Major<wbr>Axis</h3>
+					<div class="tsd-signature tsd-kind-icon">Semi<wbr>Major<wbr>Axis<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L90">models/scan.ts:90</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="startype" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Star<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">Star<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../enums/startypes.html" class="tsd-signature-type">StarTypes</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L96">models/scan.ts:96</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stellarmass" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Stellar<wbr>Mass</h3>
+					<div class="tsd-signature tsd-kind-icon">Stellar<wbr>Mass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L97">models/scan.ts:97</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="surfacegravity" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Surface<wbr>Gravity</h3>
+					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Gravity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L114">models/scan.ts:114</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="surfacepressure" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Surface<wbr>Pressure</h3>
+					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Pressure<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L115">models/scan.ts:115</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="surfacetemperature" class="tsd-anchor"></a>
+					<h3>Surface<wbr>Temperature</h3>
+					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Temperature<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L76">models/scan.ts:76</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="terraformstate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Terraform<wbr>State</h3>
+					<div class="tsd-signature tsd-kind-icon">Terraform<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Terraformable"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Terraforming"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Terraformed"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L105">models/scan.ts:105</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="tidallock" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Tidal<wbr>Lock</h3>
+					<div class="tsd-signature tsd-kind-icon">Tidal<wbr>Lock<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L104">models/scan.ts:104</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="volcanism" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Volcanism</h3>
+					<div class="tsd-signature tsd-kind-icon">Volcanism<span class="tsd-signature-symbol">:</span> <a href="../enums/volcanismtypes.html" class="tsd-signature-type">VolcanismTypes</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/scan.ts#L113">models/scan.ts:113</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="event" class="tsd-anchor"></a>
+					<h3>event</h3>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="scan.html" class="tsd-kind-icon">Scan</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#absolutemagnitude" class="tsd-kind-icon">Absolute<wbr>Magnitude</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#age_my" class="tsd-kind-icon">Age_<wbr>MY</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#atmosphere" class="tsd-kind-icon">Atmosphere</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#atmospherecomposition" class="tsd-kind-icon">Atmosphere<wbr>Composition</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#atmospheretype" class="tsd-kind-icon">Atmosphere<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#axialtilt" class="tsd-kind-icon">Axial<wbr>Tilt</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#bodyid" class="tsd-kind-icon">BodyID</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#bodyname" class="tsd-kind-icon">Bodyname</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#composition" class="tsd-kind-icon">Composition</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#distancefromarrivalls" class="tsd-kind-icon">Distance<wbr>From<wbr>ArrivalLS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#eccentricity" class="tsd-kind-icon">Eccentricity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#landable" class="tsd-kind-icon">Landable</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#luminosity" class="tsd-kind-icon">Luminosity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#materials" class="tsd-kind-icon">Materials</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#orbitalinclination" class="tsd-kind-icon">Orbital<wbr>Inclination</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#orbitalperiod" class="tsd-kind-icon">Orbital<wbr>Period</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#parents" class="tsd-kind-icon">Parents</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#periapsis" class="tsd-kind-icon">Periapsis</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#planetclass" class="tsd-kind-icon">Planet<wbr>Class</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#radius" class="tsd-kind-icon">Radius</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#reservelevel" class="tsd-kind-icon">Reserve<wbr>Level</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#rings" class="tsd-kind-icon">Rings</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#rotationperiod" class="tsd-kind-icon">Rotation<wbr>Period</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#scantype" class="tsd-kind-icon">Scan<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#semimajoraxis" class="tsd-kind-icon">Semi<wbr>Major<wbr>Axis</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#startype" class="tsd-kind-icon">Star<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#stellarmass" class="tsd-kind-icon">Stellar<wbr>Mass</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#surfacegravity" class="tsd-kind-icon">Surface<wbr>Gravity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#surfacepressure" class="tsd-kind-icon">Surface<wbr>Pressure</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#surfacetemperature" class="tsd-kind-icon">Surface<wbr>Temperature</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#terraformstate" class="tsd-kind-icon">Terraform<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#tidallock" class="tsd-kind-icon">Tidal<wbr>Lock</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#volcanism" class="tsd-kind-icon">Volcanism</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="scan.html#event" class="tsd-kind-icon">event</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="scan.html#timestamp" class="tsd-kind-icon">timestamp</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

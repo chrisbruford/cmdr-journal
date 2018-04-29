@@ -1,8 +1,3 @@
-/**
- * test comment
- * @preferred
- * test2 comment
- */
 export * from './models';
 export * from './enums';
 

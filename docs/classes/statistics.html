@@ -1,0 +1,788 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Statistics | cmdr-journal</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">cmdr-journal</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="statistics.html">Statistics</a>
+				</li>
+			</ul>
+			<h1>Class Statistics</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When written: At startup</p>
+					</div>
+					<p>This line contains the information displayed in the statistics panel on the right side of the cockpit</p>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2017-09-25T15:18:31Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"Statistics"</span>,
+    <span class="hljs-string">"Bank_Account"</span>: {
+        <span class="hljs-string">"Current_Wealth"</span>:<span class="hljs-number">148827050</span>,
+        <span class="hljs-string">"Spent_On_Ships"</span>:<span class="hljs-number">14499177</span>,
+        <span class="hljs-string">"Spent_On_Outfitting"</span>:<span class="hljs-number">30785093</span>,
+        <span class="hljs-string">"Spent_On_Repairs"</span>:<span class="hljs-number">17716</span>,
+        <span class="hljs-string">"Spent_On_Fuel"</span>:<span class="hljs-number">1647</span>,
+        <span class="hljs-string">"Spent_On_Ammo_Consumables"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Insurance_Claims"</span>:<span class="hljs-number">4</span>,
+        <span class="hljs-string">"Spent_On_Insurance"</span>:<span class="hljs-number">1397620</span>
+    },
+    <span class="hljs-string">"Combat"</span>: {
+        <span class="hljs-string">"Bounties_Claimed"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Bounty_Hunting_Profit"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Combat_Bonds"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Combat_Bond_Profits"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Assassinations"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Assassination_Profits"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Highest_Single_Reward"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Skimmers_Killed"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Crime"</span>: {
+        <span class="hljs-string">"Fines"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Total_Fines"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Bounties_Received"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Total_Bounties"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Highest_Bounty"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Smuggling"</span>: {
+        <span class="hljs-string">"Black_Markets_Traded_With"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Black_Markets_Profits"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Resources_Smuggled"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Average_Profit"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Highest_Single_Transaction"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Trading"</span>: {
+        <span class="hljs-string">"Markets_Traded_With"</span>:<span class="hljs-number">3</span>,
+        <span class="hljs-string">"Market_Profits"</span>:<span class="hljs-number">40700</span>,
+        <span class="hljs-string">"Resources_Traded"</span>:<span class="hljs-number">23</span>,
+        <span class="hljs-string">"Average_Profit"</span>:<span class="hljs-number">4070</span>,
+        <span class="hljs-string">"Highest_Single_Transaction"</span>:<span class="hljs-number">17961</span>
+    },
+    <span class="hljs-string">"Mining"</span>: {
+        <span class="hljs-string">"Mining_Profits"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Quantity_Mined"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Materials_Collected"</span>:<span class="hljs-number">100</span>
+    },
+    <span class="hljs-string">"Exploration"</span>: {
+        <span class="hljs-string">"Systems_Visited"</span>:<span class="hljs-number">228</span>,
+        <span class="hljs-string">"Fuel_Scooped"</span>:<span class="hljs-number">111</span>,
+        <span class="hljs-string">"Fuel_Purchased"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Exploration_Profits"</span>:<span class="hljs-number">304469</span>,
+        <span class="hljs-string">"Planets_Scanned_To_Level_2"</span>:<span class="hljs-number">39</span>,
+        <span class="hljs-string">"Planets_Scanned_To_Level_3"</span>:<span class="hljs-number">15</span>,
+        <span class="hljs-string">"Highest_Payout"</span>:<span class="hljs-number">52503</span>,
+        <span class="hljs-string">"Total_Hyperspace_Distance"</span>:<span class="hljs-number">844927</span>,
+        <span class="hljs-string">"Total_Hyperspace_Jumps"</span>:<span class="hljs-number">295</span>,
+        <span class="hljs-string">"Greatest_Distance_From_Start"</span>:<span class="hljs-number">65222.47204614</span>,
+        <span class="hljs-string">"Time_Played"</span>:<span class="hljs-number">651060</span>
+    },
+    <span class="hljs-string">"Passengers"</span>: {
+        <span class="hljs-string">"Passengers_Missions_Bulk"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Passengers_Missions_VIP"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Passengers_Missions_Delivered"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Passengers_Missions_Ejected"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Search_And_Rescue"</span>: {
+        <span class="hljs-string">"SearchRescue_Traded"</span>:<span class="hljs-number">12</span>,
+        <span class="hljs-string">"SearchRescue_Profit"</span>:<span class="hljs-number">19467</span>,
+        <span class="hljs-string">"SearchRescue_Count"</span>:<span class="hljs-number">8</span>
+    },
+    <span class="hljs-string">"Crafting"</span>: {
+        <span class="hljs-string">"Spent_On_Crafting"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Count_Of_Used_Engineers"</span>:<span class="hljs-number">2</span>,
+        <span class="hljs-string">"Recipes_Generated"</span>:<span class="hljs-number">28</span>,
+        <span class="hljs-string">"Recipes_Generated_Rank_1"</span>:<span class="hljs-number">9</span>,
+        <span class="hljs-string">"Recipes_Generated_Rank_2"</span>:<span class="hljs-number">6</span>,
+        <span class="hljs-string">"Recipes_Generated_Rank_3"</span>:<span class="hljs-number">9</span>,
+        <span class="hljs-string">"Recipes_Generated_Rank_4"</span>:<span class="hljs-number">4</span>,
+        <span class="hljs-string">"Recipes_Generated_Rank_5"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Recipes_Applied"</span>:<span class="hljs-number">21</span>,
+        <span class="hljs-string">"Recipes_Applied_Rank_1"</span>:<span class="hljs-number">8</span>,
+        <span class="hljs-string">"Recipes_Applied_Rank_2"</span>:<span class="hljs-number">5</span>,
+        <span class="hljs-string">"Recipes_Applied_Rank_3"</span>:<span class="hljs-number">7</span>,
+        <span class="hljs-string">"Recipes_Applied_Rank_4"</span>:<span class="hljs-number">1</span>,
+        <span class="hljs-string">"Recipes_Applied_Rank_5"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Recipes_Applied_On_Previously_Modified_Modules"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Crew"</span>: {
+        <span class="hljs-string">"NpcCrew_TotalWages"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"NpcCrew_Hired"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"NpcCrew_Fired"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"NpcCrew_Died"</span>:<span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">"Multicrew"</span>: {
+        <span class="hljs-string">"Multicrew_Time_Total"</span>:<span class="hljs-number">23327</span>,
+        <span class="hljs-string">"Multicrew_Gunner_Time_Total"</span>:<span class="hljs-number">14241</span>,
+        <span class="hljs-string">"Multicrew_Fighter_Time_Total"</span>:<span class="hljs-number">6070</span>,
+        <span class="hljs-string">"Multicrew_Credits_Total"</span>:<span class="hljs-number">0</span>,
+        <span class="hljs-string">"Multicrew_Fines_Total"</span>:<span class="hljs-number">0</span>
+    }
+}
+</code></pre>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">Statistics</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#bank_account" class="tsd-kind-icon">Bank_<wbr><wbr>Account</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#combat" class="tsd-kind-icon">Combat</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#crafting" class="tsd-kind-icon">Crafting</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#crew" class="tsd-kind-icon">Crew</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#crime" class="tsd-kind-icon">Crime</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#exploration" class="tsd-kind-icon">Exploration</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#mining" class="tsd-kind-icon">Mining</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#multicrew" class="tsd-kind-icon">Multicrew</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#passengers" class="tsd-kind-icon">Passengers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#search_and_rescue" class="tsd-kind-icon">Search_<wbr><wbr>And_<wbr><wbr>Rescue</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#smuggling" class="tsd-kind-icon">Smuggling</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="statistics.html#trading" class="tsd-kind-icon">Trading</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="statistics.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="statistics.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="bank_account" class="tsd-anchor"></a>
+					<h3>Bank_<wbr><wbr>Account</h3>
+					<div class="tsd-signature tsd-kind-icon">Bank_<wbr><wbr>Account<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L118">models/statistics.ts:118</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Current_<wbr><wbr>Wealth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Insurance_<wbr><wbr>Claims<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Ammo_<wbr><wbr>Consumables<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Fuel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Insurance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Outfitting<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Repairs<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Ships<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="combat" class="tsd-anchor"></a>
+					<h3>Combat</h3>
+					<div class="tsd-signature tsd-kind-icon">Combat<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L128">models/statistics.ts:128</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Assassination_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Assassinations<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Bounties_<wbr><wbr>Claimed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Bounty_<wbr><wbr>Hunting_<wbr><wbr>Profit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Combat_<wbr><wbr>Bond_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Combat_<wbr><wbr>Bonds<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Highest_<wbr><wbr>Single_<wbr><wbr>Reward<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Skimmers_<wbr><wbr>Killed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="crafting" class="tsd-anchor"></a>
+					<h3>Crafting</h3>
+					<div class="tsd-signature tsd-kind-icon">Crafting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L188">models/statistics.ts:188</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Count_<wbr><wbr>Of_<wbr><wbr>Used_<wbr><wbr>Engineers<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>On_<wbr><wbr>Previously_<wbr><wbr>Modified_<wbr><wbr>Modules<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>Rank_<wbr>1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>Rank_<wbr>2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>Rank_<wbr>3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>Rank_<wbr>4<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Applied_<wbr><wbr>Rank_<wbr>5<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated_<wbr><wbr>Rank_<wbr>1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated_<wbr><wbr>Rank_<wbr>2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated_<wbr><wbr>Rank_<wbr>3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated_<wbr><wbr>Rank_<wbr>4<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Recipes_<wbr><wbr>Generated_<wbr><wbr>Rank_<wbr>5<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Spent_<wbr><wbr>On_<wbr><wbr>Crafting<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="crew" class="tsd-anchor"></a>
+					<h3>Crew</h3>
+					<div class="tsd-signature tsd-kind-icon">Crew<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L205">models/statistics.ts:205</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Npc<wbr>Crew_<wbr><wbr>Died<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Npc<wbr>Crew_<wbr><wbr>Fired<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Npc<wbr>Crew_<wbr><wbr>Hired<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Npc<wbr>Crew_<wbr><wbr>Total<wbr>Wages<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="crime" class="tsd-anchor"></a>
+					<h3>Crime</h3>
+					<div class="tsd-signature tsd-kind-icon">Crime<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L138">models/statistics.ts:138</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Bounties_<wbr><wbr>Received<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Fines<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Highest_<wbr><wbr>Bounty<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Total_<wbr><wbr>Bounties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Total_<wbr><wbr>Fines<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="exploration" class="tsd-anchor"></a>
+					<h3>Exploration</h3>
+					<div class="tsd-signature tsd-kind-icon">Exploration<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L164">models/statistics.ts:164</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Exploration_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Fuel_<wbr><wbr>Purchased<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Fuel_<wbr><wbr>Scooped<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Greatest_<wbr><wbr>Distance_<wbr><wbr>From_<wbr><wbr>Start<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Highest_<wbr><wbr>Payout<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Planets_<wbr><wbr>Scanned_<wbr><wbr>To_<wbr><wbr>Level_<wbr>2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Planets_<wbr><wbr>Scanned_<wbr><wbr>To_<wbr><wbr>Level_<wbr>3<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Systems_<wbr><wbr>Visited<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Time_<wbr><wbr>Played<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Total_<wbr><wbr>Hyperspace_<wbr><wbr>Distance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Total_<wbr><wbr>Hyperspace_<wbr><wbr>Jumps<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="mining" class="tsd-anchor"></a>
+					<h3>Mining</h3>
+					<div class="tsd-signature tsd-kind-icon">Mining<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L159">models/statistics.ts:159</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Materials_<wbr><wbr>Collected<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Mining_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Quantity_<wbr><wbr>Mined<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="multicrew" class="tsd-anchor"></a>
+					<h3>Multicrew</h3>
+					<div class="tsd-signature tsd-kind-icon">Multicrew<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L211">models/statistics.ts:211</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Multicrew_<wbr><wbr>Credits_<wbr><wbr>Total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Multicrew_<wbr><wbr>Fighter_<wbr><wbr>Time_<wbr><wbr>Total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Multicrew_<wbr><wbr>Fines_<wbr><wbr>Total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Multicrew_<wbr><wbr>Gunner_<wbr><wbr>Time_<wbr><wbr>Total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Multicrew_<wbr><wbr>Time_<wbr><wbr>Total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="passengers" class="tsd-anchor"></a>
+					<h3>Passengers</h3>
+					<div class="tsd-signature tsd-kind-icon">Passengers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L177">models/statistics.ts:177</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Passengers_<wbr><wbr>Missions_<wbr><wbr>Bulk<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Passengers_<wbr><wbr>Missions_<wbr><wbr>Delivered<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Passengers_<wbr><wbr>Missions_<wbr><wbr>Ejected<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Passengers_<wbr><wbr>Missions_<wbr>VIP<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="search_and_rescue" class="tsd-anchor"></a>
+					<h3>Search_<wbr><wbr>And_<wbr><wbr>Rescue</h3>
+					<div class="tsd-signature tsd-kind-icon">Search_<wbr><wbr>And_<wbr><wbr>Rescue<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L183">models/statistics.ts:183</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Search<wbr>Rescue_<wbr><wbr>Count<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Search<wbr>Rescue_<wbr><wbr>Profit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Search<wbr>Rescue_<wbr><wbr>Traded<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="smuggling" class="tsd-anchor"></a>
+					<h3>Smuggling</h3>
+					<div class="tsd-signature tsd-kind-icon">Smuggling<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L145">models/statistics.ts:145</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Average_<wbr><wbr>Profit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Black_<wbr><wbr>Markets_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Black_<wbr><wbr>Markets_<wbr><wbr>Traded_<wbr><wbr>With<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Highest_<wbr><wbr>Single_<wbr><wbr>Transaction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Resources_<wbr><wbr>Smuggled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="trading" class="tsd-anchor"></a>
+					<h3>Trading</h3>
+					<div class="tsd-signature tsd-kind-icon">Trading<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/statistics.ts#L152">models/statistics.ts:152</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Average_<wbr><wbr>Profit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Highest_<wbr><wbr>Single_<wbr><wbr>Transaction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Market_<wbr><wbr>Profits<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Markets_<wbr><wbr>Traded_<wbr><wbr>With<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Resources_<wbr><wbr>Traded<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="event" class="tsd-anchor"></a>
+					<h3>event</h3>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/48605a1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="statistics.html" class="tsd-kind-icon">Statistics</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#bank_account" class="tsd-kind-icon">Bank_<wbr><wbr>Account</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#combat" class="tsd-kind-icon">Combat</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#crafting" class="tsd-kind-icon">Crafting</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#crew" class="tsd-kind-icon">Crew</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#crime" class="tsd-kind-icon">Crime</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#exploration" class="tsd-kind-icon">Exploration</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#mining" class="tsd-kind-icon">Mining</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#multicrew" class="tsd-kind-icon">Multicrew</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#passengers" class="tsd-kind-icon">Passengers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#search_and_rescue" class="tsd-kind-icon">Search_<wbr><wbr>And_<wbr><wbr>Rescue</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#smuggling" class="tsd-kind-icon">Smuggling</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="statistics.html#trading" class="tsd-kind-icon">Trading</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="statistics.html#event" class="tsd-kind-icon">event</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="statistics.html#timestamp" class="tsd-kind-icon">timestamp</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

@@ -48,7 +48,8 @@ import { Faction } from "./faction.model";
  *         } 
  *     ], 
  *     "SystemFaction":"Independent HR 3316 Liberals", 
- *     "FactionState":"Outbreak" }
+ *     "FactionState":"Outbreak" 
+ * }
  * ```
  */
 

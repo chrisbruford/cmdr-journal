@@ -65,7 +65,7 @@ export { CrewFire } from './crew-fire';
 export { CrewHire } from './crew-hire';
 export { Powerplay } from './powerplay';
 export { SellShipOnRebuy } from './sell-ship-on-rebuy';
-
+export { MissionAccepted } from './mission-accepted';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

@@ -332,30 +332,6 @@ export class FetchRemoteModule extends JournalEvent {
     TransferTime: number; //in seconds
 }
 
-export class MissionAccepted extends JournalEvent {
-    Name: string;
-    LocalisedName: string;
-    Faction: string;
-    MissionID: number;
-    Influence: "None" | "Low" | "Med" | "High";
-    Reputation: "None" | "Low" | "Med" | "High";
-    Commodity?: string;
-    Count?: number;
-    Target?: string;
-    TargetType?: string;
-    TargetFaction?: string;
-    KillCount: number;
-    Expiry?: string; //ISO 8601
-    DestinationSystem?: string;
-    DestinationStation?: string;
-    PassengerCount?: number;
-    PassengerVIPs?: boolean;
-    PassengerWanted?: boolean;
-    PassengerType?: string;
-}
-//{ "timestamp":"2016-07-26T11:36:44Z", "event":"MissionAccepted", "Faction":"Tsu Network", "Name":"Mission_Collect", "MissionID":65343026, "Commodity":"$Fish_Name;", "Commodity_Localised":"Fish", "Count":2, "Expiry":"2016-07-27T15:56:23Z", "Influence":"Low", "Reputation":"High" }
-//{ "timestamp":"2017-02-07T12:14:14Z", "event":"MissionAccepted", "Faction":"CX Com Galactic Co", "Name":"Mission_Massacre_Conflict_War", "TargetFaction":"CX Com Silver Partnership", "KillCount":2, "DestinationSystem":"CX Com", "DestinationStation":"Carrasco Orbital", "Expiry":"2017-02-08T09:22:41Z", "Influence":"High", "Reputation":"Med", "MissionID":65358259 } 
-
 export class MissionRedirected extends JournalEvent {
     MissionID: number;
     MissionName: string;

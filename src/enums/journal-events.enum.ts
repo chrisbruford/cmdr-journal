@@ -101,6 +101,7 @@ export enum JournalEvents {
     moduleSwap = "ModuleSwap",
     payFines = "PayFines",
     payLegacyFines = "PayLegacyFines",
+    payBounties = "PayBounties",
     redeemVoucher = "RedeemVoucher",
     refuelAll = "RefuelAll",
     refuelPartial = "RefuelPartial",

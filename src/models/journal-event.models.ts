@@ -319,11 +319,6 @@ export class ModuleSellRemote extends JournalEvent {
     ShipId: number;
 }
 
-export class PayFines extends JournalEvent {
-    Amount: number;
-    BrokerPercentage?: number;
-}
-
 export class PayLegacyFines extends JournalEvent {
     Amount: number;
     BrokerPercentage?: number;

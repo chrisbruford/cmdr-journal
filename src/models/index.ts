@@ -68,6 +68,8 @@ export { SellShipOnRebuy } from './sell-ship-on-rebuy';
 export { MissionAccepted } from './mission-accepted';
 export { SellExplorationData } from './sell-exploration-data';
 export { FuelScoop } from './fuel-scoop';
+export { PayBounties } from './pay-bounties';
+export { PayFines } from './pay-fines';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

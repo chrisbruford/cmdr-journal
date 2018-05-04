@@ -20,6 +20,7 @@ import { JournalEvent } from "./journal-event.model";
 export class ShipyardTransfer extends JournalEvent {
     MarketID: number;
     ShipType: string;
+    ShipType_Localised: string;
     ShipID: number;
     System: string;
     Distance: number;

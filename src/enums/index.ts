@@ -9,3 +9,4 @@ export { JournalEvents } from './journal-events.enum';
 export { ModuleAttribute } from './module-attributes.enum';
 export { WeaponMode } from './weapon-mode.enum';
 export { DamageType } from './damage-type.enum';
+export { GameMode } from './game-mode.enum';

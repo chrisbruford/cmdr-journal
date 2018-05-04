@@ -1,5 +1,3 @@
-import { DockingCancelled } from './docking-cancelled';
-
 export { TechnologyBroker } from './technology-broker';
 export { FileHeader } from './file-header';
 export { Loadout } from './loadout';
@@ -61,6 +59,13 @@ export { Shutdown } from './shutdown';
 export { ShipTargetted } from './ship-targetted';
 export { Commander } from './commander';
 export { Faction } from './faction.model';
+export { NpcCrewPaidWage } from './npc-crew-paid-wage';
+export { CrewAssign } from './crew-assign';
+export { CrewFire } from './crew-fire';
+export { CrewHire } from './crew-hire';
+export { Powerplay } from './powerplay';
+export { SellShipOnRebuy } from './sell-ship-on-rebuy';
+
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

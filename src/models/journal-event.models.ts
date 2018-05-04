@@ -39,23 +39,6 @@ export class NewCommander extends JournalEvent {
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"NewCommander", "Name":"HRC1", "Package":"ImperialBountyHunter" }
 
-export class LoadGame extends JournalEvent {
-    Commander: string;
-    Ship: string;
-    ShipID: number;
-    StartLanded?: boolean;
-    StartDead?: boolean;
-    GameMode: string;
-    Group: string;
-    Credits: number;
-    Loan: number;
-    ShipName: string;
-    ShipIdent: string;
-    FuelLevel: number;
-    FuelCapacity: number;
-}
-//{ "timestamp":"2017-02-10T14:25:51Z", "event":"LoadGame", "Commander":"HRC-2", "Ship":"FerDeLance", "ShipID":19, "ShipName":"jewel of parhoon", "ShipIdent":"hr-17f", "FuelLevel":3.964024, "FuelCapacity":8.000000, "GameMode":"Open", "Credits":2890718739, "Loan":0 } 
-
 export class Passengers extends JournalEvent {
     Manifest: {
         MissionID: number;
@@ -339,25 +322,6 @@ export class BuyDrones extends JournalEvent {
 }
 // { "timestamp":"2016-06-10T14:32:03Z", "event":"BuyDrones", "Type":"Drones", "Count":2, "SellPrice":101, "TotalCost":202 }
 
-export class CrewAssign extends JournalEvent {
-    Name: string;
-    Role: string;
-}
-//{ "timestamp":"2016-08-09T08:45:31Z", "event":"CrewAssign", "Name":"Dannie Koller", "Role":"Active" }
-
-export class CrewFire extends JournalEvent {
-    Name: string;
-}
-//{ "timestamp":"2016-08-09T08:46:11Z", "event":"CrewFire", "Name":"Whitney Pruitt-Munoz" }
-
-export class CrewHire extends JournalEvent {
-    Name: string;
-    Faction: string;
-    Cost: number;
-    CombatRank: number;
-}
-//{ "timestamp":"2016-08-09T08:46:29Z", "event":"CrewHire", "Name":"Margaret Parrish", "Faction":"The Dark Wheel", "Cost":15000, "CombatRank":1 }
-
 export class FetchRemoteModule extends JournalEvent {
     StorageSlot: string;
     StoredItem: string;
@@ -467,14 +431,6 @@ export class SellDrones extends JournalEvent {
     TotalSale: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"SellDrones", "Type":"Drones", "Count":1, "SellPrice":91, "TotalSale":91 }
-
-export class SellShipOnRebuy extends JournalEvent {
-    ShipType: string;
-    System: string;
-    SellShipId: number;
-    ShipPrice: number;
-}
-//{ "timestamp":"2017-07-20T08:56:39Z", "event":"SellShipOnRebuy", "ShipType":"Dolphin", "System":"Shinrarta Dezhra", "SellShipId":4, "ShipPrice":4110183 }
 
 export class SetUserShipName extends JournalEvent {
     Ship: string;

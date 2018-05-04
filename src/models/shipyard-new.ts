@@ -16,5 +16,6 @@ import { JournalEvent } from "./journal-event.model";
 
 export class ShipyardNew extends JournalEvent {
     ShipType: string;
+    ShipType_Localised: string;
     NewShipID: number;
 }

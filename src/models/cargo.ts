@@ -40,6 +40,7 @@ import { JournalEvent } from "./journal-event.model";
 export class Cargo extends JournalEvent {
     Inventory: {
         Name: string;
+        Name_Localised: string;
         Count: number;
         Stolen: number;
     }[]

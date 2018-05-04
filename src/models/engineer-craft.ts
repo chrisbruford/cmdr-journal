@@ -67,7 +67,7 @@ export class EngineerCraft extends JournalEvent {
     Level: number;
     Quality: number;
     ApplyExperimentalEffect?: string;
-    Ingredients: {Name: string; Count: number};
+    Ingredients: {Name: string; Name_Localised: string; Count: number};
     Modifiers: {
         Label: string;
         Value: number;

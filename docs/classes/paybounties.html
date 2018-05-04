@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>RefuelPartial | cmdr-journal</title>
+	<title>PayBounties | cmdr-journal</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,16 +56,34 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="refuelpartial.html">RefuelPartial</a>
+					<a href="paybounties.html">PayBounties</a>
 				</li>
 			</ul>
-			<h1>Class RefuelPartial</h1>
+			<h1>Class PayBounties</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When written: when paying off bounties</p>
+					</div>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-03-19T10:25:10Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"PayBounties"</span>,
+    <span class="hljs-string">"Amount"</span>:<span class="hljs-number">400</span>,
+    <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"$faction_Federation;"</span>,
+    <span class="hljs-string">"Faction_Localised"</span>:<span class="hljs-string">"Federation"</span>,
+    <span class="hljs-string">"ShipID"</span>:<span class="hljs-number">9</span>,
+    <span class="hljs-string">"BrokerPercentage"</span>:<span class="hljs-number">25.000000</span>
+}
+</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -73,7 +91,7 @@
 						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">RefuelPartial</span>
+								<span class="target">PayBounties</span>
 							</li>
 						</ul>
 					</li>
@@ -86,10 +104,14 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="refuelpartial.html#amount" class="tsd-kind-icon">Amount</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="refuelpartial.html#cost" class="tsd-kind-icon">Cost</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="refuelpartial.html#event" class="tsd-kind-icon">event</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="refuelpartial.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#allfines" class="tsd-kind-icon">All<wbr>Fines</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#amount" class="tsd-kind-icon">Amount</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#brokerpercentage" class="tsd-kind-icon">Broker<wbr>Percentage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#faction" class="tsd-kind-icon">Faction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#faction_localised" class="tsd-kind-icon">Faction_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="paybounties.html#shipid" class="tsd-kind-icon">ShipID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="paybounties.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="paybounties.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
 						</section>
 					</div>
@@ -98,22 +120,67 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="allfines" class="tsd-anchor"></a>
+					<h3>All<wbr>Fines</h3>
+					<div class="tsd-signature tsd-kind-icon">All<wbr>Fines<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-bounties.ts:26</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="amount" class="tsd-anchor"></a>
 					<h3>Amount</h3>
 					<div class="tsd-signature tsd-kind-icon">Amount<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:344</li>
+							<li>Defined in models/pay-bounties.ts:24</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>total amount paid , including any broker fee</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="brokerpercentage" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Broker<wbr>Percentage</h3>
+					<div class="tsd-signature tsd-kind-icon">Broker<wbr>Percentage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-bounties.ts:25</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="cost" class="tsd-anchor"></a>
-					<h3>Cost</h3>
-					<div class="tsd-signature tsd-kind-icon">Cost<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="faction" class="tsd-anchor"></a>
+					<h3>Faction</h3>
+					<div class="tsd-signature tsd-kind-icon">Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:343</li>
+							<li>Defined in models/pay-bounties.ts:27</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="faction_localised" class="tsd-anchor"></a>
+					<h3>Faction_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">Faction_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-bounties.ts:28</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="shipid" class="tsd-anchor"></a>
+					<h3>ShipID</h3>
+					<div class="tsd-signature tsd-kind-icon">ShipID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-bounties.ts:29</li>
 						</ul>
 					</aside>
 				</section>
@@ -154,19 +221,31 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class">
-						<a href="refuelpartial.html" class="tsd-kind-icon">Refuel<wbr>Partial</a>
+						<a href="paybounties.html" class="tsd-kind-icon">Pay<wbr>Bounties</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="refuelpartial.html#amount" class="tsd-kind-icon">Amount</a>
+								<a href="paybounties.html#allfines" class="tsd-kind-icon">All<wbr>Fines</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="refuelpartial.html#cost" class="tsd-kind-icon">Cost</a>
+								<a href="paybounties.html#amount" class="tsd-kind-icon">Amount</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="paybounties.html#brokerpercentage" class="tsd-kind-icon">Broker<wbr>Percentage</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="paybounties.html#faction" class="tsd-kind-icon">Faction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="paybounties.html#faction_localised" class="tsd-kind-icon">Faction_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="paybounties.html#shipid" class="tsd-kind-icon">ShipID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="refuelpartial.html#event" class="tsd-kind-icon">event</a>
+								<a href="paybounties.html#event" class="tsd-kind-icon">event</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="refuelpartial.html#timestamp" class="tsd-kind-icon">timestamp</a>
+								<a href="paybounties.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 						</ul>
 					</li>

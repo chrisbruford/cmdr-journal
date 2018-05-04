@@ -66,6 +66,23 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When Written: when paying fines</p>
+					</div>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-03-19T10:24:21Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"PayFines"</span>,
+    <span class="hljs-string">"Amount"</span>:<span class="hljs-number">250</span>,
+    <span class="hljs-string">"AllFines"</span>:<span class="hljs-literal">false</span>,
+    <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"Batz Transport Commodities"</span>,
+    <span class="hljs-string">"ShipID"</span>:<span class="hljs-number">9</span>
+}
+</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -86,8 +103,11 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="payfines.html#allfines" class="tsd-kind-icon">All<wbr>Fines</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="payfines.html#amount" class="tsd-kind-icon">Amount</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="payfines.html#brokerpercentage" class="tsd-kind-icon">Broker<wbr>Percentage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="payfines.html#faction" class="tsd-kind-icon">Faction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="payfines.html#shipid" class="tsd-kind-icon">ShipID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="payfines.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="payfines.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
@@ -98,14 +118,29 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="allfines" class="tsd-anchor"></a>
+					<h3>All<wbr>Fines</h3>
+					<div class="tsd-signature tsd-kind-icon">All<wbr>Fines<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-fines.ts:25</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="amount" class="tsd-anchor"></a>
 					<h3>Amount</h3>
 					<div class="tsd-signature tsd-kind-icon">Amount<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:323</li>
+							<li>Defined in models/pay-fines.ts:23</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>total amount paid , including any broker fee</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="brokerpercentage" class="tsd-anchor"></a>
@@ -113,7 +148,27 @@
 					<div class="tsd-signature tsd-kind-icon">Broker<wbr>Percentage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:324</li>
+							<li>Defined in models/pay-fines.ts:24</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="faction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Faction</h3>
+					<div class="tsd-signature tsd-kind-icon">Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-fines.ts:26</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="shipid" class="tsd-anchor"></a>
+					<h3>ShipID</h3>
+					<div class="tsd-signature tsd-kind-icon">ShipID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/pay-fines.ts:27</li>
 						</ul>
 					</aside>
 				</section>
@@ -157,10 +212,19 @@
 						<a href="payfines.html" class="tsd-kind-icon">Pay<wbr>Fines</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="payfines.html#allfines" class="tsd-kind-icon">All<wbr>Fines</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="payfines.html#amount" class="tsd-kind-icon">Amount</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="payfines.html#brokerpercentage" class="tsd-kind-icon">Broker<wbr>Percentage</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="payfines.html#faction" class="tsd-kind-icon">Faction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="payfines.html#shipid" class="tsd-kind-icon">ShipID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="payfines.html#event" class="tsd-kind-icon">event</a>

@@ -43,6 +43,7 @@ export class StoredShips extends JournalEvent {
     ShipsHere: {
         ShipID: number;
         ShipType: string;
+        ShipType_Localised: string;
         Name?: string;
         Value: number;
         Hot: boolean;

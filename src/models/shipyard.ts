@@ -35,6 +35,7 @@ export class Shipyard extends JournalEvent {
      */
     Pricelist: {
         ShipType: string;
+        ShipType_Localised: string;
         ShipPrice: number;
     }[]
 }

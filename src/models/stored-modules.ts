@@ -53,6 +53,7 @@ export class StoredModules extends JournalEvent {
     MarketID: number; //current market
     Items: {
         Name: string;
+        BuyPrice: number;
         StarSystem?: string;
         MarketID?: number; //where module is stored
         StorageSlot: number;

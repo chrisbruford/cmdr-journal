@@ -19,6 +19,7 @@ import { JournalEvent } from "./journal-event.model";
 export class ShipyardBuy extends JournalEvent {
     MarketID: number;
     ShipType: string;
+    ShipType_Localised: string;
     ShipPrice: number;
     StoreOldShip?: string; //ship type being stored if so
     StoreShipID: number;

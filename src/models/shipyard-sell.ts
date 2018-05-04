@@ -19,6 +19,7 @@ import { JournalEvent } from "./journal-event.model";
 export class ShipyardSell extends JournalEvent {
     MarketID: number;
     ShipType: string;
+    ShipType_Localised: string;
     SellShipID: number;
     ShipPrice: number;
     System?: string; //if remote selling, where is ship?

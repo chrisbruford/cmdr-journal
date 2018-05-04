@@ -121,6 +121,7 @@ export enum JournalEvents {
     technologyBroker = "TechnologyBroker",
     storedModules = "StoredModules",
     storedShips = "StoredShips",
+    sellShipOnRebuy = "SellShipOnRebuy",
 
     //POWERPLAY
     powerplayCollect = "PowerplayCollect",
@@ -132,6 +133,7 @@ export enum JournalEvents {
     powerplaySalary = "PowerplaySalary",
     powerplayVote = "PowerplayVote",
     powerplayVoucher = "PowerplayVoucher",
+    powerplay = "Powerplay",
 
     //OTHER EVENTS
     approachSettlement = "ApproachSettlement",
@@ -172,5 +174,7 @@ export enum JournalEvents {
     wingJoin = "WingJoin",
     wingLeave = "WingLeave",
     launchDrone = "LaunchDrone",
-    searchAndRescue = "SearchAndRescue"
+    searchAndRescue = "SearchAndRescue",
+    npcCrewPaidWage = "NpcCrewPaidWage",
+    npcCrewRank = "NpcCrewRank"
 }

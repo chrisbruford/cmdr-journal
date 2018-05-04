@@ -55,6 +55,7 @@ import { Faction } from "./faction.model";
 
 export class FSDJump extends JournalEvent {
     StarSystem: string;
+    SystemAddress: number;
     StarPos: [number,number,number];
     Body: string;
     JumpDist: number;
@@ -66,14 +67,15 @@ export class FSDJump extends JournalEvent {
     SystemAllegiance: string;
     SystemEconomy: string;
     SystemEconomy_Localised: string;
+    SystemSecondEconomy: string;
+    SystemSecondEconomy_Localised: string;
     SystemGovernment: string;
     SystemGovernment_Localised: string;
     SystemSecurity: string;
     SystemSecurity_Localised: string;
     Population: number;
     Factions: Faction[];
-    RecoveringStates: {State: string, Trend: number}[]
+    Wanted: boolean;
     Powers?: string[];
     PowerplayerState?: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem";
-    Wanted: boolean;
 }

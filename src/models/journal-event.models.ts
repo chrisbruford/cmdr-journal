@@ -215,38 +215,6 @@ export class BuyExplorationData extends JournalEvent {
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"BuyExplorationData", "System":"Styx", "Cost":352 }
 
 /**
- * When Written: when selling exploration data in Cartographics
- * 
- * ## Example:
- * 
- * ```javascript
- * { 
- *     "timestamp":"2016-06-10T14:32:03Z", 
- *     "event":"SellExplorationData", 
- *     "Systems":[ 
- *         "HIP 78085", 
- *         "Praea Euq NW-W b1-3" 
- *     ], 
- *     "Discovered":[ 
- *         "HIP 78085 A", 
- *         "Praea Euq NW-W b1-3", 
- *         "Praea Euq NW-W b1-3 3 a", 
- *         "Praea Euq NW-W b1-3 3" 
- *     ], 
- *     "BaseValue":10822, 
- *     "Bonus":3959 
- * }```
- */
-
-export class SellExplorationData extends JournalEvent {
-    Systems: string[];
-    Discovered: string[];
-    BaseValue: number;
-    Bonus: number;
-    TotalEarnings: number;
-}
-
-/**
 When Written: when a screen snapshot is saved
 
 The latitude, longitude, altitude and heading will be included if on a planet or in low-altitude flight
@@ -538,12 +506,6 @@ export class DockSRV extends JournalEvent { }
 export class EndCrewSession extends JournalEvent {
     OnCrime: boolean;
 }
-
-export class FuelScoop extends JournalEvent {
-    Scooped: number;
-    Total: number;
-}
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"FuelScoop", "Scooped":0.498700, "Total":16.000000 }
 
 export class Friends extends JournalEvent {
     Status: "Requested" | "Declined" | "Added" | "Lost" | "Offline" | "Online";

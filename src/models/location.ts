@@ -8,39 +8,96 @@ import { Faction } from "./faction.model";
  * ## Example
  * ```javascript
  * { 
- *     "timestamp":"2016-07-21T13:14:25Z", 
- *     "event":"Location", 
- *     "Docked":true, 
- *     "StationName":"Azeban City", 
- *     "StationType":"Coriolis", 
- *     "StarSystem":"Eranin", 
- *     "StarPos":[-22.844,36.531,-1.188], 
- *     "Allegiance":"Alliance", 
- *     "Economy":"$economy_Agri;", 
- *     "Government":"$government_Communism;", 
- *     "Security":$SYSTEM_SECURITY_medium;, 
- *     "Faction":"Eranin Peoples Party" 
- * }
- * ```
- * ```javascript
- * { 
- *     "timestamp":"2016-09-21T14:11:22Z", 
+ *     "timestamp":"2018-05-06T17:51:57Z", 
  *     "event":"Location", 
  *     "Docked":false, 
- *     "StarSystem":"Alpha Centauri", 
- *     "StarPos":[3.031,-0.094,3.156], 
- *     "Allegiance":"Independent", 
- *     "Economy":"$economy_Extraction;", 
- *     "Economy_Localised":"Extraction", 
- *     "Government":"$government_Cooperative;", 
- *     "Government_Localised":"Cooperative", 
- *     "Security":"$SYSTEM_SECURITY_medium;", 
- *     "Security_Localised":"Medium Security", 
- *     "Body":"Alpha Centauri B 1", 
- *     "Powers":["Zachary Hudson"], 
- *     "PowerplayState":"Exploited", 
- *     "Faction":"Hutton Orbital Truckers Co-Operative", 
- *     "FactionState":"Outbreak" 
+ *     "StarSystem":"Qa'wakana", 
+ *     "SystemAddress":4786481006963, 
+ *     "StarPos":[-17.65625,-19.12500,61.78125], 
+ *     "SystemAllegiance":"Independent", 
+ *     "SystemEconomy":"$economy_Agri;", 
+ *     "SystemEconomy_Localised":"Agriculture", 
+ *     "SystemSecondEconomy":"$economy_Extraction;", 
+ *     "SystemSecondEconomy_Localised":"Extraction", 
+ *     "SystemGovernment":"$government_Feudal;", 
+ *     "SystemGovernment_Localised":"Feudal", 
+ *     "SystemSecurity":"$SYSTEM_SECURITY_high;", 
+ *     "SystemSecurity_Localised":"High Security", 
+ *     "Population":3238264143, 
+ *     "Body":"Qa'wakana", 
+ *     "BodyID":0, 
+ *     "BodyType":"Star", 
+ *     "Factions":[ 
+ *         { 
+ *             "Name":"Pilots Federation Local Branch", 
+ *             "FactionState":"None", 
+ *             "Government":"Democracy", 
+ *             "Influence":0.000000, 
+ *             "Allegiance":"PilotsFederation" }, 
+ *         { 
+ *             "Name":"Cerktondhs Resistance", 
+ *             "FactionState":"Boom", 
+ *             "Government":"Democracy", 
+ *             "Influence":0.051948, 
+ *             "Allegiance":"Federation" 
+ *         }, 
+ *         { 
+ *             "Name":"Social Qa'wakana Revolutionary Party", 
+ *             "FactionState":"None", 
+ *             "Government":"Democracy", 
+ *             "Influence":0.121878, 
+ *             "Allegiance":"Independent", 
+ *             "PendingStates":[ 
+ *                 { 
+ *                     "State":"CivilWar", 
+ *                     "Trend":0 
+ *                 } 
+ *             ] 
+ *         }, 
+ *         { 
+ *             "Name":"Qa'wakana Gold Major Inc", 
+ *             "FactionState":"Boom", 
+ *             "Government":"Corporate", 
+ *             "Influence":0.125874, 
+ *             "Allegiance":"Federation", 
+ *             "PendingStates":[ 
+ *                 { 
+ *                     "State":"CivilWar", 
+ *                     "Trend":0 
+ *                 } 
+ *             ] 
+ *         }, 
+ *         { 
+ *             "Name":"New Qa'wakana Conservatives", 
+ *             "FactionState":"CivilWar", 
+ *             "Government":"Dictatorship", 
+ *             "Influence":0.057942, 
+ *             "Allegiance":"Independent" 
+ *         }, 
+ *         { 
+ *             "Name":"Qa'wakana United Organisation", 
+ *             "FactionState":"CivilWar", 
+ *             "Government":"Corporate", 
+ *             "Influence":0.060939, 
+ *             "Allegiance":"Independent" 
+ *         }, 
+ *         { 
+ *             "Name":"Qa'wakana Silver Hand Gang", 
+ *             "FactionState":"Boom", 
+ *             "Government":"Anarchy", 
+ *             "Influence":0.045954, 
+ *             "Allegiance":"Independent" 
+ *         }, 
+ *         { 
+ *             "Name":"Knights of Karma", 
+ *             "FactionState":"Boom", 
+ *             "Government":"Feudal", 
+ *             "Influence":0.535465, 
+ *             "Allegiance":"Independent" 
+ *         } 
+ *     ], 
+ *     "SystemFaction":"Knights of Karma", 
+ *     "FactionState":"Boom" 
  * }
  * ```
  */
@@ -67,7 +124,7 @@ export class Location extends JournalEvent {
     SystemGovernment: string;
     SystemGovernment_Localised: string;
     SystemSecurity: string;
-    Security_Localised: string;
+    SystemSecurity_Localised: string;
     Wanted: boolean;
     Factions: Faction[];
     Powers: string[];

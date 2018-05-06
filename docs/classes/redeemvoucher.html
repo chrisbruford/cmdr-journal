@@ -66,6 +66,30 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When Written: when claiming payment for combat bounties and bonds</p>
+					</div>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"RedeemVoucher"</span>,
+    <span class="hljs-string">"Type"</span>:<span class="hljs-string">"bounty"</span>,
+    <span class="hljs-attr">Factions</span>: [
+        {
+            <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"Ed's 38"</span>,
+            <span class="hljs-string">"Amount"</span>:<span class="hljs-number">1000</span>
+        },
+        {
+            <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"Zac's Lads"</span>,
+            <span class="hljs-string">"Amount"</span>: <span class="hljs-number">2000</span>
+        }
+    ]
+}
+</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -106,7 +130,7 @@
 					<div class="tsd-signature tsd-kind-icon">Amount<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:329</li>
+							<li>Defined in models/redeem-voucher.ts:28</li>
 						</ul>
 					</aside>
 				</section>
@@ -116,7 +140,7 @@
 					<div class="tsd-signature tsd-kind-icon">Broker<wbr>Percentage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:331</li>
+							<li>Defined in models/redeem-voucher.ts:30</li>
 						</ul>
 					</aside>
 				</section>
@@ -126,30 +150,19 @@
 					<div class="tsd-signature tsd-kind-icon">Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:330</li>
+							<li>Defined in models/redeem-voucher.ts:29</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="factions" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Factions</h3>
-					<div class="tsd-signature tsd-kind-icon">Factions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<div class="tsd-signature tsd-kind-icon">Factions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:332</li>
+							<li>Defined in models/redeem-voucher.ts:31</li>
 						</ul>
 					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter">
-								<h5>Amount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-							</li>
-							<li class="tsd-parameter">
-								<h5>Faction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-							</li>
-						</ul>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="type" class="tsd-anchor"></a>
@@ -157,7 +170,7 @@
 					<div class="tsd-signature tsd-kind-icon">Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:328</li>
+							<li>Defined in models/redeem-voucher.ts:27</li>
 						</ul>
 					</aside>
 				</section>

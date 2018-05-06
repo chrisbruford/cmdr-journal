@@ -324,15 +324,6 @@ export class PayLegacyFines extends JournalEvent {
     BrokerPercentage?: number;
 }
 
-export class RedeemVoucher extends JournalEvent {
-    Type: string;
-    Amount: number;
-    Faction?: string; //not for bounties
-    BrokerPercentage?: number;
-    Factions?: {Faction:string; Amount: number} //for Bounties
-}
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":1000 }
-
 export class refuelAll extends JournalEvent {
     Cost: number;
     Amount: number;    

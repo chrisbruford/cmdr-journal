@@ -4,6 +4,7 @@ import { DamageType, WeaponMode } from "..";
 import { CabinClass } from "../enums/cabin-class.enum";
 
 /**
+ * When written: at startup, when loading from main menu, or when switching ships, or after changing the ship in Outfitting
  * ## Example
  * 
  * Most "modules" have been removed from this example as they simply repeat the same values many times

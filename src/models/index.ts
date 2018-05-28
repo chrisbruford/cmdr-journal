@@ -73,6 +73,7 @@ export { PayBounties } from './pay-bounties';
 export { PayFines } from './pay-fines';
 export { LoadGame } from './load-game';
 export { RedeemVoucher } from './redeem-voucher';
+export { OutfittingID } from './outfitting-id';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

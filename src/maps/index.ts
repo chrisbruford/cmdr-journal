@@ -1,0 +1,1 @@
+export { OUTFITTING_MAP } from './outfitting.map';

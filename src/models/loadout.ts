@@ -229,7 +229,7 @@ export class Loadout extends JournalEvent {
                 Value?: number | DamageType | WeaponMode | CabinClass;
                 OriginalValue: number;
                 LessIsGood: boolean;
-            }
+            }[];
         }
     }[]
 }

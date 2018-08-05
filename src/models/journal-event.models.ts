@@ -1,14 +1,5 @@
-import { BodyTypes } from '../enums/body-types.enum';
-import { StarTypes } from '../enums/star-types.enum';
-import { PlanetTypes } from '../enums/planet-types.enum';
-import { VolcanismTypes } from '../enums/volcanism-types.enum';
-import { Crimes } from '../enums/crimes.enum';
-import { AtmosphereTypes } from '../enums/atmosphere-types.enum';
 import { CrewRoles } from '../enums/crew-roles.enum';
 import { MusicTrackNames } from '../enums/music-track-names.enum';
-import { StarLuminosityClasses } from '../enums/star-luminosity-classes.enum';
-import { StationServices } from '../enums/station-services.enum';
-import { Faction } from './faction.model';
 import { JournalEvent } from './journal-event.model';
 
 /*

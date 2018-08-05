@@ -51,6 +51,7 @@ export enum JournalEvents {
     fighterRebuilt = "FighterRebuilt",
     underAttack = "UnderAttack",
     shipTargetted = "ShipTargetted",
+    systemsShutdown = "SystemsShutdown",
 
     //EXPLORATION
     scan = "Scan",
@@ -177,5 +178,6 @@ export enum JournalEvents {
     launchDrone = "LaunchDrone",
     searchAndRescue = "SearchAndRescue",
     npcCrewPaidWage = "NpcCrewPaidWage",
-    npcCrewRank = "NpcCrewRank"
+    npcCrewRank = "NpcCrewRank",
+    shutDown = "Shutdown"
 }

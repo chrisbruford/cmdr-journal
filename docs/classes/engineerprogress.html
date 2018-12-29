@@ -69,23 +69,114 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>When Written: when a player increases their access to an engineer</p>
+						<p>When Written: when a player increases their access to an engineer
+						Also a summary of progress for all engineers at startup</p>
 					</div>
 					<h2 id="example">Example</h2>
+					<p>Single engineer update example</p>
 					<pre><code class="lang-javascript">{
     <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
     <span class="hljs-string">"event"</span>:<span class="hljs-string">"EngineerProgress"</span>,
     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+    <span class="hljs-string">"RankProgress"</span>: <span class="hljs-number">0</span>,
     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Elvira Martuuk"</span>,
     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300160</span>
 }
 </code></pre>
+					<p>Startup summary example</p>
 					<pre><code class="lang-javascript">{
-    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
-    <span class="hljs-string">"event"</span>:<span class="hljs-string">"EngineerProgress"</span>,
-    <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Elvira Martuuk"</span>,
-    <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300160</span>,
-    <span class="hljs-string">"Rank"</span>:<span class="hljs-number">2</span>
+ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-05-04T13:58:22Z"</span>,
+ <span class="hljs-string">"event"</span>:<span class="hljs-string">"EngineerProgress"</span>,
+ <span class="hljs-string">"Engineers"</span>:[
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Zacariah Nemo"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300050</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">0</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">5</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Marco Qwent"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300200</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">37</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">4</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Hera Tani"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300090</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">0</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">3</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Tod 'The Blaster' McQuinn"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300260</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">97</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">3</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Selene Jean"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300210</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Known"</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Lei Cheung"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300120</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Known"</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Juri Ishmaak"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300250</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Known"</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Felicity Farseer"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300100</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">0</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">5</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Professor Palin"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300220</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Invited"</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Elvira Martuuk"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300160</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">0</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">5</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Lori Jameson"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300230</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Known"</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"The Dweller"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300180</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">0</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">5</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Liz Ryder"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300080</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">93</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">3</span>
+   },
+   {
+     <span class="hljs-string">"Engineer"</span>:<span class="hljs-string">"Ram Tah"</span>,
+     <span class="hljs-string">"EngineerID"</span>:<span class="hljs-number">300110</span>,
+     <span class="hljs-string">"Progress"</span>:<span class="hljs-string">"Unlocked"</span>,
+     <span class="hljs-string">"RankProgress"</span>:<span class="hljs-number">31</span>,
+     <span class="hljs-string">"Rank"</span>:<span class="hljs-number">3</span>
+   }
+ ]
 }
 </code></pre>
 				</div>
@@ -112,8 +203,10 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#engineer" class="tsd-kind-icon">Engineer</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#engineerid" class="tsd-kind-icon">EngineerID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#engineers" class="tsd-kind-icon">Engineers</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#progress" class="tsd-kind-icon">Progress</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#rank" class="tsd-kind-icon">Rank</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="engineerprogress.html#rankprogress" class="tsd-kind-icon">Rank<wbr>Progress</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="engineerprogress.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="engineerprogress.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
@@ -129,9 +222,14 @@
 					<div class="tsd-signature tsd-kind-icon">Engineer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/engineer-progress.ts:28</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L122">models/engineer-progress.ts:122</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Parameters for updating one engineer</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="engineerid" class="tsd-anchor"></a>
@@ -139,9 +237,24 @@
 					<div class="tsd-signature tsd-kind-icon">EngineerID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/engineer-progress.ts:29</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L123">models/engineer-progress.ts:123</a></li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="engineers" class="tsd-anchor"></a>
+					<h3>Engineers</h3>
+					<div class="tsd-signature tsd-kind-icon">Engineers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L130">models/engineer-progress.ts:130</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Parameters for summary at startup</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="progress" class="tsd-anchor"></a>
@@ -149,7 +262,7 @@
 					<div class="tsd-signature tsd-kind-icon">Progress<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Invited"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Acquainted"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Unlocked"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Barred"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/engineer-progress.ts:31</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L125">models/engineer-progress.ts:125</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -159,7 +272,17 @@
 					<div class="tsd-signature tsd-kind-icon">Rank<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/engineer-progress.ts:30</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L124">models/engineer-progress.ts:124</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="rankprogress" class="tsd-anchor"></a>
+					<h3>Rank<wbr>Progress</h3>
+					<div class="tsd-signature tsd-kind-icon">Rank<wbr>Progress<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/engineer-progress.ts#L126">models/engineer-progress.ts:126</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -170,7 +293,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in models/journal-event.model.ts:2</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -181,7 +304,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in models/journal-event.model.ts:3</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -209,10 +332,16 @@
 								<a href="engineerprogress.html#engineerid" class="tsd-kind-icon">EngineerID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="engineerprogress.html#engineers" class="tsd-kind-icon">Engineers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="engineerprogress.html#progress" class="tsd-kind-icon">Progress</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="engineerprogress.html#rank" class="tsd-kind-icon">Rank</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="engineerprogress.html#rankprogress" class="tsd-kind-icon">Rank<wbr>Progress</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="engineerprogress.html#event" class="tsd-kind-icon">event</a>

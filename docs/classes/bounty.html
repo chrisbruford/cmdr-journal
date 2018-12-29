@@ -66,6 +66,42 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When Written: when requesting an engineer upgrade</p>
+					</div>
+					<h2 id="example">Example</h2>
+					<pre><code class="lang-javascript">{
+  <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
+ <span class="hljs-string">"event"</span>:<span class="hljs-string">"Bounty"</span>,
+  <span class="hljs-string">"Rewards"</span>: [
+   {
+     <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"Federation"</span>,
+     <span class="hljs-string">"Reward"</span>:<span class="hljs-number">1000</span>
+   },
+   {
+     <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"Nuenets Corp."</span>,
+     <span class="hljs-string">"Reward"</span>: <span class="hljs-number">10280</span>
+   }
+ ],
+ <span class="hljs-string">"Target"</span>:<span class="hljs-string">"Skimmer"</span>,
+ <span class="hljs-string">"TotalReward"</span>:<span class="hljs-number">11280</span>,
+ <span class="hljs-string">"VictimFaction"</span>:<span class="hljs-string">"MMU"</span>
+}
+</code></pre>
+					<p>When the bounty is for a skimmer, it’s slightly different:</p>
+					<pre><code class="lang-javascript">{
+  <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-05-20T21:19:58Z"</span>,
+  <span class="hljs-string">"event"</span>:<span class="hljs-string">"Bounty"</span>,
+  <span class="hljs-string">"Faction"</span>:<span class="hljs-string">"HIP 18828 Empire Consulate"</span>,
+  <span class="hljs-string">"Target"</span>:<span class="hljs-string">"Skimmer"</span>,
+  <span class="hljs-string">"Reward"</span>:<span class="hljs-number">1000</span>,
+  <span class="hljs-string">"VictimFaction"</span>:<span class="hljs-string">"HIP 18828 Empire Consulate"</span>
+}
+</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -86,6 +122,8 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bounty.html#faction" class="tsd-kind-icon">Faction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bounty.html#reward" class="tsd-kind-icon">Reward</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bounty.html#rewards" class="tsd-kind-icon">Rewards</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bounty.html#sharedwithothers" class="tsd-kind-icon">Shared<wbr>With<wbr>Others</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bounty.html#target" class="tsd-kind-icon">Target</a></li>
@@ -101,22 +139,52 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="rewards" class="tsd-anchor"></a>
-					<h3>Rewards</h3>
-					<div class="tsd-signature tsd-kind-icon">Rewards<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<a name="faction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Faction</h3>
+					<div class="tsd-signature tsd-kind-icon">Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:88</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L45">models/bounty.ts:45</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Skimmer bounties only</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="reward" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Reward</h3>
+					<div class="tsd-signature tsd-kind-icon">Reward<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L46">models/bounty.ts:46</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="rewards" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Rewards</h3>
+					<div class="tsd-signature tsd-kind-icon">Rewards<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L50">models/bounty.ts:50</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Non-skimmer bounties only</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="sharedwithothers" class="tsd-anchor"></a>
-					<h3>Shared<wbr>With<wbr>Others</h3>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Shared<wbr>With<wbr>Others</h3>
 					<div class="tsd-signature tsd-kind-icon">Shared<wbr>With<wbr>Others<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:91</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L52">models/bounty.ts:52</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -126,27 +194,27 @@
 					<div class="tsd-signature tsd-kind-icon">Target<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:92</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L40">models/bounty.ts:40</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="totalreward" class="tsd-anchor"></a>
-					<h3>Total<wbr>Reward</h3>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Total<wbr>Reward</h3>
 					<div class="tsd-signature tsd-kind-icon">Total<wbr>Reward<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:90</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L51">models/bounty.ts:51</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="victimfaction" class="tsd-anchor"></a>
-					<h3>Victim<wbr>Faction</h3>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Victim<wbr>Faction</h3>
 					<div class="tsd-signature tsd-kind-icon">Victim<wbr>Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in models/journal-event.models.ts:89</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/bounty.ts#L41">models/bounty.ts:41</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -157,7 +225,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in models/journal-event.model.ts:2</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -168,7 +236,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in models/journal-event.model.ts:3</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/5cf8f66/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -189,6 +257,12 @@
 					<li class="current tsd-kind-class">
 						<a href="bounty.html" class="tsd-kind-icon">Bounty</a>
 						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bounty.html#faction" class="tsd-kind-icon">Faction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bounty.html#reward" class="tsd-kind-icon">Reward</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="bounty.html#rewards" class="tsd-kind-icon">Rewards</a>
 							</li>

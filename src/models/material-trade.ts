@@ -13,10 +13,10 @@ import { JournalEvent } from "./journal-event.model";
  *     "Paid": { 
  *         "Material":"scandatabanks", 
  *         "Material_Localised":"Classified Scan Databanks", 
- *         "Category":"$MICRORESOURCE_CATEGORY_Encoded;", 
+ *         "Category":"Encoded;", 
  *         "Category_Localised":"Encoded", 
  *         "Quantity":6, 
- *         "Category":"$MICRORESOURCE_CATEGORY_Encoded;", 
+ *         "Category":"Encoded;", 
  *         "Category_Localised":"Encoded" 
  *     }, 
  *     "Received": { 

@@ -11,7 +11,8 @@ import { JournalEvent } from "./journal-event.model";
  *         { 
  *             "Name":"syntheticmeat", 
  *             "Count":2, 
- *             "Stolen": 0 
+ *             "Stolen": 0,
+ *             "MissionID":65397935
  *         }, 
  *         { 
  *             "Name":"evacuationshelter", 
@@ -38,10 +39,11 @@ import { JournalEvent } from "./journal-event.model";
  * ```
  */
 export class Cargo extends JournalEvent {
-    Inventory: {
-        Name: string;
-        Name_Localised: string;
-        Count: number;
-        Stolen: number;
-    }[]
+  Inventory: {
+    Name: string;
+    Name_Localised: string;
+    Count: number;
+    Stolen: number;
+    MissionID?: number
+  }[]
 }

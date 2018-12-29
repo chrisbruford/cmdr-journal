@@ -204,6 +204,8 @@ export class Loadout extends JournalEvent {
     HullValue?: number;
     ModulesValue?: number;
     Rebuy: number;
+    Hot?: boolean;
+    HullHealth: number;
     Modules: {
         Slot: string;
         Item: string;

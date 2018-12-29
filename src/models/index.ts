@@ -74,6 +74,10 @@ export { PayFines } from './pay-fines';
 export { LoadGame } from './load-game';
 export { RedeemVoucher } from './redeem-voucher';
 export { OutfittingID } from './outfitting-id';
+export { Bounty } from './bounty';
+export { CollectCargo } from './collect-cargo';
+export { EjectCargo } from './eject-cargo';
+export { FSDTarget } from './fsd-target';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

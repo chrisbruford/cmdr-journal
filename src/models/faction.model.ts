@@ -1,3 +1,4 @@
+import { Happiness } from '../enums/happiness.enum'
 /**
  * ## Example
  * ```javascript
@@ -31,6 +32,12 @@ export class Faction {
     FactionState: string;
     Government: string;
     Influence: number;
+    Happiness: Happiness;
+    MyReputation: number;
     PendingStates?: {State: string, Trend: number}[];
     RecoveringStates?: {State: string, Trend: number}[];
+    ActiveStates?: string[];
+    SquadronFaction?: boolean;
+    HappiestSystem?: boolean;
+    HomeSystem?: boolean;
 }

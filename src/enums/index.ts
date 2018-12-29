@@ -10,3 +10,4 @@ export { ModuleAttribute } from './module-attributes.enum';
 export { WeaponMode } from './weapon-mode.enum';
 export { DamageType } from './damage-type.enum';
 export { GameMode } from './game-mode.enum';
+export { Happiness } from './happiness.enum';

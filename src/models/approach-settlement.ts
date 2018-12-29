@@ -7,4 +7,6 @@ import { JournalEvent } from "./journal-event.model";
 export class ApproachSettlement extends JournalEvent {
     MarketID: number;
     Name: string;
+    Latitude: number;
+    Longitude: number;
 }

@@ -79,4 +79,5 @@ export class Docked extends JournalEvent {
     DistFromStarLS: number;
     StationServices: StationServices[];
     Wanted?: boolean;
+    ActiveFine?: boolean;
 }

@@ -25,6 +25,7 @@ export enum JournalEvents {
     dockingGranted = "DockingGranted",
     dockingRequested = "DockingRequested",
     dockingTimeout = "DockingTimeout",
+    fsdTarget = "FSDTarget",
     fsdJump = "FSDJump",
     liftoff = "Liftoff",
     location = "Location",

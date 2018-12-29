@@ -52,12 +52,16 @@ export class StoredShips extends JournalEvent {
         ShipID: number;
         ShipType: string;
         ShipType_Localised: string;
-        Name?: string;
         Value: number;
         Hot: boolean;
-        StarSystem: string;
-        ShipMarketID: number;
-        TransferPrice: number;
-        TransferTime: string;
+        Name?: string;
+        InTransit?: boolean;
+        /**
+         * Only if InTransit !== true
+         */
+        StarSystem?: string;
+        ShipMarketID?: number;
+        TransferPrice?: number;
+        TransferTime?: string;
     }[];
 }

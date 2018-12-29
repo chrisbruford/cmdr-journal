@@ -9,7 +9,6 @@ NO NEW MODELS SHOULD BE CREATED HERE
 
 */
 
-
 //STARTUP
 
 export class ClearSavedGame extends JournalEvent {
@@ -83,16 +82,6 @@ export class Touchdown extends JournalEvent {
 //{ "timestamp":"2016-07-22T10:38:46Z", "event":"Touchdown", "Latitude":63.468872, "Longitude":157.599380, "PlayerControlled":true }
 
 //COMBAT
-
-export class Bounty extends JournalEvent {
-    Rewards: {Faction: string, Reward: number}[];
-    VictimFaction: string;
-    TotalReward: number;
-    SharedWithOthers: number;
-    Target: string;
-}
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"Bounty", "Rewards": [ {"Faction":"Federation", "Reward":1000 }, {"Faction":"Nuenets Corp.", "Reward": 10280} ],"Target":"Skimmer", "TotalReward":11280, "VictimFaction":"MMU" }
-
 export class CapShipBond extends JournalEvent {
     Reward: number;
     AwardingFaction: string;
@@ -246,21 +235,6 @@ export class BuyTradeData extends JournalEvent {
     Cost: number;
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"BuyTradeData", "System":"i Bootis", "Cost":100 }
-
-export class CollectCargo extends JournalEvent {
-    Type: string;
-    Stolen: boolean;
-}
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"CollectCargo", "Type":"agriculturalmedicines", "Stolen":false }
-
-export class EjectCargo extends JournalEvent {
-    Type: string;
-    Count: number;
-    Abandoned: boolean;
-    PowerplayOrigin?: string;
-}
-// { "timestamp":"2016-06-10T14:32:03Z", "event":"EjectCargo", "Type":"tobacco", "Count":1, "Abandoned":true }
-// { "timestamp":"2016-09-21T14:18:23Z", "event":"EjectCargo", "Type":"alliancelegaslativerecords", "Count":2, "Abandoned":true, "PowerplayOrigin":"Tau Bootis" }
 
 export class MiningRefined extends JournalEvent {
     Type: string;

@@ -2,12 +2,17 @@ import { JournalEvent } from "./journal-event.model";
 
 /**
  * When written: at startup, note this is now written slightly later in startup, after we have initialised missions, so we can detect if any cargo came from an abandoned delivery mission
+ * The first “Cargo” event in the file will contain the full inventory, others just indicate a separate file has been written
+ * The full data is now written to a separate file Cargo.json
+ * A simple event (with no parameters) is written to the main journal file when the cargo file is updated
  * 
  * ## Example
  * ```javascript
  * { 
- *     "timestamp":"2017-02-10T14:25:51Z", 
- *     "event":"Cargo", "Inventory":[ 
+ *      "timestamp":"2017-02-10T14:25:51Z", 
+ *      "event":"Cargo", 
+ *      "Vessel": "Ship"
+ *      "Inventory":[ 
  *         { 
  *             "Name":"syntheticmeat", 
  *             "Count":2, 
@@ -39,6 +44,7 @@ import { JournalEvent } from "./journal-event.model";
  * ```
  */
 export class Cargo extends JournalEvent {
+  Vessel: "Ship" | "SRV"
   Inventory: {
     Name: string;
     Name_Localised: string;

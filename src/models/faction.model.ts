@@ -33,6 +33,7 @@ export class Faction {
     Government: string;
     Influence: number;
     Happiness: Happiness;
+    Happiness_Localised?: string;
     MyReputation: number;
     PendingStates?: {State: string, Trend: number}[];
     RecoveringStates?: {State: string, Trend: number}[];

@@ -180,5 +180,6 @@ export enum JournalEvents {
     searchAndRescue = "SearchAndRescue",
     npcCrewPaidWage = "NpcCrewPaidWage",
     npcCrewRank = "NpcCrewRank",
-    shutDown = "Shutdown"
+    shutDown = "Shutdown",
+    asteroidCracked = "AsteroidCracked"
 }

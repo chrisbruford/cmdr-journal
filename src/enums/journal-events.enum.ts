@@ -64,6 +64,9 @@ export enum JournalEvents {
     screenshot = "Screenshot",
     discoveryScan = "DiscoveryScan",
     navBeaconScan = "NavBeaconScan",
+    saaScanComplete = "SAAScanComplete",
+    codexEntry = "CodexEntry",
+    fssDiscoveryScan = "FSSDiscoveryScan",
 
     //TRADE
     buyTradeData = "BuyTradeData",
@@ -181,5 +184,18 @@ export enum JournalEvents {
     npcCrewPaidWage = "NpcCrewPaidWage",
     npcCrewRank = "NpcCrewRank",
     shutDown = "Shutdown",
-    asteroidCracked = "AsteroidCracked"
+    asteroidCracked = "AsteroidCracked",
+
+    //SQUADRONS
+    appliedToSquadron = "AppliedToSquadron",
+    disbanedSquadron = "DisbandedSquadron",
+    invitedToSquadron = "InvitedToSquadron",
+    joinedSquadron = "JoinedSquadron",
+    kickedFromSquadron = "KickedFromSquadron",
+    leftSquadron = "LeftSquadron",
+    sharedBookmarkToASquadron = "sharedBookmarkToASquadron",
+    squadronCreated = "SquadronCreated",
+    squadronDemotion = "SquadronDemotion",
+    squadronPromotion = "SquadronPromotion",
+    wonATrophyForSquadron = "WonATrophyForSquadron"
 }

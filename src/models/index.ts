@@ -79,6 +79,20 @@ export { CollectCargo } from './collect-cargo';
 export { EjectCargo } from './eject-cargo';
 export { FSDTarget } from './fsd-target';
 export { AsteroidCracked } from './asteroid-cracked';
+export { SAAScanComplete } from './saa-scan-complete';
+export { CodexEntry } from './codex-entry';
+export { FSSDiscoveryScan } from './fss-discovery-scan';
+export { AppliedToSquadron } from './applied-to-squadron';
+export { DisbandedSquadron } from './disbanded-squadron';
+export { InvitedToSquadron } from './invited-to-squadron';
+export { JoinedSquadron } from './joined-squadron';
+export { KickedFromSquadron } from './kicked-from-squadron';
+export { LeftSquadron } from './left-squadron';
+export { SharedBookmarkToSquadron } from './shared-bookmark-to-squadron';
+export { SquadronCreated } from './squadron-created';
+export { SquadronDemotion } from './squadron-demotion';
+export { SquadronPromotion } from './squadron-promotion';
+export { WonATrophyForSquadron } from './WonATrophyForSquadron';
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from './journal-event.models';

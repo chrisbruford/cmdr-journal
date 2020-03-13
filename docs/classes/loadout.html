@@ -70,10 +70,12 @@
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
 						<p>When written: at startup, when loading from main menu, or when switching ships, or after changing the ship in Outfitting</p>
-						<h2 id="example">Example</h2>
+						<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+							<h2>Example</h2>
+						</a>
 					</div>
 					<p>Most &quot;modules&quot; have been removed from this example as they simply repeat the same values many times</p>
-					<pre><code class="lang-javascript">{
+					<pre><code class="language-javascript">{
     <span class="hljs-string">"timestamp"</span>: <span class="hljs-string">"2018-04-26T20:19:50Z"</span>,
     <span class="hljs-string">"event"</span>: <span class="hljs-string">"Loadout"</span>,
     <span class="hljs-string">"Ship"</span>: <span class="hljs-string">"Empire_Courier"</span>,
@@ -255,8 +257,7 @@
             <span class="hljs-string">"Health"</span>: <span class="hljs-number">1.000000</span>
         }
     ]
-}
-</code></pre>
+}</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -279,9 +280,12 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#cargocapacity" class="tsd-kind-icon">Cargo<wbr>Capacity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#fuelcapacity" class="tsd-kind-icon">Fuel<wbr>Capacity</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#hot" class="tsd-kind-icon">Hot</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#hullhealth" class="tsd-kind-icon">Hull<wbr>Health</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#hullvalue" class="tsd-kind-icon">Hull<wbr>Value</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#maxjumprange" class="tsd-kind-icon">Max<wbr>Jump<wbr>Range</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#modules" class="tsd-kind-icon">Modules</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#modulesvalue" class="tsd-kind-icon">Modules<wbr>Value</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#rebuy" class="tsd-kind-icon">Rebuy</a></li>
@@ -289,6 +293,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#shipid" class="tsd-kind-icon">ShipID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#shipident" class="tsd-kind-icon">Ship<wbr>Ident</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#shipname" class="tsd-kind-icon">Ship<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadout.html#unladenmass" class="tsd-kind-icon">Unladen<wbr>Mass</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="loadout.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="loadout.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
@@ -299,12 +304,43 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="cargocapacity" class="tsd-anchor"></a>
+					<h3>Cargo<wbr>Capacity</h3>
+					<div class="tsd-signature tsd-kind-icon">Cargo<wbr>Capacity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L211">models/loadout.ts:211</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="fuelcapacity" class="tsd-anchor"></a>
+					<h3>Fuel<wbr>Capacity</h3>
+					<div class="tsd-signature tsd-kind-icon">Fuel<wbr>Capacity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Main<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Reserve<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L210">models/loadout.ts:210</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Main<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Reserve<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="hot" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Hot</h3>
 					<div class="tsd-signature tsd-kind-icon">Hot<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L207">models/loadout.ts:207</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L207">models/loadout.ts:207</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -314,7 +350,7 @@
 					<div class="tsd-signature tsd-kind-icon">Hull<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L208">models/loadout.ts:208</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L208">models/loadout.ts:208</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -324,17 +360,27 @@
 					<div class="tsd-signature tsd-kind-icon">Hull<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L204">models/loadout.ts:204</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L204">models/loadout.ts:204</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="maxjumprange" class="tsd-anchor"></a>
+					<h3>Max<wbr>Jump<wbr>Range</h3>
+					<div class="tsd-signature tsd-kind-icon">Max<wbr>Jump<wbr>Range<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L212">models/loadout.ts:212</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="modules" class="tsd-anchor"></a>
 					<h3>Modules</h3>
-					<div class="tsd-signature tsd-kind-icon">Modules<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Modules<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>AmmoInClip<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>AmmoInHopper<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Engineering<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>BlueprintID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>BlueprintName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Engineer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>EngineerID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>ExperimentalEffect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>ExperimentalEffect_Localised<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Level<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Modifiers<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>Label<span class="tsd-signature-symbol">: </span><a href="../enums/moduleattribute.html" class="tsd-signature-type">ModuleAttribute</a><span class="tsd-signature-symbol">; </span>LessIsGood<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">; </span>OriginalValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Value<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><a href="../enums/damagetype.html" class="tsd-signature-type">DamageType</a><span class="tsd-signature-symbol"> | </span><a href="../enums/weaponmode.html" class="tsd-signature-type">WeaponMode</a><span class="tsd-signature-symbol"> | </span><a href="../enums/cabinclass.html" class="tsd-signature-type">CabinClass</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>Quality<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">; </span>Health<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>On<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">; </span>Priority<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Slot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L209">models/loadout.ts:209</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L213">models/loadout.ts:213</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -344,7 +390,7 @@
 					<div class="tsd-signature tsd-kind-icon">Modules<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L205">models/loadout.ts:205</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L205">models/loadout.ts:205</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -354,7 +400,7 @@
 					<div class="tsd-signature tsd-kind-icon">Rebuy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L206">models/loadout.ts:206</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L206">models/loadout.ts:206</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -364,7 +410,7 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L200">models/loadout.ts:200</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L200">models/loadout.ts:200</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -374,7 +420,7 @@
 					<div class="tsd-signature tsd-kind-icon">ShipID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L201">models/loadout.ts:201</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L201">models/loadout.ts:201</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -384,7 +430,7 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<wbr>Ident<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L203">models/loadout.ts:203</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L203">models/loadout.ts:203</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -394,7 +440,17 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/loadout.ts#L202">models/loadout.ts:202</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L202">models/loadout.ts:202</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="unladenmass" class="tsd-anchor"></a>
+					<h3>Unladen<wbr>Mass</h3>
+					<div class="tsd-signature tsd-kind-icon">Unladen<wbr>Mass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/loadout.ts#L209">models/loadout.ts:209</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -405,7 +461,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -416,7 +472,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -438,6 +494,12 @@
 						<a href="loadout.html" class="tsd-kind-icon">Loadout</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="loadout.html#cargocapacity" class="tsd-kind-icon">Cargo<wbr>Capacity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="loadout.html#fuelcapacity" class="tsd-kind-icon">Fuel<wbr>Capacity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadout.html#hot" class="tsd-kind-icon">Hot</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -445,6 +507,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadout.html#hullvalue" class="tsd-kind-icon">Hull<wbr>Value</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="loadout.html#maxjumprange" class="tsd-kind-icon">Max<wbr>Jump<wbr>Range</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadout.html#modules" class="tsd-kind-icon">Modules</a>
@@ -466,6 +531,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadout.html#shipname" class="tsd-kind-icon">Ship<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="loadout.html#unladenmass" class="tsd-kind-icon">Unladen<wbr>Mass</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="loadout.html#event" class="tsd-kind-icon">event</a>
@@ -494,6 +562,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -542,7 +611,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

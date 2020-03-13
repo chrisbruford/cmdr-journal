@@ -3,14 +3,15 @@ import { JournalEvent } from "./journal-event.model";
 /**
  * When written: when selecting a star system to jump to
  * Note: when following a multi-jump route, this will typically appear for the next star, during a jump, ie after “StartJump” but before the “FSDJump”
- * 
+ *
  * ## Example
  * ```javascript
- * { 
- *  "timestamp":"2018-12-11T20:54:07Z",
+ * {
+ *  "timestamp":"2020-03-12T22:51:56Z",
  *  "event":"FSDTarget",
- *  "Name":"Wredguia WS-S c17-15",
- *  "SystemAddress":4206551405210 
+ *  "Name":"Eol Prou PC-K c9-221",
+ *  "SystemAddress":60815897305682,
+ *  "RemainingJumpsInRoute":2
  * }
  * ```
  */
@@ -18,4 +19,5 @@ import { JournalEvent } from "./journal-event.model";
 export class FSDTarget extends JournalEvent {
   Name: string;
   SystemAddress: number;
+  RemainingJumpsInRoute: number;
 }

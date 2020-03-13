@@ -17,6 +17,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class SAAScanComplete extends JournalEvent {
+    SystemAddress: number;
     BodyName: string;
     BodyID: number;
     ProbesUsed: number;

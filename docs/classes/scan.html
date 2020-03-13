@@ -76,8 +76,10 @@
 					<p>Note that a basic scan (ie without having a Detailed Surface Scanner installed) will now save a reduced amount of information.</p>
 					<p>A basic scan on a planet will include body name, planet class, orbital data, rotation period, mass, radius, surface gravity; but will exclude tidal lock, terraform state, atmosphere, volcanism, surface pressure and temperature, available materials, and details of rings. The info for a star will be largely the same whether a basic scanner or detailed scanner is used.</p>
 					<p>The &quot;Parents&quot; property provides the body&#39;s hierarchical position within the system: in the example below, &quot;Procyon B 3 a&quot; is a moon of a planet (body 11), which is orbiting a star (body 2), which is has a parent body that&#39;s a Barycentre</p>
-					<h2 id="example">Example</h2>
-					<pre><code class="lang-javascript">{
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{
     <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-02-02T10:43:05Z"</span>,
     <span class="hljs-string">"event"</span>:<span class="hljs-string">"Scan"</span>,
     <span class="hljs-string">"ScanType"</span>:<span class="hljs-string">"NavBeaconDetail"</span>,
@@ -122,8 +124,7 @@
     <span class="hljs-string">"OrbitalPeriod"</span>:<span class="hljs-number">344902.937500</span>,
     <span class="hljs-string">"RotationPeriod"</span>:<span class="hljs-number">352425.468750</span>,
     <span class="hljs-string">"AxialTilt"</span>:<span class="hljs-number">0.479157</span>
-}
-</code></pre>
+}</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -171,14 +172,19 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#rotationperiod" class="tsd-kind-icon">Rotation<wbr>Period</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#scantype" class="tsd-kind-icon">Scan<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#semimajoraxis" class="tsd-kind-icon">Semi<wbr>Major<wbr>Axis</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#startype" class="tsd-kind-icon">Star<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#stellarmass" class="tsd-kind-icon">Stellar<wbr>Mass</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#subclass" class="tsd-kind-icon">Subclass</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacegravity" class="tsd-kind-icon">Surface<wbr>Gravity</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacepressure" class="tsd-kind-icon">Surface<wbr>Pressure</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#surfacetemperature" class="tsd-kind-icon">Surface<wbr>Temperature</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#systemaddress" class="tsd-kind-icon">System<wbr>Address</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#terraformstate" class="tsd-kind-icon">Terraform<wbr>State</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#tidallock" class="tsd-kind-icon">Tidal<wbr>Lock</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#volcanism" class="tsd-kind-icon">Volcanism</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#wasdiscovered" class="tsd-kind-icon">Was<wbr>Discovered</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="scan.html#wasmapped" class="tsd-kind-icon">Was<wbr>Mapped</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="scan.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="scan.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
@@ -194,7 +200,7 @@
 					<div class="tsd-signature tsd-kind-icon">Absolute<wbr>Magnitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L99">models/scan.ts:99</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L106">models/scan.ts:106</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -204,7 +210,7 @@
 					<div class="tsd-signature tsd-kind-icon">Age_<wbr>MY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L100">models/scan.ts:100</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L107">models/scan.ts:107</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -214,17 +220,17 @@
 					<div class="tsd-signature tsd-kind-icon">Atmosphere<span class="tsd-signature-symbol">:</span> <a href="../enums/atmospheretypes.html" class="tsd-signature-type">AtmosphereTypes</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L107">models/scan.ts:107</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L114">models/scan.ts:114</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="atmospherecomposition" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Atmosphere<wbr>Composition</h3>
-					<div class="tsd-signature tsd-kind-icon">Atmosphere<wbr>Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Atmosphere<wbr>Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Percent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L109">models/scan.ts:109</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L116">models/scan.ts:116</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -234,7 +240,7 @@
 					<div class="tsd-signature tsd-kind-icon">Atmosphere<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L108">models/scan.ts:108</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L115">models/scan.ts:115</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -244,7 +250,7 @@
 					<div class="tsd-signature tsd-kind-icon">Axial<wbr>Tilt<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L80">models/scan.ts:80</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L84">models/scan.ts:84</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -254,7 +260,7 @@
 					<div class="tsd-signature tsd-kind-icon">BodyID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L74">models/scan.ts:74</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L74">models/scan.ts:74</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -264,17 +270,17 @@
 					<div class="tsd-signature tsd-kind-icon">Bodyname<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L73">models/scan.ts:73</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L73">models/scan.ts:73</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="composition" class="tsd-anchor"></a>
 					<h3>Composition</h3>
-					<div class="tsd-signature tsd-kind-icon">Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<div class="tsd-signature tsd-kind-icon">Composition<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Ice<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Metal<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Rock<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L119">models/scan.ts:119</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L126">models/scan.ts:126</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -298,7 +304,7 @@
 					<div class="tsd-signature tsd-kind-icon">Distance<wbr>From<wbr>ArrivalLS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L75">models/scan.ts:75</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L77">models/scan.ts:77</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -308,7 +314,7 @@
 					<div class="tsd-signature tsd-kind-icon">Eccentricity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L91">models/scan.ts:91</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L95">models/scan.ts:95</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -318,7 +324,7 @@
 					<div class="tsd-signature tsd-kind-icon">Landable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L116">models/scan.ts:116</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L123">models/scan.ts:123</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -328,17 +334,17 @@
 					<div class="tsd-signature tsd-kind-icon">Luminosity<span class="tsd-signature-symbol">:</span> <a href="../enums/starluminosityclasses.html" class="tsd-signature-type">StarLuminosityClasses</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L101">models/scan.ts:101</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L108">models/scan.ts:108</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="materials" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Materials</h3>
-					<div class="tsd-signature tsd-kind-icon">Materials<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Materials<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Percentage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L117">models/scan.ts:117</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L124">models/scan.ts:124</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -348,7 +354,7 @@
 					<div class="tsd-signature tsd-kind-icon">Orbital<wbr>Inclination<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L92">models/scan.ts:92</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L96">models/scan.ts:96</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -358,17 +364,17 @@
 					<div class="tsd-signature tsd-kind-icon">Orbital<wbr>Period<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L94">models/scan.ts:94</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L98">models/scan.ts:98</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="parents" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Parents</h3>
-					<div class="tsd-signature tsd-kind-icon">Parents<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Parents<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>BodyID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>BodyType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L103">models/scan.ts:103</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L110">models/scan.ts:110</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -378,7 +384,7 @@
 					<div class="tsd-signature tsd-kind-icon">Periapsis<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L93">models/scan.ts:93</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L97">models/scan.ts:97</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -388,7 +394,7 @@
 					<div class="tsd-signature tsd-kind-icon">Planet<wbr>Class<span class="tsd-signature-symbol">:</span> <a href="../enums/planettypes.html" class="tsd-signature-type">PlanetTypes</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L106">models/scan.ts:106</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L113">models/scan.ts:113</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -398,7 +404,7 @@
 					<div class="tsd-signature tsd-kind-icon">Radius<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L98">models/scan.ts:98</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L105">models/scan.ts:105</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -408,17 +414,17 @@
 					<div class="tsd-signature tsd-kind-icon">Reserve<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Pristine"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Major"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Common"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Low"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Depleted"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L118">models/scan.ts:118</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L125">models/scan.ts:125</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="rings" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Rings</h3>
-					<div class="tsd-signature tsd-kind-icon">Rings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Rings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>InnerRad<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>MassMT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>OuterRad<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>RingClass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L82">models/scan.ts:82</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L86">models/scan.ts:86</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -428,17 +434,17 @@
 					<div class="tsd-signature tsd-kind-icon">Rotation<wbr>Period<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L79">models/scan.ts:79</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L83">models/scan.ts:83</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="scantype" class="tsd-anchor"></a>
 					<h3>Scan<wbr>Type</h3>
-					<div class="tsd-signature tsd-kind-icon">Scan<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Basic"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Detailed"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeacon"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeaconDetail"</span></div>
+					<div class="tsd-signature tsd-kind-icon">Scan<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Basic"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Detailed"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeacon"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NavBeaconDetail"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"AutoScan"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L77">models/scan.ts:77</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L79">models/scan.ts:79</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -448,7 +454,17 @@
 					<div class="tsd-signature tsd-kind-icon">Semi<wbr>Major<wbr>Axis<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L90">models/scan.ts:90</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L94">models/scan.ts:94</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="starsystem" class="tsd-anchor"></a>
+					<h3>Star<wbr>System</h3>
+					<div class="tsd-signature tsd-kind-icon">Star<wbr>System<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L76">models/scan.ts:76</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -458,7 +474,7 @@
 					<div class="tsd-signature tsd-kind-icon">Star<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../enums/startypes.html" class="tsd-signature-type">StarTypes</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L96">models/scan.ts:96</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L100">models/scan.ts:100</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -468,9 +484,29 @@
 					<div class="tsd-signature tsd-kind-icon">Stellar<wbr>Mass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L97">models/scan.ts:97</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L104">models/scan.ts:104</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Solar masses</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="subclass" class="tsd-anchor"></a>
+					<h3>Subclass</h3>
+					<div class="tsd-signature tsd-kind-icon">Subclass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L102">models/scan.ts:102</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Star&#39;s heat classification 0-9</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="surfacegravity" class="tsd-anchor"></a>
@@ -478,7 +514,7 @@
 					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Gravity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L114">models/scan.ts:114</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L121">models/scan.ts:121</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -488,7 +524,7 @@
 					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Pressure<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L115">models/scan.ts:115</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L122">models/scan.ts:122</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -498,7 +534,17 @@
 					<div class="tsd-signature tsd-kind-icon">Surface<wbr>Temperature<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L76">models/scan.ts:76</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L78">models/scan.ts:78</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="systemaddress" class="tsd-anchor"></a>
+					<h3>System<wbr>Address</h3>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Address<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L75">models/scan.ts:75</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -508,7 +554,7 @@
 					<div class="tsd-signature tsd-kind-icon">Terraform<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Terraformable"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Terraforming"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Terraformed"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L105">models/scan.ts:105</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L112">models/scan.ts:112</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -518,7 +564,7 @@
 					<div class="tsd-signature tsd-kind-icon">Tidal<wbr>Lock<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L104">models/scan.ts:104</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L111">models/scan.ts:111</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -528,7 +574,27 @@
 					<div class="tsd-signature tsd-kind-icon">Volcanism<span class="tsd-signature-symbol">:</span> <a href="../enums/volcanismtypes.html" class="tsd-signature-type">VolcanismTypes</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/scan.ts#L113">models/scan.ts:113</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L120">models/scan.ts:120</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="wasdiscovered" class="tsd-anchor"></a>
+					<h3>Was<wbr>Discovered</h3>
+					<div class="tsd-signature tsd-kind-icon">Was<wbr>Discovered<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L80">models/scan.ts:80</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="wasmapped" class="tsd-anchor"></a>
+					<h3>Was<wbr>Mapped</h3>
+					<div class="tsd-signature tsd-kind-icon">Was<wbr>Mapped<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/scan.ts#L81">models/scan.ts:81</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -539,7 +605,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -550,7 +616,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -647,10 +713,16 @@
 								<a href="scan.html#semimajoraxis" class="tsd-kind-icon">Semi<wbr>Major<wbr>Axis</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="scan.html#startype" class="tsd-kind-icon">Star<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="scan.html#stellarmass" class="tsd-kind-icon">Stellar<wbr>Mass</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#subclass" class="tsd-kind-icon">Subclass</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="scan.html#surfacegravity" class="tsd-kind-icon">Surface<wbr>Gravity</a>
@@ -662,6 +734,9 @@
 								<a href="scan.html#surfacetemperature" class="tsd-kind-icon">Surface<wbr>Temperature</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#systemaddress" class="tsd-kind-icon">System<wbr>Address</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="scan.html#terraformstate" class="tsd-kind-icon">Terraform<wbr>State</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -669,6 +744,12 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="scan.html#volcanism" class="tsd-kind-icon">Volcanism</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#wasdiscovered" class="tsd-kind-icon">Was<wbr>Discovered</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="scan.html#wasmapped" class="tsd-kind-icon">Was<wbr>Mapped</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="scan.html#event" class="tsd-kind-icon">event</a>
@@ -697,6 +778,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -745,7 +827,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

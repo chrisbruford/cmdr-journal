@@ -66,6 +66,25 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When written: Landing on a planet surface</p>
+					</div>
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{
+ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2019-05-13T13:20:18Z"</span>,
+ <span class="hljs-string">"event"</span>:<span class="hljs-string">"Touchdown"</span>,
+ <span class="hljs-string">"PlayerControlled"</span>:<span class="hljs-literal">true</span>,
+ <span class="hljs-string">"Latitude"</span>:<span class="hljs-number">10.503607</span>,
+ <span class="hljs-string">"Longitude"</span>:<span class="hljs-number">102.789810</span>,
+ <span class="hljs-string">"NearestDestination"</span>:<span class="hljs-string">"$SAA_Unknown_Signal:#type=$SAA_SignalType_Geological;:#index=9;"</span>,
+ <span class="hljs-string">"NearestDestination_Localised"</span>:<span class="hljs-string">"Surface signal: Geological (9)"</span>
+}</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -88,6 +107,8 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="touchdown.html#latitude" class="tsd-kind-icon">Latitude</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="touchdown.html#longitude" class="tsd-kind-icon">Longitude</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="touchdown.html#nearestdestination" class="tsd-kind-icon">Nearest<wbr>Destination</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="touchdown.html#nearestdestination_localised" class="tsd-kind-icon">Nearest<wbr>Destination_<wbr><wbr>Localised</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="touchdown.html#playercontrolled" class="tsd-kind-icon">Player<wbr>Controlled</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="touchdown.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="touchdown.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
@@ -104,7 +125,7 @@
 					<div class="tsd-signature tsd-kind-icon">Latitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.models.ts#L78">models/journal-event.models.ts:78</a></li>
+							<li>Defined in models/touchdown.ts:21</li>
 						</ul>
 					</aside>
 				</section>
@@ -114,7 +135,27 @@
 					<div class="tsd-signature tsd-kind-icon">Longitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.models.ts#L79">models/journal-event.models.ts:79</a></li>
+							<li>Defined in models/touchdown.ts:22</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="nearestdestination" class="tsd-anchor"></a>
+					<h3>Nearest<wbr>Destination</h3>
+					<div class="tsd-signature tsd-kind-icon">Nearest<wbr>Destination<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/touchdown.ts:24</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="nearestdestination_localised" class="tsd-anchor"></a>
+					<h3>Nearest<wbr>Destination_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">Nearest<wbr>Destination_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/touchdown.ts:25</li>
 						</ul>
 					</aside>
 				</section>
@@ -124,7 +165,7 @@
 					<div class="tsd-signature tsd-kind-icon">Player<wbr>Controlled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.models.ts#L80">models/journal-event.models.ts:80</a></li>
+							<li>Defined in models/touchdown.ts:23</li>
 						</ul>
 					</aside>
 				</section>
@@ -135,7 +176,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -146,7 +187,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -172,6 +213,12 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="touchdown.html#longitude" class="tsd-kind-icon">Longitude</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="touchdown.html#nearestdestination" class="tsd-kind-icon">Nearest<wbr>Destination</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="touchdown.html#nearestdestination_localised" class="tsd-kind-icon">Nearest<wbr>Destination_<wbr><wbr>Localised</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="touchdown.html#playercontrolled" class="tsd-kind-icon">Player<wbr>Controlled</a>
@@ -203,6 +250,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -251,7 +299,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

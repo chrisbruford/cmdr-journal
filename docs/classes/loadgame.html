@@ -71,9 +71,10 @@
 					<div class="lead">
 						<p>When written: at startup, when loading from main menu into game</p>
 					</div>
-					<h2 id="example">Example</h2>
-					<pre><code class="lang-javascript">{ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2017-02-10T14:25:51Z"</span>, <span class="hljs-string">"event"</span>:<span class="hljs-string">"LoadGame"</span>, <span class="hljs-string">"Commander"</span>:<span class="hljs-string">"HRC-2"</span>, <span class="hljs-string">"Ship"</span>:<span class="hljs-string">"FerDeLance"</span>, <span class="hljs-string">"ShipID"</span>:<span class="hljs-number">19</span>, <span class="hljs-string">"ShipName"</span>:<span class="hljs-string">"jewel of parhoon"</span>, <span class="hljs-string">"ShipIdent"</span>:<span class="hljs-string">"hr-17f"</span>, <span class="hljs-string">"FuelLevel"</span>:<span class="hljs-number">3.964024</span>, <span class="hljs-string">"FuelCapacity"</span>:<span class="hljs-number">8.000000</span>, <span class="hljs-string">"GameMode"</span>:<span class="hljs-string">"Open"</span>, <span class="hljs-string">"Credits"</span>:<span class="hljs-number">2890718739</span>, <span class="hljs-string">"Loan"</span>:<span class="hljs-number">0</span> }
-</code></pre>
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2017-02-10T14:25:51Z"</span>, <span class="hljs-string">"event"</span>:<span class="hljs-string">"LoadGame"</span>, <span class="hljs-string">"Commander"</span>:<span class="hljs-string">"HRC-2"</span>, <span class="hljs-string">"FID"</span>: <span class="hljs-string">"F123456"</span> ,<span class="hljs-string">"Ship"</span>:<span class="hljs-string">"FerDeLance"</span>, <span class="hljs-string">"ShipID"</span>:<span class="hljs-number">19</span>, <span class="hljs-string">"ShipName"</span>:<span class="hljs-string">"jewel of parhoon"</span>, <span class="hljs-string">"ShipIdent"</span>:<span class="hljs-string">"hr-17f"</span>, <span class="hljs-string">"FuelLevel"</span>:<span class="hljs-number">3.964024</span>, <span class="hljs-string">"FuelCapacity"</span>:<span class="hljs-number">8.000000</span>, <span class="hljs-string">"GameMode"</span>:<span class="hljs-string">"Open"</span>, <span class="hljs-string">"Credits"</span>:<span class="hljs-number">2890718739</span>, <span class="hljs-string">"Loan"</span>:<span class="hljs-number">0</span> }</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -98,6 +99,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#commander" class="tsd-kind-icon">Commander</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#credits" class="tsd-kind-icon">Credits</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#fid" class="tsd-kind-icon">FID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#fuelcapacity" class="tsd-kind-icon">Fuel<wbr>Capacity</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#fuellevel" class="tsd-kind-icon">Fuel<wbr>Level</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="loadgame.html#gamemode" class="tsd-kind-icon">Game<wbr>Mode</a></li>
@@ -125,7 +127,7 @@
 					<div class="tsd-signature tsd-kind-icon">Commander<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L14">models/load-game.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L14">models/load-game.ts:14</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -135,7 +137,17 @@
 					<div class="tsd-signature tsd-kind-icon">Credits<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L22">models/load-game.ts:22</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L23">models/load-game.ts:23</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="fid" class="tsd-anchor"></a>
+					<h3>FID</h3>
+					<div class="tsd-signature tsd-kind-icon">FID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L15">models/load-game.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -145,7 +157,7 @@
 					<div class="tsd-signature tsd-kind-icon">Fuel<wbr>Capacity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L27">models/load-game.ts:27</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L28">models/load-game.ts:28</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -155,7 +167,7 @@
 					<div class="tsd-signature tsd-kind-icon">Fuel<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L26">models/load-game.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L27">models/load-game.ts:27</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -165,7 +177,7 @@
 					<div class="tsd-signature tsd-kind-icon">Game<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../enums/gamemode.html" class="tsd-signature-type">GameMode</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L20">models/load-game.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L21">models/load-game.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -175,7 +187,7 @@
 					<div class="tsd-signature tsd-kind-icon">Group<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L21">models/load-game.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L22">models/load-game.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -185,7 +197,7 @@
 					<div class="tsd-signature tsd-kind-icon">Horizons<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L15">models/load-game.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L16">models/load-game.ts:16</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -195,7 +207,7 @@
 					<div class="tsd-signature tsd-kind-icon">Loan<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L23">models/load-game.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L24">models/load-game.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -205,7 +217,7 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L16">models/load-game.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L17">models/load-game.ts:17</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -215,7 +227,7 @@
 					<div class="tsd-signature tsd-kind-icon">ShipID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L17">models/load-game.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L18">models/load-game.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -225,7 +237,7 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<wbr>Ident<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L25">models/load-game.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L26">models/load-game.ts:26</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -235,7 +247,7 @@
 					<div class="tsd-signature tsd-kind-icon">Ship<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L24">models/load-game.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L25">models/load-game.ts:25</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -245,7 +257,7 @@
 					<div class="tsd-signature tsd-kind-icon">Start<wbr>Dead<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L19">models/load-game.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L20">models/load-game.ts:20</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -255,7 +267,7 @@
 					<div class="tsd-signature tsd-kind-icon">Start<wbr>Landed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/load-game.ts#L18">models/load-game.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/load-game.ts#L19">models/load-game.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -266,7 +278,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -277,7 +289,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -303,6 +315,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadgame.html#credits" class="tsd-kind-icon">Credits</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="loadgame.html#fid" class="tsd-kind-icon">FID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="loadgame.html#fuelcapacity" class="tsd-kind-icon">Fuel<wbr>Capacity</a>
@@ -367,6 +382,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -415,7 +431,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

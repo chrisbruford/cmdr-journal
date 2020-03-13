@@ -5,5 +5,5 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class FighterDestroyed extends JournalEvent {
-
+  ID: string;
 }

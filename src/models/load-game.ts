@@ -6,12 +6,13 @@ import { GameMode } from "../enums/";
  * 
  * ## Example
  * ```javascript
- * { "timestamp":"2017-02-10T14:25:51Z", "event":"LoadGame", "Commander":"HRC-2", "Ship":"FerDeLance", "ShipID":19, "ShipName":"jewel of parhoon", "ShipIdent":"hr-17f", "FuelLevel":3.964024, "FuelCapacity":8.000000, "GameMode":"Open", "Credits":2890718739, "Loan":0 } 
+ * { "timestamp":"2017-02-10T14:25:51Z", "event":"LoadGame", "Commander":"HRC-2", "FID": "F123456" ,"Ship":"FerDeLance", "ShipID":19, "ShipName":"jewel of parhoon", "ShipIdent":"hr-17f", "FuelLevel":3.964024, "FuelCapacity":8.000000, "GameMode":"Open", "Credits":2890718739, "Loan":0 } 
  * ```
  */
 
 export class LoadGame extends JournalEvent {
     Commander: string;
+    FID: string;
     Horizons: boolean;
     Ship: string;
     ShipID: number;

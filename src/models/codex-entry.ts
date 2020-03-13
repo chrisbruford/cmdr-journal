@@ -19,6 +19,8 @@ import { JournalEvent } from "./journal-event.model";
  *  "Region": "Region 18", 
  *  "System": "Shinrarta Dezhra", 
  *  "SystemAddress": 3932277478106,
+ *  "NearestDestination":"$SAA_Unknown_Signal:#type=$SAA_SignalType_Geological;:#index=9;", 
+ *  "NearestDestination_Localised":"Surface signal: Geological (9)",
  *  "IsNewEntry": true, 
  *  "NewTraitsDiscovered": true, 
  *  "Traits": ["Trait1", "Trait2", "Trait3"] 
@@ -37,6 +39,8 @@ export class CodexEntry extends JournalEvent {
   Region: string;
   System: string;
   SystemAddress: number;
+  NearestDestination: string;
+  NearestDestination_Localised: string;
   IsNewEntry: boolean;
   NewTraitsDiscovered: boolean;
   Traits: string[];

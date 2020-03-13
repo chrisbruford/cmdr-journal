@@ -72,14 +72,16 @@
 						<p>When written: when selecting a star system to jump to
 						Note: when following a multi-jump route, this will typically appear for the next star, during a jump, ie after “StartJump” but before the “FSDJump”</p>
 					</div>
-					<h2 id="example">Example</h2>
-					<pre><code class="lang-javascript">{
- <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-12-11T20:54:07Z"</span>,
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{
+ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2020-03-12T22:51:56Z"</span>,
  <span class="hljs-string">"event"</span>:<span class="hljs-string">"FSDTarget"</span>,
- <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Wredguia WS-S c17-15"</span>,
- <span class="hljs-string">"SystemAddress"</span>:<span class="hljs-number">4206551405210</span>
-}
-</code></pre>
+ <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Eol Prou PC-K c9-221"</span>,
+ <span class="hljs-string">"SystemAddress"</span>:<span class="hljs-number">60815897305682</span>,
+ <span class="hljs-string">"RemainingJumpsInRoute"</span>:<span class="hljs-number">2</span>
+}</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -103,6 +105,7 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdtarget.html#name" class="tsd-kind-icon">Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdtarget.html#remainingjumpsinroute" class="tsd-kind-icon">Remaining<wbr>Jumps<wbr>InRoute</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fsdtarget.html#systemaddress" class="tsd-kind-icon">System<wbr>Address</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="fsdtarget.html#event" class="tsd-kind-icon">event</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="fsdtarget.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
@@ -119,7 +122,17 @@
 					<div class="tsd-signature tsd-kind-icon">Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/fsd-target.ts#L19">models/fsd-target.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/fsd-target.ts#L20">models/fsd-target.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="remainingjumpsinroute" class="tsd-anchor"></a>
+					<h3>Remaining<wbr>Jumps<wbr>InRoute</h3>
+					<div class="tsd-signature tsd-kind-icon">Remaining<wbr>Jumps<wbr>InRoute<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/fsd-target.ts#L22">models/fsd-target.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -129,7 +142,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Address<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/fsd-target.ts#L20">models/fsd-target.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/fsd-target.ts#L21">models/fsd-target.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -140,7 +153,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -151,7 +164,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -174,6 +187,9 @@
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="fsdtarget.html#name" class="tsd-kind-icon">Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fsdtarget.html#remainingjumpsinroute" class="tsd-kind-icon">Remaining<wbr>Jumps<wbr>InRoute</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="fsdtarget.html#systemaddress" class="tsd-kind-icon">System<wbr>Address</a>
@@ -205,6 +221,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -253,7 +270,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

@@ -8,4 +8,5 @@ import { JournalEvent } from "./journal-event.model";
 
 export class Commander extends JournalEvent {
     Name: string;
+    FID: string;
 }

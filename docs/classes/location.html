@@ -71,100 +71,64 @@
 					<div class="lead">
 						<p>When written: on startup or resurrection</p>
 					</div>
-					<h2 id="example">Example</h2>
-					<pre><code class="lang-javascript">{
-    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2018-05-06T17:51:57Z"</span>,
-    <span class="hljs-string">"event"</span>:<span class="hljs-string">"Location"</span>,
-    <span class="hljs-string">"Docked"</span>:<span class="hljs-literal">false</span>,
-    <span class="hljs-string">"StarSystem"</span>:<span class="hljs-string">"Qa'wakana"</span>,
-    <span class="hljs-string">"SystemAddress"</span>:<span class="hljs-number">4786481006963</span>,
-    <span class="hljs-string">"StarPos"</span>:[<span class="hljs-number">-17.65625</span>,<span class="hljs-number">-19.12500</span>,<span class="hljs-number">61.78125</span>],
-    <span class="hljs-string">"SystemAllegiance"</span>:<span class="hljs-string">"Independent"</span>,
-    <span class="hljs-string">"SystemEconomy"</span>:<span class="hljs-string">"$economy_Agri;"</span>,
-    <span class="hljs-string">"SystemEconomy_Localised"</span>:<span class="hljs-string">"Agriculture"</span>,
-    <span class="hljs-string">"SystemSecondEconomy"</span>:<span class="hljs-string">"$economy_Extraction;"</span>,
-    <span class="hljs-string">"SystemSecondEconomy_Localised"</span>:<span class="hljs-string">"Extraction"</span>,
-    <span class="hljs-string">"SystemGovernment"</span>:<span class="hljs-string">"$government_Feudal;"</span>,
-    <span class="hljs-string">"SystemGovernment_Localised"</span>:<span class="hljs-string">"Feudal"</span>,
-    <span class="hljs-string">"SystemSecurity"</span>:<span class="hljs-string">"$SYSTEM_SECURITY_high;"</span>,
-    <span class="hljs-string">"SystemSecurity_Localised"</span>:<span class="hljs-string">"High Security"</span>,
-    <span class="hljs-string">"Population"</span>:<span class="hljs-number">3238264143</span>,
-    <span class="hljs-string">"Body"</span>:<span class="hljs-string">"Qa'wakana"</span>,
-    <span class="hljs-string">"BodyID"</span>:<span class="hljs-number">0</span>,
-    <span class="hljs-string">"BodyType"</span>:<span class="hljs-string">"Star"</span>,
-    <span class="hljs-string">"Factions"</span>:[
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Pilots Federation Local Branch"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.000000</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"PilotsFederation"</span> },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Cerktondhs Resistance"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Boom"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.051948</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Federation"</span>
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Social Qa'wakana Revolutionary Party"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.121878</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>,
-            <span class="hljs-string">"PendingStates"</span>:[
-                {
-                    <span class="hljs-string">"State"</span>:<span class="hljs-string">"CivilWar"</span>,
-                    <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span>
-                }
-            ]
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Qa'wakana Gold Major Inc"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Boom"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.125874</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Federation"</span>,
-            <span class="hljs-string">"PendingStates"</span>:[
-                {
-                    <span class="hljs-string">"State"</span>:<span class="hljs-string">"CivilWar"</span>,
-                    <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span>
-                }
-            ]
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"New Qa'wakana Conservatives"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"CivilWar"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Dictatorship"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.057942</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Qa'wakana United Organisation"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"CivilWar"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.060939</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Qa'wakana Silver Hand Gang"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Boom"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Anarchy"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.045954</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>
-        },
-        {
-            <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Knights of Karma"</span>,
-            <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Boom"</span>,
-            <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Feudal"</span>,
-            <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.535465</span>,
-            <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>
-        }
-    ],
-    <span class="hljs-string">"SystemFaction"</span>:<span class="hljs-string">"Knights of Karma"</span>,
-    <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"Boom"</span>
-}
-</code></pre>
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{
+ <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2019-04-28T11:06:27Z"</span>,
+ <span class="hljs-string">"event"</span>:<span class="hljs-string">"Location"</span>,
+ <span class="hljs-string">"DistFromStarLS"</span>:<span class="hljs-number">62.010319</span>,
+ <span class="hljs-string">"Docked"</span>:<span class="hljs-literal">true</span>,
+ <span class="hljs-string">"StationName"</span>:<span class="hljs-string">"Liwei Terminal"</span>,
+ <span class="hljs-string">"StationType"</span>:<span class="hljs-string">"Coriolis"</span>,
+ <span class="hljs-string">"MarketID"</span>:<span class="hljs-number">3227870208</span>,
+ <span class="hljs-string">"StationFaction"</span>:{ <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Foyama Novingo Startourism"</span> },
+ <span class="hljs-string">"StationGovernment"</span>:<span class="hljs-string">"$government_Corporate;"</span>,
+ <span class="hljs-string">"StationGovernment_Localised"</span>:<span class="hljs-string">"Corporate"</span>,
+ <span class="hljs-string">"StationAllegiance"</span>:<span class="hljs-string">"Empire"</span>,
+ <span class="hljs-string">"StationServices"</span>:[ <span class="hljs-string">"Dock"</span>, <span class="hljs-string">"BlackMarket"</span>, <span class="hljs-string">"Commodities"</span>, <span class="hljs-string">"Missions"</span>, <span class="hljs-string">"Outfitting"</span>, <span class="hljs-string">"Refuel"</span>, <span class="hljs-string">"Shipyard"</span>, <span class="hljs-string">"Workshop"</span>, <span class="hljs-string">"MissionsGenerated"</span>, <span class="hljs-string">"FlightController"</span>, <span class="hljs-string">"StationOperations"</span>, <span class="hljs-string">"SearchAndRescue"</span>, <span class="hljs-string">"StationMenu"</span> ],
+ <span class="hljs-string">"StationEconomy"</span>:<span class="hljs-string">"$economy_Repair;"</span>,
+ <span class="hljs-string">"StationEconomy_Localised"</span>:<span class="hljs-string">"Repair"</span>,
+ <span class="hljs-string">"StationEconomies"</span>:[
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"$economy_Repair;"</span>, <span class="hljs-string">"Name_Localised"</span>:<span class="hljs-string">"Repair"</span>, <span class="hljs-string">"Proportion"</span>:<span class="hljs-number">1.000000</span> },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"$economy_HighTech;"</span>, <span class="hljs-string">"Name_Localised"</span>:<span class="hljs-string">"High Tech"</span>, <span class="hljs-string">"Proportion"</span>:<span class="hljs-number">1.000000</span> }
+ ],
+ <span class="hljs-string">"StarSystem"</span>:<span class="hljs-string">"GD 140"</span>,
+ <span class="hljs-string">"SystemAddress"</span>:<span class="hljs-number">52850328756</span>,
+ <span class="hljs-string">"StarPos"</span>:[<span class="hljs-number">4.84375</span>,<span class="hljs-number">49.56250</span>,<span class="hljs-number">-13.31250</span>],
+ <span class="hljs-string">"SystemAllegiance"</span>:<span class="hljs-string">"Thargoid"</span>,
+ <span class="hljs-string">"SystemEconomy"</span>:<span class="hljs-string">"$economy_Extraction;"</span>,
+ <span class="hljs-string">"SystemEconomy_Localised"</span>:<span class="hljs-string">"Extraction"</span>,
+ <span class="hljs-string">"SystemSecondEconomy"</span>:<span class="hljs-string">"$economy_HighTech;"</span>,
+ <span class="hljs-string">"SystemSecondEconomy_Localised"</span>:<span class="hljs-string">"High Tech"</span>,
+ <span class="hljs-string">"SystemGovernment"</span>:<span class="hljs-string">"$government_Dictatorship;"</span>,
+ <span class="hljs-string">"SystemGovernment_Localised"</span>:<span class="hljs-string">"Dictatorship"</span>,
+ <span class="hljs-string">"SystemSecurity"</span>:<span class="hljs-string">"$SYSTEM_SECURITY_high;"</span>,
+ <span class="hljs-string">"SystemSecurity_Localised"</span>:<span class="hljs-string">"High Security"</span>,
+ <span class="hljs-string">"Population"</span>:<span class="hljs-number">82574191</span>,
+ <span class="hljs-string">"Body"</span>:<span class="hljs-string">"Liwei Terminal"</span>,
+ <span class="hljs-string">"BodyID"</span>:<span class="hljs-number">100</span>,
+ <span class="hljs-string">"BodyType"</span>:<span class="hljs-string">"Station"</span>,
+ <span class="hljs-string">"Factions"</span>:[
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Aegis Defense"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Cooperative"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Independent"</span>, <span class="hljs-string">"Happiness"</span>:<span class="hljs-string">"$Faction_HappinessBand2;"</span>, <span class="hljs-string">"Happiness_Localised"</span>:<span class="hljs-string">"Happy"</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span> }, { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Progressive Party of GD 140"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.153846</span>, <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Federation"</span>, <span class="hljs-string">"Happiness"</span>:<span class="hljs-string">"$Faction_HappinessBand2;"</span>, <span class="hljs-string">"Happiness_Localised"</span>:<span class="hljs-string">"Happy"</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">-2.200000</span> }, { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Pilots' Federation Local Branch"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"PilotsFederation"</span>, <span class="hljs-string">"Happiness"</span>:<span class="hljs-string">""</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.161780</span> },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Parcae Dynamic PLC"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.104895</span>, <span class="hljs-string">"Allegiance"</span>:<span class="hljs-string">"Federation"</span>, <span class="hljs-string">"Happiness"</span>:<span class="hljs-string">"$Faction_HappinessBand2;"</span>, <span class="hljs-string">"Happiness_Localised"</span>:<span class="hljs-string">"Happy"</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">-19.320000</span>, <span class="hljs-string">"PendingStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Election"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ] },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"LHS 2430 for Equality"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Democracy"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.098901</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span> },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"GD 140 &amp; Co"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.104895</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"PendingStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Election"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ], <span class="hljs-string">"RecoveringStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Outbreak"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ] },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"United GD 140 Liberty Party"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Dictatorship"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.068931</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"RecoveringStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Outbreak"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ] },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"LP 320-359 Public Services"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.084915</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"RecoveringStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Outbreak"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ] },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"GD 140 Systems"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.091908</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span>, <span class="hljs-string">"RecoveringStates"</span>:[ { <span class="hljs-string">"State"</span>:<span class="hljs-string">"Outbreak"</span>, <span class="hljs-string">"Trend"</span>:<span class="hljs-number">0</span> } ] },
+   { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Foyama Novingo Startourism"</span>, <span class="hljs-string">"FactionState"</span>:<span class="hljs-string">"None"</span>, <span class="hljs-string">"Government"</span>:<span class="hljs-string">"Corporate"</span>, <span class="hljs-string">"Influence"</span>:<span class="hljs-number">0.291708</span>, <span class="hljs-string">"MyReputation"</span>:<span class="hljs-number">0.000000</span> }
+ ],
+ <span class="hljs-string">"SystemFaction"</span>: { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Foyama Novingo Startourism"</span> },
+ <span class="hljs-string">"Conflicts"</span>: [
+   {
+     <span class="hljs-string">"WarType"</span>:<span class="hljs-string">"election"</span>,
+     <span class="hljs-string">"Status"</span>:<span class="hljs-string">"pending"</span>,
+     <span class="hljs-string">"Faction1"</span>:{ <span class="hljs-string">"Name"</span>:<span class="hljs-string">"Parcae Dynamic PLC"</span>, <span class="hljs-string">"Stake"</span>:<span class="hljs-string">""</span>, <span class="hljs-string">"WonDays"</span>:<span class="hljs-number">0</span> },
+     <span class="hljs-string">"Faction2"</span>: { <span class="hljs-string">"Name"</span>:<span class="hljs-string">"GD 140 &amp; Co"</span>, <span class="hljs-string">"Stake"</span>:<span class="hljs-string">"Ricci Prospect"</span>, <span class="hljs-string">"WonDays"</span>:<span class="hljs-number">0</span> }
+   }
+ ]
+}</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -190,6 +154,8 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#body" class="tsd-kind-icon">Body</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#bodyid" class="tsd-kind-icon">BodyID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#bodytype" class="tsd-kind-icon">Body<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#conflicts" class="tsd-kind-icon">Conflicts</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#distfromstarls" class="tsd-kind-icon">Dist<wbr>From<wbr>StarLS</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#docked" class="tsd-kind-icon">Docked</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#factionstate" class="tsd-kind-icon">Faction<wbr>State</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#factions" class="tsd-kind-icon">Factions</a></li>
@@ -200,7 +166,15 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#powers" class="tsd-kind-icon">Powers</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#starpos" class="tsd-kind-icon">Star<wbr>Pos</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationallegiance" class="tsd-kind-icon">Station<wbr>Allegiance</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationeconomies" class="tsd-kind-icon">Station<wbr>Economies</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationeconomy" class="tsd-kind-icon">Station<wbr>Economy</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationeconomy_localised" class="tsd-kind-icon">Station<wbr>Economy_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationfaction" class="tsd-kind-icon">Station<wbr>Faction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationgovernment" class="tsd-kind-icon">Station<wbr>Government</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationgovernment_localised" class="tsd-kind-icon">Station<wbr>Government_<wbr><wbr>Localised</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationname" class="tsd-kind-icon">Station<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationservices" class="tsd-kind-icon">Station<wbr>Services</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#stationtype" class="tsd-kind-icon">Station<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#systemaddress" class="tsd-kind-icon">System<wbr>Address</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="location.html#systemallegiance" class="tsd-kind-icon">System<wbr>Allegiance</a></li>
@@ -229,7 +203,7 @@
 					<div class="tsd-signature tsd-kind-icon">Body<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L108">models/location.ts:108</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L72">models/location.ts:72</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -239,7 +213,7 @@
 					<div class="tsd-signature tsd-kind-icon">BodyID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L109">models/location.ts:109</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L73">models/location.ts:73</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -249,7 +223,27 @@
 					<div class="tsd-signature tsd-kind-icon">Body<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../enums/bodytypes.html" class="tsd-signature-type">BodyTypes</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L110">models/location.ts:110</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L74">models/location.ts:74</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="conflicts" class="tsd-anchor"></a>
+					<h3>Conflicts</h3>
+					<div class="tsd-signature tsd-kind-icon">Conflicts<span class="tsd-signature-symbol">:</span> <a href="conflict.html" class="tsd-signature-type">Conflict</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L95">models/location.ts:95</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="distfromstarls" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Dist<wbr>From<wbr>StarLS</h3>
+					<div class="tsd-signature tsd-kind-icon">Dist<wbr>From<wbr>StarLS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L75">models/location.ts:75</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -259,7 +253,7 @@
 					<div class="tsd-signature tsd-kind-icon">Docked<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L111">models/location.ts:111</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L76">models/location.ts:76</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -269,7 +263,7 @@
 					<div class="tsd-signature tsd-kind-icon">Faction<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L118">models/location.ts:118</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L83">models/location.ts:83</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -279,7 +273,7 @@
 					<div class="tsd-signature tsd-kind-icon">Factions<span class="tsd-signature-symbol">:</span> <a href="faction.html" class="tsd-signature-type">Faction</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L129">models/location.ts:129</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L94">models/location.ts:94</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -289,7 +283,7 @@
 					<div class="tsd-signature tsd-kind-icon">Latitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L112">models/location.ts:112</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L77">models/location.ts:77</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -299,7 +293,7 @@
 					<div class="tsd-signature tsd-kind-icon">Longitude<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L113">models/location.ts:113</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L78">models/location.ts:78</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -309,7 +303,7 @@
 					<div class="tsd-signature tsd-kind-icon">MarketID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L116">models/location.ts:116</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L81">models/location.ts:81</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -319,7 +313,7 @@
 					<div class="tsd-signature tsd-kind-icon">Powerplay<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"InPrepareRadius"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Prepared"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Exploited"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Contested"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Controlled"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Turmoil"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"HomeSystem"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L131">models/location.ts:131</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L97">models/location.ts:97</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -329,7 +323,7 @@
 					<div class="tsd-signature tsd-kind-icon">Powers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L130">models/location.ts:130</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L96">models/location.ts:96</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -339,7 +333,7 @@
 					<div class="tsd-signature tsd-kind-icon">Star<wbr>Pos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L107">models/location.ts:107</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L71">models/location.ts:71</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -349,7 +343,88 @@
 					<div class="tsd-signature tsd-kind-icon">Star<wbr>System<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L105">models/location.ts:105</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L69">models/location.ts:69</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationallegiance" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Allegiance</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Allegiance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L108">models/location.ts:108</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationeconomies" class="tsd-anchor"></a>
+					<h3>Station<wbr>Economies</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Economies<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Name_Localised<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Proportion<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L112">models/location.ts:112</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationeconomy" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Economy</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Economy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L110">models/location.ts:110</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationeconomy_localised" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Economy_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Economy_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L111">models/location.ts:111</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationfaction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Faction</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>FactionState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L105">models/location.ts:105</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Faction<wbr>State<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationgovernment" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Government</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Government<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L106">models/location.ts:106</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationgovernment_localised" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Government_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Government_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L107">models/location.ts:107</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -359,7 +434,17 @@
 					<div class="tsd-signature tsd-kind-icon">Station<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L114">models/location.ts:114</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L79">models/location.ts:79</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationservices" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Station<wbr>Services</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Services<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L109">models/location.ts:109</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -369,7 +454,7 @@
 					<div class="tsd-signature tsd-kind-icon">Station<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L115">models/location.ts:115</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L80">models/location.ts:80</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -379,7 +464,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Address<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L106">models/location.ts:106</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L70">models/location.ts:70</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -389,7 +474,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Allegiance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L119">models/location.ts:119</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L84">models/location.ts:84</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -399,7 +484,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Economy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L120">models/location.ts:120</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L85">models/location.ts:85</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -409,19 +494,30 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Economy_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L121">models/location.ts:121</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L86">models/location.ts:86</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="systemfaction" class="tsd-anchor"></a>
 					<h3>System<wbr>Faction</h3>
-					<div class="tsd-signature tsd-kind-icon">System<wbr>Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-signature tsd-kind-icon">System<wbr>Faction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>FactionState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L117">models/location.ts:117</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L82">models/location.ts:82</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>Faction<wbr>State<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li class="tsd-parameter">
+								<h5>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="systemgovernment" class="tsd-anchor"></a>
@@ -429,7 +525,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Government<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L124">models/location.ts:124</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L89">models/location.ts:89</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -439,7 +535,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Government_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L125">models/location.ts:125</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L90">models/location.ts:90</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -449,7 +545,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Second<wbr>Economy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L122">models/location.ts:122</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L87">models/location.ts:87</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -459,7 +555,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Second<wbr>Economy_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L123">models/location.ts:123</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L88">models/location.ts:88</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -469,7 +565,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Security<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L126">models/location.ts:126</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L91">models/location.ts:91</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -479,7 +575,7 @@
 					<div class="tsd-signature tsd-kind-icon">System<wbr>Security_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L127">models/location.ts:127</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L92">models/location.ts:92</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -489,7 +585,7 @@
 					<div class="tsd-signature tsd-kind-icon">Wanted<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/location.ts#L128">models/location.ts:128</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/location.ts#L93">models/location.ts:93</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -500,7 +596,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -511,7 +607,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/3d168a5/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -540,6 +636,12 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="location.html#bodytype" class="tsd-kind-icon">Body<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#conflicts" class="tsd-kind-icon">Conflicts</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#distfromstarls" class="tsd-kind-icon">Dist<wbr>From<wbr>StarLS</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="location.html#docked" class="tsd-kind-icon">Docked</a>
@@ -572,7 +674,31 @@
 								<a href="location.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationallegiance" class="tsd-kind-icon">Station<wbr>Allegiance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationeconomies" class="tsd-kind-icon">Station<wbr>Economies</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationeconomy" class="tsd-kind-icon">Station<wbr>Economy</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationeconomy_localised" class="tsd-kind-icon">Station<wbr>Economy_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationfaction" class="tsd-kind-icon">Station<wbr>Faction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationgovernment" class="tsd-kind-icon">Station<wbr>Government</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationgovernment_localised" class="tsd-kind-icon">Station<wbr>Government_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="location.html#stationname" class="tsd-kind-icon">Station<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="location.html#stationservices" class="tsd-kind-icon">Station<wbr>Services</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="location.html#stationtype" class="tsd-kind-icon">Station<wbr>Type</a>
@@ -640,6 +766,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -688,7 +815,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>

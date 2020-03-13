@@ -1,5 +1,6 @@
 import { JournalEvent } from "./journal-event.model";
 import { Faction } from "./faction.model";
+import { Conflict } from "./conflict";
 
 /**
  * When written: when jumping from one star system to another
@@ -48,7 +49,15 @@ import { Faction } from "./faction.model";
  *         } 
  *     ], 
  *     "SystemFaction":"Independent HR 3316 Liberals", 
- *     "FactionState":"Outbreak" 
+ *     "FactionState":"Outbreak",
+ *      "Conflicts":[ 
+ *          { 
+ *              "WarType":"war", 
+ *              "Status":"active", 
+ *              "Faction1":{ "Name":"Camorra of HR 3316", "Stake":"Industrial Installation", "WonDays":3 }, 
+ *              "Faction2":{ "Name":"Jet Natural Partners", "Stake":"", "WonDays":1 } 
+ *          } 
+ *      ]
  * }
  * ```
  */
@@ -62,7 +71,7 @@ export class FSDJump extends JournalEvent {
     FuelUsed: number;
     FuelLevel: number;
     BoostUsed: boolean;
-    SystemFaction: string;
+    SystemFaction: { Name: string, FactionState: string };
     FactionState: string;
     SystemAllegiance: string;
     SystemEconomy: string;
@@ -75,6 +84,7 @@ export class FSDJump extends JournalEvent {
     SystemSecurity_Localised: string;
     Population: number;
     Factions: Faction[];
+    Conflicts: Conflict[];
     Wanted: boolean;
     Powers?: string[];
     PowerplayerState?: "InPrepareRadius" | "Prepared" | "Exploited" | "Contested" | "Controlled" | "Turmoil" | "HomeSystem";

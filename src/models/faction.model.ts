@@ -1,4 +1,5 @@
-import { Happiness } from '../enums/happiness.enum'
+import { Happiness } from "../enums";
+
 /**
  * ## Example
  * ```javascript

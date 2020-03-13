@@ -5,5 +5,6 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class FighterRebuilt extends JournalEvent {
-    Loadout: "string";
+  Loadout: string;
+  ID: string;
 }

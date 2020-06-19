@@ -22,5 +22,11 @@ export enum StationServices {
     stationOperations = "StationOperations",
     onDockMission = "OnDockMission",
     powerplay = "Powerplay",
-    searchAndRescue = "SearchAndRescue"
+    searchAndRescue = "SearchAndRescue",
+    shop = "Shop",
+    carriermanagement = "CarrierManagement",
+    carrierfuel = "CarrierFuel",
+    voucherredemption = "VoucherRedemption",
+    carriervendor = "CarrierVendor",
+    modulepacks = "ModulePacks"
 }

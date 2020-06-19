@@ -93,7 +93,7 @@ export class CarrierStats extends JournalEvent {
     CarrierID: number;
     Callsign: string;
     Name: string;
-    PowerplayState:
+    DockingAccess:
     | "all"
     | "none"
     | "friends"

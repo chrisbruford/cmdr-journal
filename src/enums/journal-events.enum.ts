@@ -204,5 +204,24 @@ export enum JournalEvents {
   squadronDemotion = "SquadronDemotion",
   squadronPromotion = "SquadronPromotion",
   wonATrophyForSquadron = "WonATrophyForSquadron",
-  squadronStartup = "SquadronStartup"
+  squadronStartup = "SquadronStartup",
+  
+  //CARRIERS
+  carrierBankTransfer = "CarrierBankTransfer",
+  carrierBuy = "CarrierBuy",
+  carrierCancelDecommission = "CarrierCancelDecommission",
+  carrierCrewServices = "CarrierCrewServices",
+  carrierDecommission = "CarrierDecommission",
+  carrierDepositFuel = "CarrierDepositFuel",
+  carrierDockingPermission = "CarrierDockingPermission",
+  carrierFinance = "CarrierFinance",
+  carrierJumpCancelled = "CarrierJumpCancelled",
+  carrierJumpRequest = "CarrierJumpRequest",
+  carrierJump = "CarrierJump",
+  carrierModulePack = "CarrierModulePack",
+  carrierNameChanged = "CarrierNameChanged",
+  carrierShipPack = "CarrierShipPack",
+  carrierStats = "CarrierStats",
+  carrierTradeOrder = "CarrierTradeOrder"
+  
 }

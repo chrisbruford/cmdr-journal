@@ -93,7 +93,7 @@ export class CarrierStats extends JournalEvent {
     CarrierID: number;
     Callsign: string;
     Name: string;
-    DockingAccess:
+    PowerplayState:
     | "all"
     | "none"
     | "friends"
@@ -106,7 +106,7 @@ export class CarrierStats extends JournalEvent {
     PendingDecommission: boolean;
     SpaceUsage: {TotalCapacity: number; Crew: number; Cargo: number; CargoSpaceReserved: number; ShipPacks: number; ModulePacks: number; FreeSpace: number };
     Finance: {CarrierBalance: number; Reserve Balance: number; AvailableBalance: number; ReservePercent: number; TaxRate: number }:
-    Crew: [];
-    ShipPacks: [];
-    ModulePacks: [];
+    Crew: {CrewRole: string; Activated: boolean; Enabled: boolean; CrewName: string }[];
+    ShipPacks?: {PackTheme: string; PackTier: number }[];
+    ModulePacks?: {PackTheme: string; PackTier: number }[];
 }

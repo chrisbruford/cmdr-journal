@@ -2,6 +2,7 @@ import { JournalEvent } from "./journal-event.model";
 
 /**
  * Written when owner opens carrier management
+ * Written when owner opens carrier management
  *
  * { "timestamp":"2020-03-27T09:42:04Z", 
  * "event":"CarrierStats",

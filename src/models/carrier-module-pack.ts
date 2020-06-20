@@ -4,7 +4,7 @@ import { JournalEvent } from "./journal-event.model";
  * A carrier module pack is bought.
  * Listed as the same as CarrierShipPack.
  *{ "timestamp":"2020-03-16T09:25:39Z",
- *"event":"CarrierShipPack",
+ *"event":"CarrierModulePack",
  *"CarrierID":3700005632,
  *"Operation":"BuyPack",
  *"PackTheme":"Zorgon Peterson - Cargo",

@@ -1,7 +1,7 @@
 import { JournalEvent } from "./journal-event.model";
 
 /**
- * Transfer of credits.
+ * Written when there's a transfer of credits.
  *{ "timestamp":"2020-03-24T15:34:46Z",
  *"event":"CarrierBankTransfer",
  *"CarrierID":3700005632,

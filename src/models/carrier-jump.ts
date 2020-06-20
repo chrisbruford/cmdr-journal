@@ -4,7 +4,7 @@ import { Faction } from "./faction.model";
 import { Conflict } from "./conflict";
 
 /**
- * When written: on startup or resurrection
+ * This is similar to FSDJump and Location, but it is written if the player is online and docked at a fleet carrier when the carrier jumps. Note it does not include the distance jumped, or fuel used.
  *
  * ## Example
  *{ "timestamp":"2020-03-25T15:55:56Z",

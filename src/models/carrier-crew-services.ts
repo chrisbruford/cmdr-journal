@@ -1,7 +1,7 @@
 import { JournalEvent } from "./journal-event.model";
 
 /**
- * Player does something to the crew.
+ * Written when player does something to the crew.
  *{ "timestamp":"2020-03-17T12:38:54Z",
  * "event":"CarrierCrewServices",
  * "CarrierID":3700005632,

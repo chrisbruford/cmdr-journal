@@ -7,62 +7,38 @@ import { Conflict } from "./conflict";
  * When written: on startup or resurrection
  *
  * ## Example
- * ```javascript
- * {
- *  "timestamp":"2019-04-28T11:06:27Z",
- *  "event":"Location",
- *  "DistFromStarLS":62.010319,
- *  "Docked":true,
- *  "StationName":"Liwei Terminal",
- *  "StationType":"Coriolis",
- *  "MarketID":3227870208,
- *  "StationFaction":{ "Name":"Foyama Novingo Startourism" },
- *  "StationGovernment":"$government_Corporate;",
- *  "StationGovernment_Localised":"Corporate",
- *  "StationAllegiance":"Empire",
- *  "StationServices":[ "Dock", "BlackMarket", "Commodities", "Missions", "Outfitting", "Refuel", "Shipyard", "Workshop", "MissionsGenerated", "FlightController", "StationOperations", "SearchAndRescue", "StationMenu" ],
- *  "StationEconomy":"$economy_Repair;",
- *  "StationEconomy_Localised":"Repair",
- *  "StationEconomies":[
- *    { "Name":"$economy_Repair;", "Name_Localised":"Repair", "Proportion":1.000000 },
- *    { "Name":"$economy_HighTech;", "Name_Localised":"High Tech", "Proportion":1.000000 }
- *  ],
- *  "StarSystem":"GD 140",
- *  "SystemAddress":52850328756,
- *  "StarPos":[4.84375,49.56250,-13.31250],
- *  "SystemAllegiance":"Thargoid",
- *  "SystemEconomy":"$economy_Extraction;",
- *  "SystemEconomy_Localised":"Extraction",
- *  "SystemSecondEconomy":"$economy_HighTech;",
- *  "SystemSecondEconomy_Localised":"High Tech",
- *  "SystemGovernment":"$government_Dictatorship;",
- *  "SystemGovernment_Localised":"Dictatorship",
- *  "SystemSecurity":"$SYSTEM_SECURITY_high;",
- *  "SystemSecurity_Localised":"High Security",
- *  "Population":82574191,
- *  "Body":"Liwei Terminal",
- *  "BodyID":100,
- *  "BodyType":"Station",
- *  "Factions":[
- *    { "Name":"Aegis Defense", "FactionState":"None", "Government":"Cooperative", "Influence":0.000000, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Happy", "MyReputation":0.000000 }, { "Name":"Progressive Party of GD 140", "FactionState":"None", "Government":"Democracy", "Influence":0.153846, "Allegiance":"Federation", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Happy", "MyReputation":-2.200000 }, { "Name":"Pilots' Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation", "Happiness":"", "MyReputation":0.161780 },
- *    { "Name":"Parcae Dynamic PLC", "FactionState":"None", "Government":"Corporate", "Influence":0.104895, "Allegiance":"Federation", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Happy", "MyReputation":-19.320000, "PendingStates":[ { "State":"Election", "Trend":0 } ] },
- *    { "Name":"LHS 2430 for Equality", "FactionState":"None", "Government":"Democracy", "Influence":0.098901, "MyReputation":0.000000 },
- *    { "Name":"GD 140 & Co", "FactionState":"None", "Government":"Corporate", "Influence":0.104895, "MyReputation":0.000000, "PendingStates":[ { "State":"Election", "Trend":0 } ], "RecoveringStates":[ { "State":"Outbreak", "Trend":0 } ] },
- *    { "Name":"United GD 140 Liberty Party", "FactionState":"None", "Government":"Dictatorship", "Influence":0.068931, "MyReputation":0.000000, "RecoveringStates":[ { "State":"Outbreak", "Trend":0 } ] },
- *    { "Name":"LP 320-359 Public Services", "FactionState":"None", "Government":"Corporate", "Influence":0.084915, "MyReputation":0.000000, "RecoveringStates":[ { "State":"Outbreak", "Trend":0 } ] },
- *    { "Name":"GD 140 Systems", "FactionState":"None", "Government":"Corporate", "Influence":0.091908, "MyReputation":0.000000, "RecoveringStates":[ { "State":"Outbreak", "Trend":0 } ] },
- *    { "Name":"Foyama Novingo Startourism", "FactionState":"None", "Government":"Corporate", "Influence":0.291708, "MyReputation":0.000000 }
- *  ],
- *  "SystemFaction": { "Name":"Foyama Novingo Startourism" },
- *  "Conflicts": [
- *    {
- *      "WarType":"election",
- *      "Status":"pending",
- *      "Faction1":{ "Name":"Parcae Dynamic PLC", "Stake":"", "WonDays":0 },
- *      "Faction2": { "Name":"GD 140 & Co", "Stake":"Ricci Prospect", "WonDays":0 }
- *    }
- *  ]
- * }
+ *{ "timestamp":"2020-03-25T15:55:56Z",
+ *"event":"CarrierJump",
+ *"Docked":true,
+ *"StationName":"FC L14X1J",
+ *"StationType":"FleetCarrier",
+ *"MarketID":3700005632,
+ *"StationFaction":{ "Name":"FleetCarrier" },
+ *"StationGovernment":"$government_Carrier;",
+ *"StationGovernment_Localised":"Private Ownership ",
+ *"StationServices":["dock","autodock","blackmarket","commodities","outfitting","crewlounge","rearm","refuel","repair","shipyard","tuning","engineer","flightcontroller","stationoperations","stationMenu","carriermanagement","carrierfuel","voucherredemption" ],
+ *"StationEconomy":"$economy_Extraction;",
+ *"StationEconomy_Localised":"Extraction",
+ *"StationEconomies":[{"Name":"$economy_Extraction;","Name_Localised":"Extraction","Proportion":1.000000}],
+ *"StarSystem":"Hermitage",
+ *"SystemAddress":5363877956440,
+ *"StarPos":[-28.75000,25.00000,10.43750],
+ *"SystemAllegiance":"",
+ *"SystemEconomy":"$economy_None;",
+ *"SystemEconomy_Localised":"None",
+ *"SystemSecondEconomy":"$economy_None;",
+ *"SystemSecondEconomy_Localised":"None",
+ *"SystemGovernment":"$government_None;",
+ *"SystemGovernment_Localised":"None",
+ *"SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;",
+ *"SystemSecurity_Localised":"Anarchy",
+ *"Population":0,
+ *"Body":"Hermitage",
+ *"BodyID":0,
+ *"BodyType":"Star",
+ *"SystemFaction":{
+ *"Name":"FleetCarrier"}
+ *}
  * ```
  */
 export class CarrierJump extends JournalEvent {

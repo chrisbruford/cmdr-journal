@@ -1,7 +1,7 @@
 import { JournalEvent } from "./journal-event.model";
 
 /**
- * The carrier owner requests the carrier buy or sell goods.
+ * Written when the carrier owner requests the carrier buy or sell goods.
  *{ "timestamp":"2020-03-16T14:52:36Z",
  *"event":"CarrierTradeOrder",
  *CarrierID":3700005632,

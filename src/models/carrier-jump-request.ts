@@ -11,7 +11,7 @@ import { JournalEvent } from "./journal-event.model";
  *"BodyID":1 }
  */
 
-export class Location extends JournalEvent {
+export class CarrierJumpRequest extends JournalEvent {
 	CarrierID: number;
 	SystemName: string;
 	Body: string;

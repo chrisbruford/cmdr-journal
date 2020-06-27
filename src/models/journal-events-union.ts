@@ -132,6 +132,7 @@ import { Touchdown } from "./touchdown";
 import { UnderAttack } from "./under-attack";
 import { Undocked } from "./undocked";
 import { WonATrophyForSquadron } from "./WonATrophyForSquadron";
+import { FileHeader } from "./file-header";
 
 export type JournalEventsUnion =
   | AppliedToSquadron
@@ -187,6 +188,7 @@ export type JournalEventsUnion =
   | EngineerProgress
   | FighterDestroyed
   | FighterRebuilt
+  | FileHeader
   | FSDJump
   | FSDTarget
   | FSSAllBodiesFound

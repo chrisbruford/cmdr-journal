@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * A carrier ship pack is bought.
@@ -18,6 +19,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierShipPack extends JournalEvent {
+  event: JournalEvents.carrierShipPack;
   CarrierID: number;
   Operation: "buypack" | "sellpack" | "restockpack";
   PackTheme: string;

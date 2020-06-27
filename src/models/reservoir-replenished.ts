@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: When fuel is moved from one fuel tank to another
@@ -9,6 +10,7 @@ import { JournalEvent } from "./journal-event.model";
  * ```
  */
 export class ReservoirReplenished extends JournalEvent {
+  event: JournalEvents.reservoirReplenished;
   FuelMain: number;
   FuelReservoir: number;
 }

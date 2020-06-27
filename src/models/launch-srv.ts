@@ -1,4 +1,5 @@
 import { JournalEvent } from ".";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: launching an SRV
@@ -10,6 +11,7 @@ import { JournalEvent } from ".";
  */
 
 export class LaunchSRV extends JournalEvent {
+  event: JournalEvents.launchSRV;
   Loadout: string;
   ID: string;
 }

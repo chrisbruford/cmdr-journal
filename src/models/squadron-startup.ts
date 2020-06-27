@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: At game startup, to identify the player’s squadron
@@ -9,6 +10,7 @@ import { JournalEvent } from "./journal-event.model";
  * ```
  */
 export class SquadronStartup extends JournalEvent {
+  event: JournalEvents.squadronStartup;
   SquadronName: string;
   CurrentRank: number;
 }

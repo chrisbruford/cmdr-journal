@@ -78,17 +78,17 @@
 				<p>Import the package into your project</p>
 				<pre><code class="language-javascript"><span class="hljs-comment">//Import the whole library</span>
 <span class="hljs-comment">//CommonJS</span>
-<span class="hljs-keyword">const</span> cj = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cmdr-journal'</span>);
+<span class="hljs-keyword">const</span> cj = <span class="hljs-built_in">require</span>(<span class="hljs-string">"cmdr-journal"</span>);
 <span class="hljs-comment">//ES2015</span>
-<span class="hljs-keyword">import</span> cj <span class="hljs-keyword">from</span> <span class="hljs-string">'cmdr-journal'</span>;
+<span class="hljs-keyword">import</span> cj <span class="hljs-keyword">from</span> <span class="hljs-string">"cmdr-journal"</span>;
 
 <span class="hljs-comment">//Or import just what you need</span>
 <span class="hljs-comment">//CommonJS</span>
-<span class="hljs-keyword">const</span> fsdJump = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cmdr-journal'</span>).FSDJump;
+<span class="hljs-keyword">const</span> fsdJump = <span class="hljs-built_in">require</span>(<span class="hljs-string">"cmdr-journal"</span>).FSDJump;
 <span class="hljs-comment">//ES2015</span>
-<span class="hljs-keyword">import</span> { FSDJump } <span class="hljs-keyword">from</span> <span class="hljs-string">'cmdr-journal'</span>;</code></pre>
+<span class="hljs-keyword">import</span> { FSDJump } <span class="hljs-keyword">from</span> <span class="hljs-string">"cmdr-journal"</span>;</code></pre>
 				<p>Use the models and enums as you wish</p>
-				<pre><code class="language-javascript"><span class="hljs-keyword">let</span> interdiction = <span class="hljs-keyword">new</span> cj.Interdicton()</code></pre>
+				<pre><code class="language-javascript"><span class="hljs-keyword">let</span> interdiction = <span class="hljs-keyword">new</span> cj.Interdicton();</code></pre>
 				<a href="#a-note" id="a-note" style="color: inherit; text-decoration: none;">
 					<h2>A note</h2>
 				</a>
@@ -99,6 +99,11 @@
 					<h2>Documentation</h2>
 				</a>
 				<p>A full list of Classes and Enums available in this library can be found in <a href="/docs/index.html">the docs folder</a></p>
+				<a href="#contributions" id="contributions" style="color: inherit; text-decoration: none;">
+					<h2>Contributions</h2>
+				</a>
+				<p>When creating a new model (e.g. if the Frontier Developments Commander Journal is updated with new event types) then you must create it as a new model file in <code>./models</code> and export it from <code>./models/index.ts</code> and add it to the <code>JournalEventsUnion</code> type in <code>./models/journal-events-union.ts</code> and the <code>journal-events.enum.ts</code> in <code>./enums/journal-events.enum.ts</code></p>
+				<p>Once you have finished making your additions run <code>npm run build</code> and commit the result</p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -827,6 +832,9 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/refuelall.html" class="tsd-kind-icon">refuel<wbr>All</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#journaleventsunion" class="tsd-kind-icon">Journal<wbr>Events<wbr>Union</a>
 					</li>
 					<li class=" tsd-kind-variable">
 						<a href="globals.html#outfitting_map" class="tsd-kind-icon">OUTFITTING_<wbr>MAP</a>

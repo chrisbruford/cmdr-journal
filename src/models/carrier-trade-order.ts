@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when the carrier owner requests the carrier buy or sell goods.
@@ -18,6 +19,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierTradeOrder extends JournalEvent {
+  event: JournalEvents.carrierTradeOrder;
   CarrierID: number;
   BlackMarket: boolean;
   Commodity: string;

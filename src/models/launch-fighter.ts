@@ -1,4 +1,5 @@
 import { JournalEvent } from ".";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: launching a fighter
@@ -10,6 +11,7 @@ import { JournalEvent } from ".";
  */
 
 export class LaunchFighter extends JournalEvent {
+  event: JournalEvents.launchFighter;
   Loadout: string;
   PlayerControlled: boolean;
   ID: string;

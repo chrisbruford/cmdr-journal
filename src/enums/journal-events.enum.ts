@@ -151,6 +151,7 @@ export enum JournalEvents {
   leaveBody = "LeaveBody",
   cockpitBreached = "CockpitBreached",
   commitCrime = "CommitCrime",
+  crimeVictim = "CrimeVictim",
   continued = "Continued",
   crewLaunchFighter = "CrewLaunchFighter",
   crewMemberJoins = "CrewMemberJoins",

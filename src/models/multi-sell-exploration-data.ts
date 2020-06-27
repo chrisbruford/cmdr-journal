@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when selling exploration data in Cartographics, a page at a time
@@ -20,6 +21,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class MultiSellExplorationData extends JournalEvent {
+  event: JournalEvents.multiSellExplorationData;
   Systems: string[];
   Discovered: { SystemName: string; NumBodies: number }[];
   BaseValue: number;

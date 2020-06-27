@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Player gives fuel (tritium) to the carrier.
@@ -15,6 +16,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierDepositFuel extends JournalEvent {
+  event: JournalEvents.carrierDepositFuel;
   CarrierID: number;
   Amount: number;
   Total: number;

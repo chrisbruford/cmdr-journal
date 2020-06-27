@@ -1,11 +1,12 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When Written: when ejecting cargo from the hold
- *  
+ *
  * ## Example
  * ```javascript
- *  { 
+ *  {
  *    "timestamp":"2016-06-10T14:32:03Z",
  *    "event":"EjectCargo",
  *    "Type":"tobacco",
@@ -13,7 +14,7 @@ import { JournalEvent } from "./journal-event.model";
  *    "Abandoned":true
  *  }
  * ```
- * 
+ *
  * ```javascript
  * {
  *  "timestamp":"2016-09-21T14:18:23Z",
@@ -27,6 +28,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class EjectCargo extends JournalEvent {
+  event: JournalEvents.ejectCargo;
   Type: string;
   Count: number;
   Abandoned: boolean;

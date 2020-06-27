@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums";
 
 /**
  * When written: player is awarded a bounty for a kill
@@ -37,6 +38,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class Bounty extends JournalEvent {
+  event: JournalEvents.bounty;
   Target: string;
   Target_Localised: string;
   VictimFaction?: string;

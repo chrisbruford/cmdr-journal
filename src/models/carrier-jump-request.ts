@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when a carrier makes a jump request. Not the jump.
@@ -18,6 +19,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierJumpRequest extends JournalEvent {
+  event: JournalEvents.carrierJumpRequest;
   CarrierID: number;
   SystemName: string;
   Body: string;

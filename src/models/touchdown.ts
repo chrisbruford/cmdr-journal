@@ -1,4 +1,5 @@
 import { JournalEvent } from ".";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: Landing on a planet surface
@@ -18,6 +19,7 @@ import { JournalEvent } from ".";
  */
 
 export class Touchdown extends JournalEvent {
+  event: JournalEvents.touchdown;
   Latitude: number;
   Longitude: number;
   PlayerControlled: boolean;

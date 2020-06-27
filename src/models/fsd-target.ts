@@ -1,5 +1,6 @@
 import { JournalEvent } from "./journal-event.model";
 import { StarLuminosityClasses } from "../enums/star-luminosity-classes.enum";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when selecting a star system to jump to
@@ -19,6 +20,7 @@ import { StarLuminosityClasses } from "../enums/star-luminosity-classes.enum";
  */
 
 export class FSDTarget extends JournalEvent {
+  event: JournalEvents.fsdTarget;
   Name: string;
   SystemAddress: number;
   RemainingJumpsInRoute: number;

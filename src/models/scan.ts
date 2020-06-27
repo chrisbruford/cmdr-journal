@@ -4,6 +4,7 @@ import { StarTypes } from "../enums/star-types.enum";
 import { PlanetTypes } from "../enums/planet-types.enum";
 import { AtmosphereTypes } from "../enums/atmosphere-types.enum";
 import { VolcanismTypes } from "../enums/volcanism-types.enum";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When Written: basic or detailed discovery scan of a star, planet or moon
@@ -70,6 +71,7 @@ import { VolcanismTypes } from "../enums/volcanism-types.enum";
  */
 
 export class Scan extends JournalEvent {
+  event: JournalEvents.scan;
   Bodyname: string;
   BodyID: number;
   SystemAddress: number;

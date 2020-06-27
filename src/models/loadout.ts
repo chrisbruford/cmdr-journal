@@ -1,6 +1,6 @@
 import { JournalEvent } from "./journal-event.model";
 import { ModuleAttribute } from "../enums/module-attributes.enum";
-import { DamageType, WeaponMode } from "..";
+import { DamageType, WeaponMode, JournalEvents } from "..";
 import { CabinClass } from "../enums/cabin-class.enum";
 
 /**
@@ -197,6 +197,7 @@ import { CabinClass } from "../enums/cabin-class.enum";
  */
 
 export class Loadout extends JournalEvent {
+  event: JournalEvents.loadout;
   Ship: string;
   ShipID: number;
   ShipName: string;

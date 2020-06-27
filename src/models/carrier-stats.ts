@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when owner opens carrier management
@@ -100,6 +101,7 @@ import { JournalEvent } from "./journal-event.model";
  * */
 
 export class CarrierStats extends JournalEvent {
+  event: JournalEvents.carrierStats;
   CarrierID: number;
   Callsign: string;
   Name: string;

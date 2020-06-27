@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * ## Example
@@ -12,5 +13,6 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierCancelDecommission extends JournalEvent {
+  event: JournalEvents.carrierCancelDecommission;
   CarrierID: number;
 }

@@ -2,6 +2,7 @@ import { JournalEvent } from "./journal-event.model";
 import { BodyTypes } from "../enums/body-types.enum";
 import { Faction } from "./faction.model";
 import { Conflict } from "./conflict";
+import { JournalEvents } from "../enums";
 
 /**
  * When written: on startup or resurrection
@@ -66,6 +67,7 @@ import { Conflict } from "./conflict";
  * ```
  */
 export class Location extends JournalEvent {
+  event: JournalEvents.location;
   StarSystem: string;
   SystemAddress: number;
   StarPos: [number, number, number];

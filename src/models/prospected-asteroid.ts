@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: When using a prospecting drone
@@ -19,6 +20,7 @@ import { JournalEvent } from "./journal-event.model";
  * ```
  */
 export class ProspectedAsteroid extends JournalEvent {
+  event: JournalEvents.prospectedAsteroid;
   Materials: { Name: string; Name_Localised?: string; Proportion: number }[];
   Content: string;
   Content_Localised: string;

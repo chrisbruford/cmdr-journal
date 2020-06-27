@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: after having identified all bodies in the system
@@ -10,7 +11,8 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class FSSAllBodiesFound extends JournalEvent {
-    SystemName: string
-    SystemAddress: number
-    Count: number
+  event: JournalEvents.fssAllBodiesFound;
+  SystemName: string;
+  SystemAddress: number;
+  Count: number;
 }

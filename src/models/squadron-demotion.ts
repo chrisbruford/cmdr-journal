@@ -1,7 +1,9 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 export class SquadronDemotion extends JournalEvent {
-    SquadronName: string;
-    OldRank: number;
-    NewRank: number;
+  event: JournalEvents.squadronDemotion;
+  SquadronName: string;
+  OldRank: number;
+  NewRank: number;
 }

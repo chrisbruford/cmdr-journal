@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When Written: when requesting an engineer upgrade
@@ -60,6 +61,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class EngineerCraft extends JournalEvent {
+  event: JournalEvents.engineerCraft;
   Engineer: string;
   EngineerID: number;
   BlueprintName: string;

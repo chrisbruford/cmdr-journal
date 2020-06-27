@@ -1,5 +1,7 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 export class SharedBookmarkToSquadron extends JournalEvent {
-    SquadronName: string;
+  event: JournalEvents.sharedBookmarkToASquadron;
+  SquadronName: string;
 }

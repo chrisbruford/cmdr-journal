@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when player does something to the crew.
@@ -17,6 +18,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierCrewServices extends JournalEvent {
+  event: JournalEvents.carrierCrewServices;
   CarrierID: number;
   CrewRole: string;
   Operation: "Activate" | "Deactivate" | "Pause" | "Resume" | "Replace";

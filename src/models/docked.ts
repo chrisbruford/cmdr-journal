@@ -1,5 +1,6 @@
 import { JournalEvent } from "./journal-event.model";
 import { StationServices } from "../enums/station-services.enum";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when landing at landing pad in a space station, outpost, or surface settlement
@@ -58,6 +59,7 @@ import { StationServices } from "../enums/station-services.enum";
  */
 
 export class Docked extends JournalEvent {
+  event: JournalEvents.docked;
   StationName: string;
   MarketID: number;
   SystemAddress: number;

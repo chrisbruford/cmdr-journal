@@ -1,4 +1,5 @@
 import { JournalEvent } from ".";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: Taking off from a planet surface
@@ -18,6 +19,7 @@ import { JournalEvent } from ".";
  */
 
 export class Liftoff extends JournalEvent {
+  event: JournalEvents.liftoff;
   Latitude: number;
   Longitude: number;
   PlayerControlled: boolean;

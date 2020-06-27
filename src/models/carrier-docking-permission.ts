@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * The carrier owner changes docking criteria.
@@ -16,6 +17,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierDockingPermission extends JournalEvent {
+  event: JournalEvents.carrierDockingPermission;
   CarrierID: number;
   DockingAccess: "all" | "none" | "friends" | "squadron" | "squadronfriends";
   AllowNotorious: boolean;

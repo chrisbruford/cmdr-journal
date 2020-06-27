@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when repairing the ship
@@ -31,6 +32,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class Repair extends JournalEvent {
+  event: JournalEvents.repair;
   Item: string | string[];
   Cost: number;
 }

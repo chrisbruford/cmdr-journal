@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Written when the carrier owner requests the carrier buy or sell goods.
@@ -25,6 +26,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CargoTransfer extends JournalEvent {
+  event: JournalEvents.cargoTransfer;
   Transfers: {
     Type: string;
     Count: number;

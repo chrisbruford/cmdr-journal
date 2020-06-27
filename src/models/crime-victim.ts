@@ -2,6 +2,7 @@ import { JournalEvent } from "./journal-event.model";
 import { BodyTypes } from "../enums/body-types.enum";
 import { Faction } from "./faction.model";
 import { Conflict } from "./conflict";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when another player commits a crime against the current player
@@ -15,6 +16,7 @@ import { Conflict } from "./conflict";
  * ```
  */
 export class CrimeVictim extends JournalEvent {
+  event: JournalEvents.crimeVictim;
   Offender: string;
   CrimeType: string;
   /** Will be a Fine OR a Bounty - never both */

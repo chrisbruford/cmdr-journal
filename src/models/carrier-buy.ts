@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums";
 
 /**
  * When written: Player buys a fleet carrier
@@ -20,6 +21,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierBuy extends JournalEvent {
+  event: JournalEvents.carrierBuy;
   BoughtAtMarket: number;
   CarrierID: number;
   Location: string;

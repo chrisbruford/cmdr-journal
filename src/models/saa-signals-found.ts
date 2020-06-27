@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: after using the “Surface Area Analysis” scanner
@@ -34,6 +35,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class SAASignalsFound extends JournalEvent {
+  event: JournalEvents.saaSignalsFound;
   BodyName: string;
   SystemAddress: number;
   BodyID: number;

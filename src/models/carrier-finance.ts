@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Changes are made to tax rate or reserve.
@@ -19,6 +20,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierFinance extends JournalEvent {
+  event: JournalEvents.carrierFinance;
   CarrierID: number;
   TaxRate: number;
   CarrierBalance: number;

@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * Generated when player requests decommission.
@@ -16,6 +17,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class CarrierDecommission extends JournalEvent {
+  event: JournalEvents.carrierDecommission;
   CarrierID: number;
   ScrapRefund: number;
   ScrapTime: number;

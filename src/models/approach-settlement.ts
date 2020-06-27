@@ -1,4 +1,5 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when approaching a planetary settlement
@@ -20,6 +21,7 @@ import { JournalEvent } from "./journal-event.model";
  */
 
 export class ApproachSettlement extends JournalEvent {
+  event: JournalEvents.approachSettlement;
   MarketID: number;
   Name: string;
   Latitude: number;

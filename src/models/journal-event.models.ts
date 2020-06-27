@@ -1,6 +1,7 @@
 import { CrewRoles } from "../enums/crew-roles.enum";
 import { MusicTrackNames } from "../enums/music-track-names.enum";
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /*
 
@@ -53,6 +54,7 @@ export class Rank extends JournalEvent {
 //TRAVEL
 
 export class SupercruiseEntry extends JournalEvent {
+  event: JournalEvents.supercruiseEntry;
   StarSystem: string;
 }
 //{"timestamp":"2016-06-10T14:32:03Z",  "event":"SupercruiseEntry", "StarSystem":"Yuetu" }

@@ -1,5 +1,6 @@
 import { JournalEvent } from "./journal-event.model";
 import { CombatRanks } from "../enums/combat-ranks.enum";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When written: when the current player selects a new target
@@ -30,6 +31,7 @@ import { CombatRanks } from "../enums/combat-ranks.enum";
  */
 
 export class ShipTargetted extends JournalEvent {
+  event: JournalEvents.shipTargetted;
   TargetLocked: boolean;
   /**
    * If target locked

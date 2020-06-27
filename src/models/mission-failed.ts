@@ -1,11 +1,13 @@
 import { JournalEvent } from "./journal-event.model";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * When Written: when a mission has failed
  */
 
 export class MissionFailed extends JournalEvent {
-    Name: string;
-    MissionID: number;
-    Fine?: number;
+  event: JournalEvents.missionFailed;
+  Name: string;
+  MissionID: number;
+  Fine?: number;
 }

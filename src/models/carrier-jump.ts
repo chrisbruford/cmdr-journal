@@ -2,6 +2,7 @@ import { JournalEvent } from "./journal-event.model";
 import { BodyTypes } from "../enums/body-types.enum";
 import { Faction } from "./faction.model";
 import { Conflict } from "./conflict";
+import { JournalEvents } from "../enums/journal-events.enum";
 
 /**
  * This is similar to FSDJump and Location, but it is written if the player is online and docked at a fleet carrier when the carrier jumps. Note it does not include the distance jumped, or fuel used.
@@ -43,6 +44,7 @@ import { Conflict } from "./conflict";
  * ```
  */
 export class CarrierJump extends JournalEvent {
+  event: JournalEvents.carrierJump;
   StarSystem: string;
   SystemAddress: number;
   StarPos: [number, number, number];

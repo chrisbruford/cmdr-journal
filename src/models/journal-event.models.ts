@@ -13,6 +13,7 @@ NO NEW MODELS SHOULD BE CREATED HERE
 //STARTUP
 
 export class Materials extends JournalEvent {
+  event: JournalEvents.materials;
   Raw: { Name: string; Count: number }[];
   Manufactured: { Name: string; Count: number }[];
   Encoded: { Name: string; Count: number }[];
@@ -599,6 +600,7 @@ export class RebootRepair extends JournalEvent {
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"RebootRepair", "Modules":[ "MainEngines", "TinyHardpoint1" ] }
 
 export class Resurrect extends JournalEvent {
+  event: JournalEvents.resurrect;
   Option: string;
   Cost: number;
   Bankrupt: boolean;
@@ -611,6 +613,7 @@ export class Scanned extends JournalEvent {
 export class SelfDestruct extends JournalEvent {}
 
 export class Synthesis extends JournalEvent {
+  event: JournalEvents.synthesis;
   Name: string;
   Materials: { Name: string; Count: number }[];
 }

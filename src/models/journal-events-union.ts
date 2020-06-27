@@ -125,7 +125,12 @@ import { StartJump } from "./start-jump";
 import { Statistics } from "./statistics";
 import { StoredModules } from "./stored-modules";
 import { StoredShips } from "./stored-ships";
-import { SupercruiseEntry } from "./journal-event.models";
+import {
+  SupercruiseEntry,
+  Resurrect,
+  Materials,
+  Synthesis,
+} from "./journal-event.models";
 import { SupercruiseExit } from "./supercruise-exit";
 import { TechnologyBroker } from "./technology-broker";
 import { Touchdown } from "./touchdown";
@@ -133,6 +138,8 @@ import { UnderAttack } from "./under-attack";
 import { Undocked } from "./undocked";
 import { WonATrophyForSquadron } from "./WonATrophyForSquadron";
 import { FileHeader } from "./file-header";
+import { MaterialCollected } from "./material-collected";
+import { MaterialDiscarded } from "./material-discarded";
 
 export type JournalEventsUnion =
   | AppliedToSquadron
@@ -211,6 +218,9 @@ export type JournalEventsUnion =
   | MarketBuy
   | MarketSell
   | MassModuleStore
+  | Materials
+  | MaterialCollected
+  | MaterialDiscarded
   | MaterialTrade
   | MissionAbandoned
   | MissionAccepted
@@ -237,6 +247,7 @@ export type JournalEventsUnion =
   | Repair
   | Reputation
   | ReservoirReplenished
+  | Resurrect
   | SAAScanComplete
   | SAASignalsFound
   | Scan
@@ -265,6 +276,7 @@ export type JournalEventsUnion =
   | StoredShips
   | SupercruiseEntry
   | SupercruiseExit
+  | Synthesis
   | TechnologyBroker
   | Touchdown
   | UnderAttack

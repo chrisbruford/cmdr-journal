@@ -66,9 +66,30 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>When written: whenever materials are collected</p>
+					</div>
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example:</h2>
+					</a>
+					<pre><code class="language-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"MaterialCollected"</span>,
+    <span class="hljs-string">"Category"</span>:<span class="hljs-string">"Manufactured"</span>,
+    <span class="hljs-string">"Name"</span>:<span class="hljs-string">"chemicalmanipulators"</span>,
+    <span class="hljs-string">"Name_Localised"</span>:<span class="hljs-string">"Chemical Manipulators"</span>,
+    <span class="hljs-string">"Count"</span>:<span class="hljs-number">2</span>
+}</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
+					<li>
+						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
+					</li>
 					<li>
 						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
 						<ul class="tsd-hierarchy">
@@ -89,8 +110,9 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="materialdiscarded.html#category" class="tsd-kind-icon">Category</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="materialdiscarded.html#count" class="tsd-kind-icon">Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="materialdiscarded.html#name" class="tsd-kind-icon">Name</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="materialdiscarded.html#event" class="tsd-kind-icon">event</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="materialdiscarded.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="materialdiscarded.html#name_localised" class="tsd-kind-icon">Name_<wbr><wbr>Localised</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="materialdiscarded.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="materialdiscarded.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
 						</section>
 					</div>
@@ -104,7 +126,8 @@
 					<div class="tsd-signature tsd-kind-icon">Category<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Raw"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Encoded"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Manufactured"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/8c3d57d/src/models/journal-event.models.ts#L155">models/journal-event.models.ts:155</a></li>
+							<li>Defined in models/material-discarded.ts:22</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/4fb3f17/src/models/journal-event.models.ts#L156">models/journal-event.models.ts:156</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -114,7 +137,8 @@
 					<div class="tsd-signature tsd-kind-icon">Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/8c3d57d/src/models/journal-event.models.ts#L157">models/journal-event.models.ts:157</a></li>
+							<li>Defined in models/material-discarded.ts:25</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/4fb3f17/src/models/journal-event.models.ts#L158">models/journal-event.models.ts:158</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -124,29 +148,41 @@
 					<div class="tsd-signature tsd-kind-icon">Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/8c3d57d/src/models/journal-event.models.ts#L156">models/journal-event.models.ts:156</a></li>
+							<li>Defined in models/material-discarded.ts:23</li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/4fb3f17/src/models/journal-event.models.ts#L157">models/journal-event.models.ts:157</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="name_localised" class="tsd-anchor"></a>
+					<h3>Name_<wbr><wbr>Localised</h3>
+					<div class="tsd-signature tsd-kind-icon">Name_<wbr><wbr>Localised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in models/material-discarded.ts:24</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 					<a name="event" class="tsd-anchor"></a>
 					<h3>event</h3>
-					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <a href="../enums/journalevents.html" class="tsd-signature-type">JournalEvents</a></div>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <a href="../enums/journalevents.html#materialdiscarded" class="tsd-signature-type">materialDiscarded</a></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
+						<p>Overrides <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/8c3d57d/src/models/journal-event.model.ts#L4">models/journal-event.model.ts:4</a></li>
+							<li>Defined in models/material-discarded.ts:21</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
 					<a name="timestamp" class="tsd-anchor"></a>
 					<h3>timestamp</h3>
 					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
+						<p>Overrides <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/8c3d57d/src/models/journal-event.model.ts#L5">models/journal-event.model.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/4fb3f17/src/models/journal-event.model.ts#L5">models/journal-event.model.ts:5</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -176,10 +212,13 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="materialdiscarded.html#name" class="tsd-kind-icon">Name</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="materialdiscarded.html#name_localised" class="tsd-kind-icon">Name_<wbr><wbr>Localised</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 								<a href="materialdiscarded.html#event" class="tsd-kind-icon">event</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
 								<a href="materialdiscarded.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 						</ul>

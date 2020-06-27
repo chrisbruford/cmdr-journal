@@ -19,6 +19,8 @@ export { MarketSell } from "./market-sell";
 export { CargoDepot } from "./cargo-depot";
 export { Market } from "./market";
 export { MassModuleStore } from "./mass-module-store";
+export { MaterialCollected } from "./material-collected";
+export { MaterialDiscarded } from "./material-discarded";
 export { MaterialTrade } from "./material-trade";
 export { ModuleBuy } from "./module-buy";
 export { ModuleRetrieve } from "./module-retrieve";

@@ -131,6 +131,7 @@ export { CarrierStats } from "./carrier-stats";
 export { CarrierTradeOrder } from "./carrier-trade-order";
 export { Repair } from "./repair";
 export { JournalEventsUnion } from "./journal-events-union";
+export { NewCommander } from "./new-commander";
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from "./journal-event.models";

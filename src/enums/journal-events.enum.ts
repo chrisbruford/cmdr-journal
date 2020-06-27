@@ -191,6 +191,7 @@ export enum JournalEvents {
   asteroidCracked = "AsteroidCracked",
   reservoirReplenished = "ReservoirReplenished",
   prospectedAsteroid = "ProspectedAsteroid",
+  cargoTransfer = "CargoTransfer",
 
   //SQUADRONS
   appliedToSquadron = "AppliedToSquadron",
@@ -205,7 +206,7 @@ export enum JournalEvents {
   squadronPromotion = "SquadronPromotion",
   wonATrophyForSquadron = "WonATrophyForSquadron",
   squadronStartup = "SquadronStartup",
-  
+
   //CARRIERS
   carrierBankTransfer = "CarrierBankTransfer",
   carrierBuy = "CarrierBuy",
@@ -222,6 +223,5 @@ export enum JournalEvents {
   carrierNameChanged = "CarrierNameChanged",
   carrierShipPack = "CarrierShipPack",
   carrierStats = "CarrierStats",
-  carrierTradeOrder = "CarrierTradeOrder"
-  
+  carrierTradeOrder = "CarrierTradeOrder",
 }

@@ -66,6 +66,35 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Written when repairing the ship</p>
+					</div>
+					<p>Note when repairing on a FleetCarrier, you can now get a list of the modules repaired:</p>
+					<a href="#example" id="example" style="color: inherit; text-decoration: none;">
+						<h2>Example</h2>
+					</a>
+					<pre><code class="language-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2016-06-10T14:32:03Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"Repair"</span>,
+    <span class="hljs-string">"Item"</span>:<span class="hljs-string">"int_powerplant_size3_class5"</span>,
+    <span class="hljs-string">"Cost"</span>:<span class="hljs-number">1100</span>
+}</code></pre>
+					<pre><code class="language-javascript">{
+    <span class="hljs-string">"timestamp"</span>:<span class="hljs-string">"2020-03-31T13:39:42Z"</span>,
+    <span class="hljs-string">"event"</span>:<span class="hljs-string">"Repair"</span>,
+    <span class="hljs-string">"Items"</span>:[
+        <span class="hljs-string">"$hpt_dumbfiremissilerack_fixed_large_name;"</span>,
+        <span class="hljs-string">"$hpt_beamlaser_gimbal_medium_name;"</span>,
+        <span class="hljs-string">"$hpt_railgun_fixed_medium_name;"</span>,
+        <span class="hljs-string">"$hpt_beamlaser_gimbal_medium_name;"</span>,
+        <span class="hljs-string">"$hpt_dumbfiremissilerack_fixed_large_name;"</span>
+    ],
+    <span class="hljs-string">"Cost"</span>:<span class="hljs-number">34590</span>
+}</code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -103,17 +132,17 @@
 					<div class="tsd-signature tsd-kind-icon">Cost<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.models.ts#L280">models/journal-event.models.ts:280</a></li>
+							<li>Defined in models/repair.ts:35</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="item" class="tsd-anchor"></a>
 					<h3>Item</h3>
-					<div class="tsd-signature tsd-kind-icon">Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<div class="tsd-signature tsd-kind-icon">Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.models.ts#L279">models/journal-event.models.ts:279</a></li>
+							<li>Defined in models/repair.ts:34</li>
 						</ul>
 					</aside>
 				</section>
@@ -124,7 +153,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/b63f921/src/models/journal-event.model.ts#L2">models/journal-event.model.ts:2</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -135,7 +164,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/542a6c1/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/b63f921/src/models/journal-event.model.ts#L3">models/journal-event.model.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>

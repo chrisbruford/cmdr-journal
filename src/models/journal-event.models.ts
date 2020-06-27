@@ -275,12 +275,6 @@ export class RefuelPartial extends JournalEvent {
 }
 //{ "timestamp":"2016-06-10T14:32:03Z", "event":"RefuelPartial", "Cost":83, "Amount":1.649000 }
 
-export class Repair extends JournalEvent {
-  Item: string;
-  Cost: number;
-}
-//{ "timestamp":"2016-06-10T14:32:03Z", "event":"Repair", "Item":"int_powerplant_size3_class5", "Cost":1100 }
-
 export class RepairAll extends JournalEvent {
   Cost: number;
 }

@@ -111,6 +111,23 @@ export { CrewLaunchFighter } from "./crew-launch-fighter";
 export { SAASignalsFound } from "./saa-signals-found";
 export { Touchdown } from "./touchdown";
 export { Liftoff } from "./liftoff";
+export { CarrierBankTransfer } from "./carrier-bank-transfer";
+export { CarrierBuy } from "./carrier-buy";
+export { CarrierCancelDecommission } from "./carrier-cancel-decommission";
+export { CarrierCrewServices } from "./carrier-crew-services";
+export { CarrierDecommission } from "./carrier-decommission";
+export { CarrierDepositFuel } from "./carrier-deposit-fuel";
+export { CarrierDockingPermission } from "./carrier-docking-permission";
+export { CarrierFinance } from "./carrier-finance";
+export { CarrierJump } from "./carrier-jump";
+export { CarrierJumpCancelled } from "./carrier-jump-cancelled";
+export { CarrierJumpRequest } from "./carrier-jump-request";
+export { CarrierModulePack } from "./carrier-module-pack";
+export { CarrierNameChanged } from "./carrier-name-changed";
+export { CarrierShipPack } from "./carrier-ship-pack";
+export { CarrierStats } from "./carrier-stats";
+export { CarrierTradeOrder } from "./carrier-trade-order";
+export { Repair } from "./repair";
 
 //this will slowly be refactored out into individual model files as the project is updated
 export * from "./journal-event.models";

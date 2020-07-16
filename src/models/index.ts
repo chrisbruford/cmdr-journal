@@ -18,6 +18,7 @@ export { MarketBuy } from "./market-buy";
 export { MarketSell } from "./market-sell";
 export { CargoDepot } from "./cargo-depot";
 export { Market } from "./market";
+export { MarketJSON } from "./market-json";
 export { MassModuleStore } from "./mass-module-store";
 export { MaterialCollected } from "./material-collected";
 export { MaterialDiscarded } from "./material-discarded";

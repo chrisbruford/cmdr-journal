@@ -9,7 +9,7 @@ export class MarketJSON extends JournalEvent {
   StationType: string;
   CarrierDockingAccess: string;
   StarSystem: string;
-  items?: {
+  Items?: {
     id: number;
     Name: string;
     Name_Localised: string;

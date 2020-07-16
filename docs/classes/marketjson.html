@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>BuyAmmo | cmdr-journal</title>
+	<title>MarketJSON | cmdr-journal</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="buyammo.html">BuyAmmo</a>
+					<a href="marketjson.html">MarketJSON</a>
 				</li>
 			</ul>
-			<h1>Class BuyAmmo</h1>
+			<h1>Class MarketJSON</h1>
 		</div>
 	</div>
 </header>
@@ -73,7 +73,7 @@
 						<a href="journalevent.html" class="tsd-signature-type">JournalEvent</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">BuyAmmo</span>
+								<span class="target">MarketJSON</span>
 							</li>
 						</ul>
 					</li>
@@ -86,9 +86,14 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="buyammo.html#cost" class="tsd-kind-icon">Cost</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="buyammo.html#event" class="tsd-kind-icon">event</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="buyammo.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#carrierdockingaccess" class="tsd-kind-icon">Carrier<wbr>Docking<wbr>Access</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#marketid" class="tsd-kind-icon">MarketID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#stationname" class="tsd-kind-icon">Station<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#stationtype" class="tsd-kind-icon">Station<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="marketjson.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="marketjson.html#items" class="tsd-kind-icon">items</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="marketjson.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
 						</section>
 					</div>
@@ -97,34 +102,84 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="cost" class="tsd-anchor"></a>
-					<h3>Cost</h3>
-					<div class="tsd-signature tsd-kind-icon">Cost<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="carrierdockingaccess" class="tsd-anchor"></a>
+					<h3>Carrier<wbr>Docking<wbr>Access</h3>
+					<div class="tsd-signature tsd-kind-icon">Carrier<wbr>Docking<wbr>Access<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/journal-event.models.ts#L223">models/journal-event.models.ts:223</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L10">models/market-json.ts:10</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="marketid" class="tsd-anchor"></a>
+					<h3>MarketID</h3>
+					<div class="tsd-signature tsd-kind-icon">MarketID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L7">models/market-json.ts:7</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="starsystem" class="tsd-anchor"></a>
+					<h3>Star<wbr>System</h3>
+					<div class="tsd-signature tsd-kind-icon">Star<wbr>System<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L11">models/market-json.ts:11</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationname" class="tsd-anchor"></a>
+					<h3>Station<wbr>Name</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L8">models/market-json.ts:8</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stationtype" class="tsd-anchor"></a>
+					<h3>Station<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">Station<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L9">models/market-json.ts:9</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 					<a name="event" class="tsd-anchor"></a>
 					<h3>event</h3>
-					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <a href="../enums/journalevents.html" class="tsd-signature-type">JournalEvents</a></div>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <a href="../enums/journalevents.html#market" class="tsd-signature-type">market</a></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
+						<p>Overrides <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#event">event</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/journal-event.model.ts#L4">models/journal-event.model.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L5">models/market-json.ts:5</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="items" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> items</h3>
+					<div class="tsd-signature tsd-kind-icon">items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>BuyPrice<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Category<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Category_Localised<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Consumer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">; </span>Demand<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>DemandBracket<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>MeanPrice<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Name_Localised<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>Producer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">; </span>Rare<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">; </span>SellPrice<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>Stock<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>StockBracket<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L12">models/market-json.ts:12</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 					<a name="timestamp" class="tsd-anchor"></a>
 					<h3>timestamp</h3>
 					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
+						<p>Overrides <a href="journalevent.html">JournalEvent</a>.<a href="journalevent.html#timestamp">timestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/journal-event.model.ts#L5">models/journal-event.model.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/chrisbruford/cmdr-journal/blob/fe54236/src/models/market-json.ts#L6">models/market-json.ts:6</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -143,16 +198,31 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class">
-						<a href="buyammo.html" class="tsd-kind-icon">Buy<wbr>Ammo</a>
+						<a href="marketjson.html" class="tsd-kind-icon">MarketJSON</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="buyammo.html#cost" class="tsd-kind-icon">Cost</a>
+								<a href="marketjson.html#carrierdockingaccess" class="tsd-kind-icon">Carrier<wbr>Docking<wbr>Access</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="buyammo.html#event" class="tsd-kind-icon">event</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="marketjson.html#marketid" class="tsd-kind-icon">MarketID</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="buyammo.html#timestamp" class="tsd-kind-icon">timestamp</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="marketjson.html#starsystem" class="tsd-kind-icon">Star<wbr>System</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="marketjson.html#stationname" class="tsd-kind-icon">Station<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="marketjson.html#stationtype" class="tsd-kind-icon">Station<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+								<a href="marketjson.html#event" class="tsd-kind-icon">event</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="marketjson.html#items" class="tsd-kind-icon">items</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+								<a href="marketjson.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 						</ul>
 					</li>
